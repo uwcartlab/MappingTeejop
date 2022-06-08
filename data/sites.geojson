@@ -1,0 +1,26 @@
+{
+    "type": "FeatureCollection",
+    "name": "sites",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 1,
+                "name": "Effigy Mounds",
+                "story": [{
+                    "content":"<h1>Observatory Hill Effigy Mounds<h1>"
+                },
+                {
+                    "content":"<p>Text content</p>"
+                }]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.408550591682456,
+                    43.076284254319233
+                ]
+            }
+        }
+    ]
+}
