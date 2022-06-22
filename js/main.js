@@ -25,30 +25,54 @@
     }
     //function to add sites to the map
     function addSiteData(map){
-        //access modal element
-        let storyElem = document.getElementById('story-modal'),
-            storyModal = new bootstrap.Modal(storyElem);
         //get site data
         fetch('data/sites.geojson')
             .then(res => res.json())
             .then(data => {
                 let siteLayer = L.geoJson(data, {
                     onEachFeature:function(feature, layer){
+                        //open story when layer is selected
                         layer.on('click',function(){
-                            //get story element content block
-                            var storyContent = document.querySelector('#story-modal-content');
-                            //clear story element content block
-                            storyContent.innerHTML = "";
-                            //show modal
-                            storyModal.show();
-                            //add content from site to content block
-                            feature.properties.story.forEach(function(block){
-                                storyContent.insertAdjacentHTML('beforeend', block.content)
-                            })
+                            createSiteStory(feature)
                         })
                     }
                 }).addTo(map);
             })
+    }
+    //function that populates the story 
+    function createSiteStory(feature){
+        //access modal element and retrieve content
+        let storyElem = document.getElementById('story-modal'),
+            storyModal = new bootstrap.Modal(storyElem),
+            storyContent = document.querySelector('#story-content');    
+        //clear story element content block
+        storyContent.innerHTML = "";
+        //update header
+        document.querySelector('#story-title').innerHTML = "<h1>" + feature.properties.name + "</h1>";
+        //add content from site to content block
+        feature.properties.story.forEach(function(block){
+            //create story block div
+            var div = document.createElement("div");
+            div.classList.add("story-block");
+            //add content blocks if they exist
+            //title
+            if (block.title)
+                div.insertAdjacentHTML('beforeend', "<h1>" + block.title + "</h1>")
+            //image
+            if (block.image)
+                div.insertAdjacentHTML('beforeend', "<img src='" + block.image + "'>")
+            //video
+            if (block.video)
+                div.insertAdjacentHTML('beforeend', "<iframe src='" + block.video + "'></iframe>")
+            //paragraph
+            if (block.content)
+                div.insertAdjacentHTML('beforeend', "<p>" + block.content + "</p>")
+            //insert story block into modal
+            storyContent.insertAdjacentElement("beforeend", div)
+        })
+
+        //show modal
+        storyModal.show();
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {
