@@ -1,82 +1,399 @@
+/*/////////////////////////////////////////////////MAPPING DEJOPE/////////////////////////////////////////////////////////////////////////
+//This code was written in the Summer of 2022, in a place known to the Ho-Chunk people as Dejope (four lakes).                          //
+//The Ho-Chunk were forced to cede Dejope by an 1832 treaty, as settler colonialists founded a city called Madison, Wisconsin.          //
+//Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk.//
+//This code was written by Gareth Baldrica-Franklin.                                                                                    //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*To Do:
+[check] Create alternative basemap styles
+[check] Style story
+[check]Add more test sites
+Experiment with iconography
+[check]Experiment with site polygons, as opposed to icons
+[check] Location sharing 
+[check]sidewalk walking route?
+accessibility 
+    [check] text size
+    [check]  fullscreen image selection that allows you to zoom
+[check] labels
+Add audio autoplay element 
+[check] splash screen 
+    with accessibility settings
+*/
+
 (function(){
+    //set default tour (tour 1), create empty variables for the map, route, site, and location layers
+    let tour = "tour1", map, routeLayer, siteLayer, locationMarker, circle, currentStop = 1;
+    //colors
+    let activeColor = "#52527a", inactiveColor = "#ffffff";
+    //accessibility settings
+    function accessibility(){
+        //text size buttons
+        document.querySelectorAll(".text-size").forEach(function(button){
+            //set font size for each buttton
+            let size = button.value;
+            button.style.fontSize = size; 
+            //update text size for all p elements when button is clicked
+            button.addEventListener("click", function(){
+                document.querySelectorAll(".font-size").forEach(function(text){
+                    text.style.fontSize = size;
+                })
+            })
+        })
+    }
+    //set listeners for different tour types
+    function tourListeners(){
+        document.querySelectorAll(".tour-button").forEach(function(elem){
+            elem.addEventListener("click",function(){
+                tour = elem.id;
+                currentStop = 1;
+            })
+        })
+    }
+    //image zoom
+    function imageZoom(){
+        document.querySelectorAll('img').forEach(function(img){
+            img.addEventListener("click", function(){
+                
+                let classes = img.classList;
+                img.classList = "";
+                img.classList.add("img-zoom");
+
+                if (!document.querySelector(".return-zoom")){
+                    let x = "<button class='return-zoom'>Return</button>"
+                    document.querySelector("body").insertAdjacentHTML("beforeend", x);
+    
+                    let button = document.querySelector(".return-zoom");
+                    button.addEventListener("click", function(event){
+                        img.classList = "";
+                        img.classList = classes;
+                        button.remove();
+                    })
+                }
+            })
+        })
+    }
+    //dislay splash screen when the page is loaded
+    function openSplashScreen(){
+        let splashElem = document.getElementById('splash-modal'),
+            splashModal = new bootstrap.Modal(splashElem);
+
+        //show modal
+        splashModal.show();
+
+        //activate listener on close
+        document.getElementById('splash-modal').addEventListener('hide.bs.modal', function (event) {
+            addRoutes();
+            addSiteData();
+        })
+
+        //activate listener for the about button
+        document.querySelector(".about").addEventListener("click", function(){
+            splashModal.show();
+        })
+    }
+    //create the map
     function createMap(){
-        //map options
+        //define map options
         let minZoom = 15,
             maxZoom = 17,
             bounds = ([
-                [43.0669, -89.4634],
-                [43.0943, -89.3885]
+                [43.0402, -89.4942],
+                [43.1511, -89.3077]
             ]);
-        //map object
-        let map = L.map('map', {
+        //populate map object
+        map = L.map('map', {
             minZoom:minZoom,
             maxZoom:maxZoom,
-            maxBounds:bounds
-        }).setView([43.075, -89.40], 16);
-        //basemap tilelayer
-        let baseLayer = L.tileLayer('data/basemap_test/{z}/{x}/{y}.jpg', {
+            maxBounds:bounds,
+            attributionControl: false,
+            rotate:true,
+            touchRotate:true,
+            rotateControl: {
+                closeOnZeroBearing: false
+            }
+        }).setView([43.075, -89.40], 17);
+        //set intial map rotation        
+        map.setBearing(90);
+        map.compassBearing.enable();
+        //load custom basemap created using QTiles
+        let baseLayer = L.tileLayer('data/basemap_light/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,       
             attribution: 'Generated by QTiles',   
         }).addTo(map);     
 
-        addSiteData(map);
+        //create location control
+        var LocationControl = L.Control.extend({
+            options:{
+                position:"bottomleft"
+            },
+            onAdd: function () {
+                // create the control container with a particular class name
+                var container = L.DomUtil.create('div', 'location-control-container');
+    
+                container.innerHTML = '<p> Where am I?</p>';
+    
+                return container;
+            }
+        });
+
+        map.addControl(new LocationControl());
+
+        document.querySelector(".location-control-container").addEventListener("click",getLocation);
     }
     //function to add sites to the map
-    function addSiteData(map){
+    function addSiteData(){
+        let init; //get first site latlng
+
+        if(siteLayer){
+            map.removeLayer(siteLayer)
+        }
+        //activate layer if it doesn't already exist
         //get site data
         fetch('data/sites.geojson')
             .then(res => res.json())
             .then(data => {
-                let siteLayer = L.geoJson(data, {
+                siteLayer = L.geoJson(data, {
+                    filter:tourFeature,
+                    style:siteStyle,
+                    //style for point layers
+                    pointToLayer:function(feature, latlng){
+                        return L.circleMarker(latlng)
+                    },
+                    //set click listener
                     onEachFeature:function(feature, layer){
+                        if (tour != "explore"){
+                            if (feature.properties.pointOnTour == currentStop){
+                                let coord = L.latLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]);
+                                map.setView(coord, 17);
+                            }
+                        }
                         //open story when layer is selected
                         layer.on('click',function(){
+                            currentStop = feature.properties.pointOnTour;
                             createSiteStory(feature)
                         })
                     }
                 }).addTo(map);
+                //zoom to initial location and initial feature
+                if (tour == "explore"){
+                    map.fitBounds(siteLayer.getBounds(),{maxZoom:16})
+                }
+                else 
+                    initialLocation(init);
             })
+
+    }
+    //site style function
+    function siteStyle(feature){
+        let coord = [feature.geometry.coordinates[1],feature.geometry.coordinates[0]];
+        //site popup
+        if (feature.properties.label && feature.properties.pointOnTour == currentStop && tour != "explore")
+            L.popup({className:"route-popup"}).setLatLng(coord).setContent(feature.properties.label).openOn(map);
+
+        return {
+            color:siteColor(feature.properties.pointOnTour),
+            fillColor:siteFillColor(feature.properties.pointOnTour),
+            fillOpacity:1,
+            opacity:1,
+            radius:12,
+            weight:2
+        }        
+        //set current stop to orange, or all stops if exploration mode is active
+        function siteFillColor(stop){
+            if (stop == currentStop || tour == "explore")
+                return activeColor
+            else
+                return inactiveColor
+        }
+        function siteColor(stop){
+            if (stop == currentStop || tour == "explore")
+                return inactiveColor
+            else
+                return activeColor
+        }
+    }
+    //function to add the the route to the map
+    function addRoutes(){
+        //activate layer if it doesn't already exist
+        if (routeLayer){
+            map.removeLayer(routeLayer)
+        }
+        //get route data
+        fetch("data/routes.geojson")
+            .then(res => res.json())
+            .then(data => {
+                routeLayer = L.geoJson(data, {
+                    style:routeStyle,
+                    filter:tourFeature,
+                    pane:"tilePane"
+                }).addTo(map);
+            })
+    }
+    //route style
+    function routeStyle(feature){
+        let end = feature.properties.end;
+
+        return{
+            color:routeColor(end),
+            weight:4,
+            dashArray:"4 8"
+        }
+        //set current route to orange, and other routes to gray
+        function routeColor(end){
+            if (end == currentStop){
+                //zoom to current route
+                let coord = feature.geometry.coordinates[0],
+                    bounds = [
+                        [coord[0][1], coord[0][0]],
+                        [coord[coord.length-1][1], coord[coord.length-1][0]]
+                    ];
+                map.flyToBounds(bounds);
+                //route popup
+                let center = [coord[Math.round(coord.length/2)][1], coord[Math.round(coord.length/2)][0]]
+                if (feature.properties.label)
+                    L.popup({className:"route-popup"}).setLatLng(center).setContent(feature.properties.label).openOn(map);
+                return activeColor;
+            }
+            else{
+                return inactiveColor
+            }
+        }
+    }
+    //activate popups on initial location
+    function initialLocation(init){
+        //activate popup on location marker if location is activated
+        if (locationMarker){
+            locationMarker.togglePopup();
+            /*map.fitBounds([
+                locationMarker._latlng,
+                init
+            ])*/
+        }
+
+    }
+    //filter visible features on the map based on the selected route
+    function tourFeature(feature){
+        if (feature.properties.tours.indexOf(tour) != -1){
+            return true;
+        }
     }
     //function that populates the story 
     function createSiteStory(feature){
         //access modal element and retrieve content
         let storyElem = document.getElementById('story-modal'),
             storyModal = new bootstrap.Modal(storyElem),
-            storyContent = document.querySelector('#story-content');    
+            storyContent = document.querySelector('#story-content'),
+            story = feature.properties.story;    
         //clear story element content block
         storyContent.innerHTML = "";
         //update header
         document.querySelector('#story-title').innerHTML = "<h1>" + feature.properties.name + "</h1>";
         //add content from site to content block
-        feature.properties.story.forEach(function(block){
+        story.forEach(function(block, i){
             //create story block div
             var div = document.createElement("div");
+            div.id = "block-" + i;
             div.classList.add("story-block");
+            //position story block if on desktop
+            var position = block.position && block.position == "left" ? "block-left" : block.position && block.position == "right" ? "block-right": "block-center";
+            //position right block next to left block
+            if(block.position && block.position == "right"){
+                if (story[i-1].position && story[i-1].position == "left"){
+                    div = document.querySelector("#block-" + (i-1));
+                    div.classList.add("story-block-flex");
+                    position = "block-right-inline";
+                }
+            }
             //add content blocks if they exist
             //title
-            if (block.title)
-                div.insertAdjacentHTML('beforeend', "<h1>" + block.title + "</h1>")
+            if (block.title){
+                div.insertAdjacentHTML('beforeend', "<h1 class='" + position +"'>" + block.title + "</h1>")
+            }
             //image
-            if (block.image)
-                div.insertAdjacentHTML('beforeend', "<img src='" + block.image + "'>")
+            if (block.image){
+                div.insertAdjacentHTML('beforeend', "<img class='" + position +"' src='" + block.image + "'>")
+            }
             //video
-            if (block.video)
-                div.insertAdjacentHTML('beforeend', "<iframe src='" + block.video + "'></iframe>")
+            if (block.video){
+                div.insertAdjacentHTML('beforeend', "<iframe class='" + position +"' src='" + block.video + "'></iframe>")
+            }
             //paragraph
-            if (block.content)
-                div.insertAdjacentHTML('beforeend', "<p>" + block.content + "</p>")
+            if (block.content){
+                div.insertAdjacentHTML('beforeend', "<p class='block-text " + position + "'>" + block.content + "</p>")
+            }
             //insert story block into modal
             storyContent.insertAdjacentElement("beforeend", div)
         })
 
         //show modal
         storyModal.show();
+        //activate image zoom
+        imageZoom();
+        //clear element of listeners
+        storyElem.replaceWith(storyElem.cloneNode(true));
+        //activate close listener
+        storyElem.addEventListener('hide.bs.modal', updateStop)
+        //update stop
+        function updateStop(){
+            currentStop++;
+            //update route/site styling
+            siteLayer.setStyle(siteStyle);
+            routeLayer.setStyle(routeStyle);
+        }
+    }
+    //location services
+    function getLocation(){
+        map.locate({setView:false, watch:true, enableHighAccuracy: true} );
+    
+        function onLocationFound(e){
+            let radius = e.accuracy / 2;
+    
+            //removes marker and circle before adding a new one
+            if (locationMarker){
+                map.removeLayer(circle);
+                map.removeLayer(locationMarker);
+            }
+            //adds location and accuracy information to the map
+            if (e.accuracy < 90){
+                circle = L.circle(e.latlng, radius).addTo(map);
+                locationMarker = L.marker(e.latlng).addTo(map).bindPopup("You are within " + Math.round(radius) + " meters of this point");
+            }
+            //if accuracy is less than 60m then stop calling locate function
+            if (e.accuracy < 40){
+                let count = 0;
+                map.stopLocate();
+                count++;
+            }
+            //rotate map based on user phone position
+            /*if (e.heading !== null) {
+				map.setBearing(e.heading);
+			}*/
+
+            let cZoom = map.getZoom();
+            map.setView(e.latlng, cZoom);
+            //removeFoundMarker(circle, locationMarker);
+        }
+    
+        map.on('locationfound', onLocationFound);
+
+        //activate location at a regular interval
+        /*window.setInterval( function(){
+			map.locate({
+				setView: true,
+				enableHighAccuracy: true
+				});
+		}, 10000);*/
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {
+        tourListeners();
+        openSplashScreen();
         createMap();
+        accessibility();
     });
 
 })();

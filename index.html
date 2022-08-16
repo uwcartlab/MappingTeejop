@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width">
         <!--Webpage Title-->
         <title>Mapping Dejope</title>
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet"> 
         <!--Stylesheets-->
         <link rel="stylesheet" href="lib/bootstrap.min.css">
         <link rel="stylesheet" href="lib/leaflet/leaflet.css">
@@ -12,14 +16,85 @@
 
     </head>
     <body>
-         <!--Story modal-->
-         <div class="modal fade" id="story-modal">
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand title" href="#">Mapping Dejope</a>
+              <div id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link about" href="#">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--Navigation Bar
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <p class="navbar-brand nav-title title" href="#">Mapping Dejope</p>
+                <a class="navbar-brand nav-title about" href="#">About</a>
+            </div>
+        </nav>-->
+        
+        <!--Splash screen-->
+        <div class="modal fade font-size" id="splash-modal">
+            <div class="modal-dialog container">
+                <div class="modal-header" id="story-header">
+                    <h1 class="offset-lg-2 offset-md-1">Mapping Dejope</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-content row" id="splash-content">
+                    <!--<h2>Choose a Tour:</h2>-->
+                    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12" id="tour-selection container">
+                        <p>Welcome to Mapping Dejope! Here is a brief description of the project. Choose a tour to get started!</p>
+                        <!--<div id="text-size">
+                            <p>Adjust text size:</p>
+                            <button class="text-size" value="18px" id="small">Aa</button>
+                            <button class="text-size" value="20px" id="medium">Aa</button>
+                            <button class="text-size" value="24px" id="large">Aa</button>
+                        </div> -->
+                        <div class="tour row">
+                            <div class="tour-img col-lg-4 col-md-5 col-sm-6 col-12">
+                                <img src="img/effigy_mound_test.jpg">
+                            </div>
+                            <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
+                                <h3 class="tour-title">Tour 1</h3>
+                                <p>Short description of Tour 1.</p>
+                                <button class="tour-button" id="tour1" data-bs-dismiss="modal">Start Tour 1</button>
+                            </div>
+                        </div>
+                        <div class="tour row">
+                            <div class="tour-img col-lg-4 col-md-5 col-sm-6 col-12">
+                                <img src="img/effigy_mound_test.jpg">
+                            </div>
+                            <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
+                                <h3 class="tour-title">Explore</h3>
+                                <p>Choose this option if you wish to explore Indigenous sites on campus in any order.</p>
+                                <button class="tour-button" id="explore" data-bs-dismiss="modal">Start Exploring</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-button" data-bs-dismiss="modal">Close</button>
+                </div>               
+            </div>
+        </div> 
+        
+        <!--Story modal-->
+         <div class="modal fade font-size" id="story-modal">
             <div class="modal-dialog">
                 <div class="modal-header" id="story-header">
                     <h1 id="story-title"></h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-content" id="story-content"></div>
+                <div class="modal-footer">
+                    <button id="story-close" type="button" class="btn btn-secondary close-button" data-bs-dismiss="modal">Close</button>
+                </div>            
             </div>
         </div>
 
@@ -27,6 +102,7 @@
         <!--Scripts-->
         <script type="text/javascript" src="lib/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+        <script type="text/javascript" src="lib/leaflet-rotate.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
 
     </body>
