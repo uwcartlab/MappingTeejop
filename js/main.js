@@ -27,6 +27,8 @@ Add audio autoplay element
     let tour = "tour1", map, routeLayer, siteLayer, locationMarker, circle, currentStop = 1;
     //colors
     let activeColor = "#52527a", inactiveColor = "#ffffff";
+    //color mode
+    let colorMode = "light"
     //accessibility settings
     function accessibility(){
         //text size buttons
@@ -36,11 +38,50 @@ Add audio autoplay element
             button.style.fontSize = size; 
             //update text size for all p elements when button is clicked
             button.addEventListener("click", function(){
+                document.querySelector(".text-active").classList.remove("text-active");
+                button.classList.add("text-active");
                 document.querySelectorAll(".font-size").forEach(function(text){
                     text.style.fontSize = size;
                 })
             })
         })
+        //color modes
+        const styleEl = document.createElement('style');
+        // Append <style> element to <head>
+        document.head.appendChild(styleEl);
+        //Grab style element's sheet
+        const sheet = styleEl.sheet;
+        document.querySelector("#dark-mode").addEventListener("click", function(){
+            colorMode = "dark";
+            document.querySelectorAll("body, navbar, .modal-header, .modal-footer, .modal-content, .leaflet-control-zoom-out, .leaflet-control-zoom-in").forEach(function(elem){
+                if (elem.classList.contains("light"))
+                    elem.classList.remove("light");
+                elem.classList.add("dark");
+                //leaflet styling
+                for (let i = 0; i < sheet.cssRules.length; i++){
+                    sheet.deleteRule(i);
+                }
+                sheet.insertRule('.leaflet-popup-content-wrapper { background: black }', 0);
+                sheet.insertRule('.leaflet-popup-content-wrapper { color: white }', 0);
+                sheet.insertRule('.location-control-container { background: black !important }', 0);
+                sheet.insertRule('.leaflet-control-rotate-toggle { background: black !important }', 0);
+                sheet.insertRule('.leaflet-popup-tip { background: black }', 0);
+            });
+            document.querySelector("button#dark-mode").style.backgroundColor = "white";
+        })
+        document.querySelector("#light-mode").addEventListener("click", function(){
+            colorMode = "light";
+            document.querySelectorAll("body, navbar, .modal-header, .modal-footer, .modal-content, .leaflet-control-zoom-in, .leaflet-control-zoom-out").forEach(function(elem){
+                if (elem.classList.contains("dark"))
+                    elem.classList.remove("dark");
+                elem.classList.add("light");
+                //leaflet styling
+                for (let i = 0; i < sheet.cssRules.length; i++){
+                    sheet.deleteRule(i);
+                }
+            });
+        })
+
     }
     //set listeners for different tour types
     function tourListeners(){

@@ -6,9 +6,15 @@ body{
 .font-size{
     font-size:18px;
 }
+.font-size .close-button{
+    font-size:18px; 
+}
 /**************SPLASH SCREEN*******************/
 .modal-header > h1{
     font-weight: bold;
+}
+.modal-header{
+    background:white;
 }
 .modal-dialog{
     padding-left:0 !important;
@@ -33,14 +39,10 @@ body{
 .tour-button{
     display: block;
     width: auto;
-    background:white;
     box-shadow:none;
     border: 2px black solid;
     padding:10px;
     font-weight:bold;
-}
-.tour-button:hover{
-    background:lightgray;
 }
 .tour-desc{
     margin-top:20px;
@@ -58,13 +60,9 @@ body{
     top:20px;
     left:20px;
     z-index:10000;
-    background:white;
     border: 2px solid black;
     font-size:16px;
     font-weight:bold;
-}
-.return-zoom:hover{
-    background:lightgray;
 }
 .story-block > img:hover{
     cursor:pointer;
@@ -78,11 +76,7 @@ body{
     display:inline-block;
     position:relative;
     vertical-align:bottom; /*ensures buttons are aligned with the bottom of the div*/
-    background:white;
     border:black 1px solid;
-}
-.text-size:hover{
-    background:lightgray;
 }
 #text-size{
     margin-top:20px;
@@ -91,6 +85,55 @@ body{
 #text-size > p{
     display:inline;
     font-weight:bold;
+}
+.light .text-active, .dark .text-active{
+    background:lightgray !important;
+}
+/*color mode switch*/
+#color-mode{
+    border: 2px solid;
+    width:200px;
+    height:50px;
+    margin:25px 0px;
+}
+.light #color-mode{
+    border-color:black;
+}
+.dark #color-mode{
+    border-color:white;
+}
+#color-mode button{
+    border:none !important;
+    width:94px;
+    height:46px;
+}
+.light #light-mode{
+    background:lightgray !important;
+}
+.dark #dark-mode{
+    background:lightgray !important;
+}
+/*dark mode*/
+.dark{
+    background:black !important;
+    color:white !important;
+}
+.dark button{
+    background:black !important;
+    color:white !important;
+    border: 2px solid white !important;
+}
+.dark button:hover{
+    background:darkgray !important;
+}
+/*light mode*/
+.light button{
+    background:white !important;
+    color:black !important;
+    border: 2px solid black !important;
+}
+.light button:hover{
+    background:lightgray !important;
 }
 /**************NAVIGATION BAR********************/
 .navbar{
@@ -105,11 +148,17 @@ body{
 }
 .title{
     font-weight:bold;
+    margin-top:10px;
 }
 .about{
     font-size:20px !important;
     text-align:right;
     flex-direction: none;
+    margin-bottom:0;
+}
+.about:hover{
+    cursor:pointer;
+    color:lightgray;
 }
 /***************MAP********************/
 #map{
@@ -120,9 +169,12 @@ body{
     font-family:'Trebuchet MS', sans-serif !important;
     width:auto;
 }
+.leaflet-bottom{
+    padding-left:calc(50% - 70px);
+}
 .location-control-container{
-    width: 130px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
     font-family:'Trebuchet MS', sans-serif !important;
     font-weight:bold;
     border: 2px solid lightgray;
@@ -132,6 +184,8 @@ body{
     padding:5px 10px;
     font-size:16px;
     z-index:100000;
+    text-align:center;  
+    padding-top:10px;
 }
 .location-control-container:hover{
     background-color: #f4f4f4;
@@ -147,10 +201,6 @@ body{
     max-width: none;
     margin:0 !important;
 }
-/*background color*/
-.modal-header, .modal-content{
-    background-color:#ffffff;
-}
 .modal-content{
     padding:20px;
     border-radius:0;
@@ -159,9 +209,15 @@ body{
 .modal-footer{
     background:white;
 }
+.modal-dialog{
+    pointer-events: auto;
+}
 /*close button*/
 .close-button:hover{
     cursor:pointer !important;
+}
+.close-x{
+    border:none !important;
 }
 /**************STORY STYLING********************/
 #story-title > h1{
