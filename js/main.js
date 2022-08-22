@@ -6,14 +6,15 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*To Do:
+Implement Ho-Chunk word pronundiation
+
 [check] Create alternative basemap styles
 [check] Style story
 [check]Add more test sites
-Experiment with iconography
 [check]Experiment with site polygons, as opposed to icons
 [check] Location sharing 
 [check]sidewalk walking route?
-accessibility 
+[check[accessibility 
     [check] text size
     [check]  fullscreen image selection that allows you to zoom
 [check] labels

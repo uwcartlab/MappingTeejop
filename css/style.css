@@ -33,9 +33,6 @@ body{
 .tour-img > img{
     width:100%;
 }
-.tour-title{
-    font-weight:bold;
-}
 .tour-button{
     display: block;
     width: auto;
@@ -66,6 +63,10 @@ body{
 }
 .story-block > img:hover{
     cursor:pointer;
+}
+/**************PRONUNCIATION*************/
+.pronounce{
+    text-decoration: underline;
 }
 /**************ACCESSIBILITY********************/
 /*text size*/
