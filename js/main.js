@@ -6,8 +6,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*To Do:
-Implement Ho-Chunk word pronundiation
-
+[check]Implement Ho-Chunk word pronundiation
 [check] Create alternative basemap styles
 [check] Style story
 [check]Add more test sites
@@ -84,6 +83,35 @@ Add audio autoplay element
         })
 
     }
+    //function to create pronunciation listeners
+    function pronounce(){
+        document.querySelectorAll(".pronounce").forEach(function(elem){
+            elem.addEventListener("click",function(){
+                //create audio element
+                let audio = document.createElement("audio"),
+                    source = "<source src='audio/" + elem.innerHTML + ".mp3'>",
+                    play = "<p class='play'>&#9654;</p>";
+                //add source 
+                audio.insertAdjacentHTML("beforeend",source)
+                //insert audio element into document
+                document.querySelector("body").append(audio);
+                document.querySelector("body").insertAdjacentHTML("beforeend",play);
+                //play audio
+                audio.play();
+                //add and position visual affordance
+                let rect = elem.getBoundingClientRect(),
+                    font = window.getComputedStyle(document.querySelector(".font-size"), null).getPropertyValue("font-size");
+                document.querySelector(".play").style.top = rect.top - parseInt(font) + window.scrollX - 2 + "px";
+                document.querySelector(".play").style.left = rect.left + window.scrollY + (rect.width/2) + "px";
+                document.querySelector(".play").style.fontSize = font; 
+                //remove audio after it finishes playing
+                audio.onended = function(){
+                    audio.remove();
+                    document.querySelector(".play").remove();
+                }
+            })
+        })
+    }
     //set listeners for different tour types
     function tourListeners(){
         document.querySelectorAll(".tour-button").forEach(function(elem){
@@ -120,6 +148,9 @@ Add audio autoplay element
     function openSplashScreen(){
         let splashElem = document.getElementById('splash-modal'),
             splashModal = new bootstrap.Modal(splashElem);
+
+        //activate pronunciation listener
+        document.getElementById('splash-modal').addEventListener('show.bs.modal', pronounce)
 
         //show modal
         splashModal.show();
@@ -370,7 +401,8 @@ Add audio autoplay element
             //insert story block into modal
             storyContent.insertAdjacentElement("beforeend", div)
         })
-
+        //activate pronunciation listener
+        storyElem.addEventListener('show.bs.modal', pronounce)
         //show modal
         storyModal.show();
         //activate image zoom

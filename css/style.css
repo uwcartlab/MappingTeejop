@@ -68,6 +68,16 @@ body{
 .pronounce{
     text-decoration: underline;
 }
+.pronounce:hover{
+    cursor:pointer;
+    color:darkgray;
+}
+.play{
+    position:absolute;
+    z-index:1000000000;
+    width:30px;
+    height:30px;
+}
 /**************ACCESSIBILITY********************/
 /*text size*/
 .text-size{
@@ -87,26 +97,24 @@ body{
     display:inline;
     font-weight:bold;
 }
+/*color mode switch*/
 .light .text-active, .dark .text-active{
     background:lightgray !important;
 }
-/*color mode switch*/
 #color-mode{
-    border: 2px solid;
-    width:200px;
-    height:50px;
     margin:25px 0px;
+}
+#color-mode button{
+    border: 2px solid;    
+    height:50px;
+    width:100px;
+    padding:0;
 }
 .light #color-mode{
     border-color:black;
 }
 .dark #color-mode{
     border-color:white;
-}
-#color-mode button{
-    border:none !important;
-    width:94px;
-    height:46px;
 }
 .light #light-mode{
     background:lightgray !important;
@@ -138,7 +146,7 @@ body{
 }
 /**************NAVIGATION BAR********************/
 .navbar{
-    height:55px;
+    height:60px;
     padding-top:0;
     border-bottom:2px dotted gray;
 }
@@ -150,12 +158,15 @@ body{
 .title{
     font-weight:bold;
     margin-top:10px;
+    font-size:36px;
 }
 .about{
     font-size:20px !important;
     text-align:right;
     flex-direction: none;
     margin-bottom:0;
+    margin-top:10px;
+    margin-right:10px;
 }
 .about:hover{
     cursor:pointer;
@@ -311,5 +322,11 @@ body{
     }
     .block-right-inline{
         width: 100% !important;
+    }
+    .title, .about{
+        margin-top:5px;
+    }
+    .about{
+        margin-right:0;
     }
 }
