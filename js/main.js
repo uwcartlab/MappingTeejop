@@ -189,7 +189,7 @@ Add audio autoplay element
         }).setView([43.075, -89.40], 17);
         //set intial map rotation        
         map.setBearing(90);
-        map.compassBearing.enable();
+        //map.compassBearing.enable();
         //load custom basemap created using QTiles
         let baseLayer = L.tileLayer('data/basemap_light/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
