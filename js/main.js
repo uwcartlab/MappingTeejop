@@ -151,7 +151,7 @@ Add audio autoplay element
             maxBounds:bounds,
             attributionControl: false,
             rotate:true,
-            touchRotate:true,
+            touchRotate:false,
             rotateControl: {
                 closeOnZeroBearing: false
             }
