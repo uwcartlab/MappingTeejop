@@ -5,48 +5,6 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 6,
-                "pointOnTour": 6,
-                "name": "Observatory Hill Effigy Mounds",
-                "tours": [
-                    "tour1",
-                    "explore"
-                ],
-                "story": [
-                    {
-                        "image": "img/site_photos/mounds.jpg",
-                        "content": "<b>Caption text</b>"
-                    },
-                    {
-                        "position": "left",
-                        "content": "Lorem <b class='pronounce'>underlined</b> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "position": "right",
-                        "image": "img/obs_hill.jpg"
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -89.409766424632039,
-                    43.076086027916801
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "pk": 1,
                 "pointOnTour": 1,
                 "name": "Memorial Union",
@@ -57,24 +15,69 @@
                 "story": [
                     {
                         "image": "img/site_photos/memorial_union.jpg",
-                        "content": "<b>Caption text</b>"
+                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
+                    },
+                    {
+                        "content": "First opened in October 1928, the Memorial Union sits along the shore of <b class='pronounce'>Waaksikhomik</b>, the Ho-Chunk or <b class='pronounce'>Hocąk</b> name for Lake Mendota. As a highly visible and celebrated campus landmark, a close look at the Memorial Union also reveals a complex and darker history of the UW campus."
                     },
                     {
                         "position": "left",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "image": "img/pipe_of_peace_ceremony.jpg",
+                        "caption":"<a href='https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B'>UW Digital Collection</a>"
+                    },
+                    {
+                        "position":"right",
+                        "content": "Until recently, the Pipe of Peace Ceremony, held annually by the UW student body, was a history hidden in the archival records. The Pipe of Peace Ceremony gained widespread notoriety as students “played Indian” in dress and performance from the late 1890s through the 1910s, 1920s, 1930s, and into the 1940s.<sup>1</sup> This important history has been examined in UW’s Public History Project.<sup>2</sup>"
+                    },
+                    {
+                        "content": "The Pipe of Peace Ceremony, which took place in front of the Memorial Union for many years, then, is in contrast the memorialization of Native people in the actual building. As one enters the Memorial Union from the main entrance, up the flight of stairs that face Langdon Street, you may notice the doorknobs to the Union emblazoned with “a shield with a peace pipe behind it. This symbol is the crest of the Union. It represents the unity of the Union and the diversity of the people who are part of the Union.”<sup>3</sup> A similar crest is laid into the floor of the Union’s main entrance as well. Despite this official origin of the Union crest, it is difficult to not conflate the Union crest with the Pipe of Peace Ceremony and American Indian appropriation, both of which complicate the history of Ho-Chunk dispossession from this very land."
+                    },
+                    {
+                        "position": "left",
+                        "content": "Moving through the Union, you may also notice a wide-variety of murals throughout the building. Just inside the main entrance is a mural on the ceiling that depicts two “Native American soldiers.”<sup>4</sup> Much like the Union crest, these Native figures, who were painted to “honor” Native people, echo static, generic, and romanticized portrayals of American Indians during the early decades of the twentieth century, a time of violent attempts of assimilate Native people and further American Indian dispossession. A time when little “honor” to Native people were shown."
                     },
                     {
                         "position": "right",
-                        "image": "img/obs_hill.jpg"
+                        "image": "img/mural.jpg",
+                        "caption":"<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Terrace Views Collection</a>"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "Finally, if you make your way down to the main floor of the Union and head toward the west exit, three is a small room off the larger Rathskeller. Here you will locate and observe the Paul Bunyan murals of James Watrous, painted in the early 1930s as part of the Public Works of Part Program.<sup>5</sup> These murals of Paul Bunyan, a familiar narrative to many Midwesterners, depict Paul and his sidekick, Babe, working the forests and clearing the land. Though highly romanticized, these murals depict a familiar erasure and replacement narrative through story. Much of present-day northern Wisconsin, land that had long been home to Ojibwe, Menominee, and Potawatomi , had rich forests that had been managed for millennia by tribal nations.<sup>6</sup> When Euro-American loggers arrived to the region during the mid-nineteenth century, this would rapidly change as valuable timber rich land left Native hands and timber reserves were logged for the profit of white businessmen, further fueling non-Native settlement. "
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B",
+                                "linkText":"Pipe of peace ceremony - UWDC",
+                                "title":"<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://www.youtube.com/watch?v=o3J0wuHThEU&t=1s",
+                                "linkText":"UW-Madison Public History Project",
+                                "title":"<sup>2</sup>"
+                            },
+                            {
+                                "link":"https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
+                                "linkText":"A historical walking tour of the Memorial Union main entrance",
+                                "title":"<sup>3</sup>"
+                            },
+                            {
+                                "link":"https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
+                                "linkText":"A historical walking tour of the Memorial Union main entrance",
+                                "title":"<sup>4</sup>"
+                            },
+                            {
+                                "link":"https://uwunionstory.org/story/1933/paul-bunyan-comes-to-the-union",
+                                "linkText":"Paul Bunyan Comes to the Union",
+                                "title":"<sup>5</sup>"
+                            },
+                            {
+                                "link":"https://edgeeffects.net/paul-bunyan-narratives/",
+                                "linkText":"Edge Effects: Paul Bunyan and Settler Nostalgia in the Northwoods",
+                                "title":"<sup>6</sup>"
+                            }
+                        ]
                     }
                 ],
                 "label": "Begin at the <b>Memorial Union</b>. Tap the icon when you arrive."
@@ -100,24 +103,32 @@
                 "story": [
                     {
                         "image": "img/site_photos/our_shared_future.jpg",
-                        "content": "<b>Caption text</b>"
+                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000uIjms0pH0nc?terms=&'>UW Photo Collection</a>"
                     },
                     {
                         "position": "left",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "During fall 2019 the University of Wisconsin took an initial step in repairing and improving its relationship with the Ho-Chunk Nation with the unveiling of the “Our Shared Future” heritage marker. “Our Shared Future represents UW-Madison's commitment to respect the inherent sovereignty of the Ho-Chunk Nation and the other First Nations of Wisconsin.”<sup>1</sup>"
                     },
                     {
                         "position": "right",
-                        "image": "img/obs_hill.jpg"
+                        "image": "img/our_shared_future_ceremony.jpg",
+                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>UW Photo Collection</a>"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "This marker, a plaque that was permanently installed near South Hall in October 2021 is a physical reminder to all who pass by of the deep Ho-Chunk history of this place, the University of Wisconsin campus, including forced land cession, ethnic cleansing, and colonization –terms intentionally laid bare on the marker."
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "In addition to the marker, the larger Our Shared Future initiative works to provide ongoingcampus-based learning opportunities for the larger community as the University works to heal and strengthen relationships with the Ho-Chunk Nation."
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://oursharedfuture.wisc.edu/",
+                                "linkText":"Our Shared Future",
+                                "title":"<sup>1</sup>"
+                            }
+                        ]
                     }
                 ]
             },
@@ -142,24 +153,34 @@
                 "story": [
                     {
                         "image": "img/site_photos/lincoln.jpg",
-                        "content": "<b>Caption text</b>"
+                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000st6Vn4_o44c?terms=abraham%20lincoln%20statue&'>UW Photo Collection</a>"
                     },
                     {
-                        "position": "left",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "Perhaps most known for his centrality as US President during the US Civil War (1861-1865), Abraham Lincoln’s role in the US-Dakota War has been largely overshadowed.<sup>1</sup>"
                     },
                     {
-                        "position": "right",
-                        "image": "img/obs_hill.jpg"
+                        "content": "After years of broken treaties, unfulfilled annuity payments, and rapid encroachment of white settlers across Dakota homelands, tensions between settlers and Dakota Indians came to a head in southern Minnesota in late summer 1862."
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "After six weeks of violence and fighting along the Minnesota River valley, Dakota life in Minnesota would change forever. While Dakota women, children, and elders were gathered together and forced marched to Fort Snelling, Dakota men were tried for war crimes by a military tribunal. In total 392 Dakota men were tried and 303 were sentenced to death.<sup>2</sup> Upon review of trial proceedings, President Lincoln sent a list of 39 Dakota men to be hanged to Col. Henry Sibley. "
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "On December 26th, 1862 at 10:00am, the Dakota prisoners sentenced to death by hanging were led to the gallows in Mankato, Minnesota in front of nearly 4,000 spectators. After one Dakota man was granted a last-minute reprieve, 38 Dakota men were hanged, their bodies on full display. This remains the largest mass execution in US history. While pausing atop Bascom Hill, it is also important to remember that this location was also once home to a Ho-Chunk mound, which was destroyed when Bascom Hall was constructed in 1857."
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://www.usdakotawar.org",
+                                "linkText":"US Dakota War",
+                                "title":"<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://www.usdakotawar.org/history/aftermath",
+                                "linkText":"US Dakota War Aftermath", 
+                                "title":"<sup>2</sup>"
+                            }
+                        ]
                     }
                 ],
                 "label": "Stop at the <b>Abraham Lincoln Statue</b>"
@@ -184,25 +205,29 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/flagpole.jpg",
-                        "content": "<b>Caption text</b>"
+                        "image": "img/site_photos/flag.jpg",
+                        "caption":"<a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Photo by Bryce Richter, UW Madison News</a>"
                     },
                     {
-                        "position": "left",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "November 5th, 2021 marked a historic occasion. For the first time ever, the Ho-Chunk Nation flag flew high over Bascom Hill and the University of Wisconsin campus. This flag raising, marked by a formal ceremony with Ho-Chunk elders, tribal members, and students in attendance was a component of the Our Shared Future Initiative that has worked to affirm “the special relationship between UW-Madison and the Ho-Chunk Nation that grows from the location of the campus on the ancestral Ho-Chunk land known as [Teejop].”<sup>1</sup>"
                     },
                     {
-                        "position": "right",
-                        "image": "img/obs_hill.jpg"
+                        "content": "As we enter into fall 2022, the University of Wisconsin and the Ho-Chunk Nation will come together again to fly the Ho-Chunk Nation flag over Bascom Hill. The first flag raising of the 2022-2023 academic year, on September 15th, will be followed by flag raisings on Indigenous Peoples Day (October 10th) and the entirety of the month of November as the campus celebrates Native November.<sup>2</sup>"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://oursharedfuture.wisc.edu/",
+                                "linkText":"Our Shared Future",
+                                "title":"<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://tribalrelations.wisc.edu/2022/08/31/ho-chunk-nation-flag-raising-2022/",
+                                "linkText":"Ho-Chunk Nation Flag Raising Ceremony, September 15, 2022", 
+                                "title":"<sup>2</sup>"
+                            }
+                        ]
                     }
                 ],
                 "label": "Go to <b>Bascom Hall</b>. Look up at the flagpole."
@@ -220,7 +245,7 @@
             "properties": {
                 "pk": 5,
                 "pointOnTour": 5,
-                "name": "Blackhawk Marker",
+                "name": "Black Hawk Marker",
                 "tours": [
                     "tour1",
                     "explore"
@@ -228,24 +253,36 @@
                 "story": [
                     {
                         "image": "img/site_photos/blackhawk.jpg",
-                        "content": "<b>Caption text</b>"
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
-                        "position": "left",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "The Black Hawk Marker, located outside of Sewell Social Science Hall, is a present-day marker of Black Hawk’s pursuit by the U.S. militia on July 21st, 1832, in what has become known as the Battle of Wisconsin Heights.<sup>1</sup>"
                     },
                     {
-                        "position": "right",
-                        "image": "img/obs_hill.jpg"
+                        "content": "Just over one week later, on August 1st, 1832, Black Hawk and his men encountered a steamboat aptly named the Warrior as they attempted to cross the Mississippi River. Facing Though Black Hawk attempted to surrender, his words were not understood and he and his men faced open fire. This was a pivotal moment in the Black Hawk War as Black Hawk separated from the larger party to seek safety north with the Ho-Chunk and Ojibwe.<sup>2</sup> Here, Black Hawk, who also led his people during the War of 1812, escaped and was eventually captured near Wisconsin Dells.<sup>3</sup>"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "In its entirety, the plaque reads, <i>Black Hawk, Sauk Chief, retreated through these grounds July 21st, 1832 pursued by militia and U.S. regulars. Placed by the class of 1888. U.W. June 17, 1913.</i>"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://digital.lib.niu.edu/illinois/lincoln/topics/blackhawk/phases",
+                                "linkText":"Black Hawk War",
+                                "title":"<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://digital.lib.niu.edu/illinois/lincoln/topics/blackhawk/phases",
+                                "linkText":"Black Hawk War",
+                                "title":"<sup>2</sup>"
+                            },
+                            {
+                                "link":"https://www.wisconsinhistory.org/Records/Article/CS1630",
+                                "linkText":"Black Hawk, Chief", 
+                                "title":"<sup>3</sup>"
+                            }
+                        ]
                     }
                 ],
                 "label": "Travel down <b>Observatory Drive</b> until you reach the <b>Blackhawk</b> marker."
@@ -255,6 +292,70 @@
                 "coordinates": [
                     -89.404852045772543,
                     43.076007087257153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 6,
+                "pointOnTour": 6,
+                "name": "Observatory Hill Effigy Mounds",
+                "tours": [
+                    "tour1",
+                    "explore"
+                ],
+                "story": [
+                    {
+                        "image": "img/site_photos/mounds.jpg",
+                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000K6Ir1j47KnQ?terms=effigy%20mounds&'>UW Photo Collection</a>"
+                    },
+                    {
+                        "content": "The Observatory Hill Mound Group remains one of the most visible reminders of the long Indigenous - Ho-Chunk - history of campus. This mound group likely contained six mounds, though only two are visible today.<sup>1</sup> A Ho-Chunk scholar and tribal member Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became awestern city.”<sup>2</sup> "
+                    },
+                    {
+                        "content": "Bisected by sidewalks, the two visible mounds that remain are those in the shape of a bird and a unique two-tailed water spirit. Until recent consultations with Ho-Chunk knowledge carriers, this rare two-tailed water spirit mound was believed by non-Native scholars to be a turtle mound.<sup>3</sup>"
+                    },
+                    {
+                        "content": "As burial sites, effigy mounds are protected by law.<sup>4</sup> Mounds located on non-federal lands are protected by the Wisconsin Burial Sites Preservation Law and mounds located on federal lands are protected bythe Archaeological Resources Protection Act and the Native American Graves Protection and Repatriation Act. Despite such protection, effigy mounds, including the Observatory Hill Mound group, continue to face the threat of destruction, both unintentional and otherwise. A recentexample of thethreat mounds face came in 2021 when a UW-Madisonsoil sciences student damaged the two-tail water spirit mound by removing “about five gallons of soil.”<sup>5</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
+                                "linkText":"Native Americans and the Preserve",
+                                "title":"<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://edgeeffects.net/native-histories/",
+                                "linkText":"The Land Remembers Native Histories",
+                                "title":"<sup>2</sup>"
+                            },
+                            {
+                                "link":"https://www.wisconsinhistory.org/Records/Image/IM34547",
+                                "linkText":"Turtle Mound on Observatory Hill", 
+                                "title":"<sup>3</sup>"
+                            },
+                            {
+                                "link":"https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
+                                "linkText":"Native Americans and the Preserve - Protection",
+                                "title":"<sup>4</sup>"
+                            },
+                            {
+                                "link":"https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
+                                "linkText":"Native Americans and the Preserve - Protection",
+                                "title":"<sup>5</sup>"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.409766424632039,
+                    43.076086027916801
                 ]
             }
         },
@@ -271,24 +372,39 @@
                 "story": [
                     {
                         "image": "img/site_photos/tree_of_peace.jpg",
-                        "content": "<b>Caption text</b>"
+                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
                     },
                     {
                         "position": "left",
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "In April 9, 1988, Tekaronianeken Jake Swamp, a Mohawk elder from Akwesasne, planted the Tree of Peace in a ceremony near the bird mound on Observatory Hill. Swamp, the founder of the Tree of Peace Society, began planting white pines -a culturally significant tree for Haudenosaunee (Iroquois) Confederacy -to promote Haudenosaunee teachings and spread wider ecological awareness.<sup>1</sup><br><br>Accompanying the Tree of Peace is a stone marker that says “For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As longas the tree lives people live. Planted April 9, 1988.”"
                     },
                     {
                         "position": "right",
-                        "image": "img/obs_hill.jpg"
+                        "image": "img/tree_of_peace_ceremony.jpg",
+                        "caption":"<a href='https://search.library.wisc.edu/digital/ABIPRF3QDGJLJU8N'>UW Digital Collections</a>"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content":"When Swamp came to UW-Madison, the state of Wisconsin was in the midst of the Walleye Wars, which were years’ long protests against Ojibwe treaty fishing rights. Non-Native protestors often resorted to the use of provocative signage featuring violent slogans such as “Save a walleye, spear an Indian” and on more than one occasion Native fishers were assaulted by protestors.<sup>2</sup> The significant tension surrounding the reaffirmed practice of treaty rights led to frequent open expressions of anti-Native sentiment. It is in this context that Swamp was invited to campus to plant a Tree of Peace, which would “encourage unity and environmental stewardship” and “remind[s] us about caring for one another and caringfor the environment.”<sup>3</sup> Though many tensions still remain within in Wisconsin regarding the ongoing practice of Ojibwe treaty fishing rights, the Tree of Peace stands on campus to “provide us comfort” and everyone is invited to visit the tree when in need. Just be mindful of the bird and two-tailed water spirit mounds nearby!"
                     },
                     {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    {
-                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "content": "<b>Sources</b>",
+                        "sources":[
+                            {
+                                "link":"https://indigenousvalues.org/haudenosaunee-values/great-tree-peace-skaehetsi%CB%80kona/",
+                                "linkText":"Great Tree of Peace",
+                                "title":"<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://www.mpm.edu/educators/wirp/nations/ojibwe/spearfishing-controversy",
+                                "linkText":"Spearfishing Convtroversy (PLACEHOLDER)",
+                                "title":"<sup>2</sup>"
+                            },
+                            {
+                                "link":"https://tribalrelations.wisc.edu/2021/07/12/tree-of-peace/",
+                                "linkText":"Tree of Peace", 
+                                "title":"<sup>3</sup>"
+                            }
+                        ]
                     }
                 ],
                 "label": "Next to the Effigy Mounds is the <b>Tree of Peace</b>."

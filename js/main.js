@@ -388,7 +388,15 @@ Add audio autoplay element
             }
             //image
             if (block.image){
-                div.insertAdjacentHTML('beforeend', "<img class='" + position +"' src='" + block.image + "'>")
+                //create div container to hold image and caption
+                var imgDiv = document.createElement("div");
+                imgDiv.classList.add(position,"img-block");
+                imgDiv.insertAdjacentHTML('beforeend', "<img src='" + block.image + "'>")
+                //image caption
+                if (block.caption)
+                    imgDiv.insertAdjacentHTML('beforeend', "<p class='caption'>" + block.caption + "</p>")
+                
+                div.insertAdjacentElement('beforeend', imgDiv)
             }
             //video
             if (block.video){
@@ -397,6 +405,15 @@ Add audio autoplay element
             //paragraph
             if (block.content){
                 div.insertAdjacentHTML('beforeend', "<p class='block-text " + position + "'>" + block.content + "</p>")
+            }
+            //source list
+            if (block.sources){
+                var sources = "";
+                block.sources.forEach(function(source){
+                    sources += "<p>" + source.title + " <a href='" + source.link + "'>" + source.linkText + "</a></p>";
+                })
+                div.insertAdjacentHTML('beforeend', sources)
+
             }
             //insert story block into modal
             storyContent.insertAdjacentElement("beforeend", div)
