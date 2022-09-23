@@ -112,6 +112,29 @@ Add audio autoplay element
             })
         })
     }
+    //set listener for extra text on the splash screen
+    function setTextListeners(){
+        document.querySelectorAll(".read-more-button").forEach(function(button){
+            let id = button.id.charAt(button.id.length-1);
+
+            button.addEventListener("click",function(e){
+                if (button.innerHTML == "Read More")
+                    button.innerHTML = "Collapse"
+                else    
+                    button.innerHTML = "Read More"
+                
+                document.querySelectorAll(".read-more-text").forEach(function(block){
+                    let blockId = block.id.charAt(block.id.length-1);
+                    if (blockId == id){
+                        if (block.style.display == "none")
+                            block.style.display = "block";
+                        else    
+                            block.style.display = "none";
+                    }
+                })
+            })
+        })
+    }
     //set listeners for different tour types
     function tourListeners(){
         document.querySelectorAll(".tour-button").forEach(function(elem){
@@ -120,6 +143,7 @@ Add audio autoplay element
                 currentStop = 1;
             })
         })
+
     }
     //image zoom
     function imageZoom(){
@@ -164,6 +188,13 @@ Add audio autoplay element
         //activate listener for the about button
         document.querySelector(".about").addEventListener("click", function(){
             splashModal.show();
+            //hide expanded text
+            document.querySelectorAll(".read-more-button").forEach(function(button){
+                button.innerHTML = "Read More";
+            })
+            document.querySelectorAll(".read-more-text").forEach(function(text){
+                text.style.display = "none";
+            })
         })
     }
     //create the map
@@ -485,6 +516,7 @@ Add audio autoplay element
         openSplashScreen();
         createMap();
         accessibility();
+        setTextListeners();
     });
 
 })();
