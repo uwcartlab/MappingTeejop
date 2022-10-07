@@ -24,7 +24,7 @@ Add audio autoplay element
 
 (function(){
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
-    let tour = "tour1", map, routeLayer, siteLayer, locationMarker, circle, currentStop = 1;
+    let tour = "tour1", map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0;
     //colors
     let activeColor = "#52527a", inactiveColor = "#ffffff";
     //color mode
@@ -270,6 +270,7 @@ Add audio autoplay element
                     //set click listener
                     onEachFeature:function(feature, layer){
                         if (tour != "explore"){
+                            tourTotal++;
                             if (feature.properties.pointOnTour == currentStop){
                                 let coord = L.latLng(feature.geometry.coordinates[1],feature.geometry.coordinates[0]);
                                 map.setView(coord, 17);
@@ -367,6 +368,26 @@ Add audio autoplay element
             }
         }
     }
+    //load mound data
+    function addMounds(){
+        //get route data
+        fetch("data/mounds.geojson")
+            .then(res => res.json())
+            .then(data => {
+                moundLayer = L.geoJson(data, {
+                    style:moundStyle,
+                    pane:"tilePane"
+                }).addTo(map);
+            })
+    }
+    //mound style
+    function moundStyle(feature){
+        return{
+            fillColor:"orange",
+            fillOpacity:0.5,
+            opacity:0
+        }
+    }
     //activate popups on initial location
     function initialLocation(init){
         //activate popup on location marker if location is activated
@@ -396,6 +417,17 @@ Add audio autoplay element
         storyContent.innerHTML = "";
         //update header
         document.querySelector('#story-title').innerHTML = "<h1>" + feature.properties.name + "</h1>";
+        //change next button text for last stop
+        if (currentStop == tourTotal && tour != "explore")
+            document.querySelector("#next-button").innerHTML = "Finish Tour"
+        else    
+            document.querySelector("#next-button").innerHTML = "Next"
+        //hide back button if necessary
+        if (currentStop == 1 || tour == "explore")
+            document.querySelector("#back-button").style.visibility = "hidden";
+        else
+            document.querySelector("#back-button").style.visibility = "visible";
+        
         //add content from site to content block
         story.forEach(function(block, i){
             //create story block div
@@ -459,9 +491,16 @@ Add audio autoplay element
         storyElem.replaceWith(storyElem.cloneNode(true));
         //activate close listener
         storyElem.addEventListener('hide.bs.modal', updateStop)
+
         //update stop
-        function updateStop(){
-            currentStop++;
+        function updateStop(e){
+            //if next button is selected, activate next stop
+            if (e.explicitOriginalTarget.id == "next-button")
+                currentStop++;
+            //add mounds if a certain point in the tour is reached
+            if (currentStop == 7){
+                addMounds();
+            }
             //update route/site styling
             siteLayer.setStyle(siteStyle);
             routeLayer.setStyle(routeStyle);
@@ -482,7 +521,8 @@ Add audio autoplay element
             //adds location and accuracy information to the map
             if (e.accuracy < 90){
                 circle = L.circle(e.latlng, radius).addTo(map);
-                locationMarker = L.marker(e.latlng).addTo(map).bindPopup("You are within " + Math.round(radius) + " meters of this point");
+                locationMarker = L.marker(e.latlng).addTo(map);
+                //locationMarker = L.marker(e.latlng).addTo(map).bindPopup("You are within " + Math.round(radius) + " meters of this point");
             }
             //if accuracy is less than 60m then stop calling locate function
             if (e.accuracy < 40){
@@ -496,19 +536,19 @@ Add audio autoplay element
 			}*/
 
             let cZoom = map.getZoom();
-            map.setView(e.latlng, cZoom);
-            //removeFoundMarker(circle, locationMarker);
+            //map.setView(e.latlng, cZoom);
+            removeFoundMarker(circle, locationMarker);
         }
     
         map.on('locationfound', onLocationFound);
 
         //activate location at a regular interval
-        /*window.setInterval( function(){
+        window.setInterval( function(){
 			map.locate({
 				setView: true,
 				enableHighAccuracy: true
 				});
-		}, 10000);*/
+		}, 10000);
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {

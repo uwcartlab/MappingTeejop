@@ -15,7 +15,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/memorial_union.jpg",
-                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
                     },
                     {
                         "content": "First opened in October 1928, the Memorial Union sits along the shore of <b class='pronounce'>Waaksikhomik</b>, the Ho-Chunk or <b class='pronounce'>Hocąk</b> name for Lake Mendota. As a highly visible and celebrated campus landmark, a close look at the Memorial Union also reveals a complex and darker history of the UW campus."
@@ -23,10 +23,10 @@
                     {
                         "position": "left",
                         "image": "img/pipe_of_peace_ceremony.jpg",
-                        "caption":"<a href='https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B'>UW Digital Collection</a>"
+                        "caption": "<a href='https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B'>UW Digital Collection</a>"
                     },
                     {
-                        "position":"right",
+                        "position": "right",
                         "content": "Until recently, the Pipe of Peace Ceremony, held annually by the UW student body, was a history hidden in the archival records. The Pipe of Peace Ceremony gained widespread notoriety as students “played Indian” in dress and performance from the late 1890s through the 1910s, 1920s, 1930s, and into the 1940s.<sup>1</sup> This important history has been examined in UW’s Public History Project.<sup>2</sup>"
                     },
                     {
@@ -39,43 +39,74 @@
                     {
                         "position": "right",
                         "image": "img/mural.jpg",
-                        "caption":"<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Terrace Views Collection</a>"
-                    },
-                    {
-                        "content": "Finally, if you make your way down to the main floor of the Union and head toward the west exit, three is a small room off the larger Rathskeller. Here you will locate and observe the Paul Bunyan murals of James Watrous, painted in the early 1930s as part of the Public Works of Part Program.<sup>5</sup> These murals of Paul Bunyan, a familiar narrative to many Midwesterners, depict Paul and his sidekick, Babe, working the forests and clearing the land. Though highly romanticized, these murals depict a familiar erasure and replacement narrative through story. Much of present-day northern Wisconsin, land that had long been home to Ojibwe, Menominee, and Potawatomi, had rich forests that had been managed for millennia by tribal nations.<sup>6</sup> When Euro-American loggers arrived to the region during the mid-nineteenth century, this would rapidly change as valuable timber rich land left Native hands and timber reserves were logged for the profit of white businessmen, further fueling non-Native settlement. "
+                        "caption": "<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Terrace Views Collection</a>"
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B",
-                                "linkText":"Pipe of peace ceremony - UWDC",
-                                "title":"<sup>1</sup>"
+                                "link": "https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B",
+                                "linkText": "Pipe of peace ceremony - UWDC",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://www.youtube.com/watch?v=o3J0wuHThEU&t=1s",
-                                "linkText":"UW-Madison Public History Project",
-                                "title":"<sup>2</sup>"
+                                "link": "https://www.youtube.com/watch?v=o3J0wuHThEU&t=1s",
+                                "linkText": "UW-Madison Public History Project",
+                                "title": "<sup>2</sup>"
                             },
                             {
-                                "link":"https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
-                                "linkText":"A historical walking tour of the Memorial Union main entrance",
-                                "title":"<sup>3</sup>"
+                                "link": "https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
+                                "linkText": "A historical walking tour of the Memorial Union main entrance",
+                                "title": "<sup>3</sup>"
                             },
                             {
-                                "link":"https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
-                                "linkText":"A historical walking tour of the Memorial Union main entrance",
-                                "title":"<sup>4</sup>"
+                                "link": "https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
+                                "linkText": "A historical walking tour of the Memorial Union main entrance",
+                                "title": "<sup>4</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": "Begin at the front stairs of the <b>Memorial Union</b>. Tap the icon when you arrive."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.399843703775133,
+                    43.076169844036208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 2,
+                "pointOnTour": 2,
+                "name": "Paul Bunyan Murals",
+                "tours": [
+                    "tour1",
+                    "explore"
+                ],
+                "story": [
+                    {
+                        "image": "img/site_photos/paul_bunyan.jpg",
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
+                    },
+                    {
+                        "content": "Finally, if you make your way down to the main floor of the Union and head toward the west exit, three is a small room off the larger Rathskeller. Here you will locate and observe the Paul Bunyan murals of James Watrous, painted in the early 1930s as part of the Public Works of Part Program.<sup>1</sup> These murals of Paul Bunyan, a familiar narrative to many Midwesterners, depict Paul and his sidekick, Babe, working the forests and clearing the land. Though highly romanticized, these murals depict a familiar erasure and replacement narrative through story. Much of present-day northern Wisconsin, land that had long been home to Ojibwe, Menominee, and Potawatomi, had rich forests that had been managed for millennia by tribal nations.<sup>2</sup> When Euro-American loggers arrived to the region during the mid-nineteenth century, this would rapidly change as valuable timber rich land left Native hands and timber reserves were logged for the profit of white businessmen, further fueling non-Native settlement. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://uwunionstory.org/story/1933/paul-bunyan-comes-to-the-union",
+                                "linkText": "Paul Bunyan Comes to the Union",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://uwunionstory.org/story/1933/paul-bunyan-comes-to-the-union",
-                                "linkText":"Paul Bunyan Comes to the Union",
-                                "title":"<sup>5</sup>"
-                            },
-                            {
-                                "link":"https://edgeeffects.net/paul-bunyan-narratives/",
-                                "linkText":"Edge Effects: Paul Bunyan and Settler Nostalgia in the Northwoods",
-                                "title":"<sup>6</sup>"
+                                "link": "https://edgeeffects.net/paul-bunyan-narratives/",
+                                "linkText": "Edge Effects: Paul Bunyan and Settler Nostalgia in the Northwoods",
+                                "title": "<sup>2</sup>"
                             }
                         ]
                     }
@@ -85,16 +116,16 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.399837295442097,
-                    43.076133530149001
+                    -89.40012994265075,
+                    43.076263832920738
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "pk": 2,
-                "pointOnTour": 2,
+                "pk": 3,
+                "pointOnTour": 3,
                 "name": "Our Shared Future Marker",
                 "tours": [
                     "tour1",
@@ -103,30 +134,30 @@
                 "story": [
                     {
                         "image": "img/site_photos/our_shared_future.jpg",
-                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000uIjms0pH0nc?terms=&'>UW Photo Collection</a>"
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000uIjms0pH0nc?terms=&'>UW Photo Collection</a>"
                     },
                     {
                         "position": "left",
-                        "content": "During fall 2019 the University of Wisconsin took an initial step in repairing and improving its relationship with the Ho-Chunk Nation with the unveiling of the “Our Shared Future” heritage marker. “Our Shared Future represents UW-Madison's commitment to respect the inherent sovereignty of the Ho-Chunk Nation and the other First Nations of Wisconsin.”<sup>1</sup>"
+                        "content": "During fall 2019 the University of Wisconsin took an initial step in repairing and improving its relationship with the Ho-Chunk Nation with the unveiling of the Our Shared Future heritage marker. Our Shared Future represents UW-Madison's commitment to respect the inherent sovereignty of the Ho-Chunk Nation and the other First Nations of Wisconsin.”<sup>1</sup>"
                     },
                     {
                         "position": "right",
                         "image": "img/our_shared_future_ceremony.jpg",
-                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>UW Photo Collection</a>"
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>UW Photo Collection</a>"
                     },
                     {
                         "content": "This marker, a plaque that was permanently installed near South Hall in October 2021 is a physical reminder to all who pass by of the deep Ho-Chunk history of this place, the University of Wisconsin campus, including forced land cession, ethnic cleansing, and colonization–terms intentionally laid bare on the marker."
                     },
                     {
-                        "content": "In addition to the marker, the larger Our Shared Future initiative works to provide ongoingcampus-based learning opportunities for the larger community as the University works to heal and strengthen relationships with the Ho-Chunk Nation."
+                        "content": "In addition to the marker, the larger Our Shared Future initiative works to provide ongoing campus-based learning opportunities for the larger community as the University works to heal and strengthen relationships with the Ho-Chunk Nation."
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://oursharedfuture.wisc.edu/",
-                                "linkText":"Our Shared Future",
-                                "title":"<sup>1</sup>"
+                                "link": "https://oursharedfuture.wisc.edu/",
+                                "linkText": "Our Shared Future",
+                                "title": "<sup>1</sup>"
                             }
                         ]
                     }
@@ -143,8 +174,8 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 3,
-                "pointOnTour": 3,
+                "pk": 4,
+                "pointOnTour": 4,
                 "name": "Lincoln Statue",
                 "tours": [
                     "tour1",
@@ -153,7 +184,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/lincoln.jpg",
-                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000st6Vn4_o44c?terms=abraham%20lincoln%20statue&'>UW Photo Collection</a>"
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000st6Vn4_o44c?terms=abraham%20lincoln%20statue&'>UW Photo Collection</a>"
                     },
                     {
                         "content": "Perhaps most known for his centrality as US President during the US Civil War (1861-1865), Abraham Lincoln’s role in the US-Dakota War has been largely overshadowed.<sup>1</sup>"
@@ -169,16 +200,16 @@
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://www.usdakotawar.org",
-                                "linkText":"US Dakota War",
-                                "title":"<sup>1</sup>"
+                                "link": "https://www.usdakotawar.org",
+                                "linkText": "US Dakota War",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://www.usdakotawar.org/history/aftermath",
-                                "linkText":"US Dakota War Aftermath", 
-                                "title":"<sup>2</sup>"
+                                "link": "https://www.usdakotawar.org/history/aftermath",
+                                "linkText": "US Dakota War Aftermath",
+                                "title": "<sup>2</sup>"
                             }
                         ]
                     }
@@ -196,8 +227,8 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 4,
-                "pointOnTour": 4,
+                "pk": 5,
+                "pointOnTour": 5,
                 "name": "Bascom Hall Ho-Chunk Flag",
                 "tours": [
                     "tour1",
@@ -206,7 +237,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/flag.jpg",
-                        "caption":"<a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Photo by Bryce Richter, UW Madison News</a>"
+                        "caption": "<a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Photo by Bryce Richter, UW Madison News</a>"
                     },
                     {
                         "content": "November 5th, 2021 marked a historic occasion. For the first time ever, the Ho-Chunk Nation flag flew high over Bascom Hill and the University of Wisconsin campus. This flag raising, marked by a formal ceremony with Ho-Chunk elders, tribal members, and students in attendance was a component of the Our Shared Future Initiative that has worked to affirm “the special relationship between UW-Madison and the Ho-Chunk Nation that grows from the location of the campus on the ancestral Ho-Chunk land known as [Teejop].”<sup>1</sup>"
@@ -216,16 +247,16 @@
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://oursharedfuture.wisc.edu/",
-                                "linkText":"Our Shared Future",
-                                "title":"<sup>1</sup>"
+                                "link": "https://oursharedfuture.wisc.edu/",
+                                "linkText": "Our Shared Future",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://tribalrelations.wisc.edu/2022/08/31/ho-chunk-nation-flag-raising-2022/",
-                                "linkText":"Ho-Chunk Nation Flag Raising Ceremony, September 15, 2022", 
-                                "title":"<sup>2</sup>"
+                                "link": "https://tribalrelations.wisc.edu/2022/08/31/ho-chunk-nation-flag-raising-2022/",
+                                "linkText": "Ho-Chunk Nation Flag Raising Ceremony, September 15, 2022",
+                                "title": "<sup>2</sup>"
                             }
                         ]
                     }
@@ -243,8 +274,8 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 5,
-                "pointOnTour": 5,
+                "pk": 6,
+                "pointOnTour": 6,
                 "name": "Black Hawk Marker",
                 "tours": [
                     "tour1",
@@ -259,33 +290,33 @@
                         "content": "The Black Hawk Marker, located outside of Sewell Social Science Hall, is a present-day marker of Black Hawk’s pursuit by the U.S. militia on July 21st, 1832, in what has become known as the Battle of Wisconsin Heights.<sup>1</sup>"
                     },
                     {
-                        "content": "Just over one week later, on August 1st, 1832, Black Hawk and his men encountered a steamboat aptly named the Warrior as they attempted to cross the Mississippi River. Facing Though Black Hawk attempted to surrender, his words were not understood and he and his men faced open fire. This was a pivotal moment in the Black Hawk War as Black Hawk separated from the larger party to seek safety north with the Ho-Chunk and Ojibwe.<sup>2</sup> Here, Black Hawk, who also led his people during the War of 1812, escaped and was eventually captured near Wisconsin Dells.<sup>3</sup>"
+                        "content": "Just over one week later, on August 1st, 1832, Black Hawk and his men encountered a steamboat aptly named the Warrior as they attempted to cross the Mississippi River. Though Black Hawk attempted to surrender, his words were not understood and he and his men faced open fire. This was a pivotal moment in the Black Hawk War as Black Hawk separated from the larger party to seek safety north with the Ho-Chunk and Ojibwe.<sup>2</sup> Here, Black Hawk, who also led his people during the War of 1812, escaped and was eventually captured near Wisconsin Dells.<sup>3</sup>"
                     },
                     {
                         "content": "In its entirety, the plaque reads, <i>Black Hawk, Sauk Chief, retreated through these grounds July 21st, 1832 pursued by militia and U.S. regulars. Placed by the class of 1888. U.W. June 17, 1913.</i>"
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://digital.lib.niu.edu/illinois/lincoln/topics/blackhawk/phases",
-                                "linkText":"Black Hawk War",
-                                "title":"<sup>1</sup>"
+                                "link": "https://digital.lib.niu.edu/illinois/lincoln/topics/blackhawk/phases",
+                                "linkText": "Black Hawk War",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://digital.lib.niu.edu/illinois/lincoln/topics/blackhawk/phases",
-                                "linkText":"Black Hawk War",
-                                "title":"<sup>2</sup>"
+                                "link": "https://digital.lib.niu.edu/illinois/lincoln/topics/blackhawk/phases",
+                                "linkText": "Black Hawk War",
+                                "title": "<sup>2</sup>"
                             },
                             {
-                                "link":"https://www.wisconsinhistory.org/Records/Article/CS1630",
-                                "linkText":"Black Hawk, Chief", 
-                                "title":"<sup>3</sup>"
+                                "link": "https://www.wisconsinhistory.org/Records/Article/CS1630",
+                                "linkText": "Black Hawk, Chief",
+                                "title": "<sup>3</sup>"
                             }
                         ]
                     }
                 ],
-                "label": "Travel down <b>Observatory Drive</b> until you reach the <b>Blackhawk</b> marker."
+                "label": "Travel down <b>Observatory Drive</b> until you reach the <b>Blackhawk</b> marker. It is just south of the clock tower next to the social sciences building."
             },
             "geometry": {
                 "type": "Point",
@@ -298,8 +329,8 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 6,
-                "pointOnTour": 6,
+                "pk": 7,
+                "pointOnTour": 7,
                 "name": "Observatory Hill Effigy Mounds",
                 "tours": [
                     "tour1",
@@ -308,7 +339,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/mounds.jpg",
-                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000K6Ir1j47KnQ?terms=effigy%20mounds&'>UW Photo Collection</a>"
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000K6Ir1j47KnQ?terms=effigy%20mounds&'>UW Photo Collection</a>"
                     },
                     {
                         "content": "The Observatory Hill Mound Group remains one of the most visible reminders of the long Indigenous-Ho-Chunk-history of campus. This mound group likely contained six mounds, though only two are visible today.<sup>1</sup> A Ho-Chunk scholar and tribal member Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became a western city.”<sup>2</sup> "
@@ -321,31 +352,31 @@
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
-                                "linkText":"Native Americans and the Preserve",
-                                "title":"<sup>1</sup>"
+                                "link": "https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
+                                "linkText": "Native Americans and the Preserve",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://edgeeffects.net/native-histories/",
-                                "linkText":"The Land Remembers Native Histories",
-                                "title":"<sup>2</sup>"
+                                "link": "https://edgeeffects.net/native-histories/",
+                                "linkText": "The Land Remembers Native Histories",
+                                "title": "<sup>2</sup>"
                             },
                             {
-                                "link":"https://www.wisconsinhistory.org/Records/Image/IM34547",
-                                "linkText":"Turtle Mound on Observatory Hill", 
-                                "title":"<sup>3</sup>"
+                                "link": "https://www.wisconsinhistory.org/Records/Image/IM34547",
+                                "linkText": "Turtle Mound on Observatory Hill",
+                                "title": "<sup>3</sup>"
                             },
                             {
-                                "link":"https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
-                                "linkText":"Native Americans and the Preserve - Protection",
-                                "title":"<sup>4</sup>"
+                                "link": "https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
+                                "linkText": "Native Americans and the Preserve - Protection",
+                                "title": "<sup>4</sup>"
                             },
                             {
-                                "link":"https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/",
-                                "linkText":"Native Americans and the Preserve - Protection",
-                                "title":"<sup>5</sup>"
+                                "link": "https://tonemadison.com/articles/damage-to-a-mound-disturbs-uw-madisons-indigenous-community/",
+                                "linkText": "Damage to a Mound Disturbs UW Madison's Indigenous Community",
+                                "title": "<sup>5</sup>"
                             }
                         ]
                     }
@@ -362,8 +393,8 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 7,
-                "pointOnTour": 7,
+                "pk": 8,
+                "pointOnTour": 8,
                 "name": "Tree of Peace",
                 "tours": [
                     "tour1",
@@ -372,37 +403,37 @@
                 "story": [
                     {
                         "image": "img/site_photos/tree_of_peace.jpg",
-                        "caption":"<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
+                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
                     },
                     {
                         "position": "left",
-                        "content": "In April 9, 1988, Tekaronianeken Jake Swamp, a Mohawk elder from Akwesasne, planted the Tree of Peace in a ceremony near the bird mound on Observatory Hill. Swamp, the founder of the Tree of Peace Society, began planting white pines -a culturally significant tree for Haudenosaunee (Iroquois) Confederacy -to promote Haudenosaunee teachings and spread wider ecological awareness.<sup>1</sup><br><br>Accompanying the Tree of Peace is a stone marker that says “For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As longas the tree lives people live. Planted April 9, 1988.”"
+                        "content": "In April 9, 1988, Tekaronianeken Jake Swamp, a Mohawk elder from Akwesasne, planted the Tree of Peace in a ceremony near the bird mound on Observatory Hill. Swamp, the founder of the Tree of Peace Society, began planting white pines -a culturally significant tree for Haudenosaunee (Iroquois) Confederacy -to promote Haudenosaunee teachings and spread wider ecological awareness.<sup>1</sup><br><br>Accompanying the Tree of Peace is a stone marker that says “For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives people live. Planted April 9, 1988.”"
                     },
                     {
                         "position": "right",
                         "image": "img/tree_of_peace_ceremony.jpg",
-                        "caption":"<a href='https://search.library.wisc.edu/digital/ABIPRF3QDGJLJU8N'>UW Digital Collections</a>"
+                        "caption": "<a href='https://search.library.wisc.edu/digital/ABIPRF3QDGJLJU8N'>UW Digital Collections</a>"
                     },
                     {
-                        "content":"When Swamp came to UW-Madison, the state of Wisconsin was in the midst of the Walleye Wars, which were years’ long protests against Ojibwe treaty fishing rights. Non-Native protestors often resorted to the use of provocative signage featuring violent slogans such as “Save a walleye, spear an Indian” and on more than one occasion Native fishers were assaulted by protestors.<sup>2</sup> The significant tension surrounding the reaffirmed practice of treaty rights led to frequent open expressions of anti-Native sentiment. It is in this context that Swamp was invited to campus to plant a Tree of Peace, which would “encourage unity and environmental stewardship” and “remind[s] us about caring for one another and caringfor the environment.”<sup>3</sup> Though many tensions still remain within in Wisconsin regarding the ongoing practice of Ojibwe treaty fishing rights, the Tree of Peace stands on campus to “provide us comfort” and everyone is invited to visit the tree when in need. Just be mindful of the bird and two-tailed water spirit mounds nearby!"
+                        "content": "When Swamp came to UW-Madison, the state of Wisconsin was in the midst of the Walleye Wars, which were years’ long protests against Ojibwe treaty fishing rights. Non-Native protestors often resorted to the use of provocative signage featuring violent slogans such as “Save a walleye, spear an Indian” and on more than one occasion Native fishers were assaulted by protestors.<sup>2</sup> The significant tension surrounding the reaffirmed practice of treaty rights led to frequent open expressions of anti-Native sentiment. It is in this context that Swamp was invited to campus to plant a Tree of Peace, which would “encourage unity and environmental stewardship” and “remind[s] us about caring for one another and caringfor the environment.”<sup>3</sup> Though many tensions still remain within in Wisconsin regarding the ongoing practice of Ojibwe treaty fishing rights, the Tree of Peace stands on campus to “provide us comfort” and everyone is invited to visit the tree when in need. Just be mindful of the bird and two-tailed water spirit mounds nearby!"
                     },
                     {
                         "content": "<b>Sources</b>",
-                        "sources":[
+                        "sources": [
                             {
-                                "link":"https://indigenousvalues.org/haudenosaunee-values/great-tree-peace-skaehetsi%CB%80kona/",
-                                "linkText":"Great Tree of Peace",
-                                "title":"<sup>1</sup>"
+                                "link": "https://indigenousvalues.org/haudenosaunee-values/great-tree-peace-skaehetsi%CB%80kona/",
+                                "linkText": "Great Tree of Peace",
+                                "title": "<sup>1</sup>"
                             },
                             {
-                                "link":"https://www.mpm.edu/educators/wirp/nations/ojibwe/spearfishing-controversy",
-                                "linkText":"Spearfishing Convtroversy (PLACEHOLDER)",
-                                "title":"<sup>2</sup>"
+                                "link": "https://www.mpm.edu/educators/wirp/nations/ojibwe/spearfishing-controversy",
+                                "linkText": "Spearfishing Convtroversy (PLACEHOLDER)",
+                                "title": "<sup>2</sup>"
                             },
                             {
-                                "link":"https://tribalrelations.wisc.edu/2021/07/12/tree-of-peace/",
-                                "linkText":"Tree of Peace", 
-                                "title":"<sup>3</sup>"
+                                "link": "https://tribalrelations.wisc.edu/2021/07/12/tree-of-peace/",
+                                "linkText": "Tree of Peace",
+                                "title": "<sup>3</sup>"
                             }
                         ]
                     }

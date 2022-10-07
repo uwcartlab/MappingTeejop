@@ -265,6 +265,14 @@ body{
 .img-block > img{
     width:100%;
 }
+#story-modal-footer{
+    justify-content: space-between;
+}
+.deactivate-button{
+    color:gray !important;
+    background:lightgray;
+    pointer-events: none;
+}
 /*responsive story content*/
 @media screen and (min-width: 1200px) {
     .story-block, #story-title{
