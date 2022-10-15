@@ -8,6 +8,7 @@
                 "pk": 1,
                 "pointOnTour": 1,
                 "name": "Memorial Union",
+                "audio":"MemorialUnion",
                 "tours": [
                     "tour1",
                     "explore"
@@ -18,7 +19,7 @@
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
                     },
                     {
-                        "content": "First opened in October 1928, the Memorial Union sits along the shore of <b class='pronounce'>Waaksikhomik</b>, the Ho-Chunk or <b class='pronounce'>Hocąk</b> name for Lake Mendota. As a highly visible and celebrated campus landmark, a close look at the Memorial Union also reveals a complex and darker history of the UW campus."
+                        "content": "First opened in October 1928, the Memorial Union sits along the shore of <b class='pronounce'>Tee Wąąkšik Homįk</b>, the Ho-Chunk or Hocąk name for Lake Mendota. As a highly visible and celebrated campus landmark, a close look at the Memorial Union also reveals a complex and darker history of the UW campus."
                     },
                     {
                         "position": "left",
@@ -83,6 +84,7 @@
                 "pk": 2,
                 "pointOnTour": 2,
                 "name": "Paul Bunyan Murals",
+                "audio":"PaulBunyanMurals",
                 "tours": [
                     "tour1",
                     "explore"
@@ -127,6 +129,7 @@
                 "pk": 3,
                 "pointOnTour": 3,
                 "name": "Our Shared Future Marker",
+                "audio":"OurSharedFutureMarker",
                 "tours": [
                     "tour1",
                     "explore"
@@ -177,6 +180,7 @@
                 "pk": 4,
                 "pointOnTour": 4,
                 "name": "Lincoln Statue",
+                "audio":"LincolnStatue",
                 "tours": [
                     "tour1",
                     "explore"
@@ -233,6 +237,7 @@
                 "pk": 5,
                 "pointOnTour": 5,
                 "name": "Bascom Hall Ho-Chunk Flag",
+                "audio":"BascomHallHo-ChunkFlag",
                 "tours": [
                     "tour1",
                     "explore"
@@ -243,10 +248,10 @@
                         "caption": "<a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Photo by Bryce Richter, UW Madison News</a>"
                     },
                     {
-                        "content": "November 5th, 2021 marked a historic occasion. For the first time ever, the Ho-Chunk Nation flag flew high over Bascom Hill and the University of Wisconsin campus. This flag raising, marked by a formal ceremony with Ho-Chunk elders, tribal members, and students in attendance was a component of the Our Shared Future Initiative that has worked to affirm “the special relationship between UW-Madison and the Ho-Chunk Nation that grows from the location of the campus on the ancestral Ho-Chunk land known as [Teejop].”<sup>1</sup>"
+                        "content": "November 5th, 2021 marked a historic occasion. For the first time ever, the Ho-Chunk Nation flag flew high over Bascom Hill and the University of Wisconsin campus. This flag raising, marked by a formal ceremony with Ho-Chunk elders, tribal members, and students in attendance was a component of the Our Shared Future Initiative that has worked to affirm “the special relationship between UW-Madison and the Ho-Chunk Nation that grows from the location of the campus on the ancestral Ho-Chunk land known as <b class='pronounce'>Teejop</b>.”<sup>1</sup>"
                     },
                     {
-                        "content": "As we enter into Fall 2022, the University of Wisconsin and the Ho-Chunk Nation will come together again to fly the Ho-Chunk Nation flag over Bascom Hill. The first flag raising of the 2022-2023 academic year, on September 15th, will be followed by flag raisings on Indigenous Peoples Day, on October 10th and for the entirety of the month of November as the campus community recognizes and celebratesNative November.<sup>2</sup>"
+                        "content": "As we enter into Fall 2022, the University of Wisconsin and the Ho-Chunk Nation will come together again to fly the Ho-Chunk Nation flag over Bascom Hill. The first flag raising of the 2022-2023 academic year, on September 15th, will be followed by flag raisings on Indigenous Peoples Day, on October 10th and for the entirety of the month of November as the campus community recognizes and celebrates Native November.<sup>2</sup>"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -280,6 +285,7 @@
                 "pk": 6,
                 "pointOnTour": 6,
                 "name": "Black Hawk Marker",
+                "audio":"BlackHawkMarker",
                 "tours": [
                     "tour1",
                     "explore"
@@ -335,6 +341,7 @@
                 "pk": 7,
                 "pointOnTour": 7,
                 "name": "Observatory Hill Effigy Mounds",
+                "audio":"ObservatoryHillEffigyMounds",
                 "tours": [
                     "tour1",
                     "explore"
@@ -399,6 +406,7 @@
                 "pk": 8,
                 "pointOnTour": 8,
                 "name": "Tree of Peace",
+                "audio":"TreeofPeace",
                 "tours": [
                     "tour1",
                     "explore"
@@ -421,7 +429,7 @@
                         "content": "When Swamp came to UW-Madison, the state of Wisconsin was in the midst of the Walleye Wars, which were years’ long protests against Ojibwe treaty fishing rights. Non-Native protestors often resorted to the use of provocative signage featuring violent slogans such as “Save a walleye, spear an Indian” and on more than one occasion Native fishers were assaulted by protestors.<sup>2</sup> The significant tension surrounding the reaffirmed practice of treaty rights led to frequent open expressions of anti-Native sentiment. It is in this context that Swamp was invited to campus to plant a Tree of Peace, which would “encourage unity and environmental stewardship” and “remind[s] us about caring for one another and caringfor the environment.”<sup>3</sup> Though many tensions still remain within in Wisconsin regarding the ongoing practice of Ojibwe treaty fishing rights, the Tree of Peace stands on campus to “provide us comfort” and everyone is invited to visit the tree when in need. Just be mindful of the bird and two-tailed water spirit mounds nearby!"
                     },
                     {
-                        "content":"This concludes Grounding, the first tour in the Mapping Teejop digital tour series. To learn more about the Ho-Chunk and Indigenous history and presence at UW, please visit: <a href='https://oursharedfuture.wisc.edu/'>Our Shared Future Initiative</a>, <a href='https://50years.amindian.wisc.edu/'>The American Indian Studies 50th Anniversary Exhibit</a>, <a href='https://reckoning.wisc.edu/'>The UW Public History Project, Sifting and Reckoning</a>, <a href='https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/'>The UW Lakeshore Preserve</a>, <a href='https://ho-chunknation.com/'>Ho-Chunk Nation</a>."
+                        "content":"This concludes <b class='pronounce'>Mąįrakere</b>, the first tour in the Mapping Teejop digital tour series. To learn more about the Ho-Chunk and Indigenous history and presence at UW, please visit: <a href='https://oursharedfuture.wisc.edu/'>Our Shared Future Initiative</a>, <a href='https://50years.amindian.wisc.edu/'>The American Indian Studies 50th Anniversary Exhibit</a>, <a href='https://reckoning.wisc.edu/'>The UW Public History Project, Sifting and Reckoning</a>, <a href='https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/'>The UW Lakeshore Preserve</a>, <a href='https://ho-chunknation.com/'>Ho-Chunk Nation</a>."
                     },
                     {
                         "content": "<b>Sources</b>",

@@ -1,3 +1,9 @@
+<!---/////////////////////////////////////////////////MAPPING TEEJOP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//This code was written in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
+//The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-Ameircan settlers founded a city called Madison, Wisconsin.                                                                 //
+//Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
+//This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +48,7 @@
                 <div class="modal-content row" id="splash-content">
                     <!--<h2>Choose a Tour:</h2>-->
                     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12" id="tour-selection container">
-                        <p>Welcome to Mapping Teejop! Here is a brief description of the project. <b>Choose a tour to get started:</b></p>
+                        <p>Welcome to <b>Mapping Teejop</b>. Adjust your settings below, then <b>choose a tour to get started.</b></p>
                         <p>Tap <b class="pronounce">underlined</b> words to hear them prounounced.</p>
                         <div id="text-size">
                             <p>Text size:</p>
@@ -59,16 +65,16 @@
                                 <img src="img/obs_hill.jpg">
                             </div>
                             <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
-                                <h3 class="tour-title"><b>Grounding</b> <i class="translation">Grounding</i></h3>
-                                <p>Grounding is the first digital tour in the Mapping Teejop series. As such, it is meant to expose, orient, and “ground” students, faculty, staff, and visitors to the Ho-Chunk and Native history and presence of the University of Wisconsin. </p>
+                                <h3 class="tour-title"><b>Mąįrakere</b> <i class="translation">Grounding</i></h3>
+                                <p><b class="pronounce">Mąįrakere</b> is the first digital tour in the Mapping <b class="pronounce">Teejop</b> series. As such, it is meant to expose, orient, and “ground” students, faculty, staff, and visitors to the Ho-Chunk and Native history and presence of the University of Wisconsin. </p>
                                 <div id="read-more-text-1" class="read-more-text" style="display:none">
                                     <p>As a land grant institution, the University of Wisconsin has a deep history and complex history with the Ho-Chunk Nation, a history that has often been deliberately erased, ignored, and overlooked.</p>
-                                    <p>Grounding begins at one of the most iconic locations on campus, the Memorial Union. Departing from Memorial Union, users will be guided up Bascom Hill, and eventually onto Observatory Drive, before ending at the Tree of Peace near Washburn Observatory.</p>
-                                    <p>Along the way, Grounding provides content and context for users of Mapping Teejop to not only learn about Ho-Chunk and Native history and presence at the University of Wisconsin, a region long known as Teejop, but opportunities for critical and self-reflection.</p>
-                                    <p>Grounding closely mirrors the First Nations Cultural Landscape Tour which provides a more in-depth and personal guided tour experience for those wanting to learn more and engage with trained guides. Together, Mapping Teejopand the First Nations Cultural Landscape Tour work to challenge erasure narratives, affirm Ho-Chunk history and presence, and to provide a more critical history of the University of Wisconsin.</p>
+                                    <p><b class="pronounce">Mąįrakere</b> begins at one of the most iconic locations on campus, the Memorial Union. Departing from Memorial Union, users will be guided up Bascom Hill, and eventually onto Observatory Drive, before ending at the Tree of Peace near Washburn Observatory.</p>
+                                    <p>Along the way, <b class="pronounce">Mąįrakere</b> provides content and context for users of Mapping <b class="pronounce">Teejop</b> to not only learn about Ho-Chunk and Native history and presence at the University of Wisconsin, a region long known as <b class="pronounce">Teejop</b>, but opportunities for critical and self-reflection.</p>
+                                    <p><b class="pronounce">Mąįrakere</b> closely mirrors the First Nations Cultural Landscape Tour which provides a more in-depth and personal guided tour experience for those wanting to learn more and engage with trained guides. Together, Mapping <b class="pronounce">Teejop</b> and the First Nations Cultural Landscape Tour work to challenge erasure narratives, affirm Ho-Chunk history and presence, and to provide a more critical history of the University of Wisconsin.</p>
                                 </div>
                                 <a id="read-more-button-1" class="read-more-button">Read More</a>
-                                <button class="tour-button" id="tour1" data-bs-dismiss="modal">Start Grounding</button>
+                                <button class="tour-button" id="tour1" data-bs-dismiss="modal">Start Mąįrakere</button>
                             </div>
                         </div>
                         <div class="tour row">
@@ -77,10 +83,11 @@
                             </div>
                             <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
                                 <h3 class="tour-title"><b>Explore</b> <i class="translation">Explore</i></h3>
-                                <p>Choose this option if you wish to explore Indigenous sites on campus in any order.</p>
+                                <p>Choose this option if you wish to explore Native and Ho-Chunk sites on campus in any order.</p>
                                 <button class="tour-button" id="explore" data-bs-dismiss="modal">Start Exploring</button>
                             </div>
                         </div>  
+                        <p class="credit"><i>Ho-Chunk language expertise and audio recordings courtesy of Henning Garvin.</i></p>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -93,10 +100,14 @@
          <div class="modal fade font-size" id="story-modal">
             <div class="modal-dialog">
                 <div class="modal-header" id="story-header">
-                    <h1 id="story-title"></h1>
+                    <div id="story-title-container">
+                        <h1 id="story-title"></h1>
+                        <button class="story-audio">Read Story Aloud</button>
+                    </div>
                     <p class="close-x" type="button"  data-bs-dismiss="modal" aria-label="Close">X</p>
                 </div>
-                <div class="modal-content" id="story-content"></div>
+                <div class="modal-content" id="story-content">
+                </div>
                 <div id="story-modal-footer" class="modal-footer">
                     <button id="back-button" type="button" class="btn btn-secondary close-button" data-bs-dismiss="modal">Back</button>
                     <button id="next-button" type="button" class="btn btn-secondary close-button" data-bs-dismiss="modal">Next</button>

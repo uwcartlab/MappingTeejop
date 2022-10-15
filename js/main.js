@@ -1,9 +1,9 @@
-/*/////////////////////////////////////////////////MAPPING DEJOPE/////////////////////////////////////////////////////////////////////////
-//This code was written in the Summer of 2022, in a place known to the Ho-Chunk people as Dejope (four lakes).                          //
-//The Ho-Chunk were forced to cede Dejope by an 1832 treaty, as settler colonialists founded a city called Madison, Wisconsin.          //
-//Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk.//
-//This code was written by Gareth Baldrica-Franklin.                                                                                    //
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/////////////////////////////////////////////////MAPPING TEEJOP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//This code was written in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
+//The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-Ameircan settlers founded a city called Madison, Wisconsin.                                                                 //
+//Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
+//This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*To Do:
 [check]Implement Ho-Chunk word pronundiation
@@ -47,9 +47,9 @@ Add audio autoplay element
         })
         //color modes
         const styleEl = document.createElement('style');
-        // Append <style> element to <head>
+        //append <style> element to <head>
         document.head.appendChild(styleEl);
-        //Grab style element's sheet
+        //grab style element's sheet
         const sheet = styleEl.sheet;
         document.querySelector("#dark-mode").addEventListener("click", function(){
             colorMode = "dark";
@@ -89,7 +89,7 @@ Add audio autoplay element
             elem.addEventListener("click",function(){
                 //create audio element
                 let audio = document.createElement("audio"),
-                    source = "<source src='audio/" + elem.innerHTML + ".mp3'>",
+                    source = "<source src='audio/words/" + elem.innerHTML + ".mp3'>",
                     play = "<p class='play'>&#9654;</p>";
                 //add source 
                 audio.insertAdjacentHTML("beforeend",source)
@@ -408,15 +408,17 @@ Add audio autoplay element
     }
     //function that populates the story 
     function createSiteStory(feature){
+        let audio;
         //access modal element and retrieve content
         let storyElem = document.getElementById('story-modal'),
             storyModal = new bootstrap.Modal(storyElem),
             storyContent = document.querySelector('#story-content'),
+            storyAudio = feature.properties.audio,
             story = feature.properties.story;    
         //clear story element content block
         storyContent.innerHTML = "";
         //update header
-        document.querySelector('#story-title').innerHTML = "<h1>" + feature.properties.name + "</h1>";
+        document.querySelector('#story-title').innerHTML = feature.properties.name;
         //change next button text for last stop
         if (currentStop == tourTotal && tour != "explore")
             document.querySelector("#next-button").innerHTML = "Finish Tour"
@@ -483,6 +485,27 @@ Add audio autoplay element
         })
         //activate pronunciation listener
         storyElem.addEventListener('show.bs.modal', pronounce)
+        //activate audio listener
+        document.querySelector(".story-audio").addEventListener("click",function(){
+            //create audio element
+            audio = document.createElement("audio"),
+            source = "<source src='audio/sites/" + storyAudio + ".mp3'>";
+            //add controls
+            audio.id = "story-audio-controls";
+            audio.controls = true;
+            //add source 
+            audio.insertAdjacentHTML("beforeend",source)
+            //insert audio element into document
+            document.querySelector("body").append(audio);
+            //play audio
+            audio.play();
+            //remove audio after it finishes playing and close window
+            audio.onended = function(){
+                audio.remove();
+                storyModal.hide();
+                updateStop("next-button");
+            }
+        })
         //show modal
         storyModal.show();
         //activate image zoom
@@ -491,11 +514,13 @@ Add audio autoplay element
         storyElem.replaceWith(storyElem.cloneNode(true));
         //activate close listener
         storyElem.addEventListener('hide.bs.modal', updateStop)
-
         //update stop
         function updateStop(e){
+            let button = e.explicitOriginalTarget ? e.explicitOriginalTarget.id: e;
+            if (audio)
+                audio.remove();
             //if next button is selected, activate next stop
-            if (e.explicitOriginalTarget.id == "next-button")
+            if (button == "next-button")
                 currentStop++;
             //add mounds if a certain point in the tour is reached
             if (currentStop == 7){

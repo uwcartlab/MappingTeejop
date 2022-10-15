@@ -1,3 +1,9 @@
+/*/////////////////////////////////////////////////MAPPING TEEJOP/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//This code was written in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
+//The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-Ameircan settlers founded a city called Madison, Wisconsin.                                                                 //
+//Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
+//This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /**************FONTS*******************/
 body{
     font-family:'Trebuchet MS', sans-serif !important;
@@ -89,6 +95,9 @@ body{
     z-index:1000000000;
     width:30px;
     height:30px;
+}
+.credit{
+    margin-top:50px;
 }
 /**************ACCESSIBILITY********************/
 /*text size*/
@@ -242,14 +251,17 @@ body{
 }
 .close-x{
     border:none !important;
+    top: 20px;
+    position: absolute;
+    right: 20px;
 }
 /**************STORY STYLING********************/
-#story-title > h1{
-    font-size:calc(1.5  75rem + 1.5vw) !important;
+#story-title-container > h1{
+    font-size:calc(1.75rem + 1.5vw) !important;
     font-weight:bold;
 }
 .story-block{
-    margin-bottom:25px;
+    margin-bottom:10px;
 }
 .story-block > .sources{
     margin-bottom:5px;
@@ -273,9 +285,18 @@ body{
     background:lightgray;
     pointer-events: none;
 }
+/*audio controls*/
+.story-audio{
+    margin-top:10px;
+}
+#story-audio-controls{
+    position:absolute;
+    top:0;
+    z-index:1000000;
+}
 /*responsive story content*/
 @media screen and (min-width: 1200px) {
-    .story-block, #story-title{
+    .story-block, #story-title-container{
         margin-left:20%;
         width:60% !important;
     }
@@ -299,7 +320,7 @@ body{
     
 }
 @media screen and (min-width: 720px) and (max-width: 1199px) {
-    .story-block, #story-title{
+    .story-block, #story-title-container{
         margin-left: 16.66666667%;
         width: 66.66666667% !important;
     }
@@ -322,7 +343,7 @@ body{
     }
 }
 @media screen and (min-width: 540px) and (max-width: 719px) {
-    .story-block, #story-title{
+    .story-block, #story-title-container{
         margin-left: 8.33333333%;
         width: 83.333333333% !important;
     }
@@ -344,7 +365,7 @@ body{
     }
 }
 @media screen and (max-width: 539px) {
-    .story-block, #story-title{
+    .story-block, #story-title-container{
         width: 100% !important;
     }
     .story-block > img {
