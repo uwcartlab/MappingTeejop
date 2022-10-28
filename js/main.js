@@ -439,6 +439,8 @@ Add audio autoplay element
             //position story block if on desktop
             var position = block.position && block.position == "left" ? "block-left" : block.position && block.position == "right" ? "block-right": "block-center";
             //position right block next to left block
+
+
             if(block.position && block.position == "right"){
                 if (story[i-1].position && story[i-1].position == "left"){
                     div = document.querySelector("#block-" + (i-1));
@@ -503,8 +505,16 @@ Add audio autoplay element
             audio.onended = function(){
                 audio.remove();
                 storyModal.hide();
-                updateStop("next-button");
+                //progress story to next stop
+                currentStop++;
+                updateStop();
             }
+        })
+        //activate next button listener for progressing story
+        document.querySelector("#next-button").addEventListener("click",function(){
+            //progress story to next stop
+            currentStop++;
+            updateStop();
         })
         //show modal
         storyModal.show();
@@ -515,13 +525,9 @@ Add audio autoplay element
         //activate close listener
         storyElem.addEventListener('hide.bs.modal', updateStop)
         //update stop
-        function updateStop(e){
-            let button = e.explicitOriginalTarget ? e.explicitOriginalTarget.id: e;
+        function updateStop(){
             if (audio)
-                audio.remove();
-            //if next button is selected, activate next stop
-            if (button == "next-button")
-                currentStop++;
+                audio.remove();           
             //add mounds if a certain point in the tour is reached
             if (currentStop == 7){
                 addMounds();
