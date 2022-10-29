@@ -8,7 +8,7 @@
                 "pk": 1,
                 "pointOnTour": 1,
                 "name": "Memorial Union",
-                "audio":"MemorialUnion",
+                "audio": "MemorialUnion",
                 "tours": [
                     "tour1",
                     "explore"
@@ -34,15 +34,6 @@
                         "content": "The Pipe of Peace Ceremony, which took place in front of the Memorial Union for many years, then, is in contrast the memorialization of Native people in the actual building. As one enters the Memorial Union from the main entrance, up the flight of stairs that face Langdon Street, you may notice the doorknobs to the Union emblazoned with “a shield with a peace pipe behind it. This symbol is the crest of the Union. It represents the unity of the Union and the diversity of the people who are part of the Union.”<sup>3</sup> A similar crest is laid into the floor of the Union’s main entrance as well. Despite this official origin of the Union crest, it is difficult to not conflate the Union crest with the Pipe of Peace Ceremony and American Indian appropriation, both of which complicate the history of Ho-Chunk dispossession from this very land."
                     },
                     {
-                        "position": "left",
-                        "content": "Moving through the Union, you may also notice a wide-variety of murals throughout the building. Just inside the main entrance is a mural on the ceiling that depicts two “Native American soldiers.”<sup>4</sup> Much like the Union crest, these Native figures, who were painted to “honor” Native people, echo static, generic, and romanticized portrayals of American Indians during the early decades of the twentieth century, a time of violent attempts of assimilate Native people and further American Indian dispossession. A time when little “honor” to Native people were shown."
-                    },
-                    {
-                        "position": "right",
-                        "image": "img/mural.jpg",
-                        "caption": "<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Terrace Views Collection</a>"
-                    },
-                    {
                         "content": "<b>Sources</b>",
                         "sources": [
                             {
@@ -59,22 +50,17 @@
                                 "link": "https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
                                 "linkText": "A historical walking tour of the Memorial Union main entrance",
                                 "title": "<sup>3</sup>"
-                            },
-                            {
-                                "link": "https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
-                                "linkText": "A historical walking tour of the Memorial Union main entrance",
-                                "title": "<sup>4</sup>"
                             }
                         ]
                     }
                 ],
-                "label": "Begin at the front stairs of the <b>Memorial Union</b>. Tap the icon when you arrive."
+                "label": "Begin by the outside stairs of the <b>Memorial Union</b>, <b>800 Langdon Street</b>. Tap the icon when you arrive."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.399843703775133,
-                    43.076169844036208
+                    -89.399840891001432,
+                    43.076034241575393
                 ]
             }
         },
@@ -83,8 +69,47 @@
             "properties": {
                 "pk": 2,
                 "pointOnTour": 2,
+                "name": "Indian Murals",
+                "audio": "IndianMurals",
+                "tours": [
+                    "tour1",
+                    "explore"
+                ],
+                "story": [
+                    {
+                        "image": "img/site_photos/mural.jpg",
+                        "caption": "<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Terrace Views Collection</a>"
+                    },
+                    {
+                        "content": "Moving through the Union, you may also notice a wide-variety of murals throughout the building. Just inside the main entrance is a mural on the ceiling that depicts two “Native American soldiers.”<sup>`</sup> Much like the Union crest, these Native figures, who were painted to “honor” Native people, echo static, generic, and romanticized portrayals of American Indians during the early decades of the twentieth century, a time of violent attempts of assimilate Native people and further American Indian dispossession. A time when little “honor” to Native people were shown."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://terraceviews.org/a-historical-walking-tour-of-the-memorial-union-main-entrance/",
+                                "linkText": "A historical walking tour of the Memorial Union main entrance",
+                                "title": "<sup>1</sup>"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.399842201197245,
+                    43.076264466124208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 3,
+                "pointOnTour": 3,
                 "name": "Paul Bunyan Murals",
-                "audio":"PaulBunyanMurals",
+                "audio": "PaulBunyanMurals",
                 "tours": [
                     "tour1",
                     "explore"
@@ -112,8 +137,7 @@
                             }
                         ]
                     }
-                ],
-                "label": "Begin at the <b>Memorial Union</b>. Tap the icon when you arrive."
+                ]
             },
             "geometry": {
                 "type": "Point",
@@ -126,10 +150,10 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 3,
-                "pointOnTour": 3,
+                "pk": 4,
+                "pointOnTour": 4,
                 "name": "Our Shared Future Marker",
-                "audio":"OurSharedFutureMarker",
+                "audio": "OurSharedFutureMarker",
                 "tours": [
                     "tour1",
                     "explore"
@@ -177,10 +201,10 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 4,
-                "pointOnTour": 4,
+                "pk": 5,
+                "pointOnTour": 5,
                 "name": "Lincoln Statue",
-                "audio":"LincolnStatue",
+                "audio": "LincolnStatue",
                 "tours": [
                     "tour1",
                     "explore"
@@ -197,13 +221,25 @@
                         "content": "After years of broken treaties, unfulfilled annuity payments, and rapid encroachment of white settlers across Dakota homelands, tensions between settlers and Dakota Indians came to a head in southern Minnesota in late summer 1862."
                     },
                     {
+                        "position": "left",
+                        "image": "img/mankato_execution.jpg",
+                        "caption": "Public execution of Dakota men in Mankato. <a href='https://www.mprnews.org/story/2017/06/08/mankato-hangings-an-uneasy-topic-for-minnesota-schools'>Image from MPR News, Copied from a 1863 sketch by W.H. Childs.</a>"
+                    },
+                    {
+                        "position": "right",
                         "content": "After six weeks of violence and fighting along the Minnesota River valley, Dakota life in Minnesota would change forever. While Dakota women, children, and elders were gathered together and forced marched to Fort Snelling, Dakota men were tried for war crimes by a military tribunal. In total 392 Dakota men were tried and 303 were sentenced to death.<sup>2</sup> Upon review of trial proceedings, President Lincoln sent a list of 39 Dakota men to be hanged to Col. Henry Sibley. "
                     },
                     {
-                        "content": "On December 26th, 1862 at 10:00am, the Dakota prisoners sentenced to death by hanging were led to the gallows in Mankato, Minnesota in front of nearly 4,000 spectators. After one Dakota man was granted a last-minute reprieve, 38 Dakota men were hanged, their bodies on full display. This remains the largest mass execution in US history. While pausing atop Bascom Hill, it is also important to remember that this location was also once home to a Ho-Chunk mound, which was destroyed when Bascom Hall was constructed in 1857."
+                        "position": "left",
+                        "content": "On December 26th, 1862 at 10:00am, the Dakota prisoners sentenced to death by hanging were led to the gallows in Mankato, Minnesota in front of nearly 4,000 spectators. After one Dakota man was granted a last-minute reprieve, 38 Dakota men were hanged, their bodies on full display. This remains the largest mass execution in US history."
                     },
                     {
-                        "conten":"While pausing atop Bascom Hill, it is also important to remember that this location was once home to a Ho-Chunk mound, destroyed when Bascom Hall was constructed in 1857."
+                        "position": "right",
+                        "image": "img/dakota38_memorial.jpg",
+                        "caption": "Dakota horseback riders in Mankato for the 38 Memorial Dedication in 2012. <a href='https://www.mprnews.org/story/2014/12/26/dakota-memorial-run-ride'>Image from Jackson Forderer, MPR News.</a>"
+                    },
+                    {
+                        "content": "While pausing atop Bascom Hill, it is also important to remember that this location was once home to a Ho-Chunk mound, destroyed when Bascom Hall was constructed in 1857."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -234,10 +270,10 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 5,
-                "pointOnTour": 5,
+                "pk": 6,
+                "pointOnTour": 6,
                 "name": "Bascom Hall Ho-Chunk Flag",
-                "audio":"BascomHallHo-ChunkFlag",
+                "audio": "BascomHallHo-ChunkFlag",
                 "tours": [
                     "tour1",
                     "explore"
@@ -251,7 +287,7 @@
                         "content": "November 5th, 2021 marked a historic occasion. For the first time ever, the Ho-Chunk Nation flag flew high over Bascom Hill and the University of Wisconsin campus. This flag raising, marked by a formal ceremony with Ho-Chunk elders, tribal members, and students in attendance was a component of the Our Shared Future Initiative that has worked to affirm “the special relationship between UW-Madison and the Ho-Chunk Nation that grows from the location of the campus on the ancestral Ho-Chunk land known as <b class='pronounce'>Teejop</b>.”<sup>1</sup>"
                     },
                     {
-                        "content": "As we enter into Fall 2022, the University of Wisconsin and the Ho-Chunk Nation will come together again to fly the Ho-Chunk Nation flag over Bascom Hill. The first flag raising of the 2022-2023 academic year, on September 15th, will be followed by flag raisings on Indigenous Peoples Day, on October 10th and for the entirety of the month of November as the campus community recognizes and celebrates Native November.<sup>2</sup>"
+                        "content": "As we enter into Fall 2022, the University of Wisconsin and the Ho-Chunk Nation will come together again to fly the Ho-Chunk Nation flag over Bascom Hill. The first flag raising of the 2022-2023 academic year, on September 15th, will be followed by flag raisings on Indigenous Peoples Day, on October 10th, and for the entirety of the month of November as the campus community recognizes and celebrates Native November.<sup>2</sup>"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -282,10 +318,10 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 6,
-                "pointOnTour": 6,
+                "pk": 7,
+                "pointOnTour": 7,
                 "name": "Black Hawk Marker",
-                "audio":"BlackHawkMarker",
+                "audio": "BlackHawkMarker",
                 "tours": [
                     "tour1",
                     "explore"
@@ -338,10 +374,10 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 7,
-                "pointOnTour": 7,
+                "pk": 8,
+                "pointOnTour": 8,
                 "name": "Observatory Hill Effigy Mounds",
-                "audio":"ObservatoryHillEffigyMounds",
+                "audio": "ObservatoryHillEffigyMounds",
                 "tours": [
                     "tour1",
                     "explore"
@@ -352,7 +388,7 @@
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000K6Ir1j47KnQ?terms=effigy%20mounds&'>UW Photo Collection</a>"
                     },
                     {
-                        "content": "The Observatory Hill Mound Group remains one of the most visible reminders of the long Indigenous-Ho-Chunk-history of campus. This mound group likely contained six mounds, though only two are visible today.<sup>1</sup> Ho-Chunk scholar and tribal member Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became a western city.”<sup>2</sup> "
+                        "content": "The Observatory Hill Mound Group remains one of the most visible reminders of the long Indigenous Ho-Chunk-history of campus. This mound group likely contained six mounds, though only two are visible today.<sup>1</sup> Ho-Chunk scholar and tribal member Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became a western city.”<sup>2</sup> "
                     },
                     {
                         "content": "Bisected by sidewalks, the two visible mounds that remain are those in the shape of a bird and a unique two-tailed water spirit. Until recent consultations with Ho-Chunk knowledge carriers, this rare two-tailed water spirit mound was believed by non-Native scholars to be a turtle mound.<sup>3</sup>"
@@ -403,10 +439,10 @@
         {
             "type": "Feature",
             "properties": {
-                "pk": 8,
-                "pointOnTour": 8,
+                "pk": 9,
+                "pointOnTour": 9,
                 "name": "Tree of Peace",
-                "audio":"TreeofPeace",
+                "audio": "TreeofPeace",
                 "tours": [
                     "tour1",
                     "explore"
@@ -429,7 +465,7 @@
                         "content": "When Swamp came to UW-Madison, the state of Wisconsin was in the midst of the Walleye Wars, which were years’ long protests against Ojibwe treaty fishing rights. Non-Native protestors often resorted to the use of provocative signage featuring violent slogans such as “Save a walleye, spear an Indian” and on more than one occasion Native fishers were assaulted by protestors.<sup>2</sup> The significant tension surrounding the reaffirmed practice of treaty rights led to frequent open expressions of anti-Native sentiment. It is in this context that Swamp was invited to campus to plant a Tree of Peace, which would “encourage unity and environmental stewardship” and “remind[s] us about caring for one another and caringfor the environment.”<sup>3</sup> Though many tensions still remain within in Wisconsin regarding the ongoing practice of Ojibwe treaty fishing rights, the Tree of Peace stands on campus to “provide us comfort” and everyone is invited to visit the tree when in need. Just be mindful of the bird and two-tailed water spirit mounds nearby!"
                     },
                     {
-                        "content":"This concludes <b class='pronounce'>Mąįrakere</b>, the first tour in the Mapping Teejop digital tour series. To learn more about the Ho-Chunk and Indigenous history and presence at UW, please visit: <a href='https://oursharedfuture.wisc.edu/'>Our Shared Future Initiative</a>, <a href='https://50years.amindian.wisc.edu/'>The American Indian Studies 50th Anniversary Exhibit</a>, <a href='https://reckoning.wisc.edu/'>The UW Public History Project, Sifting and Reckoning</a>, <a href='https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/'>The UW Lakeshore Preserve</a>, <a href='https://ho-chunknation.com/'>Ho-Chunk Nation</a>."
+                        "content": "This concludes <b class='pronounce'>Mąįrakere</b>, the first tour in the Mapping Teejop digital tour series. To learn more about the Ho-Chunk and Indigenous history and presence at UW, please visit: <a href='https://oursharedfuture.wisc.edu/'>Our Shared Future Initiative</a>, <a href='https://50years.amindian.wisc.edu/'>The American Indian Studies 50th Anniversary Exhibit</a>, <a href='https://reckoning.wisc.edu/'>The UW Public History Project, Sifting and Reckoning</a>, <a href='https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/'>The UW Lakeshore Preserve</a>, <a href='https://ho-chunknation.com/'>Ho-Chunk Nation</a>."
                     },
                     {
                         "content": "<b>Sources</b>",

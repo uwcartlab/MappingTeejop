@@ -307,10 +307,11 @@ Add audio autoplay element
             radius:12,
             weight:2
         }        
-        //set current stop to orange, or all stops if exploration mode is active
+        //set current stop to purple, or all stops if exploration mode is active
         function siteFillColor(stop){
-            if (stop == currentStop || tour == "explore")
+            if (stop == currentStop || tour == "explore"){
                 return activeColor
+            }
             else
                 return inactiveColor
         }
