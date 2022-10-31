@@ -69,7 +69,7 @@
             "properties": {
                 "pk": 2,
                 "pointOnTour": 2,
-                "name": "Indian Murals",
+                "name": "Memorial Union Indian Murals",
                 "audio": "IndianMurals",
                 "tours": [
                     "tour1",
