@@ -459,7 +459,7 @@ Add audio autoplay element
                 //create div container to hold image and caption
                 var imgDiv = document.createElement("div");
                 imgDiv.classList.add(position,"img-block");
-                imgDiv.insertAdjacentHTML('beforeend', "<img src='" + block.image + "'>")
+                imgDiv.insertAdjacentHTML('beforeend', '<img src="' + block.image + '" alt="' + block.alt + '">')
                 //image caption
                 if (block.caption)
                     imgDiv.insertAdjacentHTML('beforeend', "<p class='caption'>" + block.caption + "</p>")
