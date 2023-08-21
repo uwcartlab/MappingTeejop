@@ -24,7 +24,7 @@ Add audio autoplay element
 
 (function(){
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
-    let tour = "tour1", map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0;
+    let tour = "tour1", map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
     //colors
     let activeColor = "#52527a", inactiveColor = "#ffffff";
     //color mode
@@ -409,13 +409,13 @@ Add audio autoplay element
     }
     //function that populates the story 
     function createSiteStory(feature){
-        let audio;
         //access modal element and retrieve content
         let storyElem = document.getElementById('story-modal'),
             storyModal = new bootstrap.Modal(storyElem),
             storyContent = document.querySelector('#story-content'),
             storyAudio = feature.properties.audio,
-            story = feature.properties.story;    
+            story = feature.properties.story,
+            audioActive = false;    
         //clear story element content block
         storyContent.innerHTML = "";
         //update header
@@ -489,28 +489,47 @@ Add audio autoplay element
         //activate pronunciation listener
         storyElem.addEventListener('show.bs.modal', pronounce)
         //activate audio listener
-        document.querySelector(".story-audio").addEventListener("click",function(){
+        document.querySelector("#story-audio").addEventListener("click",function(){
+            //only play audio if it's not already playing
+            if (audioActive == false)
+                playAudio(event.target);
+        })
+        function playAudio(elem){
+            audioActive = true;
             //create audio element
-            audio = document.createElement("audio"),
-            source = "<source src='audio/sites/" + storyAudio + ".mp3'>";
-            //add controls
-            audio.id = "story-audio-controls";
-            audio.controls = true;
-            //add source 
+            let audio = document.createElement("audio");
+            let source = "<source src='audio/sites/" + storyAudio + ".mp3'>";
             audio.insertAdjacentHTML("beforeend",source)
             //insert audio element into document
             document.querySelector("body").append(audio);
             //play audio
             audio.play();
+            //update button
+            elem.innerHTML = "Stop Reading";
+            elem.addEventListener("click",stopAudio)
+            document.querySelectorAll(".close").forEach(function(button){
+                button.addEventListener("click",stopAudio);
+            })
             //remove audio after it finishes playing and close window
             audio.onended = function(){
-                audio.remove();
+                stopAudio();
                 storyModal.hide();
                 //progress story to next stop
                 currentStop++;
                 updateStop();
             }
-        })
+            //stop audio
+            function stopAudio(){
+                //remove audio element
+                audio.pause();
+                audio.remove();
+                //reset button and listener
+                elem.innerHTML = "Read Story Aloud";               
+                elem.removeEventListener("click",stopAudio);
+                //set audio to false
+                playAudio = false;
+            }
+        }
         //activate next button listener for progressing story
         document.querySelector("#next-button").addEventListener("click",function(){
             //progress story to next stop
@@ -526,9 +545,7 @@ Add audio autoplay element
         //activate close listener
         storyElem.addEventListener('hide.bs.modal', updateStop)
         //update stop
-        function updateStop(){
-            if (audio)
-                audio.remove();           
+        function updateStop(){        
             //add mounds if a certain point in the tour is reached
             if (currentStop == 7){
                 addMounds();
@@ -552,8 +569,8 @@ Add audio autoplay element
             }
             //adds location and accuracy information to the map
             if (e.accuracy < 90){
-                circle = L.circle(e.latlng, radius).addTo(map);
-                locationMarker = L.marker(e.latlng).addTo(map);
+                circle = L.circle(e.latlng, {radius:radius, interactive:false}).addTo(map);
+                locationMarker = L.marker(e.latlng,{interactive:false}).addTo(map);
                 //locationMarker = L.marker(e.latlng).addTo(map).bindPopup("You are within " + Math.round(radius) + " meters of this point");
             }
             //if accuracy is less than 60m then stop calling locate function
@@ -568,19 +585,19 @@ Add audio autoplay element
 			}*/
 
             let cZoom = map.getZoom();
-            //map.setView(e.latlng, cZoom);
-            removeFoundMarker(circle, locationMarker);
+            map.setView(e.latlng, cZoom);
+            //removeFoundMarker(circle, locationMarker);
         }
     
         map.on('locationfound', onLocationFound);
 
         //activate location at a regular interval
         window.setInterval( function(){
-			map.locate({
-				setView: true,
-				enableHighAccuracy: true
-				});
-		}, 10000);
+            map.locate({
+                setView: true,
+                enableHighAccuracy: true
+                });
+        }, 5000);
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {
