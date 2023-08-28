@@ -62,6 +62,13 @@ body{
 .read-more-button:hover{
     cursor:pointer;
 }
+/*logo*/
+.uw{
+    width:200px;
+    margin:auto;
+    text-align:center;
+    display:block;
+}
 /**************IMAGE ZOOM*******************/
 .img-zoom{
     position:fixed;
