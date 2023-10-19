@@ -163,6 +163,9 @@ body{
 .dark button:hover{
     background:darkgray !important;
 }
+.dark .navbar-nav, .dark .stops{
+    background:black;
+}
 /*light mode*/
 .light button{
     background:white !important;
@@ -172,23 +175,30 @@ body{
 .light button:hover{
     background:lightgray !important;
 }
+.light .navbar-nav, .light .stops{
+    background:white;
+}
 /**************NAVIGATION BAR********************/
 .navbar{
-    height:60px;
+    height:75px;
     padding-top:0;
     border-bottom:2px dotted gray;
+    z-index: 1500;
 }
 .navbar-brand{
     color:black;
     font-size:28px !important;
     margin-top:0;
 }
+#navbarNav{
+    z-index: 1000;
+}
 .title{
     font-weight:bold;
     margin-top:10px;
     font-size:36px;
 }
-.about{
+.nav-item > p{
     font-size:20px !important;
     text-align:right;
     flex-direction: none;
@@ -196,13 +206,28 @@ body{
     margin-top:10px;
     margin-right:10px;
 }
-.about:hover{
+.nav-item > p:hover{
     cursor:pointer;
     color:lightgray;
 }
+
+.stops{
+    display:none;
+    position:absolute;
+    z-index: 10000;
+    padding: 20px;
+}
+.list-stop{
+    margin-bottom:0 !important;
+    padding: 10px 5px;
+}
+.list-stop:hover{
+    cursor:pointer;
+    background:lightgray;
+}
 /***************MAP********************/
 #map{
-    height:calc(100vh - 55px);
+    height:calc(100vh - 70px);
     width:100vw;
 }
 .leaflet-popup-content-wrapper{
@@ -215,6 +240,22 @@ body{
 .location-control-container{
     width: 140px;
     height: 50px;
+}
+.nav-collapse{
+    font-family:'Trebuchet MS', sans-serif !important;
+    font-weight:bold;
+    font-size:50px;
+    z-index:100000;
+    text-align:center;  
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    border-left:2px black solid;
+}
+.nav-collapse:hover{
+    cursor: pointer;
+    background:lightgray;    
+}
+.location-control-container{
     font-family:'Trebuchet MS', sans-serif !important;
     font-weight:bold;
     border: 2px solid lightgray;
@@ -236,6 +277,9 @@ body{
     font-size:18px;
 }
 /**************MODAL STYLING********************/
+.modal{
+    z-index:2000;
+}
 .modal-dialog{
     width: 100vw;
     max-width: none;
@@ -324,7 +368,18 @@ body{
         width: 50% !important;
         padding-left:15px;
     }
-    
+    /*navigation bar*/
+    .navbar-nav{
+        flex-direction: row !important;
+        visibility:visible !important;
+    }
+    .nav-collapse{
+        display:none;
+    }    
+    .stops{
+        right: 10px;
+        top: 75px;
+    }
 }
 @media screen and (min-width: 720px) and (max-width: 1199px) {
     .story-block, #story-title-container{
@@ -348,6 +403,18 @@ body{
         width: 50% !important;
         padding-left:15px;
     }
+    /*navigation bar*/
+    .navbar-nav{
+        flex-direction: row !important;
+        visibility:visible !important;
+    }
+    .nav-collapse{
+        display:none;
+    } 
+    .stops{
+        right: 10px;
+        top: 75px;
+    }
 }
 @media screen and (min-width: 540px) and (max-width: 719px) {
     .story-block, #story-title-container{
@@ -370,6 +437,18 @@ body{
         flex: 0 0 auto;
         width: 50% !important;
     }
+    /*navigation bar*/
+    .navbar-nav{
+        flex-direction: row !important;
+        visibility:visible !important;
+    }
+    .nav-collapse{
+        display:none;
+    } 
+    .stops{
+        right: 10px;
+        top: 75px;
+    }
 }
 @media screen and (max-width: 539px) {
     .story-block, #story-title-container{
@@ -387,13 +466,41 @@ body{
     .block-right-inline{
         width: 100% !important;
     }
-    .title, .about{
-        margin-top:5px;
-    }
-    .about{
-        margin-right:0;
-    }
     .tour-desc{
         margin-top:20px;
+    }
+    /*navigation bar*/
+    .navbar-nav{
+        position: absolute;
+        visibility: hidden;
+        left: 0;
+        z-index:100000;
+        width:100%;
+        top: 75px;
+    }
+    .nav-collapse{
+        position:absolute;
+        bottom:0;
+        right:0;
+        margin:0 !important;
+        z-index: 1000;
+    }
+    .menu-collapse{
+        display:block;
+    }
+    .nav-item{
+        width:100%;
+    }
+    .nav-item > p{
+        text-align:left !important;
+        margin:0;
+        padding:10px;
+    }
+    .stops, .list-stop{
+        width:100%;
+    }
+    /*location control*/
+    .location-control-container{
+        margin:0 !important;
     }
 }

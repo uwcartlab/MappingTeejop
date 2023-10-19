@@ -81,7 +81,47 @@ Add audio autoplay element
                 }
             });
         })
+        document.querySelector(".nav-collapse").addEventListener("click",collapseMenu)
+        //stops menu events
+        //navigation bar stops menu
+        document.querySelector(".stop").addEventListener("click",function(){
+            let w = window.screen.width,
+                h = window.screen.height;
 
+            if ( document.querySelector(".stops").style.display == "block"){
+                document.querySelector(".stops").style.display = "none";
+                document.querySelector(".stop").innerHTML = "Stops&#9660";
+
+                //document.querySelector(".navbar-nav").style.top = (h - 140) + "px";
+            }
+            else{
+                document.querySelector(".stops").style.display = "block";
+                document.querySelector(".stop").innerHTML = "Stops&#9650";
+                //responsive positioning
+                /*let stopHeight = document.querySelector(".navbar-nav").clientHeight + document.querySelector(".stops").clientHeight;
+                if (w <= 539){
+                    document.querySelector(".navbar-nav").style.top = (h - stopHeight) + "px";
+                }*/
+            }
+        })
+        //close stops menu when clicking elsewhere on the page
+        document.querySelector("body").addEventListener("click",function(event){
+            if (event.target.className != "stops" && event.target.className != "stop"){
+                if (document.querySelector(".stops").style.display == "block"){
+                    document.querySelector(".stops").style.display = "none";
+                    document.querySelector(".stop").innerHTML = "Stops&#9660";
+                }
+            }
+        })
+    }
+    //collasable menu
+    function collapseMenu(){
+        if (document.querySelector(".navbar-nav").style.visibility == "visible"){
+            document.querySelector(".navbar-nav").style.visibility = "hidden";
+        }
+        else{
+            document.querySelector(".navbar-nav").style.visibility = "visible";
+        }
     }
     //function to create pronunciation listeners
     function pronounce(){
@@ -139,6 +179,7 @@ Add audio autoplay element
     function tourListeners(){
         document.querySelectorAll(".tour-button").forEach(function(elem){
             elem.addEventListener("click",function(){
+                document.querySelector(".stops").innerHTML = "";
                 tour = elem.id;
                 currentStop = 1;
             })
@@ -245,6 +286,7 @@ Add audio autoplay element
         });
 
         map.addControl(new LocationControl());
+
 
         document.querySelector(".location-control-container").addEventListener("click",getLocation);
     }
@@ -404,6 +446,24 @@ Add audio autoplay element
     //filter visible features on the map based on the selected route
     function tourFeature(feature){
         if (feature.properties.tours.indexOf(tour) != -1){
+            //add stops to the stop list menu
+            if (feature.properties.name){
+                let point = tour == "explore" ? "" : feature.properties.pointOnTour + ". ";
+                //create new <a> element for the current stop on the tour
+                let listStop = document.createElement("p")
+                    listStop.innerHTML = point + feature.properties.name;
+                    listStop.className = "list-stop";
+                //add listener to jump to stop
+                listStop.addEventListener("click",function(){
+                    document.querySelector(".stops").style.display = "none";
+                    document.querySelector(".stop").innerHTML = "Stops&#9660";
+                    collapseMenu();
+                    currentStop = feature.properties.pointOnTour;
+                    createSiteStory(feature)
+                })
+                //add element to list
+                document.querySelector(".stops").insertAdjacentElement("beforeend",listStop)
+            }
             return true;
         }
     }
@@ -474,6 +534,10 @@ Add audio autoplay element
             if (block.content){
                 div.insertAdjacentHTML('beforeend', "<p class='block-text " + position + "'>" + block.content + "</p>")
             }
+            //tour specific content, deactivate for exploration mode. most often used for tour conclusions
+            if (block.tour_content && tour != 'explore'){
+                div.insertAdjacentHTML('beforeend', "<p class='block-text " + position + "'>" + block.tour_content + "</p>")
+            }
             //source list
             if (block.sources){
                 var sources = "";
@@ -481,7 +545,6 @@ Add audio autoplay element
                     sources += "<p>" + source.title + " <a href='" + source.link + "'>" + source.linkText + "</a></p>";
                 })
                 div.insertAdjacentHTML('beforeend', sources)
-
             }
             //insert story block into modal
             storyContent.insertAdjacentElement("beforeend", div)
