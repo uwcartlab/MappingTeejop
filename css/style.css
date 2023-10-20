@@ -267,6 +267,9 @@ body{
     z-index:100000;
     text-align:center;  
     padding-top:10px;
+    position:absolute;
+    bottom:0 !important;
+    left:0 !important;
 }
 .location-control-container:hover{
     background-color: #f4f4f4;

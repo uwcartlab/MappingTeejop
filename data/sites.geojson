@@ -15,22 +15,22 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/our_shared_future.jpg",
+                        "image": "img/site_photos/our_shared_future2.jpg",
                         "alt": "A metal plaque that reads: 'Our Shared Future. The University of Wisconsin–Madison occupies ancestral Ho-Chunk land, a place their nation has called Teejop (day-JOPE) since time immemorial. In an 1832 treaty, the Ho-Chunk were forced to cede this territory. Decades of ethnic cleansing followed when both the federal and state government repeatedly, but unsuccessfully, sought to forcibly remove the Ho-Chunk from Wisconsin. This history of colonization informs our shared future of collaboration and innovation. Today, UW–Madison respects the inherent sovereignty of the Ho-Chunk Nation, along with the eleven other First Nations of Wisconsin. 2018'",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000uIjms0pH0nc?terms=&'>UW Photo Collection</a>"
                     },
                     {
-                        "position": "left",
                         "content": "During fall 2019 the University of Wisconsin took an initial step in repairing and improving its relationship with the Ho-Chunk Nation with the unveiling of the Our Shared Future heritage marker. Our Shared Future represents UW-Madison's commitment to respect the inherent sovereignty of the Ho-Chunk Nation and the other First Nations of Wisconsin.”<sup>1</sup>"
+                    },
+                    {
+                        "position": "left",
+                        "content": "This marker, a plaque that was permanently installed near South Hall in October 2021 is a physical reminder to all who pass by of the deep Ho-Chunk history of this place, the University of Wisconsin campus, including forced land cession, ethnic cleansing, and colonization–terms intentionally laid bare on the marker."
                     },
                     {
                         "position": "right",
                         "image": "img/our_shared_future_ceremony.jpg",
                         "alt": "A group of about thirty to forty people, all smiling, stand in front of plaque that reads 'Our Shared Future'. There other text on the plaque, but it is not legible at the distance of the photograph. There is also a wooden podium that reads 'Wisconsin'. There are trees and a single tan-brick building in the background.",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>UW Photo Collection</a>"
-                    },
-                    {
-                        "content": "This marker, a plaque that was permanently installed near South Hall in October 2021 is a physical reminder to all who pass by of the deep Ho-Chunk history of this place, the University of Wisconsin campus, including forced land cession, ethnic cleansing, and colonization–terms intentionally laid bare on the marker."
                     },
                     {
                         "content": "In addition to the marker, the larger Our Shared Future Initiative works to provide ongoing campus-based learning opportunities for the larger community as the University works to heal and strengthen relationships with the Ho-Chunk Nation."
@@ -144,9 +144,18 @@
                         "image": "img/site_photos/tree_of_peace.jpg",
                         "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'.",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
+                    },
+                    {
+                        "content": "While UW-Madison celebrates its 175th Anniversary as an academic institution, the university seeks to also acknowledge that the campus occupies the ancestral lands of the Ho-Chunk people who have lived in the area since time immemorial."
+                    },
+                    {
+                        "content": "The Ho-Chunk banners, featured prominently at the front of Bascom Hall, are made up of three panels with designs inspired by Ho-Chunk beadwork. The center panel highlights the Thunderbird, associated with the enforcement of peace, as well as two connected Water Spirits. These forms, referencing the upper and lower worlds, are significant in Ho-Chunk culture and can be seen also in mound form on Observatory Hill."
+                    },
+                    {
+                        "content": "Along the bottom of each panel are a series of twelve figures representing the twelve clans (family groups) in which the Ho-Chunk Nation is organized. The colors and symbols used further reflect Ho-Chunk cultural traditions, corresponding with specific clans and the defining qualities that clan members strive to emulate."
                     }
                 ],
-                "label": null
+                "label": "Walk to the front of <b>Bascom Hall</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -195,7 +204,7 @@
                         ]
                     }
                 ],
-                "label": "Go to <b>Bascom Hall</b>. Look up at the flagpole."
+                "label": "Stop by the flagpole next to <b>Bascom Hall</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -252,7 +261,7 @@
                         ]
                     }
                 ],
-                "label": "Travel down <b>Observatory Drive</b> until you reach the <b>Blackhawk</b> marker. It is just south of the clock tower next to the social sciences building."
+                "label": null
             },
             "geometry": {
                 "type": "Point",
@@ -267,7 +276,7 @@
             "properties": {
                 "pk": 6,
                 "pointOnTour": 6,
-                "name": "Bird Effigy",
+                "name": "Effigy: Bird Form",
                 "audio": null,
                 "tours": [
                     "tour1",
@@ -275,12 +284,18 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/tree_of_peace.jpg",
+                        "image": "img/site_photos/effigy-bird-form.jpg",
                         "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'.",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
+                    },
+                    {
+                        "content":"Truman Lowe, an internationally acclaimed Ho-Chunk artist, incorporated his culture and identity into a lot of his work. One such piece is the aluminum Effigy: Bird Form sculpture created by Lowe in 1997. This sculpture was shown at the White House for a year and now has returned home to ancestral Ho-Chunk land. The University of Wisconsin-Madison has placed this sculpture at the corner of Van Hise Hall and University Driveto honor Lowe’s life and work."
+                    },
+                    {
+                        "content":"Lowe once described his intentions and inspiration for this sculpture as “I wanted my inspiration for this sculpture to come from a culture that inhabited this area and left its mark with earthen mounds – a unique way of showing respect and living with the Earth. This is my attempt to pay my respects, to celebrate the longevity of our history and our traditions. We have endured and I know we will survive”."
                     }
                 ],
-                "label": null
+                "label":null
             },
             "geometry": {
                 "type": "Point",

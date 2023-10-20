@@ -224,6 +224,8 @@ Add audio autoplay element
         document.getElementById('splash-modal').addEventListener('hide.bs.modal', function (event) {
             addRoutes();
             addSiteData();
+            //clear stop list
+            document.querySelector(".stops").innerHTML = "";
         })
 
         //activate listener for the about button
@@ -393,17 +395,20 @@ Add audio autoplay element
         //set current and previous route to purple, and other routes to gray
         function routeColor(end){
             if (end <= currentStop){
-                //zoom to current route
-                let coord = feature.geometry.coordinates[0],
+                if (end == currentStop){
+                    //zoom to current route
+                    let coord = feature.geometry.coordinates[0],
                     bounds = [
                         [coord[0][1], coord[0][0]],
                         [coord[coord.length-1][1], coord[coord.length-1][0]]
                     ];
-                map.flyToBounds(bounds);
-                //route popup
-                let center = [coord[Math.round(coord.length/2)][1], coord[Math.round(coord.length/2)][0]]
-                if (feature.properties.label)
-                    L.popup({className:"route-popup"}).setLatLng(center).setContent(feature.properties.label).openOn(map);
+                    map.flyToBounds(bounds);
+                    //route popup
+                    let center = [coord[Math.round(coord.length/2)][1], coord[Math.round(coord.length/2)][0]]
+                    if (feature.properties.label)
+                        L.popup({className:"route-popup"}).setLatLng(center).setContent(feature.properties.label).openOn(map);
+                }
+                
                 return activeColor;
             }
             else{
