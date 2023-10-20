@@ -215,7 +215,7 @@ body{
     display:none;
     position:absolute;
     z-index: 10000;
-    padding: 20px;
+    padding: 20px;  
 }
 .list-stop{
     margin-bottom:0 !important;
