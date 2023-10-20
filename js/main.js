@@ -243,7 +243,7 @@ Add audio autoplay element
     //create the map
     function createMap(){
         //define map options
-        let minZoom = 15,
+        let minZoom = 16,
             maxZoom = 18,
             bounds = ([
                 [43.0402, -89.4942],
@@ -275,13 +275,13 @@ Add audio autoplay element
         //create location control
         var LocationControl = L.Control.extend({
             options:{
-                position:"bottomleft"
+                position:"topright"
             },
             onAdd: function () {
                 // create the control container with a particular class name
                 var container = L.DomUtil.create('div', 'location-control-container');
     
-                container.innerHTML = '<p> Where am I?</p>';
+                container.innerHTML = '<p>Where am I?</p>';
     
                 return container;
             }
@@ -625,7 +625,7 @@ Add audio autoplay element
     }
     //location services
     function getLocation(){
-        map.locate({setView:false, watch:true, enableHighAccuracy: true} );
+        map.locate({setView:true, watch:true, enableHighAccuracy: true} );
     
         function onLocationFound(e){
             let radius = e.accuracy / 2;
@@ -652,8 +652,8 @@ Add audio autoplay element
 				map.setBearing(e.heading);
 			}*/
 
-            let cZoom = map.getZoom();
-            map.setView(e.latlng, cZoom);
+            //let cZoom = map.getZoom();
+            //map.setView(e.latlng, cZoom);
             //removeFoundMarker(circle, locationMarker);
         }
     
@@ -662,7 +662,7 @@ Add audio autoplay element
         //activate location at a regular interval
         window.setInterval( function(){
             map.locate({
-                setView: true,
+                setView: false,
                 enableHighAccuracy: true
                 });
         }, 5000);
