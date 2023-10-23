@@ -6,16 +6,28 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /**************FONTS*******************/
 @font-face {
-    font-family: junction;
-    src: url(fonts/junction-regular.woff);
+    font-family: bitter;
+    src: url(fonts/Bitter-Regular.woff);
 }
 @font-face {
-    font-family: junction;
-    src: url(fonts/junction-bold.woff);
+    font-family: bitter;
+    src: url(fonts/Bitter-Italic.woff);
+    font-style:italic;
+}
+@font-face {
+    font-family: bitter;
+    src: url(fonts/Bitter-Bold.woff);
     font-weight:bold;
 }
+@font-face {
+    font-family: bitter;
+    src: url(fonts/Bitter-BoldItalic.woff);  
+    font-weight:bold;
+    font-style:italic;
+
+}
 body{
-    font-family:junction !important;
+    font-family:bitter !important;
     /*font-family:'Georgia', serif !important;*/
 }
 .font-size{
@@ -27,6 +39,7 @@ body{
 /**************SPLASH SCREEN*******************/
 .modal-header > h1{
     font-weight: bold;
+    font-size:36px;
 }
 .modal-header{
     background:white;
@@ -59,6 +72,9 @@ body{
 .translation{
     color:gray;
     font-size:18px;
+}
+.explore{
+    border-bottom: 2px lightgray dotted;
 }
 /*tour text*/
 .read-more-text{
@@ -113,7 +129,7 @@ body{
     height:30px;
 }
 .credit{
-    margin-top:50px;
+    margin-top:15px;
 }
 /**************ACCESSIBILITY********************/
 /*text size*/
@@ -240,7 +256,7 @@ body{
     width:100vw;
 }
 .leaflet-popup-content-wrapper{
-    font-family:junction !important;
+    font-family:bitter !important;
     width:auto;
 }
 .leaflet-popup-content{
@@ -264,7 +280,7 @@ body{
     background:lightgray;    
 }
 .location-control-container{
-    font-family:junction !important;
+    font-family:bitter !important;
     font-weight:bold;
     border: 2px solid lightgray;
     border-top-left-radius: 2px;
