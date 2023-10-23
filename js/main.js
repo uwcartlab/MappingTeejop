@@ -261,6 +261,8 @@ Add audio autoplay element
                 closeOnZeroBearing: false
             }
         }).setView([43.075, -89.40], 16);
+
+        L.control.scale().addTo(map);
         //set intial map rotation        
         //map.compassBearing.enable();
         map.setBearing(90);
