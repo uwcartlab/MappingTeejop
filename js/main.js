@@ -261,13 +261,13 @@ Add audio autoplay element
                 closeOnZeroBearing: false
             }
         }).setView([43.075, -89.40], 16);
-
-        L.control.scale().addTo(map);
+        //add scale bar 
+        L.control.scale({position:'bottomright'}).addTo(map);
         //set intial map rotation        
         //map.compassBearing.enable();
         map.setBearing(90);
         //load custom basemap created using QTiles        
-        let baseLayer = L.tileLayer('data/basemap_light4/{z}/{x}/{y}.jpg', {
+        let baseLayer = L.tileLayer('data/basemap_light5/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,       

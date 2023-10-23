@@ -287,6 +287,11 @@ body{
 .location-control-container p{
     margin:0;
 }
+/*scale bar*/
+.leaflet-control-scale{
+    margin-bottom:15px !important;
+    margin-right:15px !important;
+}
 /*route labels*/
 .route-popup > div{
     font-size:18px;
