@@ -6,43 +6,34 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /**************FONTS*******************/
 @font-face {
-    font-family: bitter;
-    src: url(fonts/Bitter-Regular.woff);
+    font-family: karma;
+    src: url(fonts/Karma-Regular.woff);
 }
 @font-face {
-    font-family: bitter;
-    src: url(fonts/Bitter-Italic.woff);
-    font-style:italic;
-}
-@font-face {
-    font-family: bitter;
-    src: url(fonts/Bitter-Bold.woff);
+    font-family: karma;
+    src: url(fonts/Karma-Bold.woff);
     font-weight:bold;
 }
-@font-face {
-    font-family: bitter;
-    src: url(fonts/Bitter-BoldItalic.woff);  
-    font-weight:bold;
-    font-style:italic;
 
-}
 body{
-    font-family:bitter !important;
+    font-family:karma !important;
     /*font-family:'Georgia', serif !important;*/
 }
 .font-size{
-    font-size:18px;
+    font-size:20px;
 }
 .font-size .close-button{
-    font-size:18px; 
+    font-size:20px; 
 }
 /**************SPLASH SCREEN*******************/
 .modal-header > h1{
     font-weight: bold;
-    font-size:36px;
+    font-size:42px;
+    margin-bottom: 0;
 }
 .modal-header{
     background:white;
+    padding: 1rem 1rem 0.5rem 1rem !important;
 }
 .modal-dialog{
     padding-left:0 !important;
@@ -135,8 +126,7 @@ body{
 /*text size*/
 .text-size{
     width:50px !important;
-    height:35px !important;
-    line-height:20px;
+    height:40px !important;
     display:inline-block;
     position:relative;
     vertical-align:bottom; /*ensures buttons are aligned with the bottom of the div*/
@@ -221,7 +211,11 @@ body{
 .title{
     font-weight:bold;
     margin-top:15px;
-    font-size:36px;
+    font-size:42px;
+}
+.title:hover{
+    cursor:pointer;
+    color:darkgray;
 }
 .nav-item > p{
     font-size:20px !important;
@@ -241,6 +235,7 @@ body{
     position:absolute;
     z-index: 10000;
     padding: 20px;  
+    font-size:20px;
 }
 .list-stop{
     margin-bottom:0 !important;
@@ -256,7 +251,7 @@ body{
     width:100vw;
 }
 .leaflet-popup-content-wrapper{
-    font-family:bitter !important;
+    font-family:karma !important;
     width:auto;
 }
 .leaflet-popup-content{
@@ -280,7 +275,7 @@ body{
     background:lightgray;    
 }
 .location-control-container{
-    font-family:bitter !important;
+    font-family:karma !important;
     font-weight:bold;
     border: 2px solid lightgray;
     border-top-left-radius: 2px;
@@ -307,6 +302,10 @@ body{
 .leaflet-control-scale{
     margin-bottom:15px !important;
     margin-right:15px !important;
+}
+.leaflet-control-scale-line{
+    font-family:karma !important;
+    font-size:14px;
 }
 /*route labels*/
 .route-popup > div{

@@ -229,14 +229,16 @@ Add audio autoplay element
         })
 
         //activate listener for the about button
-        document.querySelector(".about").addEventListener("click", function(){
-            splashModal.show();
-            //hide expanded text
-            document.querySelectorAll(".read-more-button").forEach(function(button){
-                button.innerHTML = "Read More";
-            })
-            document.querySelectorAll(".read-more-text").forEach(function(text){
-                text.style.display = "none";
+        document.querySelectorAll(".about, .title").forEach(function(elem){
+            elem.addEventListener("click", function(){
+                splashModal.show();
+                //hide expanded text
+                document.querySelectorAll(".read-more-button").forEach(function(button){
+                    button.innerHTML = "Read More";
+                })
+                document.querySelectorAll(".read-more-text").forEach(function(text){
+                    text.style.display = "none";
+                })
             })
         })
     }
@@ -267,7 +269,7 @@ Add audio autoplay element
         //map.compassBearing.enable();
         map.setBearing(90);
         //load custom basemap created using QTiles        
-        let baseLayer = L.tileLayer('data/basemap_light5/{z}/{x}/{y}.jpg', {
+        let baseLayer = L.tileLayer('data/basemap_light6/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,       
@@ -350,7 +352,7 @@ Add audio autoplay element
             fillColor:siteFillColor(feature.properties.pointOnTour),
             fillOpacity:1,
             opacity:1,
-            radius:12,
+            radius:13,
             weight:2
         }        
         //set current stop to purple, or all stops if exploration mode is active
@@ -631,7 +633,6 @@ Add audio autoplay element
     
         function onLocationFound(e){
             let radius = e.accuracy / 2;
-    
             //removes marker and circle before adding a new one
             if (locationMarker){
                 map.removeLayer(circle);
@@ -667,7 +668,7 @@ Add audio autoplay element
                 setView: false,
                 enableHighAccuracy: true
                 });
-        }, 5000);
+        }, 2500);
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {
