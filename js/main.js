@@ -26,7 +26,7 @@ Add audio autoplay element
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
     let tour = "tour1", map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
     //colors
-    let activeColor = "#52527a", inactiveColor = "#bfbfbf";
+    let activeColor = "#000000", inactiveColor = "#808080";
     //color mode
     let colorMode = "light"
     //accessibility settings
