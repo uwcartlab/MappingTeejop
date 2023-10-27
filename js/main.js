@@ -245,7 +245,7 @@ Add audio autoplay element
     //create the map
     function createMap(){
         //define map options
-        let minZoom = 16,
+        let minZoom = 17,
             maxZoom = 18,
             bounds = ([
                 [43.0402, -89.4942],
@@ -265,6 +265,22 @@ Add audio autoplay element
         }).setView([43.075, -89.40], 16);
         //add scale bar 
         L.control.scale({position:'bottomright'}).addTo(map);
+        //add north indicator
+        var northArrow = L.Control.extend({
+            options:{
+                position:"bottomright"
+            },
+            onAdd: function () {
+                // create the control container with a particular class name
+                var container = L.DomUtil.create('div', 'north-arrow');
+    
+                container.innerHTML = '<p>North &#11157;</p>';
+    
+                return container;
+            }
+        });
+
+        map.addControl(new northArrow());
         //set intial map rotation        
         //map.compassBearing.enable();
         map.setBearing(90);
