@@ -44,6 +44,10 @@ body{
     --bs-gutter-x:0;
     min-height: 100vh;
 }
+/*how to section*/
+#how-to-use > img{
+    width:150px;
+}
 /*tour selection*/
 .tour{
     padding: 15px 0px;

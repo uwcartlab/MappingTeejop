@@ -16,8 +16,8 @@
                 "story": [
                     {
                         "image": "img/site_photos/our_shared_future2.jpg",
-                        "alt": "A metal plaque that reads: 'Our Shared Future. The University of Wisconsin–Madison occupies ancestral Ho-Chunk land, a place their nation has called Teejop (day-JOPE) since time immemorial. In an 1832 treaty, the Ho-Chunk were forced to cede this territory. Decades of ethnic cleansing followed when both the federal and state government repeatedly, but unsuccessfully, sought to forcibly remove the Ho-Chunk from Wisconsin. This history of colonization informs our shared future of collaboration and innovation. Today, UW–Madison respects the inherent sovereignty of the Ho-Chunk Nation, along with the eleven other First Nations of Wisconsin. 2018'",
-                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000uIjms0pH0nc?terms=&'>UW Photo Collection</a>"
+                        "alt": "A metal plaque situated next to a sidewalk on the side of Bascom Hill—the 'Our Shared Future' marker.",
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "During fall 2019 the University of Wisconsin took an initial step in repairing and improving its relationship with the Ho-Chunk Nation with the unveiling of the Our Shared Future heritage marker. Our Shared Future represents UW-Madison's commitment to respect the inherent sovereignty of the Ho-Chunk Nation and the other First Nations of Wisconsin.”<sup>1</sup>"
@@ -30,10 +30,13 @@
                         "position": "right",
                         "image": "img/our_shared_future_ceremony.jpg",
                         "alt": "A group of about thirty to forty people, all smiling, stand in front of plaque that reads 'Our Shared Future'. There other text on the plaque, but it is not legible at the distance of the photograph. There is also a wooden podium that reads 'Wisconsin'. There are trees and a single tan-brick building in the background.",
-                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>UW Photo Collection</a>"
+                        "caption": "Ho-Chunk dedication of the Our Shared Future marker in 2019. <a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>Image from UW Photo Collection</a>"
                     },
                     {
                         "content": "In addition to the marker, the larger Our Shared Future Initiative works to provide ongoing campus-based learning opportunities for the larger community as the University works to heal and strengthen relationships with the Ho-Chunk Nation."
+                    },
+                    {
+                        "content": "The full text of the marker reads: <i>Our Shared Future. The University of Wisconsin–Madison occupies ancestral Ho-Chunk land, a place their nation has called Teejop (day-JOPE) since time immemorial. In an 1832 treaty, the Ho-Chunk were forced to cede this territory. Decades of ethnic cleansing followed when both the federal and state government repeatedly, but unsuccessfully, sought to forcibly remove the Ho-Chunk from Wisconsin. This history of colonization informs our shared future of collaboration and innovation. Today, UW–Madison respects the inherent sovereignty of the Ho-Chunk Nation, along with the eleven other First Nations of Wisconsin. 2018'</i>"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -71,7 +74,7 @@
                     {
                         "image": "img/site_photos/lincoln.jpg",
                         "alt": "A metal statue of Abraham Lincoln sits on a cement pedestal in from of Bascom Hall, University of Wisconsin-Madison. The building has white columns in the front, behind which a red and white badger flag is located. The building itself is tan brick and contains many windows.",
-                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000st6Vn4_o44c?terms=abraham%20lincoln%20statue&'>UW Photo Collection</a>"
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "Perhaps most known for his centrality as US President during the US Civil War (1861-1865), Abraham Lincoln’s role in the US-Dakota War has been largely overshadowed.<sup>1</sup>"
@@ -141,21 +144,28 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/tree_of_peace.jpg",
-                        "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'.",
-                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
+                        "image": "img/site_photos/ho_chunk_banner.jpg",
+                        "alt": "A view of Bascom Hall, on the UW Madison Campus, with the Ho-Chunk banners hung between the white columns at the front of the building. There are three panels to the banner, and the texture resembles beadwork. The center panel has a representation of a thunderbird in the upper middle, and two water spirits beneath it. The left and right panels are symmetrical, each containing two geometric representations of the four lakes of Teejop. Beneath each panel are four symbols representing the Ho-Chunk clans, resulting in twelve total.",
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "While UW-Madison celebrates its 175th Anniversary as an academic institution, the university seeks to also acknowledge that the campus occupies the ancestral lands of the Ho-Chunk people who have lived in the area since time immemorial."
                     },
                     {
+                        "position":"left",
+                        "image": "img/site_photos/ho_chunk_banner_ceremony.jpg",
+                        "alt": "A view of Bascom Hill—with Bascom Hall in the background, showing the Ho-Chunk banner—on November 9th, 2023, the day the banner was unveiled. There are small groups of people gathered on the grassy hill. It is a sunny, clear day, and there are several trees with different colored leaves.",
+                        "caption": "The banner on the day of its unveiling ceremony. Photo by Gareth Baldrica-Franklin"
+                    },
+                    {
+                        "position":"right",
                         "content": "The Ho-Chunk banners, featured prominently at the front of Bascom Hall, are made up of three panels with designs inspired by Ho-Chunk beadwork. The center panel highlights the Thunderbird, associated with the enforcement of peace, as well as two connected Water Spirits. These forms, referencing the upper and lower worlds, are significant in Ho-Chunk culture and can be seen also in mound form on Observatory Hill."
                     },
                     {
                         "content": "Along the bottom of each panel are a series of twelve figures representing the twelve clans (family groups) in which the Ho-Chunk Nation is organized. The colors and symbols used further reflect Ho-Chunk cultural traditions, corresponding with specific clans and the defining qualities that clan members strive to emulate."
                     }
                 ],
-                "label": "Walk to the front of <b>Bascom Hall</b>."
+                "label": "Walk to the front of <b>Bascom Hall</b> to see the <b>Ho-Chunk banner</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -178,15 +188,28 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/flag.jpg",
-                        "alt": "A person is holding white and blue flag with a circular seal reading: 'The seal of the Ho-Chunk'.",
-                        "caption": "<a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Photo by Bryce Richter, UW Madison News</a>"
+                        "image": "img/site_photos/ho_chunk_flag.jpg",
+                        "alt": "A blue and white flag—the flag of the Ho-Chunk nation—flapping on a flagpole in front of the gray bricks of Bascom Hall on the UW-Madison campus.",
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "November 5th, 2021 marked a historic occasion. For the first time ever, the Ho-Chunk Nation flag flew high over Bascom Hill and the University of Wisconsin campus. This flag raising, marked by a formal ceremony with Ho-Chunk elders, tribal members, and students in attendance was a component of the Our Shared Future Initiative that has worked to affirm “the special relationship between UW-Madison and the Ho-Chunk Nation that grows from the location of the campus on the ancestral Ho-Chunk land known as <b class='pronounce'>Teejop</b>.”<sup>1</sup>"
                     },
                     {
-                        "content": "As we enter into Fall 2022, the University of Wisconsin and the Ho-Chunk Nation will come together again to fly the Ho-Chunk Nation flag over Bascom Hill. The first flag raising of the 2022-2023 academic year, on September 15th, will be followed by flag raisings on Indigenous Peoples Day, on October 10th, and for the entirety of the month of November as the campus community recognizes and celebrates Native November.<sup>2</sup>"
+                        "position": "left",
+                        "image": "img/site_photos/flag.jpg",
+                        "alt": "A person is holding white and blue flag with a circular seal reading: 'The seal of the Ho-Chunk'.",
+                        "caption": "2021 Ho-Chunk flag dedication ceremony. <a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Photo by Bryce Richter, UW Madison News.</a>"
+                    },
+                    {
+                        "position": "right",
+                        "content": "Unfortunately, the Ho-Chunk Nation flag, flying high above our university, is not a permanent feature. Instead, the flag of the sovereign Ho-Chunk Nation, whose homelands UW-Madison occupies, is currently only flown for certain pre-selected dates and observances, in accordance with UW-Madison and State of Wisconsin flag policy."
+                    },
+                    {
+                        "content": "In 2022, the Ho-Chunk Nation flag was raised over Bascon on September 15th, in recognition of Treaty Day, on October 10th for Indigenous Peoples Day, and during the entirety of November—the National Native American Heritage month.<sup>2</sup>"
+                    },
+                    {
+                        "content": "Work between the university and the Ho-Chunk Nation to ensure the Ho-Chunk Nation flag, flying high above Bascom, becomes a more common feature on our campus is ongoing."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -227,15 +250,22 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/blackhawk.jpg",
-                        "alt": "A metal plaque that reads: 'Black Hawk - Sauk Chief retreated through these grounds July 21, 1832 pursued by militia and U.S regulars. Placed by the class of 1888, U.W, June 17th, 1913.'.",
-                        "caption": "Photo by Gareth Baldrica-Franklin"
+                        "image": "img/site_photos/blackhawk_marker2.jpg",
+                        "alt": "A wide sidewalk with a series of metal bike racks next to small collection of bushes. A metal plaque on a short standing stone sites in front of the bushes—the Black Hawk marker. The Social Science Building of UW-Madison can be seen in the background.",
+                        "caption": "The Black Hawk Marker can be seen in the lower right of the photo. Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "The Black Hawk Marker, located outside of Sewell Social Science Hall, is a present-day marker of Black Hawk’s pursuit by the U.S. militia on July 21st, 1832, in what has become known as the Battle of Wisconsin Heights.<sup>1</sup>"
                     },
                     {
+                        "position":"left",
                         "content": "Just over one week later, on August 1st, 1832, Black Hawk and his men encountered a steamboat aptly named the Warrior as they attempted to cross the Mississippi River. Though Black Hawk attempted to surrender, his words were not understood and he and his men faced open fire. This was a pivotal moment in the Black Hawk War as Black Hawk separated from the larger party to seek safety north with the Ho-Chunk and Ojibwe.<sup>2</sup> Here, Black Hawk, who also led his people during the War of 1812, escaped and was eventually captured near Wisconsin Dells.<sup>3</sup>"
+                    },
+                    {
+                        "position":"right",
+                        "image": "img/site_photos/blackhawk.jpg",
+                        "alt": "A metal plaque that reads: 'Black Hawk - Sauk Chief retreated through these grounds July 21, 1832 pursued by militia and U.S regulars. Placed by the class of 1888, U.W, June 17th, 1913.'.",
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "In its entirety, the plaque reads, <i>Black Hawk, Sauk Chief, retreated through these grounds July 21st, 1832 pursued by militia and U.S. regulars. Placed by the class of 1888. U.W. June 17, 1913.</i>"
@@ -261,7 +291,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Travel down <b>Observatory Drive</b> until you reach the <b>Blackhawk Marker</b>. It is just south of the clock tower next to the social sciences building."            
             },
             "geometry": {
                 "type": "Point",
@@ -285,17 +315,27 @@
                 "story": [
                     {
                         "image": "img/site_photos/effigy-bird-form.jpg",
-                        "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'.",
-                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000XAauZ5XFZYQ?terms=Tree%20of%20Peace&'>UW Photo Collection</a>"
+                        "alt": "A metal sculpture sitting on a grassy hill, with trees in the background. The sculpture is comprised of curved tubes of metal, arranged and connected to one another into the shape of a bird. The 'head' of the sculpture is facing the center of the photo, while its wings stretch to the far left and right.",
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
-                        "content":"Truman Lowe, an internationally acclaimed Ho-Chunk artist, incorporated his culture and identity into a lot of his work. One such piece is the aluminum Effigy: Bird Form sculpture created by Lowe in 1997. This sculpture was shown at the White House for a year and now has returned home to ancestral Ho-Chunk land. The University of Wisconsin-Madison has placed this sculpture at the corner of Van Hise Hall and University Driveto honor Lowe’s life and work."
+                        "content": "Truman Lowe, an internationally acclaimed Ho-Chunk artist, incorporated his culture and identity into a lot of his work. One such piece is the aluminum Effigy: Bird Form sculpture created by Lowe in 1997. This sculpture was shown at the White House for a year and now has returned home to ancestral Ho-Chunk land. The University of Wisconsin-Madison has placed this sculpture at the corner of Van Hise Hall and University Driveto honor Lowe’s life and work."
                     },
                     {
-                        "content":"Lowe once described his intentions and inspiration for this sculpture as “I wanted my inspiration for this sculpture to come from a culture that inhabited this area and left its mark with earthen mounds – a unique way of showing respect and living with the Earth. This is my attempt to pay my respects, to celebrate the longevity of our history and our traditions. We have endured and I know we will survive”."
+                        "content": "Lowe once described his intentions and inspiration for this sculpture as “I wanted my inspiration for this sculpture to come from a culture that inhabited this area and left its mark with earthen mounds – a unique way of showing respect and living with the Earth. This is my attempt to pay my respects, to celebrate the longevity of our history and our traditions. We have endured and I know we will survive”."
+                    },
+                    {
+                        "position":"left",
+                        "image": "img/truman_lowe.jpg",
+                        "alt": "A metal sculpture sitting on a grassy hill, with trees in the background. The sculpture is comprised of curved tubes of metal, arranged and connected to one another into the shape of a bird. The 'head' of the sculpture is facing the center of the photo, while its wings stretch to the far left and right.",
+                        "caption": "Truman Lowe instructing a student in a wood sculpture class in 2004. <a href='https://education.wisc.edu/news/uw-la-crosse-arts-building-named-after-former-uw-madison-art-professor/'>Photo from UW Education</a>"
+                    },
+                    {
+                        "position":"right",
+                        "content": "Lowe was a student and eventually a professor at UW-Madison. He spent many years as the Art Department chair and coordinator for the Native American Studies Program. Lowe also chaired the Chancellor’s Scholarship Committee where he worked to recruit and support underrepresented students. His artwork has been exhibited around the United States, Canada, Europe, Africa, South America, and New Zealand—including places like the Met. <br><br> Though a global artist, Lowe was committed to centering his Ho-Chunk culture and perspectives in this work. As you move to the next tour stop, of one of the few remaining intact effigy mounds on campus, please take a moment to reflect on this significance."
                     }
                 ],
-                "label":null
+                "label": null
             },
             "geometry": {
                 "type": "Point",
@@ -320,7 +360,7 @@
                     {
                         "image": "img/site_photos/mounds.jpg",
                         "alt": "The raised grass of a Ho Chunk effigy mound, located on Observatory Hill, University of Wisconsin—Madison.",
-                        "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000K6Ir1j47KnQ?terms=effigy%20mounds&'>UW Photo Collection</a>"
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "content": "The Observatory Hill Mound Group remains one of the most visible reminders of the long Indigenous Ho-Chunk-history of campus. This mound group likely contained six mounds, though only two are visible today.<sup>1</sup> Ho-Chunk scholar and tribal member Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became a western city.”<sup>2</sup> "
@@ -362,7 +402,7 @@
                         ]
                     }
                 ],
-                "label":null
+                "label": null
             },
             "geometry": {
                 "type": "Point",
@@ -386,7 +426,8 @@
                 "story": [
                     {
                         "image": "img/site_photos/tree_of_peace.jpg",
-                        "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'."
+                        "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'.",
+                        "caption": "Photo by Gareth Baldrica-Franklin"
                     },
                     {
                         "position": "left",
@@ -448,7 +489,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/memorial_union.jpg",
-                        "alt":"The corner of the University of Wisconsin-Madison Memorial Union. The foreground contains a stone block with the words 'Memorial Union' engraved in it. Behind the block, a multicolored brown and beige bricks building rises, two to three stories high at different points, stretching into the distance. Overall, it is low and wide.",
+                        "alt": "The corner of the University of Wisconsin-Madison Memorial Union. The foreground contains a stone block with the words 'Memorial Union' engraved in it. Behind the block, a multicolored brown and beige bricks building rises, two to three stories high at different points, stretching into the distance. Overall, it is low and wide.",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
                     },
                     {
@@ -457,7 +498,7 @@
                     {
                         "position": "left",
                         "image": "img/pipe_of_peace_ceremony.jpg",
-                        "alt":"Several rows of students (one to two hundred) stand on a lawn in front of a large building with columns. In front of the students, a single student crouches over next to something on the ground. Text added to the lower right of the photograph reads: 'Pipe of Peace Ceremony, U.W 1910'.",
+                        "alt": "Several rows of students (one to two hundred) stand on a lawn in front of a large building with columns. In front of the students, a single student crouches over next to something on the ground. Text added to the lower right of the photograph reads: 'Pipe of Peace Ceremony, U.W 1910'.",
                         "caption": "<a href='https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B'>UW Digital Collection</a>"
                     },
                     {
@@ -511,7 +552,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/mural.jpg",
-                        "alt":"Two painted figures are sitting on either side of a blue column. The figures appear to be male, and both are wearing feathered headresses, as well as cream-colored outfits with tassels. Both figures are holding a spear with an outstretched hand, while the figure on the right holds a sheild with a bird on it. Surrounding the figures are swirls of green, leafy vines in a paisley pattern.",
+                        "alt": "Two painted figures are sitting on either side of a blue column. The figures appear to be male, and both are wearing feathered headresses, as well as cream-colored outfits with tassels. Both figures are holding a spear with an outstretched hand, while the figure on the right holds a sheild with a bird on it. Surrounding the figures are swirls of green, leafy vines in a paisley pattern.",
                         "caption": "<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Terrace Views Collection</a>"
                     },
                     {
@@ -550,7 +591,7 @@
                 "story": [
                     {
                         "image": "img/site_photos/paul_bunyan.jpg",
-                        "alt":"The corner of room filled with brown dining tables and chairs. There are four murals on the walls. The murals on the far left and far right both depict a large blue bovine next to planks and sheets of wood. One of the murals in the corner depicts the back of a man in a plaid shirt, suspenders and blue jeans as he stands next to the stump of a tree. The fourth mural is at an angle. ",
+                        "alt": "The corner of room filled with brown dining tables and chairs. There are four murals on the walls. The murals on the far left and far right both depict a large blue bovine next to planks and sheets of wood. One of the murals in the corner depicts the back of a man in a plaid shirt, suspenders and blue jeans as he stands next to the stump of a tree. The fourth mural is at an angle. ",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>UW Photo Collection</a>"
                     },
                     {
@@ -578,6 +619,138 @@
                 "coordinates": [
                     -89.40012994265075,
                     43.076263832920738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 9,
+                "pointOnTour": 1,
+                "name": "Dejope Hall",
+                "audio": null,
+                "tours": [
+                    "tour2",
+                    "explore"
+                ],
+                "story": null,
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.416716090193617,
+                    43.077517182581772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 10,
+                "pointOnTour": 2,
+                "name": "Birch Bark Canoe",
+                "audio": null,
+                "tours": [
+                    "tour2",
+                    "explore"
+                ],
+                "story": null,
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.417566746027859,
+                    43.077884887052001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 11,
+                "pointOnTour": 3,
+                "name": "Fire Circle",
+                "audio": null,
+                "tours": [
+                    "tour2",
+                    "explore"
+                ],
+                "story": null,
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.417560038132791,
+                    43.078227150507011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 12,
+                "pointOnTour": 4,
+                "name": "Willow Creek Mounds",
+                "audio": null,
+                "tours": [
+                    "tour2",
+                    "explore"
+                ],
+                "story": null,
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.420326231756178,
+                    43.078013789299554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 13,
+                "pointOnTour": 5,
+                "name": "Ho Chunk Clan Circle",
+                "audio": null,
+                "tours": [
+                    "tour2",
+                    "explore"
+                ],
+                "story": null,
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.420899612692367,
+                    43.077633077833369
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 14,
+                "pointOnTour": 6,
+                "name": "University Bay",
+                "audio": null,
+                "tours": [
+                    "tour2",
+                    "explore"
+                ],
+                "story": null,
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.421019603994182,
+                    43.078034982080581
                 ]
             }
         }
