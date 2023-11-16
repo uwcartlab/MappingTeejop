@@ -4,6 +4,10 @@
 //Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
 //This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*HIDE AUDIO BUTTON TEMPORARILY*/
+#story-audio{
+    display:none;
+}
 /**************FONTS*******************/
 @font-face {
     font-family: karma;
