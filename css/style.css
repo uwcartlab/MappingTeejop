@@ -29,6 +29,10 @@ body{
 .font-size .close-button{
     font-size:20px; 
 }
+/**************HOME PAGE***********************/
+.home-title{
+    margin-top:20px;
+}
 /**************SPLASH SCREEN*******************/
 .modal-header > h1{
     font-weight: bold;
@@ -65,8 +69,13 @@ body{
     width: auto;
     box-shadow:none;
     border: 2px black solid;
-    padding:10px;
     font-weight:bold;
+    padding:10px;
+}
+.tour-button > a{
+    color:black;
+    text-decoration: none;
+    padding:10px;
 }
 .translation{
     color:gray;
@@ -144,7 +153,7 @@ body{
     margin-top:20px;
     margin-bottom:10px;
 }
-#text-size > p{
+#text-size > p, #color-mode > p{
     display:inline;
     font-weight:bold;
 }
@@ -178,10 +187,13 @@ body{
     background:black !important;
     color:white !important;
 }
-.dark button{
+.dark button, .dark .stop{
     background:black !important;
     color:white !important;
     border: 2px solid white !important;
+}
+.dark button > a, .dark p > a, .dark h1 > a{
+    color:white !important;
 }
 .dark button:hover{
     background:darkgray !important;
@@ -221,10 +233,11 @@ body{
     margin-top:15px;
     font-size:42px;
 }
-.title:hover{
+.title > a:hover, .title:hover{
     cursor:pointer;
     color:darkgray;
 }
+
 .nav-item > p{
     font-size:20px !important;
     text-align:right;
@@ -233,17 +246,24 @@ body{
     margin-top:10px;
     margin-right:10px;
 }
-.nav-item > p:hover{
+.nav-item > p > a:hover, .nav-item > p:hover{
     cursor:pointer;
-    color:lightgray;
+    color:lightgray;  
+}
+.nav-item > p > a, .title > a{
+    color:black;
+    text-decoration: none;
 }
 
 .stops{
     display:none;
     position:absolute;
-    z-index: 10000;
+    z-index: 1000;
     padding: 20px;  
     font-size:20px;
+    max-height:80vh;
+    overflow: scroll;
+    font-family:karma !important;
 }
 .list-stop{
     margin-bottom:0 !important;
@@ -299,7 +319,7 @@ body{
     padding:7px;
     padding-bottom:4px;
 }
-.location-control-container:hover{
+.location-control-container:hover, .stop:hover{
     background-color: #f4f4f4;
     cursor:pointer;
 }
@@ -334,6 +354,26 @@ body{
 .route-popup > div{
     font-size:18px;
 }
+/*stop button*/
+.stop{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    font-family:karma !important;
+    font-weight:bold;
+    border: 2px solid lightgray;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background: white;
+    padding:5px;
+    font-size:16px;
+    z-index:1000;
+    text-align:center;  
+    position:absolute;
+    padding:7px;
+    padding-bottom:4px;
+}
+
 /**************MODAL STYLING********************/
 .modal{
     z-index:2000;
@@ -435,8 +475,8 @@ body{
         display:none;
     }    
     .stops{
-        right: 10px;
-        top: 75px;
+        left: 0;
+        top: 0;
     }
 }
 @media screen and (min-width: 720px) and (max-width: 1199px) {
@@ -470,8 +510,8 @@ body{
         display:none;
     } 
     .stops{
-        right: 10px;
-        top: 75px;
+        left: 0;
+        top: 0;
     }
 }
 @media screen and (min-width: 540px) and (max-width: 719px) {
@@ -504,8 +544,8 @@ body{
         display:none;
     } 
     .stops{
-        right: 10px;
-        top: 75px;
+        left: 0;
+        top: 0;
     }
 }
 @media screen and (max-width: 539px) {

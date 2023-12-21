@@ -23,27 +23,20 @@ Add audio autoplay element
 */
 
 (function(){
+    //get active tour based on current url
+    let tour = window.location.href.split('#')[1] ? window.location.href.split('#')[1] : "explore";
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
-    let tour = "tour1", map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
+    let map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
     //colors
     let activeColor = "#000000", inactiveColor = "#999999";
     //color mode
-    let colorMode = "light"
+    let colorMode = localStorage.getItem("color") ? localStorage.getItem("color") : 'light',
+        textSize = localStorage.getItem("text") ? localStorage.getItem("text") : '20px';
     //accessibility settings
     function accessibility(){
         //text size buttons
-        document.querySelectorAll(".text-size").forEach(function(button){
-            //set font size for each buttton
-            let size = button.value;
-            button.style.fontSize = size; 
-            //update text size for all p elements when button is clicked
-            button.addEventListener("click", function(){
-                document.querySelector(".text-active").classList.remove("text-active");
-                button.classList.add("text-active");
-                document.querySelectorAll(".font-size").forEach(function(text){
-                    text.style.fontSize = size;
-                })
-            })
+        document.querySelectorAll(".font-size").forEach(function(text){
+            text.style.fontSize = textSize;
         })
         //color modes
         const styleEl = document.createElement('style');
@@ -51,8 +44,7 @@ Add audio autoplay element
         document.head.appendChild(styleEl);
         //grab style element's sheet
         const sheet = styleEl.sheet;
-        document.querySelector("#dark-mode").addEventListener("click", function(){
-            colorMode = "dark";
+        if (colorMode == "dark"){
             document.querySelectorAll("body, navbar, .modal-header, .modal-footer, .modal-content, .leaflet-control-zoom-out, .leaflet-control-zoom-in").forEach(function(elem){
                 if (elem.classList.contains("light"))
                     elem.classList.remove("light");
@@ -68,9 +60,8 @@ Add audio autoplay element
                 sheet.insertRule('.leaflet-popup-tip { background: black }', 0);
             });
             document.querySelector("button#dark-mode").style.backgroundColor = "white";
-        })
-        document.querySelector("#light-mode").addEventListener("click", function(){
-            colorMode = "light";
+        }
+        if (colorMode == "light"){
             document.querySelectorAll("body, navbar, .modal-header, .modal-footer, .modal-content, .leaflet-control-zoom-in, .leaflet-control-zoom-out").forEach(function(elem){
                 if (elem.classList.contains("dark"))
                     elem.classList.remove("dark");
@@ -80,7 +71,7 @@ Add audio autoplay element
                     sheet.deleteRule(i);
                 }
             });
-        })
+        }
         document.querySelector(".nav-collapse").addEventListener("click",collapseMenu)
         //stops menu events
         //navigation bar stops menu
@@ -90,13 +81,13 @@ Add audio autoplay element
 
             if ( document.querySelector(".stops").style.display == "block"){
                 document.querySelector(".stops").style.display = "none";
-                document.querySelector(".stop").innerHTML = "Stops&#9660";
+                document.querySelector(".stop").innerHTML = "Stops";
 
                 //document.querySelector(".navbar-nav").style.top = (h - 140) + "px";
             }
             else{
                 document.querySelector(".stops").style.display = "block";
-                document.querySelector(".stop").innerHTML = "Stops&#9650";
+                document.querySelector(".stop").innerHTML = "Stops";
                 //responsive positioning
                 /*let stopHeight = document.querySelector(".navbar-nav").clientHeight + document.querySelector(".stops").clientHeight;
                 if (w <= 539){
@@ -109,7 +100,7 @@ Add audio autoplay element
             if (event.target.className != "stops" && event.target.className != "stop"){
                 if (document.querySelector(".stops").style.display == "block"){
                     document.querySelector(".stops").style.display = "none";
-                    document.querySelector(".stop").innerHTML = "Stops&#9660";
+                    document.querySelector(".stop").innerHTML = "Stops";
                 }
             }
         })
@@ -218,14 +209,11 @@ Add audio autoplay element
         document.getElementById('splash-modal').addEventListener('show.bs.modal', pronounce)
 
         //show modal
-        splashModal.show();
+        //splashModal.show();
 
         //activate listener on close
         document.getElementById('splash-modal').addEventListener('hide.bs.modal', function (event) {
-            addRoutes();
-            addSiteData();
-            //clear stop list
-            document.querySelector(".stops").innerHTML = "";
+            activateTour();
         })
 
         //activate listener for the about button
@@ -241,6 +229,13 @@ Add audio autoplay element
                 })
             })
         })
+    }
+    function activateTour(){
+        //add routes and sites
+        addRoutes();
+        addSiteData();
+        //clear stop list
+        document.querySelector(".stops").innerHTML = "";
     }
     //create the map
     function createMap(){
@@ -481,10 +476,9 @@ Add audio autoplay element
                 //add listener to jump to stop
                 listStop.addEventListener("click",function(){
                     document.querySelector(".stops").style.display = "none";
-                    document.querySelector(".stop").innerHTML = "Stops&#9660";
-                    collapseMenu();
+                    document.querySelector(".stop").innerHTML = "Stops";
                     currentStop = feature.properties.pointOnTour;
-                    createSiteStory(feature)
+                    createSiteStory(feature);
                 })
                 //add element to list
                 document.querySelector(".stops").insertAdjacentElement("beforeend",listStop)
@@ -693,6 +687,7 @@ Add audio autoplay element
         createMap();
         accessibility();
         setTextListeners();
+        activateTour();
     });
 
 })();

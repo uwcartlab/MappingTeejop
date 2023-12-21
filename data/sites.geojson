@@ -10,7 +10,7 @@
                 "name": "Our Shared Future Marker",
                 "audio": "OurSharedFutureMarker",
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -67,7 +67,7 @@
                 "name": "Lincoln Statue",
                 "audio": "LincolnStatue",
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -142,7 +142,7 @@
                 "name": "Memorial Union Ho-Chunk Banner",
                 "audio": null,
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -189,7 +189,7 @@
                 "name": "Bascom Hall Ho-Chunk Flag",
                 "audio": "BascomHallHo-ChunkFlag",
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -254,7 +254,7 @@
                 "name": "Black Hawk Marker",
                 "audio": "BlackHawkMarker",
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -324,7 +324,7 @@
                 "name": "Effigy: Bird Form",
                 "audio": null,
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -383,7 +383,7 @@
                 "name": "Observatory Hill Effigy Mounds",
                 "audio": "ObservatoryHillEffigyMounds",
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
@@ -450,7 +450,7 @@
                 "name": "Tree of Peace",
                 "audio": "TreeofPeace",
                 "tours": [
-                    "tour1",
+                    "mairakere",
                     "explore"
                 ],
                 "story": [
