@@ -561,7 +561,11 @@ Add audio autoplay element
             if (block.sources){
                 var sources = "";
                 block.sources.forEach(function(source){
-                    sources += "<p>" + source.title + " <a href='" + source.link + "'>" + source.linkText + "</a></p>";
+                    sources += "<p>" + source.title; 
+                    if (source.linkText)
+                        sources += " <a target='_blank' href='" + source.link + "'>" + source.linkText + "</a></p>";
+                    if (source.note)
+                        sources += "<i>" + source.note + "</i></p>";
                 })
                 div.insertAdjacentHTML('beforeend', sources)
             }
