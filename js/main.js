@@ -32,6 +32,8 @@ Add audio autoplay element
     //color mode
     let colorMode = localStorage.getItem("color") ? localStorage.getItem("color") : 'light',
         textSize = localStorage.getItem("text") ? localStorage.getItem("text") : '20px';
+    //close popup text
+    let closePopup = "<p class='close-popup'>Tap anywhere to close</p>";
     //accessibility settings
     function accessibility(){
         //text size buttons
@@ -255,7 +257,7 @@ Add audio autoplay element
             rotate:true,
             touchRotate:false,
             rotateControl: {
-                closeOnZeroBearing: false
+                closeOnZeroBearing: true
             }
         }).setView([43.075, -89.40], 16);
         //add scale bar 
@@ -304,7 +306,6 @@ Add audio autoplay element
 
         map.addControl(new LocationControl());
 
-
         document.querySelector(".location-control-container").addEventListener("click",getLocation);
     }
     //function to add sites to the map
@@ -337,6 +338,7 @@ Add audio autoplay element
                         }
                         //open story when layer is selected
                         layer.on('click',function(){
+                            //set selected stop to current stop
                             currentStop = feature.properties.pointOnTour;
                             createSiteStory(feature)
                         })
@@ -355,8 +357,10 @@ Add audio autoplay element
     function siteStyle(feature){
         let coord = [feature.geometry.coordinates[1],feature.geometry.coordinates[0]];
         //site popup
-        if (feature.properties.label && feature.properties.pointOnTour == currentStop && tour != "explore")
-            L.popup({className:"route-popup"}).setLatLng(coord).setContent(feature.properties.label).openOn(map);
+        if (feature.properties.label && feature.properties.pointOnTour == currentStop && tour != "explore"){
+            L.popup({className:"route-popup"}).setLatLng(coord).setContent(feature.properties.label + closePopup).openOn(map);
+            //document.querySelector("#map-popup-content").innerHTML = feature.properties.label;
+        }
 
         return {
             color:siteColor(feature.properties.pointOnTour),
@@ -421,7 +425,7 @@ Add audio autoplay element
                     //route popup
                     let center = [coord[Math.round(coord.length/2)][1], coord[Math.round(coord.length/2)][0]]
                     if (feature.properties.label)
-                        L.popup({className:"route-popup"}).setLatLng(center).setContent(feature.properties.label).openOn(map);
+                        L.popup({className:"route-popup"}).setLatLng(center).setContent(feature.properties.label + closePopup).openOn(map);
                 }
                 
                 return activeColor;
