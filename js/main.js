@@ -282,7 +282,7 @@ Add audio autoplay element
         //map.compassBearing.enable();
         map.setBearing(90);
         //load custom basemap created using QTiles        
-        let baseLayer = L.tileLayer('data/basemap_light7/{z}/{x}/{y}.jpg', {
+        let baseLayer = L.tileLayer('data/basemap_light8/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,       
