@@ -277,6 +277,13 @@ Add audio autoplay element
             }
         });
 
+        //remove link from close button from popups—inclusion of the link makes tour dissapear on reload
+        map.on('popupopen', function() {
+            document.querySelectorAll(".leaflet-popup-close-button").forEach(function(elem){
+                elem.removeAttribute("href");
+            });
+        });
+
         map.addControl(new northArrow());
         //set intial map rotation        
         //map.compassBearing.enable();
@@ -344,6 +351,7 @@ Add audio autoplay element
                         })
                     }
                 }).addTo(map);
+              
                 //zoom to initial location and initial feature
                 if (tour == "explore"){
                     map.fitBounds(siteLayer.getBounds(),{maxZoom:16})
