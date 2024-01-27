@@ -23,6 +23,7 @@ body{
     font-family:karma !important;
     /*font-family:'Georgia', serif !important;*/
 }
+
 .font-size{
     font-size:20px;
 }
@@ -36,6 +37,22 @@ body{
 .resource-list > a{
     margin-bottom:10px;
     display:block;
+}
+.resource-list{
+    padding-left:0 !important;
+}
+.resource{
+    margin-bottom:15px;
+}
+.resource-header{
+    font-weight: bold;
+}
+.resource-img{
+    width:50%;
+    float:left;
+}
+.resource-img-row{
+    padding:0;
 }
 /**************SPLASH SCREEN*******************/
 .modal-header > h1{
@@ -85,7 +102,7 @@ body{
     color:gray;
     font-size:18px;
 }
-.explore{
+#about, #tours, #resources, #intro{
     border-bottom: 2px lightgray dotted;
 }
 /*tour text*/
@@ -187,9 +204,27 @@ body{
     background:lightgray !important;
 }
 /*dark mode*/
+.dark .container{
+    background:black;
+}
+.dark .navbar{
+    background:#0c2719;
+}
 .dark{
-    background:black !important;
     color:white !important;
+    background-color:#000000 !important;
+}
+.dark #tours{
+    background:#0c2719;
+}
+.dark #about{
+    background:#123b26;
+}
+.dark #resources{
+    background:#184e32;
+}
+.dark #footer{
+    background:#1e623f;
 }
 .dark button, .dark .stop{
     background:black !important;
@@ -199,15 +234,43 @@ body{
 .dark button > a, .dark p > a, .dark h1 > a{
     color:white !important;
 }
+.dark #footer a, .dark #resources a{
+    color:white;
+    font-style:italic;
+}
 .dark button:hover{
     background:darkgray !important;
 }
 .dark .navbar-nav, .dark .stops{
+    background: #0c2719 !important;
+}
+.dark #story-modal{
     background:black !important;
 }
 /*light mode*/
+.light{
+    background-color:white;
+}
+.light .navbar{
+    background:#f2f5ef;
+}
+.light .container{
+    background:white;
+}
+.light #tours{
+    background:#f1f6ee;
+}
+.light #about{
+    background:#d6e5cd;
+}
+.light #resources{
+    background:#c8dcbc;
+}
+.light #footer{
+    background:#bad3ab;
+}
 .light button{
-    background:white !important;
+    background:#f2f5ef !important;
     color:black !important;
     border: 2px solid black !important;
 }
@@ -215,7 +278,7 @@ body{
     background:lightgray !important;
 }
 .light .navbar-nav, .light .stops{
-    background:white;
+    background:#f2f5ef;
 }
 /**************NAVIGATION BAR********************/
 .navbar{

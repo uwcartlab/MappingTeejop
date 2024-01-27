@@ -33,7 +33,7 @@ Add audio autoplay element
     let colorMode = localStorage.getItem("color") ? localStorage.getItem("color") : 'light',
         textSize = localStorage.getItem("text") ? localStorage.getItem("text") : '20px';
     //close popup text
-    let closePopup = "<p class='close-popup'>Tap anywhere to close</p>";
+    let closePopup = "<p class='close-popup'>Tap anywhere to close directions</p>";
     //accessibility settings
     function accessibility(){
         //text size buttons

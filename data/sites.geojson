@@ -402,6 +402,9 @@
                         "content": "As burial sites, effigy mounds are protected by law.<sup>4</sup> Mounds located on non-federal lands are protected by the Wisconsin Burial Sites Preservation Law and mounds located on federal lands are protected bythe Archaeological Resources Protection Act and the Native American Graves Protection and Repatriation Act. Despite such protection, effigy mounds, including the Observatory Hill Mound group, continue to face the threat of destruction, both unintentional and otherwise. A recent example of the threat mounds face came in 2021 when a UW-Madison soil sciences student damaged the two-tail water spirit mound by removing “about five gallons of soil.”<sup>5</sup>"
                     },
                     {
+                        "content": "As you make your way to the next stop, the <b>Tree of Peace</b>, continue down the sidewalk and stop before it forks. The tree is to the right, towards the lake."
+                    },
+                    {
                         "content": "<b>Sources</b>",
                         "sources": [
                             {
@@ -496,13 +499,13 @@
                         ]
                     }
                 ],
-                "label": "Next to the Effigy Mounds is the <b>Tree of Peace</b>."
+                "label": "As you make your way to the next stop, the <b>Tree of Peace</b>, continue down the sidewalk and stop before it forks. The tree is to the right, towards the lake. Please do not leave the sidewalk to avoid stepping on the mounds."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.410013102201432,
-                    43.07622267115962
+                    -89.410061686667959,
+                    43.076056228196613
                 ]
             }
         },
@@ -665,21 +668,21 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/birch_canoe.jpg",
-                        "alt": "",
-                        "caption": "Photo by Gareth Baldrica-Franklin."
+                        "image": "img/site_photos/dejope_entrance.jpg",
+                        "alt": "People walk into Dejope Residence Hall as purple asters bloom in the foreground at the University of Wisconsin–Madison during a mild autumn day in October, 2023",
+                        "caption": "Photo from UW-Madison, retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I00002ZLIj8vfg7Q?terms=dejope%20hall&'>UW Photo Library</a>."
                     },
                     {
                         "content": "At a cost of $47.6 million, the Dejope Residence Hall on the University of Wisconsin campus opened in 2012. Today, Dejope is home to nearly 600 students, most of whom are first year students."
                     },
                     {
-                        "content":"The name of the residence hall, Dejope, comes from Hocąk (the Ho-Chunk language) and translates to English as “four lakes.”<sup>1</sup> The name, Dejope, was selected after outreach and consultation with members of the Ho-Chunk Nation, including Chris Jendrisak, the first member of the Ho-Chunk Nation to graduate from UW in 1975.<sup>2</sup> The Ho-Chunk Nation Legislature then “passed a resolution allowing University Housing to use Dejope as a residence Hall name.”<sup>3</sup> The Ho-Chunk Nation views the Dejope Residence Hall name as a way to make Native students feel more comfortable and welcome on campus."
+                        "content": "The name of the residence hall, Dejope, comes from Hocąk (the Ho-Chunk language) and translates to English as “four lakes.”<sup>1</sup> The name, Dejope, was selected after outreach and consultation with members of the Ho-Chunk Nation, including Chris Jendrisak, the first member of the Ho-Chunk Nation to graduate from UW in 1975.<sup>2</sup> The Ho-Chunk Nation Legislature then “passed a resolution allowing University Housing to use Dejope as a residence Hall name.”<sup>3</sup> The Ho-Chunk Nation views the Dejope Residence Hall name as a way to make Native students feel more comfortable and welcome on campus."
                     },
                     {
-                        "content":"By using the name, Dejope, campus creates a dialog to better recognize this important landscape, a landscape the Ho-Chunk peoples have called home for thousands of years. These homelands have been occupied by the University of Wisconsin since 1848, when the university was established. This important geography has been, and continues to be, defined by the waterways of Lake Mendota (Tee Wąąkšik Homįk), Lake Monona (Tee Čihabokihaketera), Lake Waubesa (Tee Sahu Xetera), and Lake Kegonsa (Tee Nąsąkučitera). Beyond Dejope, Ho-Chunk homelands spanned the areas we recognize today of southern Wisconsin, northern Illinois, eastern Iowa, and southeastern Minnesota."
+                        "content": "By using the name, Dejope, campus creates a dialog to better recognize this important landscape, a landscape the Ho-Chunk peoples have called home for thousands of years. These homelands have been occupied by the University of Wisconsin since 1848, when the university was established. This important geography has been, and continues to be, defined by the waterways of Lake Mendota (<b class='pronounce'>Tee Wąąkšik Homįk</b>), Lake Monona (Tee Čihabokihaketera), Lake Waubesa (Tee Sahu Xetera), and Lake Kegonsa (Tee Nąsąkučitera). Beyond Dejope, Ho-Chunk homelands spanned the areas we recognize today of southern Wisconsin, northern Illinois, eastern Iowa, and southeastern Minnesota."
                     },
                     {
-                        "content":"Today, Dejope Residence Hall, which was constructed in the shape of a thunderbird, an important being in Ho-Chunk culture, incorporates aspects of Ho-Chunk history, art, and culture both inside and out."
+                        "content": "Today, Dejope Residence Hall, which was constructed in the shape of a thunderbird, an important being in Ho-Chunk culture, incorporates aspects of Ho-Chunk history, art, and culture both inside and out."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -701,7 +704,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Begin the tour outside the east entrace of Dejope Hall. <b><i>Tap the circle icon when you arrive.</b><i>"
             },
             "geometry": {
                 "type": "Point",
@@ -724,24 +727,24 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/birch_canoe.jpg",
-                        "alt": "",
+                        "image": "img/site_photos/dejope_lobby.jpg",
+                        "alt": "The main lobby area of Dejope Hall. There is a front desk in the center, and a small office to the left. Next to the office, there is an open lounge area with chairs and tables. The shape of Ho-Chunk effigy mounds are present in the floor tiles in front of the desk.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
                         "content": "As you make your way into and through Dejope Hall, you will likely take in the beauty of this residence hall and observe that it is unlike any other on campus and distinct from most others nationwide."
                     },
                     {
-                        "content":"To recognize the importance of Teejop, past and present, the numerous designers involved in Dejope’s construction, in consultation with University of Wisconsin officials and members of the Ho-Chunk Nation, worked to incorporate Ho-Chunk art and language throughout the building."
+                        "content": "To recognize the importance of Teejop, past and present, the numerous designers involved in Dejope’s construction, in consultation with University of Wisconsin officials and members of the Ho-Chunk Nation, worked to incorporate Ho-Chunk art and language throughout the building."
                     },
                     {
-                        "content":"Within the building, designers used “curved ceilings, cove lighting, and floor patterns throughout the space to reflect the flow and movement of water.”<sup>1</sup> Near the center of the building, in front of the main desk and bedded into the terrazzo flooring are the four remaining mound groups located on campus - Observatory Hill, Willow Drive, Picnic Point, and Eagle Heights. Interior designers also worked to incorporate representations of Ho-Chunk basketry through the use of earth tones and mosaic tile."
+                        "content": "Within the building, designers used “curved ceilings, cove lighting, and floor patterns throughout the space to reflect the flow and movement of water.”<sup>1</sup> Near the center of the building, in front of the main desk and bedded into the terrazzo flooring are the four remaining mound groups located on campus - Observatory Hill, Willow Drive, Picnic Point, and Eagle Heights. Interior designers also worked to incorporate representations of Ho-Chunk basketry through the use of earth tones and mosaic tile."
                     },
                     {
-                        "content":"Several pieces of artwork are also on display within Dejope as constant reminders that this is an Indigenous, a Ho-Chunk, place. Near the east entrance, is an image of the four lakes region created with fused glass accompanied by signage that explains the name Dejope and shows effigy mound sites in the lakeshore area."
+                        "content": "Several pieces of artwork are also on display within Dejope as constant reminders that this is an Indigenous, a Ho-Chunk, place. Near the east entrance, is an image of the four lakes region created with fused glass accompanied by signage that explains the name Dejope and shows effigy mound sites in the lakeshore area."
                     },
                     {
-                        "content":"Near the main reception area in the center of the building, artwork created by Ho-Chunk artists is on display. Here, you will see a blanket by Truman Lowe, who was a professor of art at UW- Madison, and two items by Pamela Whitehorse – a dream catcher and an applique piece."
+                        "content": "Near the main reception area in the center of the building, artwork created by Ho-Chunk artists is on display. Here, you will see a blanket by Truman Lowe, who was a professor of art at UW- Madison, and two items by Pamela Whitehorse – a dream catcher and an applique piece."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -754,13 +757,13 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Enter <b>Dejope Hall</b> and head down the hallway until you reach the main lobby."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.4169678035,
-                    43.07754584130771
+                    -89.417571835781686,
+                    43.077602829085215
                 ]
             }
         },
@@ -785,7 +788,7 @@
                         "content": "As you make your way toward the northwest corner of Dejope Residence Hall and approach the dining area of the Four Lakes Market, you will see a birchbark canoe suspended from the ceiling, hanging in the center of the room."
                     },
                     {
-                        "content":"Wayne Valliere (Mino-giizhig), Lac du Flambeau Band of Lake Superior Chippewa, worked with Lac du Flambeau community members and UW-Madison students to create the birchbark canoe, a project that began while Valliere was an artist in residence at UW-Madison. This particular canoe was constructed through the collaborative Wiigwaasi-Jiimaan: These Canoes Carry Culture Program, “designed to teach Ojibwe youth the art of birchbark canoe building,” along with Ojibwe language and culture.<sup>1</sup>"
+                        "content": "Wayne Valliere (Mino-giizhig), Lac du Flambeau Band of Lake Superior Chippewa, worked with Lac du Flambeau community members and UW-Madison students to create the birchbark canoe, a project that began while Valliere was an artist in residence at UW-Madison. This particular canoe was constructed through the collaborative Wiigwaasi-Jiimaan: These Canoes Carry Culture Program, “designed to teach Ojibwe youth the art of birchbark canoe building,” along with Ojibwe language and culture.<sup>1</sup>"
                     },
                     {
                         "position": "left",
@@ -794,14 +797,14 @@
                         "caption": "Rolled birch bark used in the Canoe's construction, credit Marcus Cederström, retrieved from <a href='https://wiigwaasijiimaan.wordpress.com/harvesting/wiigwaas-birchbark/#jp-carousel-8'>Wiigwaasi-Jiimaan</a>."
                     },
                     {
-                        "position":"right",
-                        "content":"Many of the materials used for this canoe’s construction, including spruce roots, birchbark, pine pitch, and white cedar were harvested from the Lac du Flambeau Reservation in northern Wisconsin throughout the year prior to its construction. Each of the materials used for the canoe’s construction were harvested seasonally according to Ojibwe cultural teachings. Chair and Professor of German, Nordic, and Slavic+, who participated in the canoe’s construction, remarked, “It is always the intention to use [the canoe] every year and to remind students of that relationship with Lac du Flambeau.”<sup>2</sup>"
+                        "position": "right",
+                        "content": "Many of the materials used for this canoe’s construction, including spruce roots, birchbark, pine pitch, and white cedar were harvested from the Lac du Flambeau Reservation in northern Wisconsin throughout the year prior to its construction. Each of the materials used for the canoe’s construction were harvested seasonally according to Ojibwe cultural teachings. Chair and Professor of German, Nordic, and Slavic+, who participated in the canoe’s construction, remarked, “It is always the intention to use [the canoe] every year and to remind students of that relationship with Lac du Flambeau.”<sup>2</sup>"
                     },
                     {
-                        "content":"While the canoe was constructed at the University of Wisconsin campus, it returned home to Lac du Flambeau where it received an Ojibwe blessing and was launched in Lake Pokegema during a community celebration. When the canoe returned to UW-Madison, it was launched into Lake Mendota (Tee Wąąkšik Homįk) near the Memorial Union and was paddled to Dejope Residence Hall. As living beings, birchbark canoes are culturally significant within Ojibwe culture and must be cared for, which helps to explain its placement in the dining hall, where food is served and students gather. This care also includes regular use of the canoe by community members."
+                        "content": "While the canoe was constructed at the University of Wisconsin campus, it returned home to Lac du Flambeau where it received an Ojibwe blessing and was launched in Lake Pokegema during a community celebration. When the canoe returned to UW-Madison, it was launched into Lake Mendota (<b class='pronounce'>Tee Wąąkšik Homįk</b>) near the Memorial Union and was paddled to Dejope Residence Hall. As living beings, birchbark canoes are culturally significant within Ojibwe culture and must be cared for, which helps to explain its placement in the dining hall, where food is served and students gather. This care also includes regular use of the canoe by community members."
                     },
                     {
-                        "content":"For more information about the canoe, please visit its <a target='_blank' href='https://wiigwaasijiimaan.wordpress.com/2013/09/03/wiigwaasi-jiimaan-these-canoes-carry-culture/'>website</a>."
+                        "content": "For more information about the canoe, please visit its <a target='_blank' href='https://wiigwaasijiimaan.wordpress.com/2013/09/03/wiigwaasi-jiimaan-these-canoes-carry-culture/'>website</a>."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -819,7 +822,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Take a slight right towards the Four Lakes Market, continue down the hallway until you near the exit. Look for a <b>canoe</b> near the ceiling."
             },
             "geometry": {
                 "type": "Point",
@@ -847,11 +850,11 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content": "The Dejope Fire Circle is situated to the north of the Dejope Residence Hall, facing Lake Mendota. This accessible and reservable space, that represents the tribal nations of the state of Wisconsin, welcomes use by students and other community members."
+                        "content": "The Dejope Fire Circle is situated to the north of the Dejope Residence Hall, facing Lake Mendota (<b class='pronounce'>Tee Wąąkšik Homįk</b>). This accessible and reservable space, that represents the tribal nations of the state of Wisconsin, welcomes use by students and other community members."
                     },
                     {
-                        "position":"left",
-                        "content":"The fire circle reflects traditional Ho-Chunk ceremonial spaces with entrances located on both the east and west of the circle. Within the circle, each of Wisconsin’s eleven federally-recognized tribes are represented by a bronze plaque on the stone seating area. These plaques were designed with the permission and collaboration of each tribal nation’s respective Heritage Preservation Program. The plaques are organized in relation to the location of each tribe within the state, with the northern plaques representing the Ojibwe (Chippewa) communities and the Ho-Chunk Nation represented at the south. The Brothertown Indian Nation, which is not federally recognized, does not have a plaque. Small replica effigy mounds are adjacent to the fire circle."
+                        "position": "left",
+                        "content": "The fire circle reflects traditional Ho-Chunk ceremonial spaces with entrances located on both the east and west of the circle. Within the circle, each of Wisconsin’s eleven federally-recognized tribes are represented by a bronze plaque on the stone seating area. These plaques were designed with the permission and collaboration of each tribal nation’s respective Heritage Preservation Program. The plaques are organized in relation to the location of each tribe within the state, with the northern plaques representing the Ojibwe (Chippewa) communities and the Ho-Chunk Nation represented at the south. The Brothertown Indian Nation, which is not federally recognized, does not have a plaque. Small replica effigy mounds are adjacent to the fire circle."
                     },
                     {
                         "position": "right",
@@ -860,10 +863,10 @@
                         "caption": "Map of the Tribal Nations of Wisconsin, created by <a href='https://wisconsinfirstnations.org/wp-content/uploads/2017/10/WFN-map-with-seals-cutout-1.jpg'>wisconsinfirstnations.org</a>."
                     },
                     {
-                        "content":"Since its construction, the Dejope Fire Circle has been the site of two highly publicized racist events. In 2016, an Indigenous-led healing ceremony for survivors of sexual assault was disrupted by students who “chanted stereotypical war cries” during a Ho-Chunk elder’s prayer.<sup>1</sup> The students involved denied any racial motivation. Later, after the City of Madison declared October 9, 2017 as Indigenous Peoples’ Day rather than Columbus Day, the fire circle was vandalized, with red paint graffiti claiming “Columbus Rules 1492.”<sup>2</sup> Although the act was identified as intentional desecration fueled by bigotry, the incident was never formally termed a hate crime. The person(s) responsible is still unknown."
+                        "content": "Since its construction, the Dejope Fire Circle has been the site of two highly publicized racist events. In 2016, an Indigenous-led healing ceremony for survivors of sexual assault was disrupted by students who “chanted stereotypical war cries” during a Ho-Chunk elder’s prayer.<sup>1</sup> The students involved denied any racial motivation. Later, after the City of Madison declared October 9, 2017 as Indigenous Peoples’ Day rather than Columbus Day, the fire circle was vandalized, with red paint graffiti claiming “Columbus Rules 1492.”<sup>2</sup> Although the act was identified as intentional desecration fueled by bigotry, the incident was never formally termed a hate crime. The person(s) responsible is still unknown."
                     },
                     {
-                        "content":"In spite of these incidents, the Dejope Fire Circle remains an important campus space for Indigenous use."
+                        "content": "In spite of these incidents, the Dejope Fire Circle remains an important campus space for Indigenous use."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -881,7 +884,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Exit Dejope Hall and head towards the concrete <b>fire circle</b> in the lawn outside."
             },
             "geometry": {
                 "type": "Point",
@@ -904,9 +907,9 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/dejope_fire_circle.jpg",
-                        "alt": "",
-                        "caption": "Photo by Gareth Baldrica-Franklin."
+                        "image": "img/site_photos/oak_savanna.jpg",
+                        "alt": "A grove of oak trees on a sunny Autumn day. An oak tree to the left has red leaves, while one to the right has yellowing leaves. Trees in the distance are just beginning to turn for the Fall.",
+                        "caption": "Photo by Bryn Scriver, acquired from <a href='https://www.flickr.com/photos/lakeshorenaturepreserve/29996200146/in/album-72157673344408012/'>UW-Madison Lakeshore Nature Preserve Photo Collection</a>."
                     },
                     {
                         "content": "Nestled behind the Bakke Recreation Center is a small oak savanna—a tiny fragment of a unique ecosystem that, for millennia, spread through much of the Midwest."
@@ -918,17 +921,17 @@
                         "caption": "Controlled burn of an Oak Savanna at the UW-Arboretum in 2016, Photo by Jeff Miller, UW-Madison, retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I00003pWNhU65z4A?terms=controlled%20burn&'>UW Photo Collection</a>."
                     },
                     {
-                        "position":"right",
-                        "content":"Oak savannas were actively maintained through the traditional ecological knowledge and practices of various Indigenous groups, who used controlled burns to keep them healthy.<sup>1</sup> Fire helps cycle soil nutrients, removes competition from other trees, and bolsters wildlife habitat—improving the quality of game and foraged material, and preventing erosion.<sup>2</sup> In Teejop, these ecosystems were managed by the Ho-Chunk."
+                        "position": "right",
+                        "content": "Oak savannas were actively maintained through the traditional ecological knowledge and practices of various Indigenous groups, who used controlled burns to keep them healthy.<sup>1</sup> Fire helps cycle soil nutrients, removes competition from other trees, and bolsters wildlife habitat—improving the quality of game and foraged material, and preventing erosion.<sup>2</sup> In Teejop, these ecosystems were managed by the Ho-Chunk."
                     },
                     {
-                        "content":"White settlers saw oak savannas as open grasslands and “unused” lands, not recognizing, or actively ignoring, the millennia-old land management practices of Indigenous people. Most oak savannas were converted to intensive agriculture during the nineteenth and twentieth centuries. Others suffered due to fire suppression policies, which allowed trees and invasive species to spread and out-compete oaks, transforming the savannas to dense woodland.<sup>3</sup> In fact, most of the forests in Southwestern Wisconsin were previously open oak savanna. Widespread fire suppression also increases the risk of large wildfires, as evidenced by the rise of massive, uncontrolled, wildfires in the American West."
+                        "content": "White settlers saw oak savannas as open grasslands and “unused” lands, not recognizing, or actively ignoring, the millennia-old land management practices of Indigenous people. Most oak savannas were converted to intensive agriculture during the nineteenth and twentieth centuries. Others suffered due to fire suppression policies, which allowed trees and invasive species to spread and out-compete oaks, transforming the savannas to dense woodland.<sup>3</sup> In fact, most of the forests in Southwestern Wisconsin were previously open oak savanna. Widespread fire suppression also increases the risk of large wildfires, as evidenced by the rise of massive, uncontrolled, wildfires in the American West."
                     },
                     {
-                        "content":"Prior to colonization, Wisconsin contained around 5.5 million acres of oak savanna, and now it is estimated that only 500 acres remain.<sup>4</sup> This small patch of oak savanna was restored between 2008 and 2010<sup>5</sup>, and other oak savanna restoration efforts have taken place in the region, as well, often reintroducing the traditional practice of controlled burns."
+                        "content": "Prior to colonization, Wisconsin contained around 5.5 million acres of oak savanna, and now it is estimated that only 500 acres remain.<sup>4</sup> This small patch of oak savanna was restored between 2008 and 2010<sup>5</sup>, and other oak savanna restoration efforts have taken place in the region, as well, often reintroducing the traditional practice of controlled burns."
                     },
                     {
-                        "content":"As you pass the savanna, imagine how this landscape might have looked 300 years ago. Consider how ecological changes reflect broader transformations in our relationship to the land."
+                        "content": "As you pass the savanna, imagine how this landscape might have looked 300 years ago. Consider how ecological changes reflect broader transformations in our relationship to the land."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -961,13 +964,13 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Head west past the Dejope Hall parking lot, until you reach the edge of the <b>Willow Creek Woods</b> next to the red shed."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.419448,
-                    43.078530465180002
+                    -89.418730511398579,
+                    43.078294452214259
                 ]
             }
         },
@@ -989,16 +992,16 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"The Willow Drive Effigy Mound Group, a visible reminder of the Ho-Chunk history on campus, consists of three surviving mounds. From west to east the mound group includes a goose, a mound of unspecified shape, and a water spirit. Ho-Chunk tribal citizen and scholar, Dr. Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became a western city.”<sup>1</sup> An additional conical mound between the goose and mound of unspecified shape is documented in historic records but is no longer visible."
+                        "content": "The Willow Drive Effigy Mound Group, a visible reminder of the Ho-Chunk history on campus, consists of three surviving mounds. From west to east the mound group includes a goose, a mound of unspecified shape, and a water spirit. Ho-Chunk tribal citizen and scholar, Dr. Kendra Greendeer reminds us, “what we see today is the result of removing ancestral monuments as Madison became a western city.”<sup>1</sup> An additional conical mound between the goose and mound of unspecified shape is documented in historic records but is no longer visible."
                     },
                     {
-                        "content":"The presence of both a bird and water spirit mound in the same location is also found at the Observatory Hill Mounds. What makes the Willow Drive Effigy Mounds combination distinct is that birds are most associated with hilltops and tall bluffs. According to Ho-Chunk belief systems and social organization, the bird is a representative of the Upper World while water spirits are representative of the Lower World.<sup>2</sup> Identification of this bird as a goose is both due to its presence in a low-lying area adjacent to water as well as the distinct shape of the wing tips."
+                        "content": "The presence of both a bird and water spirit mound in the same location is also found at the Observatory Hill Mounds. What makes the Willow Drive Effigy Mounds combination distinct is that birds are most associated with hilltops and tall bluffs. According to Ho-Chunk belief systems and social organization, the bird is a representative of the Upper World while water spirits are representative of the Lower World.<sup>2</sup> Identification of this bird as a goose is both due to its presence in a low-lying area adjacent to water as well as the distinct shape of the wing tips."
                     },
                     {
-                        "content":"A plaque identifying the mound group, then known as the University Creek Group, was placed on the northern wing of the goose mound in 1922 (please remain on the path to avoid walking on the mounds, which are sacred). Each of the three remaining mounds have sustained damage, with both goose wing tips destroyed by construction of walking paths, damage to the northern portion of the unspecified shape by erosion and compaction, and a truncation of the water spirit’s tail by an unrecorded method."
+                        "content": "A plaque identifying the mound group, then known as the University Creek Group, was placed on the northern wing of the goose mound in 1922 (please remain on the path to avoid walking on the mounds, which are sacred). Each of the three remaining mounds have sustained damage, with both goose wing tips destroyed by construction of walking paths, damage to the northern portion of the unspecified shape by erosion and compaction, and a truncation of the water spirit’s tail by an unrecorded method."
                     },
                     {
-                        "content":"The plaque reads “University Creek Group/Indian Mounds/Effigy Form/Lengths 66, 100 and 143 Feet, Marked by the University, 1922.”"
+                        "content": "The plaque reads “University Creek Group/Indian Mounds/Effigy Form/Lengths 66, 100 and 143 Feet, Marked by the University, 1922.”"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1044,19 +1047,19 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"In May of 2023 the Ho-Chunk Clan Circle was officially unveiled outside of the Bakke Recreation and Wellbeing Center. The circle consists of twelve metal sculptures representing each of the twelve clans of the Ho-Chunk Nation. Each of the twelve metal sculptures portrays a being of the Ho-Chunk clan system and is accompanied by the Ho-Chunk names for each animal, in addition to an English translation offered below."
+                        "content": "In May of 2023 the Ho-Chunk Clan Circle was officially unveiled outside of the Bakke Recreation and Wellbeing Center. The circle consists of twelve metal sculptures representing each of the twelve clans of the Ho-Chunk Nation. Each of the twelve metal sculptures portrays a being of the Ho-Chunk clan system and is accompanied by the Ho-Chunk names for each animal, in addition to an English translation offered below."
                     },
                     {
-                        "content":"The Ho-Chunk, who are patrilineal, are organized by clans of the upper world (Thunder, Eagle, Warrior, and Pigeon) and clans of the lower world, which are land and water based (Bear, Snake, Buffalo, Deer, Wolf, Elk, Fish, and Water Spirit)."
+                        "content": "The Ho-Chunk, who are patrilineal, are organized by clans of the upper world (Thunder, Eagle, Warrior, and Pigeon) and clans of the lower world, which are land and water based (Bear, Snake, Buffalo, Deer, Wolf, Elk, Fish, and Water Spirit)."
                     },
                     {
-                        "content":"The sculptures were designed by Ho-Chunk artist Ken Lewis and other advisors of the Ho-Chunk Nation. The project, which began in 2020 amidst the beginning of the COVID-19 pandemic, has been identified as a meaningful effort to build relationships and acknowledge the Ho-Chunk Nation’s relationships to the lands upon which the university sits."
+                        "content": "The sculptures were designed by Ho-Chunk artist Ken Lewis and other advisors of the Ho-Chunk Nation. The project, which began in 2020 amidst the beginning of the COVID-19 pandemic, has been identified as a meaningful effort to build relationships and acknowledge the Ho-Chunk Nation’s relationships to the lands upon which the university sits."
                     },
                     {
-                        "content":"At the Clan Circle unveiling in May 2023, Ho-Chunk Chief Clayton Winneshiek and Tribal Historic Preservation Officer Bill Quackenbush spoke about the importance of the Clan Circle for both the Ho-Chunk Nation and for non-Ho-Chunk people in Teejop, describing the Clan Circle’s potential to promote further learning about the Ho-Chunk Nation, Ho-Chunk history, and Ho-Chunk culture"
+                        "content": "At the Clan Circle unveiling in May 2023, Ho-Chunk Chief Clayton Winneshiek and Tribal Historic Preservation Officer Bill Quackenbush spoke about the importance of the Clan Circle for both the Ho-Chunk Nation and for non-Ho-Chunk people in Teejop, describing the Clan Circle’s potential to promote further learning about the Ho-Chunk Nation, Ho-Chunk history, and Ho-Chunk culture"
                     }
                 ],
-                "label": null
+                "label": "Continue up the Lakeshore Nature Preserve path until you reach the banks of Willow Creek, turn left before the bridge, towards the metal <b>Ho-Chunk clan circle</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -1084,10 +1087,10 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"From your current vantage point, you overlook Lake Mendota (Tee Wąąkšik Homįk) and the Picnic Point peninsula."
+                        "content": "From your current vantage point, you overlook Lake Mendota (<b class='pronounce'>Tee Wąąkšik Homįk</b>) and the Picnic Point peninsula."
                     },
                     {
-                        "content":"As you look out toward the horizon, you observe Picnic Point, one of the most iconic locations on campus. Picnic Point has been used by local Indigenous peoples for millennia, and recent archaeological evidence affirms the presence of camps, workshops, and effigy mounds.<sup>1</sup> Today, Picnic Point is home to six mounds (a seventh mound was destroyed by looters in the early twentieth century).<sup>2</sup> Like others on campus, each of the mounds have sustained damage from recreationalists and erosion."
+                        "content": "As you look out toward the horizon, you observe Picnic Point, one of the most iconic locations on campus. Picnic Point has been used by local Indigenous peoples for millennia, and recent archaeological evidence affirms the presence of camps, workshops, and effigy mounds.<sup>1</sup> Today, Picnic Point is home to six mounds (a seventh mound was destroyed by looters in the early twentieth century).<sup>2</sup> Like others on campus, each of the mounds have sustained damage from recreationalists and erosion."
                     },
                     {
                         "position": "left",
@@ -1096,11 +1099,11 @@
                         "caption": "Indian Legend Map of Lake Mendota, created by Charles E. Brown's students in 1941, retrieved from <a href='https://www.wisconsinhistory.org/Records/Image/IM85412'>Wisconsin Historical Society</a>."
                     },
                     {
-                        "position":"right", 
-                        "content":"Between you and Picnic Point is Lake Mendota, which features just as significantly in Ho-Chunk oral tradition as it does on the physical landscape today. The shores of Tee Wąąkšik Homįk, or “Where the Man Lies,” were once home to approximately 22 Ho-Chunk villages."
+                        "position": "right",
+                        "content": "Between you and Picnic Point is Lake Mendota (<b class='pronounce'>Tee Wąąkšik Homįk</b>), which features just as significantly in Ho-Chunk oral tradition as it does on the physical landscape today. The shores of <b class='pronounce'>Tee Wąąkšik Homįk</b>, or “Where the Man Lies,” were once home to approximately 22 Ho-Chunk villages."
                     },
                     {
-                        "content":"As this stop concludes Tour 2, this is an opportunity to reflect on what this landscape, Teejop, means to you. How have you interacted with this land while on campus? How may your experiences and relationships to the land differ from members of the Ho-Chunk Nation?."
+                        "content": "As this stop concludes Tour 2, this is an opportunity to reflect on what this landscape, Teejop, means to you. How have you interacted with this land while on campus? How may your experiences and relationships to the land differ from members of the Ho-Chunk Nation?."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1123,7 +1126,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Backtrack along <b>Willow Creek</b> towards Lake Mendota, cross the <b>Lakeshore Nature Preserve Path</b> to reach a lookout point."
             },
             "geometry": {
                 "type": "Point",
