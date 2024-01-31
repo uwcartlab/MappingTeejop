@@ -4,10 +4,7 @@
 //Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
 //This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*HIDE AUDIO BUTTON TEMPORARILY*/
-#story-audio{
-    display:none;
-}
+
 /**************FONTS*******************/
 @font-face {
     font-family: karma;
@@ -61,7 +58,6 @@ body{
     margin-bottom: 0;
 }
 .modal-header{
-    background:white;
     padding: 1rem 1rem 0.5rem 1rem !important;
 }
 .modal-dialog{
@@ -101,9 +97,6 @@ body{
 .translation{
     color:gray;
     font-size:18px;
-}
-#about, #tours, #resources, #intro{
-    border-bottom: 2px lightgray dotted;
 }
 /*tour text*/
 .read-more-text{
@@ -179,9 +172,6 @@ body{
     font-weight:bold;
 }
 /*color mode switch*/
-.light .text-active, .dark .text-active{
-    background:lightgray !important;
-}
 #color-mode{
     margin:25px 0px;
 }
@@ -197,39 +187,34 @@ body{
 .dark #color-mode{
     border-color:white;
 }
-.light #light-mode{
+.light #light-mode, .light .text-active{
     background:lightgray !important;
 }
-.dark #dark-mode{
-    background:lightgray !important;
+.dark #dark-mode, .dark .text-active{
+    background:darkgray !important;
 }
 /*dark mode*/
-.dark .container{
+.dark .navbar, .dark #footer, body.dark, .dark #story-header, .dark #story-modal-footer{
+    background:#0c2719;
+    color:white;
+}
+.dark .container, .dark .modal-header, .dark #story-content{
     background:black;
+    color:white;
 }
-.dark .navbar{
-    background:#0c2719;
+.dark #about, .dark #tours, .dark #intro{
+    border-bottom: 50px #0c2719 solid;
 }
-.dark{
-    color:white !important;
-    background-color:#000000 !important;
-}
-.dark #tours{
-    background:#0c2719;
-}
-.dark #about{
-    background:#123b26;
-}
-.dark #resources{
-    background:#184e32;
-}
-.dark #footer{
-    background:#1e623f;
-}
-.dark button, .dark .stop{
+.dark button{
     background:black !important;
     color:white !important;
     border: 2px solid white !important;
+}
+.dark button:hover{
+    background:lightgray !important;
+}
+.dark .navbar-nav, .dark .stop, .dark .stop:hover{
+    background:#000000;
 }
 .dark button > a, .dark p > a, .dark h1 > a{
     color:white !important;
@@ -244,30 +229,27 @@ body{
 .dark .navbar-nav, .dark .stops{
     background: #0c2719 !important;
 }
-.dark #story-modal{
+.dark .leaflet-popup-content-wrapper, .dark .leaflet-popup-tip
+{
+    background:black;
+    color:white;
+}
+.dark .nav-collapse:hover{
+    background:black;
+}
+.dark .leaflet-control-zoom > *{
     background:black !important;
+    color:white;
 }
 /*light mode*/
-.light{
-    background-color:white;
-}
-.light .navbar{
+.light .navbar, .light #footer, body.light, .light #story-modal-footer,  .light #story-header{
     background:#f2f5ef;
 }
-.light .container{
+.light .container, .light .modal-header{
     background:white;
 }
-.light #tours{
-    background:#f1f6ee;
-}
-.light #about{
-    background:#d6e5cd;
-}
-.light #resources{
-    background:#c8dcbc;
-}
-.light #footer{
-    background:#bad3ab;
+.light #about, .light #tours, .light #intro{
+    border-bottom: 50px #f2f5ef solid;
 }
 .light button{
     background:#f2f5ef !important;
@@ -325,12 +307,15 @@ body{
 .stops{
     display:none;
     position:absolute;
-    z-index: 1000;
+    z-index: 10000;
     padding: 20px;  
     font-size:20px;
     max-height:80vh;
     overflow: scroll;
     font-family:karma !important;
+    border-right:2px dotted gray;
+    border-bottom:2px dotted gray;
+
 }
 .list-stop{
     margin-bottom:0 !important;
@@ -346,6 +331,11 @@ body{
     padding-bottom:25px;
     text-align:center;
     border-top:2px dotted gray;
+}
+.support{
+    text-align:left;
+    margin-top:25px;
+    font-style:italic;
 }
 /***************MAP********************/
 #map{

@@ -8,7 +8,7 @@
                 "pk": 1,
                 "pointOnTour": 1,
                 "name": "Our Shared Future Marker",
-                "audio": "OurSharedFutureMarker",
+                "audio": "our_shared_future",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -65,7 +65,7 @@
                 "pk": 2,
                 "pointOnTour": 2,
                 "name": "Lincoln Statue",
-                "audio": "LincolnStatue",
+                "audio": "lincoln_statue",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -140,7 +140,7 @@
                 "pk": 3,
                 "pointOnTour": 3,
                 "name": "Memorial Union Ho-Chunk Banner",
-                "audio": null,
+                "audio": "ho-chunk_banners",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -187,7 +187,7 @@
                 "pk": 4,
                 "pointOnTour": 4,
                 "name": "Bascom Hall Ho-Chunk Flag",
-                "audio": "BascomHallHo-ChunkFlag",
+                "audio": "ho-chunk_flag",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -252,7 +252,7 @@
                 "pk": 5,
                 "pointOnTour": 5,
                 "name": "Black Hawk Marker",
-                "audio": "BlackHawkMarker",
+                "audio": "blackhawk_marker",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -322,7 +322,7 @@
                 "pk": 6,
                 "pointOnTour": 6,
                 "name": "Effigy: Bird Form",
-                "audio": null,
+                "audio": "effigy_bird_form",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -381,7 +381,7 @@
                 "pk": 7,
                 "pointOnTour": 7,
                 "name": "Observatory Hill Effigy Mounds",
-                "audio": "ObservatoryHillEffigyMounds",
+                "audio": "observatory_mounds",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -451,7 +451,7 @@
                 "pk": 8,
                 "pointOnTour": 8,
                 "name": "Tree of Peace",
-                "audio": "TreeofPeace",
+                "audio": "tree_of_peace",
                 "tours": [
                     "mairakere",
                     "explore"
@@ -515,7 +515,7 @@
                 "pk": 1,
                 "pointOnTour": 1,
                 "name": "Memorial Union",
-                "audio": "MemorialUnion",
+                "audio": "memorial_union",
                 "tours": [
                     "explore"
                 ],
@@ -578,7 +578,7 @@
                 "pk": 2,
                 "pointOnTour": 2,
                 "name": "Memorial Union Indian Murals",
-                "audio": "IndianMurals",
+                "audio": "indian_murals",
                 "tours": [
                     "explore"
                 ],
@@ -617,7 +617,7 @@
                 "pk": 3,
                 "pointOnTour": 3,
                 "name": "Paul Bunyan Murals",
-                "audio": "PaulBunyanMurals",
+                "audio": "paul_bunyans",
                 "tours": [
                     "explore"
                 ],
@@ -661,7 +661,7 @@
                 "pk": 9,
                 "pointOnTour": 1,
                 "name": "Dejope Hall",
-                "audio": null,
+                "audio": "dejope_entrance",
                 "tours": [
                     "tour2",
                     "explore"
@@ -719,8 +719,8 @@
             "properties": {
                 "pk": 10,
                 "pointOnTour": 2,
-                "name": "Dejope Lobby",
-                "audio": null,
+                "name": "Dejope Hall Lobby",
+                "audio": "dejope_lobby",
                 "tours": [
                     "tour2",
                     "explore"
@@ -773,7 +773,7 @@
                 "pk": 11,
                 "pointOnTour": 3,
                 "name": "Birch Bark Canoe",
-                "audio": null,
+                "audio": "birchbark_canoe",
                 "tours": [
                     "tour2",
                     "explore"
@@ -838,7 +838,7 @@
                 "pk": 12,
                 "pointOnTour": 4,
                 "name": "Dejope Fire Circle",
-                "audio": null,
+                "audio": "dejope_fire_circle",
                 "tours": [
                     "tour2",
                     "explore"
@@ -900,7 +900,7 @@
                 "pk": 13,
                 "pointOnTour": 5,
                 "name": "Willow Creek Oak Savanna",
-                "audio": null,
+                "audio": "oak_savanna",
                 "tours": [
                     "tour2",
                     "explore"
@@ -979,8 +979,8 @@
             "properties": {
                 "pk": 14,
                 "pointOnTour": 6,
-                "name": "Willow Creek Mounds",
-                "audio": null,
+                "name": "Willow Drive Mounds",
+                "audio": "willow_creek_mounds",
                 "tours": [
                     "tour2",
                     "explore"
@@ -1034,8 +1034,8 @@
             "properties": {
                 "pk": 15,
                 "pointOnTour": 7,
-                "name": "Ho Chunk Clan Circle",
-                "audio": null,
+                "name": "Ho-Chunk Clan Circle",
+                "audio": "ho-chunk_clan_circle",
                 "tours": [
                     "tour2",
                     "explore"
@@ -1074,8 +1074,8 @@
             "properties": {
                 "pk": 16,
                 "pointOnTour": 8,
-                "name": "Lake Mendota and Picnic Point",
-                "audio": null,
+                "name": "Lake Mendota Overlooking Picnic Point",
+                "audio": "picnic_point_view",
                 "tours": [
                     "tour2",
                     "explore"

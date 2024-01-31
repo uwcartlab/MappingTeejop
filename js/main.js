@@ -78,9 +78,6 @@ Add audio autoplay element
         //stops menu events
         //navigation bar stops menu
         document.querySelector(".stop").addEventListener("click",function(){
-            let w = window.screen.width,
-                h = window.screen.height;
-
             if ( document.querySelector(".stops").style.display == "block"){
                 document.querySelector(".stops").style.display = "none";
                 document.querySelector(".stop").innerHTML = "Stops";
@@ -89,7 +86,7 @@ Add audio autoplay element
             }
             else{
                 document.querySelector(".stops").style.display = "block";
-                document.querySelector(".stop").innerHTML = "Stops";
+                document.querySelector(".stop").innerHTML = "Close";
                 //responsive positioning
                 /*let stopHeight = document.querySelector(".navbar-nav").clientHeight + document.querySelector(".stops").clientHeight;
                 if (w <= 539){
