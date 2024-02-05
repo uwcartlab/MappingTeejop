@@ -114,9 +114,39 @@
         }
     }
 
+    //function to create pronunciation listeners
+    function pronounce(){
+        document.querySelectorAll(".pronounce").forEach(function(elem){
+            elem.addEventListener("click",function(e){
+                //create audio element
+                let audio = document.createElement("audio"),
+                    source = "<source src='audio/words/" + elem.innerHTML + ".mp3'>",
+                    play = "<p class='play'>&#9654;</p>";
+                //add source 
+                audio.insertAdjacentHTML("beforeend",source)
+                //insert audio element into document
+                document.querySelector("body").append(audio);
+                document.querySelector("body").insertAdjacentHTML("beforeend",play);
+                //play audio
+                audio.play();
+                //add and position visual affordance
+                let font = window.getComputedStyle(document.querySelector(".font-size"), null).getPropertyValue("font-size");
+                document.querySelector(".play").style.top = e.target.offsetTop - parseInt(font) + "px";
+                document.querySelector(".play").style.left = e.target.offsetLeft + "px";
+                document.querySelector(".play").style.fontSize = font; 
+                //remove audio after it finishes playing
+                audio.onended = function(){
+                    audio.remove();
+                    document.querySelector(".play").remove();
+                }
+            })
+        })
+    }
+
     window.addEventListener('DOMContentLoaded',(event) => {
         setTextListeners();
         accessibility();
+        pronounce();
         document.querySelector(".nav-collapse").addEventListener("click",collapseMenu)
     });
 })();

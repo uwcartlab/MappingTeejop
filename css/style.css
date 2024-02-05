@@ -137,10 +137,10 @@ body{
     cursor:pointer;
 }
 /**************PRONUNCIATION*************/
-.pronounce{
+.pronounce, .pronounce-demo{
     text-decoration: underline;
 }
-.pronounce:hover{
+.pronounce:hover, .pronounce-demo:hover{
     cursor:pointer;
     color:darkgray;
 }
