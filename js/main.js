@@ -1,26 +1,9 @@
 /////////////////////////////////////////////////MAPPING TEEJOP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//This code was written in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
+//This code was beginning in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
 //The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-Ameircan settlers founded a city called Madison, Wisconsin.                                                                 //
 //Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
 //This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-/*To Do:
-[check]Implement Ho-Chunk word pronundiation
-[check] Create alternative basemap styles
-[check] Style story
-[check]Add more test sites
-[check]Experiment with site polygons, as opposed to icons
-[check] Location sharing 
-[check]sidewalk walking route?
-[check[accessibility 
-    [check] text size
-    [check]  fullscreen image selection that allows you to zoom
-[check] labels
-Add audio autoplay element 
-[check] splash screen 
-    with accessibility settings
-*/
 
 (function(){
     //get active tour based on current url
@@ -29,90 +12,8 @@ Add audio autoplay element
     let map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
     //colors
     let activeColor = "#000000", inactiveColor = "#999999";
-    //color mode
-    let colorMode = localStorage.getItem("color") ? localStorage.getItem("color") : 'light',
-        textSize = localStorage.getItem("text") ? localStorage.getItem("text") : '20px';
     //close popup text
     let closePopup = "<p class='close-popup'>Tap anywhere to close directions</p>";
-    //accessibility settings
-    function accessibility(){
-        //text size buttons
-        document.querySelectorAll(".font-size").forEach(function(text){
-            text.style.fontSize = textSize;
-        })
-        //color modes
-        const styleEl = document.createElement('style');
-        //append <style> element to <head>
-        document.head.appendChild(styleEl);
-        //grab style element's sheet
-        const sheet = styleEl.sheet;
-        if (colorMode == "dark"){
-            document.querySelectorAll("body, navbar, .modal-header, .modal-footer, .modal-content, .leaflet-control-zoom-out, .leaflet-control-zoom-in").forEach(function(elem){
-                if (elem.classList.contains("light"))
-                    elem.classList.remove("light");
-                elem.classList.add("dark");
-                //leaflet styling
-                for (let i = 0; i < sheet.cssRules.length; i++){
-                    sheet.deleteRule(i);
-                }
-                sheet.insertRule('.leaflet-popup-content-wrapper { background: black }', 0);
-                sheet.insertRule('.leaflet-popup-content-wrapper { color: white }', 0);
-                sheet.insertRule('.location-control-container { background: black !important }', 0);
-                sheet.insertRule('.leaflet-control-rotate-toggle { background: black !important }', 0);
-                sheet.insertRule('.leaflet-popup-tip { background: black }', 0);
-            });
-            document.querySelector("button#dark-mode").style.backgroundColor = "white";
-        }
-        if (colorMode == "light"){
-            document.querySelectorAll("body, navbar, .modal-header, .modal-footer, .modal-content, .leaflet-control-zoom-in, .leaflet-control-zoom-out").forEach(function(elem){
-                if (elem.classList.contains("dark"))
-                    elem.classList.remove("dark");
-                elem.classList.add("light");
-                //leaflet styling
-                for (let i = 0; i < sheet.cssRules.length; i++){
-                    sheet.deleteRule(i);
-                }
-            });
-        }
-        document.querySelector(".nav-collapse").addEventListener("click",collapseMenu)
-        //stops menu events
-        //navigation bar stops menu
-        document.querySelector(".stop").addEventListener("click",function(){
-            if ( document.querySelector(".stops").style.display == "block"){
-                document.querySelector(".stops").style.display = "none";
-                document.querySelector(".stop").innerHTML = "Stops";
-
-                //document.querySelector(".navbar-nav").style.top = (h - 140) + "px";
-            }
-            else{
-                document.querySelector(".stops").style.display = "block";
-                document.querySelector(".stop").innerHTML = "Close";
-                //responsive positioning
-                /*let stopHeight = document.querySelector(".navbar-nav").clientHeight + document.querySelector(".stops").clientHeight;
-                if (w <= 539){
-                    document.querySelector(".navbar-nav").style.top = (h - stopHeight) + "px";
-                }*/
-            }
-        })
-        //close stops menu when clicking elsewhere on the page
-        document.querySelector("body").addEventListener("click",function(event){
-            if (event.target.className != "stops" && event.target.className != "stop"){
-                if (document.querySelector(".stops").style.display == "block"){
-                    document.querySelector(".stops").style.display = "none";
-                    document.querySelector(".stop").innerHTML = "Stops";
-                }
-            }
-        })
-    }
-    //collasable menu
-    function collapseMenu(){
-        if (document.querySelector(".navbar-nav").style.visibility == "visible"){
-            document.querySelector(".navbar-nav").style.visibility = "hidden";
-        }
-        else{
-            document.querySelector(".navbar-nav").style.visibility = "visible";
-        }
-    }
     //function to create pronunciation listeners
     function pronounce(){
         document.querySelectorAll(".pronounce").forEach(function(elem){
@@ -142,39 +43,36 @@ Add audio autoplay element
             })
         })
     }
-    //set listener for extra text on the splash screen
-    function setTextListeners(){
-        document.querySelectorAll(".read-more-button").forEach(function(button){
-            let id = button.id.charAt(button.id.length-1);
+    //stop menu
+    function stopMenu(){
+        //stops menu events
+        //navigation bar stops menu
+        document.querySelector(".stop").addEventListener("click",function(){
+            if ( document.querySelector(".stops").style.display == "block"){
+                document.querySelector(".stops").style.display = "none";
+                document.querySelector(".stop").innerHTML = "Stops";
 
-            button.addEventListener("click",function(e){
-                if (button.innerHTML == "Read More")
-                    button.innerHTML = "Collapse"
-                else    
-                    button.innerHTML = "Read More"
-                
-                document.querySelectorAll(".read-more-text").forEach(function(block){
-                    let blockId = block.id.charAt(block.id.length-1);
-                    if (blockId == id){
-                        if (block.style.display == "none")
-                            block.style.display = "block";
-                        else    
-                            block.style.display = "none";
-                    }
-                })
-            })
+                //document.querySelector(".navbar-nav").style.top = (h - 140) + "px";
+            }
+            else{
+                document.querySelector(".stops").style.display = "block";
+                document.querySelector(".stop").innerHTML = "Close";
+                //responsive positioning
+                /*let stopHeight = document.querySelector(".navbar-nav").clientHeight + document.querySelector(".stops").clientHeight;
+                if (w <= 539){
+                    document.querySelector(".navbar-nav").style.top = (h - stopHeight) + "px";
+                }*/
+            }
         })
-    }
-    //set listeners for different tour types
-    function tourListeners(){
-        document.querySelectorAll(".tour-button").forEach(function(elem){
-            elem.addEventListener("click",function(){
-                document.querySelector(".stops").innerHTML = "";
-                tour = elem.id;
-                currentStop = 1;
-            })
+        //close stops menu when clicking elsewhere on the page
+        document.querySelector("body").addEventListener("click",function(event){
+            if (event.target.className != "stops" && event.target.className != "stop"){
+                if (document.querySelector(".stops").style.display == "block"){
+                    document.querySelector(".stops").style.display = "none";
+                    document.querySelector(".stop").innerHTML = "Stops";
+                }
+            }
         })
-
     }
     //image zoom
     function imageZoom(){
@@ -199,36 +97,7 @@ Add audio autoplay element
             })
         })
     }
-    //dislay splash screen when the page is loaded
-    function openSplashScreen(){
-        let splashElem = document.getElementById('splash-modal'),
-            splashModal = new bootstrap.Modal(splashElem);
-
-        //activate pronunciation listener
-        document.getElementById('splash-modal').addEventListener('show.bs.modal', pronounce)
-
-        //show modal
-        //splashModal.show();
-
-        //activate listener on close
-        document.getElementById('splash-modal').addEventListener('hide.bs.modal', function (event) {
-            activateTour();
-        })
-
-        //activate listener for the about button
-        document.querySelectorAll(".about, .title").forEach(function(elem){
-            elem.addEventListener("click", function(){
-                splashModal.show();
-                //hide expanded text
-                document.querySelectorAll(".read-more-button").forEach(function(button){
-                    button.innerHTML = "Read More";
-                })
-                document.querySelectorAll(".read-more-text").forEach(function(text){
-                    text.style.display = "none";
-                })
-            })
-        })
-    }
+    //activate current tour
     function activateTour(){
         //add routes and sites
         addRoutes();
@@ -695,12 +564,9 @@ Add audio autoplay element
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {
-        tourListeners();
-        openSplashScreen();
         createMap();
-        accessibility();
-        setTextListeners();
         activateTour();
+        stopMenu();
     });
 
 })();

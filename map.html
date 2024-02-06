@@ -46,72 +46,6 @@
               </div>
             </div>
         </nav>
-
-        <!--Splash screen-->
-        <div class="modal fade font-size" id="splash-modal">
-            <div class="modal-dialog container">
-                <div class="modal-header" id="story-header">
-                    <h1 class="offset-lg-2 offset-md-1">Mapping Teejop</h1>
-                    <p class="close-x" type="button"  data-bs-dismiss="modal" aria-label="Close">X</p>
-                </div>
-                <div class="modal-content row" id="splash-content">
-                    <!--<h2>Choose a Tour:</h2>-->
-                    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12" id="tour-selection container">
-                        <p><b>Mapping Teejop</b> is a digital mapping project that guides users on an Indigenous walking tour of the UW-Madison campus. Created in partnership between the American Indian & Indigenous Studies Program and the Department of Geography’s Cartography Lab, Mapping Teejop provides an accessible and interactive experience for visitors to UW-Madison to learn about and explore the Ho-Chunk history and contemporary Indigenous presence on campus. <p>
-                        <p>Adjust your settings below, read how to use the program, then <b>choose a tour to get started.</b></p>
-                        <p>Tap <b class="pronounce">underlined</b> words to hear them prounounced.</p>
-                        <div id="text-size">
-                            <p>Text size:</p>
-                            <button class="text-size text-active" value="20px" id="small">Aa</button>
-                            <button class="text-size" value="23px" id="medium">Aa</button>
-                            <button class="text-size" value="26px" id="large">Aa</button>
-                        </div>
-                        <div id="color-mode">
-                            <button id="light-mode">Light</button>
-                            <button id="dark-mode">Dark</button>
-                        </div>
-                        <div id="how-to-use">
-                            <p>If you get lost, tap the <b>Where am I?</b> button on the map page.</p>
-                            <!--<img src="img/how-to/route.png">
-                            <img src="img/how-to/site.png">-->
-                        </div>
-                        <div class="tour row">
-                            <div class="tour-img col-lg-4 col-md-5 col-sm-6 col-12">
-                                <img src="img/obs_hill.jpg" alt="A view of Lake Mendota from the top of Observatory Hill on the University of Wisconsin-Madison campus. It is a clear day, and the lake is visible in the distance. In the foreground, the grassy hill slopes into a band of forest.">
-                            </div>
-                            <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
-                                <h3 class="tour-title"><b>Mąįirakere</b> <i class="translation">Grounding</i></h3>
-                                <p><b class="pronounce">Mąįrakere</b> is the first digital tour in the Mapping <b class="pronounce">Teejop</b> series. As such, it is meant to expose, orient, and “ground” students, faculty, staff, and visitors to the Ho-Chunk and Native history and presence of the University of Wisconsin. </p>
-                                <div id="read-more-text-1" class="read-more-text" style="display:none">
-                                    <p>As a land grant institution, the University of Wisconsin has a deep history and complex history with the Ho-Chunk Nation, a history that has often been deliberately erased, ignored, and overlooked.</p>
-                                    <p><b class="pronounce">Mąįrakere</b> begins at one of the most iconic locations on campus, Bascom Hill. Departing from the Our Shared Future Marker, users will be guided over Bascom Hill, onto Observatory Drive, before ending at the Tree of Peace near Washburn Observatory.</p>
-                                    <p>Along the way, <b class="pronounce">Mąįrakere</b> provides content and context for users of Mapping <b class="pronounce">Teejop</b> to not only learn about Ho-Chunk and Native history and presence at the University of Wisconsin, a region long known as <b class="pronounce">Teejop</b>, but opportunities for critical and self-reflection.</p>
-                                    <p><b class="pronounce">Mąįrakere</b> closely mirrors the First Nations Cultural Landscape Tour which provides a more in-depth and personal guided tour experience for those wanting to learn more and engage with trained guides. Together, Mapping <b class="pronounce">Teejop</b> and the First Nations Cultural Landscape Tour work to challenge erasure narratives, affirm Ho-Chunk history and presence, and to provide a more critical history of the University of Wisconsin.</p>
-                                </div>
-                                <a id="read-more-button-1" class="read-more-button">Read More</a>
-                                <button class="tour-button" id="mairakere" data-bs-dismiss="modal">Start Mąįrakere</button>
-                            </div>
-                        </div>
-                        <div class="tour row explore">
-                            <div class="tour-img col-lg-4 col-md-5 col-sm-6 col-12">
-                                <img src="img/explore.png" alt="An aerial photograph of the University of Wisconsin-Madison campus, oriented so that north is at the top of the image. Lake Mendota is visible in the upper third of the image, while campus buildings comprise much of the middle of the image, while a residential area is present in the lower left.">
-                            </div>
-                            <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
-                                <h3 class="tour-title"><b>Explore</b> <i class="translation">Explore</i></h3>
-                                <p>Choose this option if you wish to explore Native and Ho-Chunk sites on campus in any order.</p>
-                                <button class="tour-button" id="explore" data-bs-dismiss="modal">Start Exploring</button>
-                            </div>
-                        </div>  
-                        <p class="credit"><i>Ho-Chunk language expertise and audio recordings courtesy of Henning Garvin.</i></p>
-                        <p>Support for Mapping Teejop comes from the American Indian & Indigenous Studies Program and the School of Human Ecology’s Indigenous EcoWell Initiative.</p>
-                        <img class="uw" src="img/uw-logo.png" alt="Logo of the University of Wisconsin-Madison.">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary close-button" data-bs-dismiss="modal">Close</button>
-                </div>               
-            </div>
-        </div> 
         
         <!--Story modal-->
          <div class="modal fade font-size" id="story-modal">
@@ -132,19 +66,18 @@
             </div>
         </div>
 
+        <!--map container-->
         <div id="map">
             <p class="stop">Stops</p>
             <div class="stops"></div>
-            <!--<div class="map-popup">
-                <p id="map-popup-content"></p>
-                <button id='close-map-popup'>Close</button>
-            </div>-->
-            <!--<div class="nav-collapse" alt="Open navigation menu.">Menu &#9776</div>-->
+            
         </div>
+        
         <!--Scripts-->
         <script type="text/javascript" src="lib/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
         <script type="text/javascript" src="lib/leaflet-rotate.js"></script>
+        <script type="text/javascript" src="js/accessibility.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
 
     </body>

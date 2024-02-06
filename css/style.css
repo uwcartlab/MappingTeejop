@@ -229,7 +229,7 @@ body{
 .dark .navbar-nav, .dark .stops{
     background: #0c2719 !important;
 }
-.dark .leaflet-popup-content-wrapper, .dark .leaflet-popup-tip
+.dark .leaflet-popup-content-wrapper, .dark .leaflet-popup-tip, .dark .location-control-container
 {
     background:black;
     color:white;

@@ -146,7 +146,7 @@
             "properties": {
                 "pk": 3,
                 "pointOnTour": 3,
-                "name": "Memorial Union Ho-Chunk Banner",
+                "name": "Bascom Hall Ho-Chunk Banner",
                 "audio": "ho-chunk_banners",
                 "tours": [
                     "mairakere",
@@ -157,6 +157,9 @@
                         "image": "img/site_photos/ho_chunk_banner.jpg",
                         "alt": "A view of Bascom Hall, on the UW Madison Campus, with the Ho-Chunk banners hung between the white columns at the front of the building. There are three panels to the banner, and the texture resembles beadwork. The center panel has a representation of a thunderbird in the upper middle, and two water spirits beneath it. The left and right panels are symmetrical, each containing two geometric representations of the four lakes of Teejop. Beneath each panel are four symbols representing the Ho-Chunk clans, resulting in twelve total.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Note: The Ho-Chunk Banners will only be on display intermittedly throughout Spring Semester 2024."
                     },
                     {
                         "content": "The University of Wisconsin celebrates its 175th anniversary as an academic institution during the 2023-2024 academic year. At the same time, the University acknowledges that our campus occupies the ancestral lands of the Ho-Chunk Nation, Indigenous peoples who have lived in the region since time immemorial."
