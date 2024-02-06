@@ -1,8 +1,8 @@
 /////////////////////////////////////////////////MAPPING TEEJOP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//This code was beginning in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
+//This code was written beginning in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
 //The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-Ameircan settlers founded a city called Madison, Wisconsin.                                                                 //
 //Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
-//This code was written by Gareth Baldrica-Franklin, a settler living in Teejop.                                                                                                                //
+//This code was written by Gareth Baldrica-Franklin, a settler living in Teejop, with input from our project team, including Kasey Keeler, Sasha Suarez, Molli Pauliot, Sarah Tate, Jen Rose Smith, and Kendra Greendeer.                                                                                                             //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 (function(){
