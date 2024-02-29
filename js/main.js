@@ -165,7 +165,7 @@
         //create location control
         var LocationControl = L.Control.extend({
             options:{
-                position:"topright"
+                position:"bottomleft"
             },
             onAdd: function () {
                 // create the control container with a particular class name
