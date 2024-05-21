@@ -15,7 +15,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/our_shared_future2.jpg",
+                        "image": "img/tour1/our_shared_future2.jpg",
                         "alt": "A metal plaque situated next to a sidewalk on the side of Bascom Hill—the 'Our Shared Future' marker.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -28,7 +28,7 @@
                     },
                     {
                         "position": "right",
-                        "image": "img/our_shared_future_ceremony.jpg",
+                        "image": "img/tour1/our_shared_future_ceremony.jpg",
                         "alt": "A group of about thirty to forty people, all smiling, stand in front of plaque that reads 'Our Shared Future'. There other text on the plaque, but it is not legible at the distance of the photograph. There is also a wooden podium that reads 'Wisconsin'. There are trees and a single tan-brick building in the background.",
                         "caption": "Ho-Chunk dedication of the Our Shared Future marker in 2019. Photo from <a href='https://uwmadison-photos.photoshelter.com/search/result/I0000ei.ZtAKJZYQ?terms=our%20shared%20future%20marker&'>UW Photo Collection</a>."
                     },
@@ -69,7 +69,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/lincoln.jpg",
+                        "image": "img/tour1/lincoln.jpg",
                         "alt": "A metal statue of Abraham Lincoln sits on a cement pedestal in from of Bascom Hall, University of Wisconsin-Madison. The building has white columns in the front, behind which a red and white badger flag is located. The building itself is tan brick and contains many windows.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -81,7 +81,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/mankato_execution.jpg",
+                        "image": "img/tour1/mankato_execution.jpg",
                         "alt": "An old newspaper print with the caption: 'The Execution of Sioux Indians by the U.S Authorities, at Mankato, Minnesota, Friday, December 26th—from a scratch by W.H Childs.' In the upper left there is a gallows platform on which several people are being hanged. There is an American flag on a flagpole next to the platform. Surrounding the platform are concentric rows of soliders in all four directions. The back rows contain soldiers on horseback. There are buildings in the distance.",
                         "caption": "Public execution of Dakota men in Mankato. Image from <a href='https://www.mprnews.org/story/2017/06/08/mankato-hangings-an-uneasy-topic-for-minnesota-schools'>MPR News</a> Copied from a 1863 sketch by W.H. Childs."
                     },
@@ -95,7 +95,7 @@
                     },
                     {
                         "position": "right",
-                        "image": "img/dakota38_memorial.jpg",
+                        "image": "img/tour1/dakota38_memorial.jpg",
                         "alt": "A group of people on riding on horseback through a street.",
                         "caption": "Dakota horseback riders in Mankato for the 38 Memorial Dedication in 2012. Photo from <a href='https://www.mprnews.org/story/2014/12/26/dakota-memorial-run-ride'>Jackson Forderer, MPR News.</a>"
                     },
@@ -154,19 +154,19 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/ho_chunk_banner.jpg",
+                        "image": "img/tour1/ho_chunk_banner.jpg",
                         "alt": "A view of Bascom Hall, on the UW Madison Campus, with the Ho-Chunk banners hung between the white columns at the front of the building. There are three panels to the banner, and the texture resembles beadwork. The center panel has a representation of a thunderbird in the upper middle, and two water spirits beneath it. The left and right panels are symmetrical, each containing two geometric representations of the four lakes of Teejop. Beneath each panel are four symbols representing the Ho-Chunk clans, resulting in twelve total.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"Note: The Ho-Chunk Banners will only be on display intermittedly throughout Spring Semester 2024."
+                        "content": "Note: The Ho-Chunk Banners will only be on display intermittedly throughout Spring Semester 2024."
                     },
                     {
                         "content": "The University of Wisconsin celebrates its 175th anniversary as an academic institution during the 2023-2024 academic year. At the same time, the University acknowledges that our campus occupies the ancestral lands of the Ho-Chunk Nation, Indigenous peoples who have lived in the region since time immemorial."
                     },
                     {
                         "position": "left",
-                        "image": "img/site_photos/ho_chunk_banner_ceremony.jpg",
+                        "image": "img/tour1/ho_chunk_banner_ceremony.jpg",
                         "alt": "A view of Bascom Hill—with Bascom Hall in the background, showing the Ho-Chunk banner—on November 9th, 2023, the day the banner was unveiled. There are small groups of people gathered on the grassy hill. It is a sunny, clear day, and there are several trees with different colored leaves.",
                         "caption": "The banners on the day of their unveiling ceremony. Photo by Gareth Baldrica-Franklin."
                     },
@@ -204,7 +204,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/ho_chunk_flag.jpg",
+                        "image": "img/tour1/ho_chunk_flag.jpg",
                         "alt": "A blue and white flag—the flag of the Ho-Chunk nation—flapping on a flagpole in front of the gray bricks of Bascom Hall on the UW-Madison campus.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -216,7 +216,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/site_photos/flag.jpg",
+                        "image": "img/tour1/flag.jpg",
                         "alt": "A person is holding white and blue flag with a circular seal reading: 'The seal of the Ho-Chunk'.",
                         "caption": "2021 Ho-Chunk flag dedication ceremony. Photo by <a href='https://news.wisc.edu/ho-chunk-nation-flag-raising-symbolizes-a-shared-future/'>Bryce Richter, UW Madison News</a>."
                     },
@@ -251,8 +251,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.403855390372129,
-                    43.075535797816279
+                    -89.403789153699293,
+                    43.075530498081825
                 ]
             }
         },
@@ -269,7 +269,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/blackhawk_marker2.jpg",
+                        "image": "img/tour1/blackhawk_marker2.jpg",
                         "alt": "A wide sidewalk with a series of metal bike racks next to small collection of bushes. A metal plaque on a short standing stone sites in front of the bushes—the Black Hawk marker. The Social Science Building of UW-Madison can be seen in the background.",
                         "caption": "The Black Hawk Marker can be seen in the lower right of the photo. Photo by Gareth Baldrica-Franklin."
                     },
@@ -285,7 +285,7 @@
                     },
                     {
                         "position": "right",
-                        "image": "img/site_photos/blackhawk.jpg",
+                        "image": "img/tour1/blackhawk.jpg",
                         "alt": "A metal plaque that reads: 'Black Hawk - Sauk Chief retreated through these grounds July 21, 1832 pursued by militia and U.S regulars. Placed by the class of 1888, U.W, June 17th, 1913.'.",
                         "caption": "The Black Hawk Marker, photo by Gareth Baldrica-Franklin."
                     },
@@ -339,7 +339,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/effigy-bird-form.jpg",
+                        "image": "img/tour1/effigy-bird-form.jpg",
                         "alt": "A metal sculpture sitting on a grassy hill, with trees in the background. The sculpture is comprised of curved tubes of metal, arranged and connected to one another into the shape of a bird. The 'head' of the sculpture is facing the center of the photo, while its wings stretch to the far left and right.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -351,7 +351,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/truman_lowe.jpg",
+                        "image": "img/tour1/truman_lowe.jpg",
                         "alt": "A metal sculpture sitting on a grassy hill, with trees in the background. The sculpture is comprised of curved tubes of metal, arranged and connected to one another into the shape of a bird. The 'head' of the sculpture is facing the center of the photo, while its wings stretch to the far left and right.",
                         "caption": "Truman Lowe instructing a student in a wood sculpture class in 2004. Photo from <a href='https://education.wisc.edu/news/uw-la-crosse-arts-building-named-after-former-uw-madison-art-professor/'>UW Education</a>."
                     },
@@ -398,7 +398,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/mounds.jpg",
+                        "image": "img/tour1/obs_mounds_v2.jpg",
                         "alt": "The raised grass of a Ho Chunk effigy mound, located on Observatory Hill, University of Wisconsin—Madison.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -409,7 +409,7 @@
                         "content": "The two visible mounds that remain are those in the shape of a bird and a unique two-tailed water spirit. Until recent consultations with Ho-Chunk knowledge carriers, this rare two-tailed water spirit mound was believed by non-Native scholars to be a turtle mound.<sup>3</sup>"
                     },
                     {
-                        "content":"As you have likely observed, this mound group has been significantly disturbed by the University’s presence. The wing of the bird effigy mound, the eastern tail of the water spirit, and the portion of the water spirit that faces west have all been destroyed by campus sidewalks. Despite this damage, this remains a sacred place for Ho-Chunk community members."
+                        "content": "As you have likely observed, this mound group has been significantly disturbed by the University’s presence. The wing of the bird effigy mound, the eastern tail of the water spirit, and the portion of the water spirit that faces west have all been destroyed by campus sidewalks. Despite this damage, this remains a sacred place for Ho-Chunk community members."
                     },
                     {
                         "content": "As burial sites, effigy mounds are protected by law.<sup>4</sup> Mounds located on non-federal lands are protected by the Wisconsin Burial Sites Preservation Law and mounds located on federal lands are protected bythe Archaeological Resources Protection Act and the Native American Graves Protection and Repatriation Act. Despite such protection, effigy mounds, including the Observatory Hill Mound group, continue to face the threat of destruction, both unintentional and otherwise. A recent example of the threat mounds face came in 2021 when a UW-Madison soil sciences student damaged the two-tail water spirit mound by removing “about five gallons of soil.”<sup>5</sup>"
@@ -471,7 +471,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/tree_of_peace.jpg",
+                        "image": "img/tour1/tree_of_peace.jpg",
                         "alt": "A stone marker sitting in front of a white pine tree. The text on the marker reads: 'For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives, people live. Planted April 9th, 1988.'.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -481,7 +481,7 @@
                     },
                     {
                         "position": "right",
-                        "image": "img/tree_of_peace_ceremony.jpg",
+                        "image": "img/tour1/tree_of_peace_ceremony.jpg",
                         "alt": "Two men standing next of a coniferous sapling. The man on the right is Jake Swamp. There is a small group of people watching the event.",
                         "caption": "The Tree of Peace planting and ceremony, retrieved from: <a href='https://search.library.wisc.edu/digital/ABIPRF3QDGJLJU8N'>UW Digital Collections</a>."
                     },
@@ -489,7 +489,7 @@
                         "content": "When Swamp came to UW-Madison, the state of Wisconsin was in the midst of the Walleye Wars, which were years’ long protests against Ojibwe treaty fishing rights. Non-Native protestors often resorted to the use of provocative signage featuring violent slogans such as “Save a walleye, spear an Indian” and on more than one occasion Native fishers were assaulted by protestors.<sup>2</sup> The significant tension surrounding the reaffirmed practice of treaty rights led to frequent open expressions of anti-Native sentiment. It is in this context that Swamp was invited to campus to plant a Tree of Peace, which would “encourage unity and environmental stewardship” and “remind[s] us about caring for one another and caringfor the environment.”<sup>3</sup> Though many tensions still remain within in Wisconsin regarding the ongoing practice of Ojibwe treaty fishing rights, the Tree of Peace stands on campus to “provide us comfort” and everyone is invited to visit the tree when in need."
                     },
                     {
-                        "content":"If you choose not to approach the Tree of Peace, the accompanying stone marker reads: <i>For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives people live. Planted April 9, 1988.</i>"
+                        "content": "If you choose not to approach the Tree of Peace, the accompanying stone marker reads: <i>For those people of the earth who search for the past, to healing power, wisdom and security. The tree will never die. As long as the tree lives people live. Planted April 9, 1988.</i>"
                     },
                     {
                         "tour_content": "This concludes <b class='pronounce'>Mąįrakere</b>, the first tour in the Mapping Teejop digital tour series. To learn more about the Ho-Chunk and Indigenous history and presence at UW, please visit: <a href='https://oursharedfuture.wisc.edu/'>Our Shared Future Initiative</a>, <a href='https://50years.amindian.wisc.edu/'>The American Indian Studies 50th Anniversary Exhibit</a>, <a href='https://reckoning.wisc.edu/'>The UW Public History Project, Sifting and Reckoning</a>, <a href='https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/'>The UW Lakeshore Preserve</a>, <a href='https://ho-chunknation.com/'>Ho-Chunk Nation</a>."
@@ -537,7 +537,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/memorial_union.jpg",
+                        "image": "img/tour5/memorial_union.jpg",
                         "alt": "The corner of the University of Wisconsin-Madison Memorial Union. The foreground contains a stone block with the words 'Memorial Union' engraved in it. Behind the block, a multicolored brown and beige bricks building rises, two to three stories high at different points, stretching into the distance. Overall, it is low and wide.",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>Photo from UW Photo Collection</a>."
                     },
@@ -546,7 +546,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/pipe_of_peace_ceremony.jpg",
+                        "image": "img/tour5/pipe_of_peace_ceremony.jpg",
                         "alt": "Several rows of students (one to two hundred) stand on a lawn in front of a large building with columns. In front of the students, a single student crouches over next to something on the ground. Text added to the lower right of the photograph reads: 'Pipe of Peace Ceremony, U.W 1910'.",
                         "caption": "The pipe of peace ceremony, 1910, retrieved from: <a href='https://digital.library.wisc.edu/1711.dl/36YUQ6M2CIWF48B'>UW Digital Collection</a>."
                     },
@@ -600,7 +600,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/mural.jpg",
+                        "image": "img/tour5/mural.jpg",
                         "alt": "Two painted figures are sitting on either side of a blue column. The figures appear to be male, and both are wearing feathered headresses, as well as cream-colored outfits with tassels. Both figures are holding a spear with an outstretched hand, while the figure on the right holds a sheild with a bird on it. Surrounding the figures are swirls of green, leafy vines in a paisley pattern.",
                         "caption": "<a href='https://terraceviews.org/wp-content/uploads/2013/06/DSC_0033.jpg'>Photo from Terrace Views Collection</a>."
                     },
@@ -639,7 +639,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/paul_bunyan.jpg",
+                        "image": "img/tour5/paul_bunyan.jpg",
                         "alt": "The corner of room filled with brown dining tables and chairs. There are four murals on the walls. The murals on the far left and far right both depict a large blue bovine next to planks and sheets of wood. One of the murals in the corner depicts the back of a man in a plaid shirt, suspenders and blue jeans as he stands next to the stump of a tree. The fourth mural is at an angle. ",
                         "caption": "<a href='https://uwmadison-photos.photoshelter.com/search/result/I0000P23fAVFKN8s?terms=&'>Photo from UW Photo Collection</a>."
                     },
@@ -684,7 +684,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/dejope_entrance.jpg",
+                        "image": "img/tour2/dejope_entrance.jpg",
                         "alt": "People walk into Dejope Residence Hall as purple asters bloom in the foreground at the University of Wisconsin–Madison during a mild autumn day in October, 2023",
                         "caption": "Photo from UW-Madison, retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I00002ZLIj8vfg7Q?terms=dejope%20hall&'>UW Photo Library</a>."
                     },
@@ -743,7 +743,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/dejope_lobby.jpg",
+                        "image": "img/tour2/dejope_lobby.jpg",
                         "alt": "The main lobby area of Dejope Hall. There is a front desk in the center, and a small office to the left. Next to the office, there is an open lounge area with chairs and tables. The shape of Ho-Chunk effigy mounds are present in the floor tiles in front of the desk.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -796,7 +796,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/birch_canoe.jpg",
+                        "image": "img/tour2/birch_canoe.jpg",
                         "alt": "A birch-bark canoe is suspended horizontally in the middle of a large room, about 10 feet off the ground. The middle of the canoe is wider than the ends, and each end of the canoe is pointed upward. The room is full of people eating and chatting, and the ceiling of the room is high and lined with wooden planks.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -808,7 +808,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/birchbark_rolls_marcus.jpg",
+                        "image": "img/tour2/birchbark_rolls_marcus.jpg",
                         "alt": "A pile of rolled bundles of birch bark, each tied with a white string.",
                         "caption": "Rolled birch bark used in the Canoe's construction, credit Marcus Cederström, retrieved from <a href='https://wiigwaasijiimaan.wordpress.com/harvesting/wiigwaas-birchbark/#jp-carousel-8'>Wiigwaasi-Jiimaan</a>."
                     },
@@ -861,7 +861,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/dejope_fire_circle.jpg",
+                        "image": "img/tour2/dejope_fire_circle.jpg",
                         "alt": "A small fire circle comprised stones with old ash at its center. The circle is located within a section of a larger, concrete circle, upon which are small metal plaques, each representing a Wisconsin Native Nation. Beyond both circles is a grove of trees and the lakeshore.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -874,7 +874,7 @@
                     },
                     {
                         "position": "right",
-                        "image": "img/wfn_map.jpg",
+                        "image": "img/tour2/wfn_map.jpg",
                         "alt": "A map of Wisconsin with the seals and headquarters locations of the 12 Tribal Nations of Wisconsin. The northwest and north-central part of the state includes the St. Croix, Lac Courte Oreilles, Red Cliff, Bad River, Lac du Flambeau, and Mole Lake Sokaogon bands of the Ojibwe nation. The northeast portion of the state includes the Forest County Potawatomi, Menominee, Stockbridge-Munsee, and Oneida nations. The southeast includes the Brothertown Nation, and the south-central includes the Ho-Chunk nation. Each seal features iconography significant to the nation.",
                         "caption": "Map of the Tribal Nations of Wisconsin, created by <a href='https://wisconsinfirstnations.org/wp-content/uploads/2017/10/WFN-map-with-seals-cutout-1.jpg'>wisconsinfirstnations.org</a>."
                     },
@@ -923,7 +923,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/oak_savanna.jpg",
+                        "image": "img/tour2/oak_savanna.jpg",
                         "alt": "A grove of oak trees on a sunny Autumn day. An oak tree to the left has red leaves, while one to the right has yellowing leaves. Trees in the distance are just beginning to turn for the Fall.",
                         "caption": "Photo by Bryn Scriver, acquired from <a href='https://www.flickr.com/photos/lakeshorenaturepreserve/29996200146/in/album-72157673344408012/'>UW-Madison Lakeshore Nature Preserve Photo Collection</a>."
                     },
@@ -932,7 +932,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/controlled_burn.jpg",
+                        "image": "img/tour2/controlled_burn.jpg",
                         "alt": "A person in a fireproof yellow jacket with full face-covering is carrying a portable blowtorch, a flame hanging from its spout. Behind them, the prairie is ablaze with low flames. Tree trunks are visible through smoke.",
                         "caption": "Controlled burn of an Oak Savanna at the UW-Arboretum in 2016, Photo by Jeff Miller, UW-Madison, retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I00003pWNhU65z4A?terms=controlled%20burn&'>UW Photo Collection</a>."
                     },
@@ -1003,7 +1003,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/willow_creek_mounds.jpg",
+                        "image": "img/tour2/willow_creek_mounds.jpg",
                         "alt": "A raised mound of grass located within a larger grass field. A small plaque is located directly on the front part of the mound. In the background, the glass facade of Bakke Recreation Center can be seen.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -1017,7 +1017,7 @@
                         "content": "A plaque identifying the mound group, then known as the University Creek Group, was placed on the northern wing of the goose mound in 1922 (please remain on the path to avoid walking on the mounds, which are sacred). Each of the three remaining mounds have sustained damage, with both goose wing tips destroyed by construction of walking paths, damage to the northern portion of the unspecified shape by erosion and compaction, and a truncation of the water spirit’s tail by an unrecorded method."
                     },
                     {
-                        "content":"As burial sites, effigy mounds are protected by law.<sup>3</sup> Mounds located on non-federal lands are protected by the Wisconsin Burial Sites Preservation Law and mounds located on federal lands are protected by the Archaeological Resources Protection Act and the Native American Graves Protection and Repatriation Act. Despite such protection, effigy mounds continue to face the threat of destruction, both unintentional and otherwise. A recent example of the threat mounds face came in 2021 when a UW-Madison soil sciences student damaged the two-tail water spirit mound on Observatory Hill by removing “about five gallons of soil.”"
+                        "content": "As burial sites, effigy mounds are protected by law.<sup>3</sup> Mounds located on non-federal lands are protected by the Wisconsin Burial Sites Preservation Law and mounds located on federal lands are protected by the Archaeological Resources Protection Act and the Native American Graves Protection and Repatriation Act. Despite such protection, effigy mounds continue to face the threat of destruction, both unintentional and otherwise. A recent example of the threat mounds face came in 2021 when a UW-Madison soil sciences student damaged the two-tail water spirit mound on Observatory Hill by removing “about five gallons of soil.”"
                     },
                     {
                         "content": "The plaque reads: <i>University Creek Group/Indian Mounds/Effigy Form/Lengths 66, 100 and 143 Feet, Marked by the University, 1922.</i>"
@@ -1066,7 +1066,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/ho_chunk_clan_circle.jpg",
+                        "image": "img/tour2/ho_chunk_clan_circle.jpg",
                         "alt": "A circle comprised of twelve brown metal panels, each about the size of an adult human, and spaced about five feet from one another. Each panel represents one of the Ho-Chunk clans. The top of each panel has a different shape, the closest of which is a cloud and a lightning bolt, representing Thunder Clan. The specific shapes of the other panels are obscured. At the center of the circle, there is a small, semi-circular seating area. Past the circle is a sidewalk lined with trees and bushes.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -1106,7 +1106,7 @@
                 ],
                 "story": [
                     {
-                        "image": "img/site_photos/picnic_point_view.jpg",
+                        "image": "img/tour2/picnic_point_view.jpg",
                         "alt": "A view of the University Bay section of Lake Mendota, past a foreground of grasses and a tree. In the middle of the open water is a patch of cattail reeds. Picnic Point can be seen at the other end of the bay as a think strip of wooded land.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -1118,7 +1118,7 @@
                     },
                     {
                         "position": "left",
-                        "image": "img/mendota_map.jpg",
+                        "image": "img/tour2/mendota_map.jpg",
                         "alt": "A map titled 'Indian Legend Map of Lake Mendota'. The map contains various pictoral icons representing places of indigenous significance on and around Lake Mendota, including villages to the south, southeast, north and northwest—including over the modern-day location of the UW campus area. The map also includes places of spiritual significance, and relevance to Ho-Chunk oral tradition, such as the den of the water spirits, represented by a series of long-tailed water spirits in the waters near Maple Bluff, and 'Spirit Horses on Horse Hill', represented by a flying horse near Picnic Point.",
                         "caption": "Indian Legend Map of Lake Mendota, created by Charles E. Brown's students in 1941, retrieved from <a href='https://www.wisconsinhistory.org/Records/Image/IM85412'>Wisconsin Historical Society</a>."
                     },
@@ -1127,7 +1127,7 @@
                         "content": "Between you and Picnic Point is Lake Mendota (<b class='pronounce'>Tee Wąąkšik Homįk</b>), which features just as significantly in Ho-Chunk oral tradition as it does on the physical landscape today. The shores of <b class='pronounce'>Tee Wąąkšik Homįk</b>, or “Where the Man Lies,” were once home to approximately 22 Ho-Chunk villages."
                     },
                     {
-                        "content":"Today we are still learning about the significance of Lake Mendota for Ho-Chunk peoples. In 2021 the first of two ancient white oak canoes was discovered in lake sediment with a second canoe identified in 2022. These two canoes, which date back 1200 and 3000 years, extend physical evidence of canoe technology in the Great Lakes by 1000 years.<sup>3</sup> The canoes, which were welcomed ashore by Ho-Chunk community members, are in the State Preservation Facility where they will be preserved and used to educate people about Ho-Chunk culture and history in collaboration with the Wisconsin Historical Society.<sup>4</sup>"
+                        "content": "Today we are still learning about the significance of Lake Mendota for Ho-Chunk peoples. In 2021 the first of two ancient white oak canoes was discovered in lake sediment with a second canoe identified in 2022. These two canoes, which date back 1200 and 3000 years, extend physical evidence of canoe technology in the Great Lakes by 1000 years.<sup>3</sup> The canoes, which were welcomed ashore by Ho-Chunk community members, are in the State Preservation Facility where they will be preserved and used to educate people about Ho-Chunk culture and history in collaboration with the Wisconsin Historical Society.<sup>4</sup>"
                     },
                     {
                         "content": "As this stop concludes Water, this is an opportunity to reflect on what this landscape, Teejop, means to you. How have you interacted with this land while on campus? How may your experiences and relationships to the land differ from members of the Ho-Chunk Nation?"
@@ -1165,6 +1165,528 @@
                 "coordinates": [
                     -89.421019603994182,
                     43.078034982080581
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 17,
+                "pointOnTour": 1,
+                "name": "Ho-Chunk Nation Archway",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/ho-chunk_archway.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"The Ho-Chunk Nation Gate and Plaza represent Ho-Chunk Nation sovereignty."
+                    },
+                    {
+                        "content":"When Ho-Chunk Public Relations Officer Collin Price expressed interest in the Ho-Chunk Nation sponsoring Wisconsin Badger Athletics, the university representative was confused – Ho-Chunk Gaming was already a sponsor. That confusion ties into a broader issue for tribal nations, specifically, that tribal gaming organizations are business entities associated with discrete sovereign nations. Many American Indian communities have traditionally engaged in various forms of gaming, and tribal nations maintain inherent authority over the regulation of gaming on their lands. In 1988, Congress passed the Indian Gaming Regulatory Act that works to regulate tribal gaming, including how gaming profits may be used.<sup>1</sup> The Ho-Chunk Nation has experienced significant financial benefits from the formation of Ho-Chunk Gaming, but many people in Wisconsin have come to conflate the sovereign Ho-Chunk Nation with the business Ho-Chunk Gaming. "
+                    },
+                    {
+                        "content":"This confusion occasionally affects Ho-Chunk citizens too. Price shared that tribal members often asked to access the benefits attained through the Ho-Chunk Gaming sponsorship only to discover that these were reserved for high-ranking members of the casinos—Ho-Chunk community members had not realized that the sponsorship was not from the Ho-Chunk Nation. Price’s pitch to Wisconsin Athletics would emphasize that the Ho-Chunk Nation and Ho-Chunk Gaming were distinct entities.  "
+                    },
+                    {
+                        "content":"Negotiations for the sponsorship, which began in 2016, were part of a public resurgence for tribal nations in Wisconsin. The following year, Wisconsin hosted its first State of the Tribes address to voice their concerns and priorities to the state. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, stressed how important it was at that time for tribal nations to make their ongoing presence in Madison known, citing an inseverable spiritual connection to the land. "
+                    },
+                    {
+                        "content":"The Ho-Chunk Nation gate and Plaza at Camp Randall Stadium are a physical representation of the 5-year, $2 million sponsorship agreement between a sovereign Ho-Chunk Nation and a public university.<sup>2</sup>  According to Price, the inclusion of mandates for diversity and inclusion forums and health and wellness initiatives for Ho-Chunk youth reveal the concerns and priorities of the Ho-Chunk Nation. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.nigc.gov/commission/history",
+                                "linkText": "National Indian Gaming Comission - History",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "http://www.hocakworak.com/article.aspx?headline=Ho-Chunk+Nation+Plaza+crowned+at+Camp+Randall+Stadium+at+UW-Madison",
+                                "linkText": "Ho-Chunk Nation Plaza crowned at Camp Randall Stadium at UW-Madison",
+                                "title": "<sup>2</sup>"
+                            }
+                        ]
+                    }
+
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.413788692217679,
+                    43.071130854864741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 18,
+                "pointOnTour": 2,
+                "name": "Ho-Chunk Nation Plaza",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/ho-chunk_plaza.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Prior to the negotiations for a gate at Camp Randall, the Ho-Chunk Nation had experienced a major setback locally. The Ho-Chunk Nation had launched its first casino enterprise in 1993, following the longtime operation of a successful bingo hall. Despite this, a decade later, a February 2004 referendum for a new Ho-Chunk casino failed to pass a vote in Dane County. In November 2004, the referendum for a Dane County casino came to another vote, this time it was successful. Under this “compact”, the Ho-Chunk agreed “to pay the city [of Madison] and the county [of Dane] each more than $45 million dollars from 2004 through 2016 and $3.5 million annually thereafter for an indefinite period.”.<sup>1</sup>"
+                    },
+                    {
+                        "content":"Since then, the Ho-Chunk Nation has been looking to further its relationship with the local community.<sup>2</sup> Tribal nations across Wisconsin, have had successful relationships with professional sports teams, (Forest County Potawatomi/Milwaukee Brewers and Oneida Nation/Green Bay Packers) and the Ho-Chunk Nation looked to these examples when considering structuring a sponsorship with the Wisconsin Badger Athletics. At the same time, the University of Wisconsin – Madison was looking to demonstrate a commitment to fostering a positive working relationship with the Ho-Chunk Nation, whose ancestral lands the university occupies.  "
+                    },
+                    {
+                        "content":"The university had already begun implementing different initiatives to promote a Native presence on campus, including the formation of the Native American Center for Health Professionals, enrollment of Native cohorts into the School of Education, and planning the construction of the Dejope Residence Hall. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, thinks getting the Ho-Chunk Nation involved with Badger sports was one of the more pivotal relationships, raising their visibility as active partners in the university community. The university has since approached the nation about increasing their sponsorship, but the Ho-Chunk Nation has declined."
+                    },
+                    {
+                        "content":"Collin Price, former Ho-Chunk Nation Public Relations Officer, notes that the nation was actively involved in the creation of the gate and plaza, but time restrictions imposed some design limitations. Since forming the sponsorship, the Ho-Chunk Nation has experienced greater success in addressing concerns about Indigenous student experiences at the university. Still, strained bureaucratic resources have impacted the implementation of some plans from the agreement. Specifically, hopes of holding a powwow at Camp Randall have yet to be realized. Price suggests a need for a designated position to facilitate the relationship and wonders if Ho-Chunk students could be supported by the university to act in this capacity. "
+                    },
+                    {
+                        "content":"Take a moment to reflect on how the Ho-Chunk Nation, as sponsors of the Wisconsin Badger Athletics, are represented at Camp Randall and the university more broadly. How has the university presented their Indigenous sponsors? Do you feel that the university’s recognition of the Ho-Chunk adequately reflects the nation’s investment? Do you think the visibility of Ho-Chunk culture on campus would be affected if the nation did not sponsor Wisconsin Badger Athletics? "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://ictnews.org/archive/ho-chunk-nation-casino-decision-goes-to-voters",
+                                "linkText": "Ho-Chunk Nation Casino decision goes to voters",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://badgerherald.com/news/2004/01/30/hochunk-nation-to-be/",
+                                "linkText": "Ho-Chunk Nation to bet on referendum",
+                                "title": "<sup>2</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.413300459748783,
+                    43.071129893903915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 19,
+                "pointOnTour": 3,
+                "name": "Camp Randall Arch Plaque",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/camp_randall_arch_plaque.jpg",
+                        "alt": "",
+                        "caption": "Photo from wisconsinhistoricalmarkers.blogspot.com."
+                    },
+                    {
+                        "content":"There are two bronze plaques on the interior walls of the Camp Randall Archway, referring to two US wars which occurred simultaneously, yet are unevenly remembered. The text on the north plaque reads: <i>“Erected by the State of Wisconsin to mark the entrance through which passed seventy thousand of her soldier sons and five hundred thousand relatives and friends during the war from 1861-1865. Lest we forget. MDCCCCXII.”</i> The south plaque lists all the Union troops organized in Wisconsin, arranged by camp names, complete with the dates the units were formed and mustered out. While the Civil War has not been forgotten, a brief reference on the south plaque alludes to a less remembered narrative. "
+                    },
+                    {
+                        "content":"Towards the bottom of the center column, the text reads: <i>“On the 18th of December, 1862, the 25th Regiment came into Camp Randall from a campaign against Indians in Minnesota […].”</i> The campaign refers to the US-Dakota War of 1862, when after months of starvation conditions, a Mdewakanton Dakota hunting party killed five white settlers near Acton Township. The US-Dakota War, which unfolded during the US Civil War, was a direct result of settler encroachment on tribal lands and the failure of the federal government to honor treaty obligations.<sup>1</sup> After the six-week war across southern Minnesota, hundreds of Dakota and fifteen Ho-Chunk men faced trial for their participation.<sup>2</sup> Abraham Lincoln, whose likeness is enshrined on Bascom Hill, approved a list of 38 Dakota men to be hanged for their “war crimes,” resulting in the largest mass execution in US history. Within a year, Minnesota implemented a bounty system of $200 per Dakota scalp to ensure legislation barring Dakota from living in the state was enforced. Despite the deaths of Dakota non-combatants, including women, children, and elders, no military personnel were charged or tried for their war crimes.<sup>3</sup>"
+                    },
+                    {
+                        "content":"The University of Wisconsin – Madison acquired the Camp Randall property from the state of Wisconsin in 1893, which imposed restrictions that the land was only to be used for agriculture, athletics, and military drills.<sup>4</sup> In 1911, the Wisconsin legislature organized the Wisconsin Memorial Park Commission to oversee the construction of a memorial arch near the original Civil War camp site, completed in 1912. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://cla.umn.edu/chgs/holocaust-genocide-education/resource-guides/us-dakota-war-1862#:~:text=On%20December%2026%2C%201862%2C%2038,remain%20interned%20for%20four%20years",
+                                "linkText": "US-Dakota War of 1862",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
+                                "linkText": "Citizens of a Stolen Land",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://www.usdakotawar.org/history/aftermath/bounties",
+                                "linkText": "U.S. Dakota War Bounties",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://publicart.wisc.edu/lew-f-porter-camp-randall-arch/",
+                                "linkText": "Lew F. Porter – Camp Randall Arch",
+                                "title": "<sup>4</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.40936386954435,
+                    43.071085532284741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 20,
+                "pointOnTour": 4,
+                "name": "Camp Randall Archway",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/camp_randall_arch_front.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Camp Randall Arch was designed to memorialize the legacy of service among Wisconsin’s Civil War veterans. On the top is a carved figure of the 8th Wisconsin Infantry Regiment’s war eagle mascot “Old Abe.”  The “Young Boy Sentry” to the left and the “Old Veteran” to the right symbolize a soldier who entered the camp during the war and then revisited the camp when the memorial park opened.<sup>1</sup> Records of the dedication do not document how many, if any, of Wisconsin’s Native veterans were among the several hundred attendees. "
+                    },
+                    {
+                        "content":"American Indians have participated in all major military engagements since the United States was formed, long before most had received American citizenship. In fact, “since 9/11, Native Americans have served at a higher per-capita rate than any other ethnic group.”<sup>2</sup> Their legacy of service was/is motivated by many interests: personal, cultural, patriotic, and more. “Stereotypes about Native Americans as natural ‘warriors’ led to dangerous combat assignments that resulted in higher casualty rates than those for white soldiers.”<sup>3</sup> Extension of US citizenship to American Indians in 1924 was partially intended to recognize their great sacrifices serving in the armed forces during WWI.  "
+                    },
+                    {
+                        "content":"The use of Native soldiers as “Code Talkers” was pivotal in the Allies’ data security during World War I and II. The American government’s reliance on Indigenous languages was ironic given the systematic efforts to eliminate their usage through Indian boarding schools. After seeing how successful the Code Talker program was during WWI, Germany attempted to sabotage the program during WWII – they sent spies and anthropologists to reservations to discourage military service and learn Native languages.<sup>4</sup> Germany’s efforts were unsuccessful, and the developed codes were never broken.<sup>5</sup> Three of Wisconsin’s tribal nations were represented among the Code Talkers: the Ho-Chunk, Menominee, and Oneida.<sup>6</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://uwbadgers.com/sports/2015/08/21/GEN_20140101557.aspx",
+                                "linkText": "History of the Camp Randall Arch",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.loc.gov/collections/veterans-history-project-collection/serving-our-voices/diverse-experiences-in-service/legacies-of-service-celebrating-native-americans/",
+                                "linkText": "Legacies of Service: Celebrating Native Americans",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://museum.archives.gov/featured-document-display-honoring-native-american-soldiers-world-war-i-service",
+                                "linkText": "Featured Document Display: Honoring Native American Soldiers' World War I Service",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://www.thenmusa.org/articles/world-war-i-code-talkers/#:~:text=While%20the%20Choctaw%20Soldiers%20are,Talkers%20during%20World%20War%20I",
+                                "linkText": "World War I Code Talkers",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.nationalww2museum.org/war/articles/american-indian-code-talkers",
+                                "linkText": "American Indian Code Talkers",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://archive.jsonline.com/news/statepolitics/tribes-finally-honored-for-secret-work-of-world-war-ii-code-talkers-b99147423z1-232754261.html",
+                                "linkText": "Tribes finally honored for secret work of World War II code talkers",
+                                "title": "<sup>6</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.40918074021819,
+                    43.071085861087639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 21,
+                "pointOnTour": 5,
+                "name": "Civil War Plaque",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/camp_randall_marker.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"The Civil War left American Indians in an awkward position regardless of what side of the Mason – Dixon line they lived on. The primary concern was how tribal nations would be treated by whichever American government, Union or Confederate, ultimately prevailed. For tribal nations remaining on the east coast, there was some hope that a display of loyalty would prevent future removal efforts. Ultimately, around 20,000 Native Americans served in the Civil War for both the Union and Confederate Armies.<sup>1</sup> In Wisconsin alone, over 500 Natives volunteered to join the Union.<sup>2</sup>"
+                    },
+                    {
+                        "content":"The Civil War narrative of ‘brother fighting brother’ proved true for Natives as well. In Indian Territory (present-day Oklahoma), tribal nations experienced internal divisions when factions disagreed over whether to support the Union or Confederate cause. A minority of the wealthier tribal members—including amongst the Cherokee Nation –  owned enslaved peoples.<sup>3</sup> While the exact numbers are unknown, records indicate more Natives sided with the Confederacy than the Union – perhaps unsurprising given that the federal policy of removal had pushed many tribal nations into pro-slavery states.<sup>4</sup>"
+                    },
+                    {
+                        "content":"Camp Randall housed both Union soldiers and Confederate prisoners of war (POW) during the Civil War. From 1861-1865, over three-quarters of all Wisconsin troops who served in the war trained at Camp Randall.<sup>5</sup> We know for certain that an infantry regiment with Menominee soldiers were among them.<sup>6</sup> For a brief period in 1862, Camp Randall served as a POW camp for over 1200 Confederate soldiers, at least 140 of whom are buried in Forest Hill Cemetery.<sup>7</sup> There is no evidence that Native soldiers were among the Confederate POWs camped here."
+                    },
+                    {
+                        "content":"Arguably the most notable American Indian involved in the Civil War was General Ely S. Parker (Seneca) who served as General Ulysses S. Grant’s military secretary. Parker was responsible for drawing up the articles of surrender signed by General Robert E. Lee at Appomattox Court House, ending the war. According to historical records, upon reaching Appomattox, Lee told Parker, “I am glad to see one real American here,” prompting Parker’s response that “We are all Americans.”<sup>8</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.alexandriava.gov/historic-alexandria/basic-page/we-are-all-americans-native-americans-in-the-civil-war",
+                                "linkText": "We are all Americans - Native Americans in the Civil War",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://wisvetsmuseum.com/indigenous-wisconsin-veterans/#:~:text=During%20the%20Civil%20War%2C%20over,37th%20Wisconsin%20Infantry%20Regiment",
+                                "linkText": "Indigenous Veterans of Wisconsin",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://tiyamiles.com/books/ties-that-bind/",
+                                "linkText": "Ties that Bind: The Story of an Afro-Cherokee Family in Slavery and Freedom",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://americanindian.si.edu/static/why-we-serve/topics/civil-war/#:~:text=Having%20survived%20removal%20from%20their,territories%20west%20of%20the%20Mississippi",
+                                "linkText": "Civil War",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://cpla.fpm.wisc.edu/wp-content/uploads/sites/20/2017/05/Camp-Randall-Memorial-Park-_rev-2011.pdf",
+                                "linkText": "Camp Randall Memorial Park Cultural Landscape Inventory",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://wisvetsmuseum.com/indigenous-wisconsin-veterans/#:~:text=During%20the%20Civil%20War%2C%20over,37th%20Wisconsin%20Infantry%20Regiment",
+                                "linkText": "Indigenous Veterans of Wisconsin",
+                                "title": "<sup>6</sup>"
+                            },
+                            {
+                                "link": "https://cpla.fpm.wisc.edu/wp-content/uploads/sites/20/2017/05/Camp-Randall-Memorial-Park-_rev-2011.pdf",
+                                "linkText": "Camp Randall Memorial Park Cultural Landscape Inventory",
+                                "title": "<sup>7</sup>"
+                            },
+                            {
+                                "link": "https://www.alexandriava.gov/historic-alexandria/basic-page/we-are-all-americans-native-americans-in-the-civil-war",
+                                "linkText": "We are all Americans - Native Americans in the Civil War ",
+                                "title": "<sup>8</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.410149954831269,
+                    43.069719438348066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 22,
+                "pointOnTour": 6,
+                "name": "UW Athletics Hall of Fame",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/uw_hall_of_fame.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Before the first collegiate football game was held at Camp Randall’s newly constructed athletic field in 1895, a much older athletic tradition was hosted for the entertainment of modern spectators. Camp Randall previously served intermittently as the former location of the Wisconsin State Fairgrounds throughout the nineteenth century. During the fair in 1885, one of the highlights of the event was an exhibition lacrosse game performed by Natives in colorful regalia with traditionally constructed equipment. On September 9th, two integrated teams consisting of thirty-eight Bad River Band Ojibwe and nine Red Cliff Band Ojibwe men competed in what the Wisconsin State Journal called a “wildly picturesque” game of lacrosse.<sup>1</sup> Despite unexpected storms deterring many spectators, the event still drew a crowd of around 2000 people."
+                    },
+                    {
+                        "content":"Representation of American Indians in UW-Madison athletics coincided with the earliest enrollment of Indigenous students. In 1903, William Milton Baine [Sisseton Dakota] became known as the “famous Indian football player” once he was added to the football team roster.<sup>2</sup> The following year, an established football star – Thomas “Ted” St. Germaine [Lac du Flambeau] – joined the Law School, football team, and water polo team.<sup>3</sup> Although Baine and St. Germaine were on the team, they were allegedly never permitted off the bench.<sup>4</sup> St. Germaine would eventually leave the UW, finish a law degree at Yale, and play in the NFL. Many decades would pass before this de facto as well as formalized segregation would be addressed in college sports."
+                    },
+                    {
+                        "content":"Today, Indigenous students from Wisconsin and further afield continue to bring their talents to UW Madison athletics. Basketball has been a particular big draw: Bronson Koenig [Ho-Chunk] and Will Decorah [Ho-Chunk] both competed on the men’s basketball team while Jessie Stomski Seim [Muscogee Creek] made a name for herself on the women’s basketball team, and was inducted into the UW-Athletics Hall of Fame in 2020<sup></sup>. The UW-Madison women’s hockey team, one of the best in the country, was a springboard for Abby Roque [Wahnapitae First Nation] who now plays in the newly formed Professional Women’s Hockey League."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://newspaperarchive.com/madison-wisconsin-state-journal-sep-10-1885-p-4/",
+                                "linkText": "Madison Wisconsin State Journal, September 10, 1885, Pg. 4, Madison, Wisconsin, US",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.timetoast.com/timelines/the-history-of-native-american-presence-on-the-uw-madison-campus",
+                                "linkText": "The History of Native Americans on the UW-Madison Campus",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://reckoning.wisc.edu/athletics/",
+                                "linkText": "Sifting and Reckoning: Athletics",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://diversity.wisc.edu/2021/06/doit-presents-reckoning-with-our-history-uw-%E2%80%8Dmadisons-history-of-discrimination-and-resistance/",
+                                "linkText": "DoIT Presents: Reckoning With Our History: UW–‍Madison’s History Of Discrimination And Resistance",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://uwbadgers.com/honors/uw-athletic-hall-of-fame",
+                                "linkText": "UW Athletics Hall of Fame",
+                                "title": "<sup>5</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.410939745716561,
+                    43.069348273274123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 23,
+                "pointOnTour": 7,
+                "name": "Bronze Badger Sculpture",
+                "audio": null,
+                "tours": [
+                    "tour3"
+                ],
+                "story": [
+                    {
+                        "image": "img/tour3/badger_sculpture.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Ho-Chunk artist Harry Whitehorse’s sculpture “The Badger,” installed in 2019, is a ten-foot interactive art installation that draws on the University of Wisconsin’s beloved badger mascot.<sup>1</sup>"
+                    },
+                    {
+                        "content":"Evidence of mining and metalworking in Wisconsin dates back at least 6000 years.<sup>2</sup> At this time, the most commonly used ore was copper – sites from this period are referred to as part of the Old Copper Complex. We are unsure how much copper ore was used at the time, but some estimates have ranged as high as 1.5 billion pounds.<sup>3</sup> Although the metal was abandoned for more efficient stone tools, the experiment with copper makes Wisconsin one of a handful of locations in the world to where metallurgy developed independently.<sup>4</sup>"
+                    },
+                    {
+                        "content":"Another locally utilized metallic resource was galena – a lead ore. The Ho-Chunk used it as a pigment for at least several hundred years before settlers arrived.<sup>5</sup> Lead, or “gray gold,” was very valuable in western society by the 19th century as it was used in both military and domestic products."
+                    },
+                    {
+                        "content":"After learning about the rich deposits in Wisconsin, over 10,000 white miners illegally occupied Ho-Chunk lands in the early 1800s to stake their claims.<sup>6</sup> During the lead rush of the 1820s, miners prioritized extracting as much ore as possible, going so far as to live in the mines. Due to the similarity to underground “badger holes,” locals mocked the miners, calling them ‘badgers.’<sup>7</sup> Because of the significance of the state’s mining history, the name become a source of pride. Mining, however, has had negative long-term impacts on Wisconsin Indians."
+                    },
+                    {
+                        "content":"The demand for increased mining fueled government efforts to remove tribal nations from Wisconsin and reduce tribal land holdings.<sup>8</sup> Environmental degradation from mining continues to disproportionately impact reservation communities and tribal homelands, affecting air and water quality and destroying traditional food sources.<sup>9</sup> When Exxon Minerals initially proposed the Crandon Mine in northeastern Wisconsin in the mid-1970s, the Menominee and Mole Lake Ojibwe Nations lobbied against it.<sup>10</sup> The proposal led to protests supported by environmental groups, eventually leading to the passage of a mining moratorium in the state in 1995. In 2003, the Mole Lake Ojibwe and Forest County Potawatomi Nations purchased the mine to ensure it would never be opened.<sup>11</sup>"
+                    },
+                    {
+                        "content":"Water protectors, Indigenous and non-Indigenous allies, continue to fight extractive industries in the State of Wisconsin, including the construction and maintenance of oil pipelines. Current legal battles by tribal nations include Bad River’s lawsuit against Enbridge for Line 5.<sup>12, </sup><sup>13, </sup><sup>14, </sup><sup>15, </sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://diversity.wisc.edu/2019/08/bronze-badger-by-ho-chunk-artist-harry-whitehorse-to-be-installed-across-from-camp-randall/",
+                                "linkText": "Bronze Badger by Ho-Chunk artist Harry Whitehorse to be installed across from Camp Randall",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.mpm.edu/research-collections/anthropology/online-collections-research/old-copper-culture",
+                                "linkText": "Old Copper Culture",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://www.mpm.edu/research-collections/anthropology/online-collections-research/old-copper-culture",
+                                "linkText": "Old Copper Culture",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://doi.org/10.1038/s41598-019-42185-y",
+                                "linkText": "The exceptional abandonment of metal tools by North American hunter-gatherers, 3000 B.P.",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.caveofthemounds.com/2021/03/28/badgers-in-blue-mounds/",
+                                "linkText": "Badgers in Blue Mounds",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://uwpress.wisc.edu/books/3482.htm",
+                                "linkText": "Wisconsin Indian Literature: Anthology of Native Voices",
+                                "title": "<sup>6</sup>"
+                            },
+                            {
+                                "link": "https://wisconsinhistory.org/Records/Article/CS16342#:~:text=It%20turns%20out%20that%20those,in%20the%20ground%20like%20animals",
+                                "linkText": "Badger History: Why Are We the Badger State?",
+                                "title": "<sup>7</sup>"
+                            },
+                            {
+                                "link": "https://archive.org/details/wisconsinfrontie0000wyma",
+                                "linkText": "The Wisconsin Frontier",
+                                "title": "<sup>8</sup>"
+                            },
+                            {
+                                "link": "https://www.scholars.northwestern.edu/en/publications/indian-nations-of-wisconsin-histories-of-endurance-and-renewal",
+                                "linkText": "Indian Nations of Wisconsin: Histories of Endurance and Renewal",
+                                "title": "<sup>9</sup>"
+                            },
+                            {
+                                "link": "https://www.scholars.northwestern.edu/en/publications/indian-nations-of-wisconsin-histories-of-endurance-and-renewal",
+                                "linkText": "Indian Nations of Wisconsin: Histories of Endurance and Renewal",
+                                "title": "<sup>10</sup>"
+                            },
+                            {
+                                "link": "https://www.sierraclub.org/wisconsin/blog/2023/10/20th-anniversary-crandon-mine-purchase",
+                                "linkText": "20th Anniversary of the Crandon Mine purchase",
+                                "title": "<sup>11</sup>"
+                            },
+                            {
+                                "link": "https://ictnews.org/news/water-protectors-rally-in-ohio-over-enbridge-pipeline",
+                                "linkText":"Water protectors rally in Ohio over Enbridge pipeline",
+                                "title": "<sup>12</sup>"
+                            },
+                            {
+                                "link": "https://unicornriot.ninja/2023/enbridge-ordered-to-shutdown-line-5-and-pay-bad-river-band-5-1m/",
+                                "linkText": "Enbridge Ordered to Shutdown Line 5 and Pay Bad River Band $5.1M",
+                                "title": "<sup>13</sup>"
+                            },
+                            {
+                                "link": "https://www.noback40.com/",
+                                "linkText": "No Back 40 Mine",
+                                "title": "<sup>14</sup>"
+                            },
+                            {
+                                "link": "https://www.badriverfilm.com/",
+                                "linkText": "Bad River Film",
+                                "title": "<sup>15</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.413781176860027,
+                    43.0674183512212
                 ]
             }
         }

@@ -51,6 +51,14 @@ body{
 .resource-img-row{
     padding:0;
 }
+.interstitial{
+
+}
+.interstitial > img{
+    width:180px;
+    padding-top:20px;
+    margin:auto;
+}
 /**************SPLASH SCREEN*******************/
 .modal-header > h1{
     font-weight: bold;
@@ -76,7 +84,7 @@ body{
 /*tour selection*/
 .tour{
     padding: 15px 0px;
-    border-top: 2px lightgray dotted;
+    /*border-top: 2px lightgray dotted;*/
 }
 .tour-img > img{
     width:100%;
@@ -97,6 +105,27 @@ body{
 .translation{
     color:gray;
     font-size:18px;
+}
+.tour-graphic{
+    width:80px;
+    margin:auto;
+    text-align:center;
+    padding-top:15px;
+}
+.tour-graphic-vert{
+    width:50px;
+    margin:auto;
+    text-align:center;
+    padding-top:15px;
+}
+.rotate{
+    rotate:90deg;
+}
+.flip{
+    transform: scale(-1, 1);
+}
+.flip-vert{
+    transform: scale(1, -1);
 }
 /*tour text*/
 .read-more-text{
