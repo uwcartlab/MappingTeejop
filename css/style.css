@@ -51,8 +51,10 @@ body{
 .resource-img-row{
     padding:0;
 }
-.interstitial{
-
+.interstitial-vert > img{
+    width:100px;
+    padding-top:20px;
+    margin:auto;
 }
 .interstitial > img{
     width:180px;
