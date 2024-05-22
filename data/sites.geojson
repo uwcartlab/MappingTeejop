@@ -1194,6 +1194,13 @@
                         "content":"This confusion occasionally affects Ho-Chunk citizens too. Price shared that tribal members often asked to access the benefits attained through the Ho-Chunk Gaming sponsorship only to discover that these were reserved for high-ranking members of the casinos—Ho-Chunk community members had not realized that the sponsorship was not from the Ho-Chunk Nation. Price’s pitch to Wisconsin Athletics would emphasize that the Ho-Chunk Nation and Ho-Chunk Gaming were distinct entities.  "
                     },
                     {
+                        "position":"left",
+                        "image": "img/tour3/ho-chunk_plaza_unveiling.jpg",
+                        "alt": "",
+                        "caption": "Unveiling of the Ho-Chunk Nation Plaza in 2016. Retrieved from <a href='http://hocakworak.com/article.aspx?headline=Ho-Chunk+Nation+Plaza+crowned+at+Camp+Randall+Stadium+at+UW-Madison'>Hocak Worak</a>."
+                    },
+                    {
+                        "position":"right",
                         "content":"Negotiations for the sponsorship, which began in 2016, were part of a public resurgence for tribal nations in Wisconsin. The following year, Wisconsin hosted its first State of the Tribes address to voice their concerns and priorities to the state. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, stressed how important it was at that time for tribal nations to make their ongoing presence in Madison known, citing an inseverable spiritual connection to the land. "
                     },
                     {
@@ -1249,6 +1256,12 @@
                         "content":"Since then, the Ho-Chunk Nation has been looking to further its relationship with the local community.<sup>2</sup> Tribal nations across Wisconsin, have had successful relationships with professional sports teams, (Forest County Potawatomi/Milwaukee Brewers and Oneida Nation/Green Bay Packers) and the Ho-Chunk Nation looked to these examples when considering structuring a sponsorship with the Wisconsin Badger Athletics. At the same time, the University of Wisconsin – Madison was looking to demonstrate a commitment to fostering a positive working relationship with the Ho-Chunk Nation, whose ancestral lands the university occupies.  "
                     },
                     {
+                        "position":"center",
+                        "image": "img/tour3/oneida_lambeau.jpg",
+                        "alt": "",
+                        "caption": "Dancers from Oneida Nation before their halftime performance at Lambeau Field, home of the Green Bay Packers, in 2019. Retrieved from <a href='https://tworowtimes.com/sports/football/oneida-dancers-take-green-bay-packers-halftime/'>Two Row Times</a>."
+                    },
+                    {
                         "content":"The university had already begun implementing different initiatives to promote a Native presence on campus, including the formation of the Native American Center for Health Professionals, enrollment of Native cohorts into the School of Education, and planning the construction of the Dejope Residence Hall. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, thinks getting the Ho-Chunk Nation involved with Badger sports was one of the more pivotal relationships, raising their visibility as active partners in the university community. The university has since approached the nation about increasing their sponsorship, but the Ho-Chunk Nation has declined."
                     },
                     {
@@ -1288,7 +1301,7 @@
             "properties": {
                 "pk": 19,
                 "pointOnTour": 3,
-                "name": "Camp Randall Arch Plaque",
+                "name": "Camp Randall Arch Plaques",
                 "audio": null,
                 "tours": [
                     "tour3"
@@ -1303,6 +1316,13 @@
                         "content":"There are two bronze plaques on the interior walls of the Camp Randall Archway, referring to two US wars which occurred simultaneously, yet are unevenly remembered. The text on the north plaque reads: <i>“Erected by the State of Wisconsin to mark the entrance through which passed seventy thousand of her soldier sons and five hundred thousand relatives and friends during the war from 1861-1865. Lest we forget. MDCCCCXII.”</i> The south plaque lists all the Union troops organized in Wisconsin, arranged by camp names, complete with the dates the units were formed and mustered out. While the Civil War has not been forgotten, a brief reference on the south plaque alludes to a less remembered narrative. "
                     },
                     {
+                        "position":"left",
+                        "image": "img/tour3/camp_randall_plaque.jpg",
+                        "alt": "",
+                        "caption": "Civil War memorial plaque located on the Camp Randall Arch. Photo by Jeff Miller, retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I0000SHkKe0Ud3MQ?terms=camp%20randall%20arch&'>UW Photo Library</a>."
+                    },
+                    {
+                        "position":"right",
                         "content":"Towards the bottom of the center column, the text reads: <i>“On the 18th of December, 1862, the 25th Regiment came into Camp Randall from a campaign against Indians in Minnesota […].”</i> The campaign refers to the US-Dakota War of 1862, when after months of starvation conditions, a Mdewakanton Dakota hunting party killed five white settlers near Acton Township. The US-Dakota War, which unfolded during the US Civil War, was a direct result of settler encroachment on tribal lands and the failure of the federal government to honor treaty obligations.<sup>1</sup> After the six-week war across southern Minnesota, hundreds of Dakota and fifteen Ho-Chunk men faced trial for their participation.<sup>2</sup> Abraham Lincoln, whose likeness is enshrined on Bascom Hill, approved a list of 38 Dakota men to be hanged for their “war crimes,” resulting in the largest mass execution in US history. Within a year, Minnesota implemented a bounty system of $200 per Dakota scalp to ensure legislation barring Dakota from living in the state was enforced. Despite the deaths of Dakota non-combatants, including women, children, and elders, no military personnel were charged or tried for their war crimes.<sup>3</sup>"
                     },
                     {
@@ -1367,6 +1387,13 @@
                         "content":"American Indians have participated in all major military engagements since the United States was formed, long before most had received American citizenship. In fact, “since 9/11, Native Americans have served at a higher per-capita rate than any other ethnic group.”<sup>2</sup> Their legacy of service was/is motivated by many interests: personal, cultural, patriotic, and more. “Stereotypes about Native Americans as natural ‘warriors’ led to dangerous combat assignments that resulted in higher casualty rates than those for white soldiers.”<sup>3</sup> Extension of US citizenship to American Indians in 1924 was partially intended to recognize their great sacrifices serving in the armed forces during WWI.  "
                     },
                     {
+                        "position":"left",
+                        "image": "img/tour3/menominee_code_talkers.png",
+                        "alt": "",
+                        "caption": "Congressional medal issued to Menominee code talkers in 2008. Retrieved from <a href='https://www.usmint.gov/coins/coin-medal-programs/medals/native-american-code-talkers/menominee-nation'>U.S. Mint</a>."
+                    },
+                    {
+                        "position":"right",
                         "content":"The use of Native soldiers as “Code Talkers” was pivotal in the Allies’ data security during World War I and II. The American government’s reliance on Indigenous languages was ironic given the systematic efforts to eliminate their usage through Indian boarding schools. After seeing how successful the Code Talker program was during WWI, Germany attempted to sabotage the program during WWII – they sent spies and anthropologists to reservations to discourage military service and learn Native languages.<sup>4</sup> Germany’s efforts were unsuccessful, and the developed codes were never broken.<sup>5</sup> Three of Wisconsin’s tribal nations were represented among the Code Talkers: the Ho-Chunk, Menominee, and Oneida.<sup>6</sup>"
                     },
                     {
@@ -1439,6 +1466,12 @@
                     },
                     {
                         "content":"Camp Randall housed both Union soldiers and Confederate prisoners of war (POW) during the Civil War. From 1861-1865, over three-quarters of all Wisconsin troops who served in the war trained at Camp Randall.<sup>5</sup> We know for certain that an infantry regiment with Menominee soldiers were among them.<sup>6</sup> For a brief period in 1862, Camp Randall served as a POW camp for over 1200 Confederate soldiers, at least 140 of whom are buried in Forest Hill Cemetery.<sup>7</sup> There is no evidence that Native soldiers were among the Confederate POWs camped here."
+                    },
+                    {
+                        "position":"center",
+                        "image": "img/tour3/camp_randall_1864.png",
+                        "alt": "",
+                        "caption": "Sketch of Camp Randall during the Civil War, 1864. By W.F Brown, retrieved from <a href='https://en.wikipedia.org/wiki/Camp_Randall#/media/File:CampRandall-1864.png'>Wikimedia Commons</a>."
                     },
                     {
                         "content":"Arguably the most notable American Indian involved in the Civil War was General Ely S. Parker (Seneca) who served as General Ulysses S. Grant’s military secretary. Parker was responsible for drawing up the articles of surrender signed by General Robert E. Lee at Appomattox Court House, ending the war. According to historical records, upon reaching Appomattox, Lee told Parker, “I am glad to see one real American here,” prompting Parker’s response that “We are all Americans.”<sup>8</sup>"
@@ -1519,7 +1552,14 @@
                         "content":"Before the first collegiate football game was held at Camp Randall’s newly constructed athletic field in 1895, a much older athletic tradition was hosted for the entertainment of modern spectators. Camp Randall previously served intermittently as the former location of the Wisconsin State Fairgrounds throughout the nineteenth century. During the fair in 1885, one of the highlights of the event was an exhibition lacrosse game performed by Natives in colorful regalia with traditionally constructed equipment. On September 9th, two integrated teams consisting of thirty-eight Bad River Band Ojibwe and nine Red Cliff Band Ojibwe men competed in what the Wisconsin State Journal called a “wildly picturesque” game of lacrosse.<sup>1</sup> Despite unexpected storms deterring many spectators, the event still drew a crowd of around 2000 people."
                     },
                     {
+                        "position":"left",
                         "content":"Representation of American Indians in UW-Madison athletics coincided with the earliest enrollment of Indigenous students. In 1903, William Milton Baine [Sisseton Dakota] became known as the “famous Indian football player” once he was added to the football team roster.<sup>2</sup> The following year, an established football star – Thomas “Ted” St. Germaine [Lac du Flambeau] – joined the Law School, football team, and water polo team.<sup>3</sup> Although Baine and St. Germaine were on the team, they were allegedly never permitted off the bench.<sup>4</sup> St. Germaine would eventually leave the UW, finish a law degree at Yale, and play in the NFL. Many decades would pass before this de facto as well as formalized segregation would be addressed in college sports."
+                    },
+                    {
+                        "position":"right",
+                        "image": "img/tour3/ted_st_germaine.jpg",
+                        "alt": "",
+                        "caption": "Ted St. Germain, top row, 4th from the left (marked with a number 5) and the rest of his NFL team, the Oorang Indians, pictured in 1922. Retrieved from <a href='https://portalwisconsin.wordpress.com/2009/09/24/lineman-lawyer-ojibwe/'>Portal Wisconsin</a>."
                     },
                     {
                         "content":"Today, Indigenous students from Wisconsin and further afield continue to bring their talents to UW Madison athletics. Basketball has been a particular big draw: Bronson Koenig [Ho-Chunk] and Will Decorah [Ho-Chunk] both competed on the men’s basketball team while Jessie Stomski Seim [Muscogee Creek] made a name for herself on the women’s basketball team, and was inducted into the UW-Athletics Hall of Fame in 2020<sup></sup>. The UW-Madison women’s hockey team, one of the best in the country, was a springboard for Abby Roque [Wahnapitae First Nation] who now plays in the newly formed Professional Women’s Hockey League."
@@ -1585,6 +1625,13 @@
                         "content":"Ho-Chunk artist Harry Whitehorse’s sculpture “The Badger,” installed in 2019, is a ten-foot interactive art installation that draws on the University of Wisconsin’s beloved badger mascot.<sup>1</sup>"
                     },
                     {
+                        "position":"left",
+                        "image": "img/tour3/old_copper_tools.jpg",
+                        "alt": "",
+                        "caption": "Copper tools from Northern Wisconsin, 4000-1,200 B.C. Unpublished photograph in the office of the state archaeologist, retrieved from <a href='http://www.wisconsinhistory.org/turningpoints/search.asp?id=760'>Wisconsin Historical Society</a>."
+                    },
+                    {
+                        "position":"right",
                         "content":"Evidence of mining and metalworking in Wisconsin dates back at least 6000 years.<sup>2</sup> At this time, the most commonly used ore was copper – sites from this period are referred to as part of the Old Copper Complex. We are unsure how much copper ore was used at the time, but some estimates have ranged as high as 1.5 billion pounds.<sup>3</sup> Although the metal was abandoned for more efficient stone tools, the experiment with copper makes Wisconsin one of a handful of locations in the world to where metallurgy developed independently.<sup>4</sup>"
                     },
                     {
