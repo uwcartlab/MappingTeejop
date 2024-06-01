@@ -524,6 +524,7 @@
         map.locate({setView:true, watch:true, enableHighAccuracy: true} );
     
         function onLocationFound(e){
+            console.log("sup")
             let radius = e.accuracy / 2;
             //removes marker and circle before adding a new one
             if (locationMarker){
