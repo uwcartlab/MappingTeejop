@@ -269,11 +269,14 @@
         fetch("data/routes.geojson")
             .then(res => res.json())
             .then(data => {
-                routeLayer = L.geoJson(data, {
-                    style:routeStyle,
-                    filter:tourFeature,
-                    pane:"tilePane"
-                }).addTo(map);
+                //only show route for tours, not exploration mode
+                if (tour != "explore"){
+                    routeLayer = L.geoJson(data, {
+                        style:routeStyle,
+                        filter:tourFeature,
+                        pane:"tilePane"
+                    }).addTo(map);
+                }
             })
     }
     //route style
@@ -343,7 +346,7 @@
     }
     //filter visible features on the map based on the selected route
     function tourFeature(feature){
-        if (feature.properties.tours.indexOf(tour) != -1){
+        if (feature.properties.tours == tour || tour == 'explore'){
             //add stops to the stop list menu
             if (feature.properties.name){
                 let point = tour == "explore" ? "" : feature.properties.pointOnTour + ". ";

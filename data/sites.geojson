@@ -9,10 +9,7 @@
                 "pointOnTour": 1,
                 "name": "Our Shared Future Marker",
                 "audio": "our_shared_future",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/our_shared_future2.jpg",
@@ -63,10 +60,7 @@
                 "pointOnTour": 2,
                 "name": "Lincoln Statue",
                 "audio": "lincoln_statue",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/lincoln.jpg",
@@ -148,10 +142,7 @@
                 "pointOnTour": 3,
                 "name": "Bascom Hall Ho-Chunk Banner",
                 "audio": "ho-chunk_banners",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/ho_chunk_banner.jpg",
@@ -198,10 +189,8 @@
                 "pointOnTour": 4,
                 "name": "Bascom Hall Ho-Chunk Flag",
                 "audio": "ho-chunk_flag",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": 
+                    "tour1",
                 "story": [
                     {
                         "image": "img/tour1/ho_chunk_flag.jpg",
@@ -263,10 +252,7 @@
                 "pointOnTour": 5,
                 "name": "Black Hawk Marker",
                 "audio": "blackhawk_marker",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/blackhawk_marker2.jpg",
@@ -333,10 +319,7 @@
                 "pointOnTour": 6,
                 "name": "Effigy: Bird Form",
                 "audio": "effigy_bird_form",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/effigy-bird-form.jpg",
@@ -392,10 +375,7 @@
                 "pointOnTour": 7,
                 "name": "Observatory Hill Effigy Mounds",
                 "audio": "observatory_mounds",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/obs_mounds_v2.jpg",
@@ -465,10 +445,7 @@
                 "pointOnTour": 8,
                 "name": "Tree of Peace",
                 "audio": "tree_of_peace",
-                "tours": [
-                    "mairakere",
-                    "explore"
-                ],
+                "tours":"tour1",
                 "story": [
                     {
                         "image": "img/tour1/tree_of_peace.jpg",
@@ -532,9 +509,7 @@
                 "pointOnTour": 1,
                 "name": "Memorial Union",
                 "audio": "memorial_union",
-                "tours": [
-                    "explore"
-                ],
+                "tours": "explore",
                 "story": [
                     {
                         "image": "img/tour5/memorial_union.jpg",
@@ -595,9 +570,7 @@
                 "pointOnTour": 2,
                 "name": "Memorial Union Indian Murals",
                 "audio": "indian_murals",
-                "tours": [
-                    "explore"
-                ],
+                "tours": "explore",
                 "story": [
                     {
                         "image": "img/tour5/mural.jpg",
@@ -634,9 +607,7 @@
                 "pointOnTour": 3,
                 "name": "Paul Bunyan Murals",
                 "audio": "paul_bunyans",
-                "tours": [
-                    "explore"
-                ],
+                "tours": "explore",
                 "story": [
                     {
                         "image": "img/tour5/paul_bunyan.jpg",
@@ -678,10 +649,7 @@
                 "pointOnTour": 1,
                 "name": "Dejope Hall",
                 "audio": "dejope_entrance",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/dejope_entrance.jpg",
@@ -737,10 +705,7 @@
                 "pointOnTour": 2,
                 "name": "Dejope Hall Lobby",
                 "audio": "dejope_lobby",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/dejope_lobby.jpg",
@@ -790,10 +755,7 @@
                 "pointOnTour": 3,
                 "name": "Birch Bark Canoe",
                 "audio": "birchbark_canoe",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/birch_canoe.jpg",
@@ -855,10 +817,7 @@
                 "pointOnTour": 4,
                 "name": "Dejope Fire Circle",
                 "audio": "dejope_fire_circle",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/dejope_fire_circle.jpg",
@@ -917,10 +876,7 @@
                 "pointOnTour": 5,
                 "name": "Willow Creek Oak Savanna",
                 "audio": "oak_savanna",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/oak_savanna.jpg",
@@ -997,10 +953,7 @@
                 "pointOnTour": 6,
                 "name": "Willow Drive Mounds",
                 "audio": "willow_creek_mounds",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours":"tour2",
                 "story": [
                     {
                         "image": "img/tour2/willow_creek_mounds.jpg",
@@ -1060,10 +1013,7 @@
                 "pointOnTour": 7,
                 "name": "Ho-Chunk Clan Circle",
                 "audio": "ho-chunk_clan_circle",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/ho_chunk_clan_circle.jpg",
@@ -1100,10 +1050,7 @@
                 "pointOnTour": 8,
                 "name": "Lake Mendota Overlooking Picnic Point",
                 "audio": "picnic_point_view",
-                "tours": [
-                    "tour2",
-                    "explore"
-                ],
+                "tours":"tour2",
                 "story": [
                     {
                         "image": "img/tour2/picnic_point_view.jpg",
@@ -1174,10 +1121,8 @@
                 "pk": 17,
                 "pointOnTour": 1,
                 "name": "Ho-Chunk Nation Archway",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "ho-chunk_archway",
+                "tours":"tour3",
                 "story": [
                     {
                         "image": "img/tour3/ho-chunk_archway.jpg",
@@ -1223,7 +1168,7 @@
                     }
 
                 ],
-                "label": null
+                "label": "Begin at the <b>Ho-Chunk Nation Archway</b>, outside Camp Randall. <b><i>Tap the circle icon when you arrive.</b><i>"
             },
             "geometry": {
                 "type": "Point",
@@ -1239,10 +1184,8 @@
                 "pk": 18,
                 "pointOnTour": 2,
                 "name": "Ho-Chunk Nation Plaza",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "ho-chunk_plaza",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/ho-chunk_plaza.jpg",
@@ -1302,10 +1245,8 @@
                 "pk": 19,
                 "pointOnTour": 3,
                 "name": "Camp Randall Arch Plaques",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "camp_randall_arch_1",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/camp_randall_arch_plaque.jpg",
@@ -1370,10 +1311,8 @@
                 "pk": 20,
                 "pointOnTour": 4,
                 "name": "Camp Randall Archway",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "camp_randall_arch_2",
+                "tours":"tour3",
                 "story": [
                     {
                         "image": "img/tour3/camp_randall_arch_front.jpg",
@@ -1448,10 +1387,8 @@
                 "pk": 21,
                 "pointOnTour": 5,
                 "name": "Civil War Plaque",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "civil_war_plaque",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/camp_randall_marker.jpg",
@@ -1538,10 +1475,8 @@
                 "pk": 22,
                 "pointOnTour": 6,
                 "name": "UW Athletics Hall of Fame",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "uw_athletics_hall_of_fame",
+                "tours":  "tour3",
                 "story": [
                     {
                         "image": "img/tour3/uw_hall_of_fame.jpg",
@@ -1611,10 +1546,8 @@
                 "pk": 23,
                 "pointOnTour": 7,
                 "name": "Bronze Badger Sculpture",
-                "audio": null,
-                "tours": [
-                    "tour3"
-                ],
+                "audio": "bronze_badger_statue",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/badger_sculpture.jpg",

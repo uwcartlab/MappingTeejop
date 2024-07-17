@@ -78,9 +78,9 @@
                 <img src="img/graphics/butterfly.png">
             </div>
             <div class="row" id="tours">
-                <div class="offset-md-2 col-md-8 col-12">
+                <div class="offset-md-2 col-md-8 col-12" id="tour-rows">
                     <h1 class="home-title"><b>Tours</b></h1>
-                    <div class="tour row">
+                    <!--<div class="tour row">
                         <div class="tour-img col-lg-4 col-md-5 col-sm-6 col-12">
                             <img src="img/tour1_overview.jpg" alt="A view of Lake Mendota from the top of Observatory Hill on the University of Wisconsin-Madison campus. It is a clear day, and the lake is visible in the distance. In the foreground, the grassy hill slopes into a band of forest.">
                             <p class="caption">Photo by Gareth Baldrica-Franklin</p>
@@ -88,7 +88,7 @@
                         <div class="tour-desc col-lg-8 col-md-7 col-sm-6 col-12">
                             <h3 class="tour-title"><b>Mąįirakere</b> <i class="translation">Grounding</i></h3>
                             <p><b class="pronounce">Mąįrakere</b> is the primary tour in the Mapping <b class="pronounce">Teejop</b> series, featuring Bascom and Observatory Hill. As such, it is meant to expose, orient, and “ground” students, faculty, staff, and visitors to the Ho-Chunk and Native history and presence of the University of Wisconsin. As a land grant institution, the University of Wisconsin has a deep history and complex history with the Ho-Chunk Nation, a history that has often been deliberately erased, ignored, and overlooked.</p>
-                            <p><b>Begin outside South Hall, on Bascom Hill.</b></p>
+                            <p><b class="begin">Begin outside South Hall, on Bascom Hill.</b></p>
                             <button class="tour-button" id="tour1" data-bs-dismiss="modal"><a href="map.html#mairakere">Start Mąįrakere</a></button>
                         </div>
                         <img src="img/graphics/5.png" class="rotate tour-graphic">
@@ -139,7 +139,6 @@
                             <h3 class="tour-title"><b>Trails</b> <i class="translation">Trails</i></h3>
                             <p><b><i>Coming Summer 2024</i></b></p>
                             <p>Trails highlights the central area of campus. While on this tour, visitors will consider the many paths that have long brought Indigenous peoples to Teejop, including diplomacy, trade, and sport.</p>
-                            <!--<button class="tour-button" id="tour2" data-bs-dismiss="modal"><a href="map.html#tour2">Start Water</a></button>-->
                         </div>
                         <img src="img/graphics/8.png" class="rotate tour-graphic-vert">
                         <img src="img/graphics/8.png" class="rotate flip-vert tour-graphic-vert">
@@ -155,7 +154,6 @@
                             <h3 class="tour-title"><b>Gathering Place</b> <i class="translation">Gathering Place</i></h3>
                             <p><b><i>Coming Summer 2024</i></b></p>
                             <p>Gathering Place, an extended tour, guides visitors through some of the most notable buildings of the central campus area, beginning at the Memorial Union, and including the Historical Society, the Chazen Museum. Visitors will have an opportunity to reflect on how American Indian people have contributed to the University of Wisconsin in important ways—spanning scholarship to advocacy to art. </p>
-                            <!--<button class="tour-button" id="tour2" data-bs-dismiss="modal"><a href="map.html#tour2">Start Water</a></button>-->
                         </div>
                         <img src="img/graphics/2.png" class="rotate tour-graphic-vert">
                         <img src="img/graphics/2.png" class="rotate flip-vert tour-graphic-vert">
@@ -171,7 +169,7 @@
                             <p>Choose this option if you wish to explore Native and Ho-Chunk sites on campus in any order.</p>
                             <button class="tour-button" id="explore" data-bs-dismiss="modal"><a href="map.html#explore">Start Exploring</a></button>
                         </div>
-                    </div>  
+                    </div>--> 
                 </div>
             </div>
             <div class="row interstitial-vert">
@@ -216,6 +214,9 @@
                         sociocultural landscape and assert an ongoing relationship with ancestral lands from which they were
                         removed. Her research interests include heritage preservation, cultural landscapes, material culture
                         revitalization, and cultural resource law.</p>
+                    <p>
+                        Artwork by <b>Isabella Begay</b>.
+                    </p>
                     <p>
                         Special thanks to <b>Jen Rose Smith</b> and <b>Kendra Greendeer</b> for their support and contributions to the project in its first iteration. We would also like to thank community members, interviewees, and focus group participants whose feedback was invaluable to shaping and improving the direction of the project.
                     </p>
@@ -317,8 +318,9 @@
         <script type="text/javascript" src="lib/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
         <script type="text/javascript" src="lib/leaflet-rotate.js"></script>
+        <script type="text/javascript" src="lib/papaparse.js"></script>
+        <script type="text/javascript" src="js/home.js"></script>
         <script type="text/javascript" src="js/accessibility.js"></script>
-
     </body>
 
 </html>
