@@ -189,8 +189,7 @@
                 "pointOnTour": 4,
                 "name": "Bascom Hall Ho-Chunk Flag",
                 "audio": "ho-chunk_flag",
-                "tours": 
-                    "tour1",
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/ho_chunk_flag.jpg",
@@ -445,7 +444,7 @@
                 "pointOnTour": 8,
                 "name": "Tree of Peace",
                 "audio": "tree_of_peace",
-                "tours":"tour1",
+                "tours": "tour1",
                 "story": [
                     {
                         "image": "img/tour1/tree_of_peace.jpg",
@@ -953,7 +952,7 @@
                 "pointOnTour": 6,
                 "name": "Willow Drive Mounds",
                 "audio": "willow_creek_mounds",
-                "tours":"tour2",
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/willow_creek_mounds.jpg",
@@ -1050,7 +1049,7 @@
                 "pointOnTour": 8,
                 "name": "Lake Mendota Overlooking Picnic Point",
                 "audio": "picnic_point_view",
-                "tours":"tour2",
+                "tours": "tour2",
                 "story": [
                     {
                         "image": "img/tour2/picnic_point_view.jpg",
@@ -1122,34 +1121,34 @@
                 "pointOnTour": 1,
                 "name": "Ho-Chunk Nation Archway",
                 "audio": "ho-chunk_archway",
-                "tours":"tour3",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/ho-chunk_archway.jpg",
-                        "alt": "",
+                        "alt": "The Ho-Chunk Nation gate at Camp Randall. A large metal gate between two brick columns in front of the exterior of the football stadium. A red sign sits above the gate reads 'Ho-Chunk Nation Plaza'. Above the red sign, a black sign reads: 'Camp Randall Stadium'.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"The Ho-Chunk Nation Gate and Plaza represent Ho-Chunk Nation sovereignty."
+                        "content": "The Ho-Chunk Nation Gate and Plaza represent Ho-Chunk Nation sovereignty."
                     },
                     {
-                        "content":"When Ho-Chunk Public Relations Officer Collin Price expressed interest in the Ho-Chunk Nation sponsoring Wisconsin Badger Athletics, the university representative was confused – Ho-Chunk Gaming was already a sponsor. That confusion ties into a broader issue for tribal nations, specifically, that tribal gaming organizations are business entities associated with discrete sovereign nations. Many American Indian communities have traditionally engaged in various forms of gaming, and tribal nations maintain inherent authority over the regulation of gaming on their lands. In 1988, Congress passed the Indian Gaming Regulatory Act that works to regulate tribal gaming, including how gaming profits may be used.<sup>1</sup> The Ho-Chunk Nation has experienced significant financial benefits from the formation of Ho-Chunk Gaming, but many people in Wisconsin have come to conflate the sovereign Ho-Chunk Nation with the business Ho-Chunk Gaming. "
+                        "content": "When Ho-Chunk Public Relations Officer Collin Price expressed interest in the Ho-Chunk Nation sponsoring Wisconsin Badger Athletics, the university representative was confused – Ho-Chunk Gaming was already a sponsor. That confusion ties into a broader issue for tribal nations, specifically, that tribal gaming organizations are business entities associated with discrete sovereign nations. Many American Indian communities have traditionally engaged in various forms of gaming, and tribal nations maintain inherent authority over the regulation of gaming on their lands. In 1988, Congress passed the Indian Gaming Regulatory Act that works to regulate tribal gaming, including how gaming profits may be used.<sup>1</sup> The Ho-Chunk Nation has experienced significant financial benefits from the formation of Ho-Chunk Gaming, but many people in Wisconsin have come to conflate the sovereign Ho-Chunk Nation with the business Ho-Chunk Gaming. "
                     },
                     {
-                        "content":"This confusion occasionally affects Ho-Chunk citizens too. Price shared that tribal members often asked to access the benefits attained through the Ho-Chunk Gaming sponsorship only to discover that these were reserved for high-ranking members of the casinos—Ho-Chunk community members had not realized that the sponsorship was not from the Ho-Chunk Nation. Price’s pitch to Wisconsin Athletics would emphasize that the Ho-Chunk Nation and Ho-Chunk Gaming were distinct entities.  "
+                        "content": "This confusion occasionally affects Ho-Chunk citizens too. Price shared that tribal members often asked to access the benefits attained through the Ho-Chunk Gaming sponsorship only to discover that these were reserved for high-ranking members of the casinos—Ho-Chunk community members had not realized that the sponsorship was not from the Ho-Chunk Nation. Price’s pitch to Wisconsin Athletics would emphasize that the Ho-Chunk Nation and Ho-Chunk Gaming were distinct entities.  "
                     },
                     {
-                        "position":"left",
+                        "position": "left",
                         "image": "img/tour3/ho-chunk_plaza_unveiling.jpg",
-                        "alt": "",
+                        "alt": "A group of about 20 people—representatives from the Ho-Chunk nation—are gathered beneath the Ho-Chunk nation archway. Above them, a red sign reads 'Ho-Chunk Nation Plaza'. Above the red sign, a black sign reads: 'Camp Randall Stadium'.",
                         "caption": "Unveiling of the Ho-Chunk Nation Plaza in 2016. Retrieved from <a href='http://hocakworak.com/article.aspx?headline=Ho-Chunk+Nation+Plaza+crowned+at+Camp+Randall+Stadium+at+UW-Madison'>Hocak Worak</a>."
                     },
                     {
-                        "position":"right",
-                        "content":"Negotiations for the sponsorship, which began in 2016, were part of a public resurgence for tribal nations in Wisconsin. The following year, Wisconsin hosted its first State of the Tribes address to voice their concerns and priorities to the state. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, stressed how important it was at that time for tribal nations to make their ongoing presence in Madison known, citing an inseverable spiritual connection to the land. "
+                        "position": "right",
+                        "content": "Negotiations for the sponsorship, which began in 2016, were part of a public resurgence for tribal nations in Wisconsin. The following year, Wisconsin hosted its first State of the Tribes address to voice their concerns and priorities to the state. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, stressed how important it was at that time for tribal nations to make their ongoing presence in Madison known, citing an inseverable spiritual connection to the land. "
                     },
                     {
-                        "content":"The Ho-Chunk Nation gate and Plaza at Camp Randall Stadium are a physical representation of the 5-year, $2 million sponsorship agreement between a sovereign Ho-Chunk Nation and a public university.<sup>2</sup>  According to Price, the inclusion of mandates for diversity and inclusion forums and health and wellness initiatives for Ho-Chunk youth reveal the concerns and priorities of the Ho-Chunk Nation. "
+                        "content": "The Ho-Chunk Nation gate and Plaza at Camp Randall Stadium are a physical representation of the 5-year, $2 million sponsorship agreement between a sovereign Ho-Chunk Nation and a public university.<sup>2</sup>  According to Price, the inclusion of mandates for diversity and inclusion forums and health and wellness initiatives for Ho-Chunk youth reveal the concerns and priorities of the Ho-Chunk Nation. "
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1166,7 +1165,6 @@
                             }
                         ]
                     }
-
                 ],
                 "label": "Begin at the <b>Ho-Chunk Nation Archway</b>, outside Camp Randall. <b><i>Tap the circle icon when you arrive.</b><i>"
             },
@@ -1189,29 +1187,29 @@
                 "story": [
                     {
                         "image": "img/tour3/ho-chunk_plaza.jpg",
-                        "alt": "",
+                        "alt": "An open courtyard between the Camp Randall football stadium at University of Wisconsin-Madison and a concrete parking structure. The courtyard is comprised of gray concrete tiles.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"Prior to the negotiations for a gate at Camp Randall, the Ho-Chunk Nation had experienced a major setback locally. The Ho-Chunk Nation had launched its first casino enterprise in 1993, following the longtime operation of a successful bingo hall. Despite this, a decade later, a February 2004 referendum for a new Ho-Chunk casino failed to pass a vote in Dane County. In November 2004, the referendum for a Dane County casino came to another vote, this time it was successful. Under this “compact”, the Ho-Chunk agreed “to pay the city [of Madison] and the county [of Dane] each more than $45 million dollars from 2004 through 2016 and $3.5 million annually thereafter for an indefinite period.”.<sup>1</sup>"
+                        "content": "Prior to the negotiations for a gate at Camp Randall, the Ho-Chunk Nation had experienced a major setback locally. The Ho-Chunk Nation had launched its first casino enterprise in 1993, following the longtime operation of a successful bingo hall. Despite this, a decade later, a February 2004 referendum for a new Ho-Chunk casino failed to pass a vote in Dane County. In November 2004, the referendum for a Dane County casino came to another vote, this time it was successful. Under this “compact”, the Ho-Chunk agreed “to pay the city [of Madison] and the county [of Dane] each more than $45 million dollars from 2004 through 2016 and $3.5 million annually thereafter for an indefinite period.”.<sup>1</sup>"
                     },
                     {
-                        "content":"Since then, the Ho-Chunk Nation has been looking to further its relationship with the local community.<sup>2</sup> Tribal nations across Wisconsin, have had successful relationships with professional sports teams, (Forest County Potawatomi/Milwaukee Brewers and Oneida Nation/Green Bay Packers) and the Ho-Chunk Nation looked to these examples when considering structuring a sponsorship with the Wisconsin Badger Athletics. At the same time, the University of Wisconsin – Madison was looking to demonstrate a commitment to fostering a positive working relationship with the Ho-Chunk Nation, whose ancestral lands the university occupies.  "
+                        "content": "Since then, the Ho-Chunk Nation has been looking to further its relationship with the local community.<sup>2</sup> Tribal nations across Wisconsin, have had successful relationships with professional sports teams, (Forest County Potawatomi/Milwaukee Brewers and Oneida Nation/Green Bay Packers) and the Ho-Chunk Nation looked to these examples when considering structuring a sponsorship with the Wisconsin Badger Athletics. At the same time, the University of Wisconsin – Madison was looking to demonstrate a commitment to fostering a positive working relationship with the Ho-Chunk Nation, whose ancestral lands the university occupies.  "
                     },
                     {
-                        "position":"center",
+                        "position": "center",
                         "image": "img/tour3/oneida_lambeau.jpg",
-                        "alt": "",
+                        "alt": "A row of Oneida dancers in traditional and multi-colored garments stand on the sidelines of a Lambeau Field—the home football stadium of the Green Bay Packers. The stadium is full.",
                         "caption": "Dancers from Oneida Nation before their halftime performance at Lambeau Field, home of the Green Bay Packers, in 2019. Retrieved from <a href='https://tworowtimes.com/sports/football/oneida-dancers-take-green-bay-packers-halftime/'>Two Row Times</a>."
                     },
                     {
-                        "content":"The university had already begun implementing different initiatives to promote a Native presence on campus, including the formation of the Native American Center for Health Professionals, enrollment of Native cohorts into the School of Education, and planning the construction of the Dejope Residence Hall. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, thinks getting the Ho-Chunk Nation involved with Badger sports was one of the more pivotal relationships, raising their visibility as active partners in the university community. The university has since approached the nation about increasing their sponsorship, but the Ho-Chunk Nation has declined."
+                        "content": "The university had already begun implementing different initiatives to promote a Native presence on campus, including the formation of the Native American Center for Health Professionals, enrollment of Native cohorts into the School of Education, and planning the construction of the Dejope Residence Hall. David Greendeer, who worked in gaming and advertising for the Ho-Chunk, thinks getting the Ho-Chunk Nation involved with Badger sports was one of the more pivotal relationships, raising their visibility as active partners in the university community. The university has since approached the nation about increasing their sponsorship, but the Ho-Chunk Nation has declined."
                     },
                     {
-                        "content":"Collin Price, former Ho-Chunk Nation Public Relations Officer, notes that the nation was actively involved in the creation of the gate and plaza, but time restrictions imposed some design limitations. Since forming the sponsorship, the Ho-Chunk Nation has experienced greater success in addressing concerns about Indigenous student experiences at the university. Still, strained bureaucratic resources have impacted the implementation of some plans from the agreement. Specifically, hopes of holding a powwow at Camp Randall have yet to be realized. Price suggests a need for a designated position to facilitate the relationship and wonders if Ho-Chunk students could be supported by the university to act in this capacity. "
+                        "content": "Collin Price, former Ho-Chunk Nation Public Relations Officer, notes that the nation was actively involved in the creation of the gate and plaza, but time restrictions imposed some design limitations. Since forming the sponsorship, the Ho-Chunk Nation has experienced greater success in addressing concerns about Indigenous student experiences at the university. Still, strained bureaucratic resources have impacted the implementation of some plans from the agreement. Specifically, hopes of holding a powwow at Camp Randall have yet to be realized. Price suggests a need for a designated position to facilitate the relationship and wonders if Ho-Chunk students could be supported by the university to act in this capacity. "
                     },
                     {
-                        "content":"Take a moment to reflect on how the Ho-Chunk Nation, as sponsors of the Wisconsin Badger Athletics, are represented at Camp Randall and the university more broadly. How has the university presented their Indigenous sponsors? Do you feel that the university’s recognition of the Ho-Chunk adequately reflects the nation’s investment? Do you think the visibility of Ho-Chunk culture on campus would be affected if the nation did not sponsor Wisconsin Badger Athletics? "
+                        "content": "Take a moment to reflect on how the Ho-Chunk Nation, as sponsors of the Wisconsin Badger Athletics, are represented at Camp Randall and the university more broadly. How has the university presented their Indigenous sponsors? Do you feel that the university’s recognition of the Ho-Chunk adequately reflects the nation’s investment? Do you think the visibility of Ho-Chunk culture on campus would be affected if the nation did not sponsor Wisconsin Badger Athletics? "
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1250,24 +1248,24 @@
                 "story": [
                     {
                         "image": "img/tour3/camp_randall_arch_plaque.jpg",
-                        "alt": "",
+                        "alt": "The back side of the archway at the entrance to Camp Randall—a large, blocky stone arch resting over a brick walking path. Through the archway, the path turns into a roadway lined with buildings.",
                         "caption": "Photo from wisconsinhistoricalmarkers.blogspot.com."
                     },
                     {
-                        "content":"There are two bronze plaques on the interior walls of the Camp Randall Archway, referring to two US wars which occurred simultaneously, yet are unevenly remembered. The text on the north plaque reads: <i>“Erected by the State of Wisconsin to mark the entrance through which passed seventy thousand of her soldier sons and five hundred thousand relatives and friends during the war from 1861-1865. Lest we forget. MDCCCCXII.”</i> The south plaque lists all the Union troops organized in Wisconsin, arranged by camp names, complete with the dates the units were formed and mustered out. While the Civil War has not been forgotten, a brief reference on the south plaque alludes to a less remembered narrative. "
+                        "content": "There are two bronze plaques on the interior walls of the Camp Randall Archway, referring to two US wars which occurred simultaneously, yet are unevenly remembered. The text on the north plaque reads: <i>“Erected by the State of Wisconsin to mark the entrance through which passed seventy thousand of her soldier sons and five hundred thousand relatives and friends during the war from 1861-1865. Lest we forget. MDCCCCXII.”</i> The south plaque lists all the Union troops organized in Wisconsin, arranged by camp names, complete with the dates the units were formed and mustered out. While the Civil War has not been forgotten, a brief reference on the south plaque alludes to a less remembered narrative. "
                     },
                     {
-                        "position":"left",
+                        "position": "left",
                         "image": "img/tour3/camp_randall_plaque.jpg",
-                        "alt": "",
+                        "alt": "A black metal plaque inset in gray stone. The gold text on the top of the plaque reads: 'Union Troops Organized in Wisconsin'. Below the title, there are three columns listing civil war timelines for various regiments. There is one column for each city where union troops trained in Wisconsin: Madison, Milwaukee, and Racine.",
                         "caption": "Civil War memorial plaque located on the Camp Randall Arch. Photo by Jeff Miller, retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I0000SHkKe0Ud3MQ?terms=camp%20randall%20arch&'>UW Photo Library</a>."
                     },
                     {
-                        "position":"right",
-                        "content":"Towards the bottom of the center column, the text reads: <i>“On the 18th of December, 1862, the 25th Regiment came into Camp Randall from a campaign against Indians in Minnesota […].”</i> The campaign refers to the US-Dakota War of 1862, when after months of starvation conditions, a Mdewakanton Dakota hunting party killed five white settlers near Acton Township. The US-Dakota War, which unfolded during the US Civil War, was a direct result of settler encroachment on tribal lands and the failure of the federal government to honor treaty obligations.<sup>1</sup> After the six-week war across southern Minnesota, hundreds of Dakota and fifteen Ho-Chunk men faced trial for their participation.<sup>2</sup> Abraham Lincoln, whose likeness is enshrined on Bascom Hill, approved a list of 38 Dakota men to be hanged for their “war crimes,” resulting in the largest mass execution in US history. Within a year, Minnesota implemented a bounty system of $200 per Dakota scalp to ensure legislation barring Dakota from living in the state was enforced. Despite the deaths of Dakota non-combatants, including women, children, and elders, no military personnel were charged or tried for their war crimes.<sup>3</sup>"
+                        "position": "right",
+                        "content": "Towards the bottom of the center column, the text reads: <i>“On the 18th of December, 1862, the 25th Regiment came into Camp Randall from a campaign against Indians in Minnesota […].”</i> The campaign refers to the US-Dakota War of 1862, when after months of starvation conditions, a Mdewakanton Dakota hunting party killed five white settlers near Acton Township. The US-Dakota War, which unfolded during the US Civil War, was a direct result of settler encroachment on tribal lands and the failure of the federal government to honor treaty obligations.<sup>1</sup> After the six-week war across southern Minnesota, hundreds of Dakota and fifteen Ho-Chunk men faced trial for their participation.<sup>2</sup> Abraham Lincoln, whose likeness is enshrined on Bascom Hill, approved a list of 38 Dakota men to be hanged for their “war crimes,” resulting in the largest mass execution in US history. Within a year, Minnesota implemented a bounty system of $200 per Dakota scalp to ensure legislation barring Dakota from living in the state was enforced. Despite the deaths of Dakota non-combatants, including women, children, and elders, no military personnel were charged or tried for their war crimes.<sup>3</sup>"
                     },
                     {
-                        "content":"The University of Wisconsin – Madison acquired the Camp Randall property from the state of Wisconsin in 1893, which imposed restrictions that the land was only to be used for agriculture, athletics, and military drills.<sup>4</sup> In 1911, the Wisconsin legislature organized the Wisconsin Memorial Park Commission to oversee the construction of a memorial arch near the original Civil War camp site, completed in 1912. "
+                        "content": "The University of Wisconsin – Madison acquired the Camp Randall property from the state of Wisconsin in 1893, which imposed restrictions that the land was only to be used for agriculture, athletics, and military drills.<sup>4</sup> In 1911, the Wisconsin legislature organized the Wisconsin Memorial Park Commission to oversee the construction of a memorial arch near the original Civil War camp site, completed in 1912. "
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1312,28 +1310,28 @@
                 "pointOnTour": 4,
                 "name": "Camp Randall Archway",
                 "audio": "camp_randall_arch_2",
-                "tours":"tour3",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/camp_randall_arch_front.jpg",
-                        "alt": "",
+                        "alt": "The front side of the archway at the entrance to Camp Randall. A large, blocky stone arch resting over a brick walking path. Cut into the top of the stone archway are the words: 'Camp Randall'. A carved, stone eagle rests at its very top. Flanking the left side of the archway, there is a statue of a young man in a military coat and uniform, beneath which is carved '1861-1865'. Flanking the right, there is a statue of an older man, beneath which is carved '1912'.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"Camp Randall Arch was designed to memorialize the legacy of service among Wisconsin’s Civil War veterans. On the top is a carved figure of the 8th Wisconsin Infantry Regiment’s war eagle mascot “Old Abe.”  The “Young Boy Sentry” to the left and the “Old Veteran” to the right symbolize a soldier who entered the camp during the war and then revisited the camp when the memorial park opened.<sup>1</sup> Records of the dedication do not document how many, if any, of Wisconsin’s Native veterans were among the several hundred attendees. "
+                        "content": "Camp Randall Arch was designed to memorialize the legacy of service among Wisconsin’s Civil War veterans. On the top is a carved figure of the 8th Wisconsin Infantry Regiment’s war eagle mascot “Old Abe.”  The “Young Boy Sentry” to the left and the “Old Veteran” to the right symbolize a soldier who entered the camp during the war and then revisited the camp when the memorial park opened.<sup>1</sup> Records of the dedication do not document how many, if any, of Wisconsin’s Native veterans were among the several hundred attendees. "
                     },
                     {
-                        "content":"American Indians have participated in all major military engagements since the United States was formed, long before most had received American citizenship. In fact, “since 9/11, Native Americans have served at a higher per-capita rate than any other ethnic group.”<sup>2</sup> Their legacy of service was/is motivated by many interests: personal, cultural, patriotic, and more. “Stereotypes about Native Americans as natural ‘warriors’ led to dangerous combat assignments that resulted in higher casualty rates than those for white soldiers.”<sup>3</sup> Extension of US citizenship to American Indians in 1924 was partially intended to recognize their great sacrifices serving in the armed forces during WWI.  "
+                        "content": "American Indians have participated in all major military engagements since the United States was formed, long before most had received American citizenship. In fact, “since 9/11, Native Americans have served at a higher per-capita rate than any other ethnic group.”<sup>2</sup> Their legacy of service was/is motivated by many interests: personal, cultural, patriotic, and more. “Stereotypes about Native Americans as natural ‘warriors’ led to dangerous combat assignments that resulted in higher casualty rates than those for white soldiers.”<sup>3</sup> Extension of US citizenship to American Indians in 1924 was partially intended to recognize their great sacrifices serving in the armed forces during WWI.  "
                     },
                     {
-                        "position":"left",
+                        "position": "left",
                         "image": "img/tour3/menominee_code_talkers.png",
-                        "alt": "",
+                        "alt": "A golden coin depicting a soldier crawling over a stone wall. He has a rifle in one hand and is holding a radio to his ear in the other. Three warplanes fly overhead. Inlaid at the top of the coin, it read: 'Menominee Code Talkers'. Inlaid in the bottom, it reads: 'Omaeqnomenew Kemoc Keketotatowak'.",
                         "caption": "Congressional medal issued to Menominee code talkers in 2008. Retrieved from <a href='https://www.usmint.gov/coins/coin-medal-programs/medals/native-american-code-talkers/menominee-nation'>U.S. Mint</a>."
                     },
                     {
-                        "position":"right",
-                        "content":"The use of Native soldiers as “Code Talkers” was pivotal in the Allies’ data security during World War I and II. The American government’s reliance on Indigenous languages was ironic given the systematic efforts to eliminate their usage through Indian boarding schools. After seeing how successful the Code Talker program was during WWI, Germany attempted to sabotage the program during WWII – they sent spies and anthropologists to reservations to discourage military service and learn Native languages.<sup>4</sup> Germany’s efforts were unsuccessful, and the developed codes were never broken.<sup>5</sup> Three of Wisconsin’s tribal nations were represented among the Code Talkers: the Ho-Chunk, Menominee, and Oneida.<sup>6</sup>"
+                        "position": "right",
+                        "content": "The use of Native soldiers as “Code Talkers” was pivotal in the Allies’ data security during World War I and II. The American government’s reliance on Indigenous languages was ironic given the systematic efforts to eliminate their usage through Indian boarding schools. After seeing how successful the Code Talker program was during WWI, Germany attempted to sabotage the program during WWII – they sent spies and anthropologists to reservations to discourage military service and learn Native languages.<sup>4</sup> Germany’s efforts were unsuccessful, and the developed codes were never broken.<sup>5</sup> Three of Wisconsin’s tribal nations were represented among the Code Talkers: the Ho-Chunk, Menominee, and Oneida.<sup>6</sup>"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1392,26 +1390,26 @@
                 "story": [
                     {
                         "image": "img/tour3/camp_randall_marker.jpg",
-                        "alt": "",
+                        "alt": "The Civil War memorial plaque at Camp Randall. A large, brown plaque sits between four metal poles and beneath a red overhang. There is a grassy park in the background and a handful of large, leafless trees. The top of the plaque reads: 'Camp Randall'. The rest of the text on the plaque reads: 'From these historic grounds went forth Wisconsin's sons to fight for the preservation of the nation in the American Civil War -- 1861-1865. More than 70,000 men trained for service within the boundaries of this camp named after Alexander W. Randall, a wartime governor. Originally comprising 53½ acres and owned by the estate of William D. Bruen, the tract was leased to the State Agricultural Society in 1859. When war came in April 1861, the land was turned over to the state as a military training rendezvous and Camp Randall became the state's largest staging point. A hospital and a stockade for Confederate prisoners of war were also located here. Purchased by the state in 1893, the land was deeded to the University of Wisconsin. Since that time, a portion of the grounds has been used as an athletic field. As a memorial to Wisconsin's Civil War soldiers, a small segment of the land was set aside as a Park and the Memorial Arch was completed in 1912. Erected 1961 by The Civil War Centennial Commission'",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"The Civil War left American Indians in an awkward position regardless of what side of the Mason – Dixon line they lived on. The primary concern was how tribal nations would be treated by whichever American government, Union or Confederate, ultimately prevailed. For tribal nations remaining on the east coast, there was some hope that a display of loyalty would prevent future removal efforts. Ultimately, around 20,000 Native Americans served in the Civil War for both the Union and Confederate Armies.<sup>1</sup> In Wisconsin alone, over 500 Natives volunteered to join the Union.<sup>2</sup>"
+                        "content": "The Civil War left American Indians in an awkward position regardless of what side of the Mason – Dixon line they lived on. The primary concern was how tribal nations would be treated by whichever American government, Union or Confederate, ultimately prevailed. For tribal nations remaining on the east coast, there was some hope that a display of loyalty would prevent future removal efforts. Ultimately, around 20,000 Native Americans served in the Civil War for both the Union and Confederate Armies.<sup>1</sup> In Wisconsin alone, over 500 Natives volunteered to join the Union.<sup>2</sup>"
                     },
                     {
-                        "content":"The Civil War narrative of ‘brother fighting brother’ proved true for Natives as well. In Indian Territory (present-day Oklahoma), tribal nations experienced internal divisions when factions disagreed over whether to support the Union or Confederate cause. A minority of the wealthier tribal members—including amongst the Cherokee Nation –  owned enslaved peoples.<sup>3</sup> While the exact numbers are unknown, records indicate more Natives sided with the Confederacy than the Union – perhaps unsurprising given that the federal policy of removal had pushed many tribal nations into pro-slavery states.<sup>4</sup>"
+                        "content": "The Civil War narrative of ‘brother fighting brother’ proved true for Natives as well. In Indian Territory (present-day Oklahoma), tribal nations experienced internal divisions when factions disagreed over whether to support the Union or Confederate cause. A minority of the wealthier tribal members—including amongst the Cherokee Nation –  owned enslaved peoples.<sup>3</sup> While the exact numbers are unknown, records indicate more Natives sided with the Confederacy than the Union – perhaps unsurprising given that the federal policy of removal had pushed many tribal nations into pro-slavery states.<sup>4</sup>"
                     },
                     {
-                        "content":"Camp Randall housed both Union soldiers and Confederate prisoners of war (POW) during the Civil War. From 1861-1865, over three-quarters of all Wisconsin troops who served in the war trained at Camp Randall.<sup>5</sup> We know for certain that an infantry regiment with Menominee soldiers were among them.<sup>6</sup> For a brief period in 1862, Camp Randall served as a POW camp for over 1200 Confederate soldiers, at least 140 of whom are buried in Forest Hill Cemetery.<sup>7</sup> There is no evidence that Native soldiers were among the Confederate POWs camped here."
+                        "content": "Camp Randall housed both Union soldiers and Confederate prisoners of war (POW) during the Civil War. From 1861-1865, over three-quarters of all Wisconsin troops who served in the war trained at Camp Randall.<sup>5</sup> We know for certain that an infantry regiment with Menominee soldiers were among them.<sup>6</sup> For a brief period in 1862, Camp Randall served as a POW camp for over 1200 Confederate soldiers, at least 140 of whom are buried in Forest Hill Cemetery.<sup>7</sup> There is no evidence that Native soldiers were among the Confederate POWs camped here."
                     },
                     {
-                        "position":"center",
+                        "position": "center",
                         "image": "img/tour3/camp_randall_1864.png",
-                        "alt": "",
+                        "alt": "A black and white pencil sketch of Camp Randall during the civil war. There is an oblique view of the camp's buildings, all surrounded by a low wall. A row of barracks lie in the foreground, beyond which is an open field. At the far side of the camp there is a large, horizontal building beyond which lies another row of barracks. At the bottom, the sketch is captioned: 'Camp Randall, Madison, Wis. Sketch from top of University Building, May 20, 1864, by W.F. Brown, Co. B. 40th Wis. Vol. Inf.'",
                         "caption": "Sketch of Camp Randall during the Civil War, 1864. By W.F Brown, retrieved from <a href='https://en.wikipedia.org/wiki/Camp_Randall#/media/File:CampRandall-1864.png'>Wikimedia Commons</a>."
                     },
                     {
-                        "content":"Arguably the most notable American Indian involved in the Civil War was General Ely S. Parker (Seneca) who served as General Ulysses S. Grant’s military secretary. Parker was responsible for drawing up the articles of surrender signed by General Robert E. Lee at Appomattox Court House, ending the war. According to historical records, upon reaching Appomattox, Lee told Parker, “I am glad to see one real American here,” prompting Parker’s response that “We are all Americans.”<sup>8</sup>"
+                        "content": "Arguably the most notable American Indian involved in the Civil War was General Ely S. Parker (Seneca) who served as General Ulysses S. Grant’s military secretary. Parker was responsible for drawing up the articles of surrender signed by General Robert E. Lee at Appomattox Court House, ending the war. According to historical records, upon reaching Appomattox, Lee told Parker, “I am glad to see one real American here,” prompting Parker’s response that “We are all Americans.”<sup>8</sup>"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1476,28 +1474,28 @@
                 "pointOnTour": 6,
                 "name": "UW Athletics Hall of Fame",
                 "audio": "uw_athletics_hall_of_fame",
-                "tours":  "tour3",
+                "tours": "tour3",
                 "story": [
                     {
                         "image": "img/tour3/uw_hall_of_fame.jpg",
-                        "alt": "",
+                        "alt": "A pathway between a cream-brick facade on the covered with small rectangular plaques on the right, and a small grassy field on the left. A wall of the camp Randall football stadium can be seen in the background.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"Before the first collegiate football game was held at Camp Randall’s newly constructed athletic field in 1895, a much older athletic tradition was hosted for the entertainment of modern spectators. Camp Randall previously served intermittently as the former location of the Wisconsin State Fairgrounds throughout the nineteenth century. During the fair in 1885, one of the highlights of the event was an exhibition lacrosse game performed by Natives in colorful regalia with traditionally constructed equipment. On September 9th, two integrated teams consisting of thirty-eight Bad River Band Ojibwe and nine Red Cliff Band Ojibwe men competed in what the Wisconsin State Journal called a “wildly picturesque” game of lacrosse.<sup>1</sup> Despite unexpected storms deterring many spectators, the event still drew a crowd of around 2000 people."
+                        "content": "Before the first collegiate football game was held at Camp Randall’s newly constructed athletic field in 1895, a much older athletic tradition was hosted for the entertainment of modern spectators. Camp Randall previously served intermittently as the former location of the Wisconsin State Fairgrounds throughout the nineteenth century. During the fair in 1885, one of the highlights of the event was an exhibition lacrosse game performed by Natives in colorful regalia with traditionally constructed equipment. On September 9th, two integrated teams consisting of thirty-eight Bad River Band Ojibwe and nine Red Cliff Band Ojibwe men competed in what the Wisconsin State Journal called a “wildly picturesque” game of lacrosse.<sup>1</sup> Despite unexpected storms deterring many spectators, the event still drew a crowd of around 2000 people."
                     },
                     {
-                        "position":"left",
-                        "content":"Representation of American Indians in UW-Madison athletics coincided with the earliest enrollment of Indigenous students. In 1903, William Milton Baine [Sisseton Dakota] became known as the “famous Indian football player” once he was added to the football team roster.<sup>2</sup> The following year, an established football star – Thomas “Ted” St. Germaine [Lac du Flambeau] – joined the Law School, football team, and water polo team.<sup>3</sup> Although Baine and St. Germaine were on the team, they were allegedly never permitted off the bench.<sup>4</sup> St. Germaine would eventually leave the UW, finish a law degree at Yale, and play in the NFL. Many decades would pass before this de facto as well as formalized segregation would be addressed in college sports."
+                        "position": "left",
+                        "content": "Representation of American Indians in UW-Madison athletics coincided with the earliest enrollment of Indigenous students. In 1903, William Milton Baine [Sisseton Dakota] became known as the “famous Indian football player” once he was added to the football team roster.<sup>2</sup> The following year, an established football star – Thomas “Ted” St. Germaine [Lac du Flambeau] – joined the Law School, football team, and water polo team.<sup>3</sup> Although Baine and St. Germaine were on the team, they were allegedly never permitted off the bench.<sup>4</sup> St. Germaine would eventually leave the UW, finish a law degree at Yale, and play in the NFL. Many decades would pass before this de facto as well as formalized segregation would be addressed in college sports."
                     },
                     {
-                        "position":"right",
+                        "position": "right",
                         "image": "img/tour3/ted_st_germaine.jpg",
-                        "alt": "",
+                        "alt": "Three rows of six men each pose for a team photo. All but two of the men are dressed in dark uniforms with light patches around their flanks and elbows. Some of the men have the numbers 1-5 written next to their heads.",
                         "caption": "Ted St. Germain, top row, 4th from the left (marked with a number 5) and the rest of his NFL team, the Oorang Indians, pictured in 1922. Retrieved from <a href='https://portalwisconsin.wordpress.com/2009/09/24/lineman-lawyer-ojibwe/'>Portal Wisconsin</a>."
                     },
                     {
-                        "content":"Today, Indigenous students from Wisconsin and further afield continue to bring their talents to UW Madison athletics. Basketball has been a particular big draw: Bronson Koenig [Ho-Chunk] and Will Decorah [Ho-Chunk] both competed on the men’s basketball team while Jessie Stomski Seim [Muscogee Creek] made a name for herself on the women’s basketball team, and was inducted into the UW-Athletics Hall of Fame in 2020<sup></sup>. The UW-Madison women’s hockey team, one of the best in the country, was a springboard for Abby Roque [Wahnapitae First Nation] who now plays in the newly formed Professional Women’s Hockey League."
+                        "content": "Today, Indigenous students from Wisconsin and further afield continue to bring their talents to UW Madison athletics. Basketball has been a particular big draw: Bronson Koenig [Ho-Chunk] and Will Decorah [Ho-Chunk] both competed on the men’s basketball team while Jessie Stomski Seim [Muscogee Creek] made a name for herself on the women’s basketball team, and was inducted into the UW-Athletics Hall of Fame in 2020<sup></sup>. The UW-Madison women’s hockey team, one of the best in the country, was a springboard for Abby Roque [Wahnapitae First Nation] who now plays in the newly formed Professional Women’s Hockey League."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1551,33 +1549,33 @@
                 "story": [
                     {
                         "image": "img/tour3/badger_sculpture.jpg",
-                        "alt": "",
+                        "alt": "A squat metal statue of a badger, created by Ho-Chunk Artist Harry Whitehorse. The statue with a long, pointed face and large hulking shoulders, and rests on a patch of green cement. Behind the statue, a busy street with cars, a rug store, a pizza place, and an apartment building.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"Ho-Chunk artist Harry Whitehorse’s sculpture “The Badger,” installed in 2019, is a ten-foot interactive art installation that draws on the University of Wisconsin’s beloved badger mascot.<sup>1</sup>"
+                        "content": "Ho-Chunk artist Harry Whitehorse’s sculpture “The Badger,” installed in 2019, is a ten-foot interactive art installation that draws on the University of Wisconsin’s beloved badger mascot.<sup>1</sup>"
                     },
                     {
-                        "position":"left",
+                        "position": "left",
                         "image": "img/tour3/old_copper_tools.jpg",
-                        "alt": "",
+                        "alt": "Seven copper artifacts are laid out. In the middle is a long spear point. Proceeding clockwise are a narrow-pointed tool known as an awl or punch, two projectile points, two knives and and an axe head.",
                         "caption": "Copper tools from Northern Wisconsin, 4000-1,200 B.C. Unpublished photograph in the office of the state archaeologist, retrieved from <a href='http://www.wisconsinhistory.org/turningpoints/search.asp?id=760'>Wisconsin Historical Society</a>."
                     },
                     {
-                        "position":"right",
-                        "content":"Evidence of mining and metalworking in Wisconsin dates back at least 6000 years.<sup>2</sup> At this time, the most commonly used ore was copper – sites from this period are referred to as part of the Old Copper Complex. We are unsure how much copper ore was used at the time, but some estimates have ranged as high as 1.5 billion pounds.<sup>3</sup> Although the metal was abandoned for more efficient stone tools, the experiment with copper makes Wisconsin one of a handful of locations in the world to where metallurgy developed independently.<sup>4</sup>"
+                        "position": "right",
+                        "content": "Evidence of mining and metalworking in Wisconsin dates back at least 6000 years.<sup>2</sup> At this time, the most commonly used ore was copper – sites from this period are referred to as part of the Old Copper Complex. We are unsure how much copper ore was used at the time, but some estimates have ranged as high as 1.5 billion pounds.<sup>3</sup> Although the metal was abandoned for more efficient stone tools, the experiment with copper makes Wisconsin one of a handful of locations in the world to where metallurgy developed independently.<sup>4</sup>"
                     },
                     {
-                        "content":"Another locally utilized metallic resource was galena – a lead ore. The Ho-Chunk used it as a pigment for at least several hundred years before settlers arrived.<sup>5</sup> Lead, or “gray gold,” was very valuable in western society by the 19th century as it was used in both military and domestic products."
+                        "content": "Another locally utilized metallic resource was galena – a lead ore. The Ho-Chunk used it as a pigment for at least several hundred years before settlers arrived.<sup>5</sup> Lead, or “gray gold,” was very valuable in western society by the 19th century as it was used in both military and domestic products."
                     },
                     {
-                        "content":"After learning about the rich deposits in Wisconsin, over 10,000 white miners illegally occupied Ho-Chunk lands in the early 1800s to stake their claims.<sup>6</sup> During the lead rush of the 1820s, miners prioritized extracting as much ore as possible, going so far as to live in the mines. Due to the similarity to underground “badger holes,” locals mocked the miners, calling them ‘badgers.’<sup>7</sup> Because of the significance of the state’s mining history, the name become a source of pride. Mining, however, has had negative long-term impacts on Wisconsin Indians."
+                        "content": "After learning about the rich deposits in Wisconsin, over 10,000 white miners illegally occupied Ho-Chunk lands in the early 1800s to stake their claims.<sup>6</sup> During the lead rush of the 1820s, miners prioritized extracting as much ore as possible, going so far as to live in the mines. Due to the similarity to underground “badger holes,” locals mocked the miners, calling them ‘badgers.’<sup>7</sup> Because of the significance of the state’s mining history, the name become a source of pride. Mining, however, has had negative long-term impacts on Wisconsin Indians."
                     },
                     {
-                        "content":"The demand for increased mining fueled government efforts to remove tribal nations from Wisconsin and reduce tribal land holdings.<sup>8</sup> Environmental degradation from mining continues to disproportionately impact reservation communities and tribal homelands, affecting air and water quality and destroying traditional food sources.<sup>9</sup> When Exxon Minerals initially proposed the Crandon Mine in northeastern Wisconsin in the mid-1970s, the Menominee and Mole Lake Ojibwe Nations lobbied against it.<sup>10</sup> The proposal led to protests supported by environmental groups, eventually leading to the passage of a mining moratorium in the state in 1995. In 2003, the Mole Lake Ojibwe and Forest County Potawatomi Nations purchased the mine to ensure it would never be opened.<sup>11</sup>"
+                        "content": "The demand for increased mining fueled government efforts to remove tribal nations from Wisconsin and reduce tribal land holdings.<sup>8</sup> Environmental degradation from mining continues to disproportionately impact reservation communities and tribal homelands, affecting air and water quality and destroying traditional food sources.<sup>9</sup> When Exxon Minerals initially proposed the Crandon Mine in northeastern Wisconsin in the mid-1970s, the Menominee and Mole Lake Ojibwe Nations lobbied against it.<sup>10</sup> The proposal led to protests supported by environmental groups, eventually leading to the passage of a mining moratorium in the state in 1995. In 2003, the Mole Lake Ojibwe and Forest County Potawatomi Nations purchased the mine to ensure it would never be opened.<sup>11</sup>"
                     },
                     {
-                        "content":"Water protectors, Indigenous and non-Indigenous allies, continue to fight extractive industries in the State of Wisconsin, including the construction and maintenance of oil pipelines. Current legal battles by tribal nations include Bad River’s lawsuit against Enbridge for Line 5.<sup>12, </sup><sup>13, </sup><sup>14, </sup><sup>15, </sup>"
+                        "content": "Water protectors, Indigenous and non-Indigenous allies, continue to fight extractive industries in the State of Wisconsin, including the construction and maintenance of oil pipelines. Current legal battles by tribal nations include Bad River’s lawsuit against Enbridge for Line 5.<sup>12, </sup><sup>13, </sup><sup>14, </sup><sup>15, </sup>"
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -1639,7 +1637,7 @@
                             },
                             {
                                 "link": "https://ictnews.org/news/water-protectors-rally-in-ohio-over-enbridge-pipeline",
-                                "linkText":"Water protectors rally in Ohio over Enbridge pipeline",
+                                "linkText": "Water protectors rally in Ohio over Enbridge pipeline",
                                 "title": "<sup>12</sup>"
                             },
                             {
@@ -1667,6 +1665,602 @@
                 "coordinates": [
                     -89.413781176860027,
                     43.0674183512212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 24,
+                "pointOnTour": 1,
+                "name": "Allen Centennial Garden",
+                "audio": "acg_1",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/allen_centennial_garden_driveway.jpg",
+                        "alt": "A tan brick driveway curving to the right at the entrace to Allen Centennial Garden at UW-Madison. Beyond the driveway on the left is a small pathway leading into a thicket of green vegetation. On the right beyond the driveway is a large tudor-style house with cream brick, red trim, and parapet sticking above the trees.",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "Constructed in 1890, the home located within the Allen Centennial Garden (ACG) has been known as the “Lake Dormer,” the “Fred House, and the “Agricultural Dean’s Residence.”<sup>1</sup> The home originally served as the residence of the dean of the College of Agriculture and Life Sciences (CALS), beginning in 1891. The house, which has not served as a private residence since 1980, has been vacant since 2010 due to disrepair and lack of funding to modernize. Various proposals for the home have been brought forth over the years, including becoming a more permanent location of the Indigenous Student Center (ISC). "
+                    },
+                    {
+                        "content": "The gardens that surround the home were established in 1985 as the University’s horticulture teaching garden, a destination open to all on campus. Today, ACG Executive Director, Reba Luiken, describes the ACG as a place to think about the social aspects of plants – a way to understand and make sense of relationships, history, and the diverse ways plant are used globally.  "
+                    },
+                    {
+                        "content": "Facing the home, as you enter the garden to your right, directly to the north is Lake Mendota. This area of campus has long been home to the Ho-Chunk people and is recognized as a site of Ho-Chunk habitation prior to non-Native settlement, colonization, and dispossession.  "
+                    },
+                    {
+                        "position": "left",
+                        "content": "This first garden you enter has been dubbed the “Animacy Garden,” a place to encourage visitors to think about what is and is not animate – or in a state of being alive. The plants? The leaves? The stones? The dirt? The water? Through questions of animacy, we are encouraged to think about human and non-human relationality. As described by Wendy Makoons Geniusz, whose mother shared her Anishinaabe knowledge with her in the book <i>Plants Have So Much to Give Us, All We Have to Do Is Ask: Anishinaabe Botanical Teachings</i>, “plants are thought of as beings with their own histories, stories, beliefs, and ways of life.”<sup>2</sup>"
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/animacy_garden.jpg",
+                        "alt": "The Animacy Garden in the corner of the Allen Centennial Garden at UW-Madison. A circle of small stumps are arranged around an open patch of dirt. Around the stump circle are low, green shrubs.",
+                        "caption": "The Animacy Garden at the Allen Centennial Garden, Summer 2024. Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "As you meander through the gardens, along the stone path, please take time to reflect on how this landscape has changed over the last 200-years and how the Ho-Chunk have worked to affirm their traditional connections to Teejop. "
+                    },
+                    {
+                        "content": "As you make your way into the “Wisconsin Woodland Garden,” you’ll see plant life that is Native to the state of Wisconsin. In this area of the ACG, we’re reminded of the rich diversity of plant life across the state and how this landscape has changed due to development, construction, climate change, and invasive species. Each of these are areas of ecological change and concern that Indigenous scholars, and their allies, have long been on the forefront of, particularly in terms of management and restoration. Here at UW-Madison, in addition to the ACG, Earth Partnerships is a program that has been on the forefront of community-engaged research with tribal partners to advocate for and actively purse restoration on campus and across the state.<sup>3</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://allencentennialgarden.wisc.edu/about/history/",
+                                "linkText": "Allen Centennial Garden—History",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.upress.umn.edu/9780816696765/plants-have-so-much-to-give-us-all-we-have-to-do-is-ask/",
+                                "linkText": "Wendy Makoons Geniusz, Plants Have So Much to Give Us, All We Have to Do Is Ask: Anishinaabe Botanical Teachings (2015), xiii. ",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://earthpartnership.wisc.edu/",
+                                "linkText": "Earth Partnership",
+                                "title": "<sup>3</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.412837583147905,
+                    43.077118754134226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 25,
+                "pointOnTour": 2,
+                "name": "Kitchen and Cultural Garden",
+                "audio": "acg_2",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/kitchen_garden.jpg",
+                        "alt": "The Kitchen Garden section of Allen Centennial Garden. A brick path leading to a small stone-tile circle surrounded by beds of vegetation. Corn and tobacco plants are growing in the bed straight ahead.",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "Just beyond the “Wisconsin Garden” is the “Kitchen Garden.” Here, plants commonly grown in home gardens and those used for cooking can be found – rhubarb, berries, and cranberries. These plants serve as a reminder of the significance of plants and where our food comes from, including the labor involved in food production. While the method of food production has changed significantly, as well as the food that is available to us, Indigenous peoples have long engaged in subsistence agriculture."
+                    },
+                    {
+                        "content": "The Allen Centennial Garden (ACG), under the leadership of Reba Luiken, strives to include diverse perspectives and histories of gardening and plant life and to be a resource for all students and visitors to campus. Representative of these objectives are the various rotating cultural gardens and plant life present throughout ACG. "
+                    },
+                    {
+                        "position": "left",
+                        "content": "Both Luiken and Isaac Zaman, lead horticulturist at the ACG, are intentional about relationship building and supporting Indigenous ethnobotany. As such, the ACG is currently home to a Choctaw garden. This garden, which is on a plot that rotates annually, has previously been filled with plants that represent the diversity of tribal nations. This season’s Choctaw garden was grown with seeds brought by Maezy Beams, UW alum and curator of the Choctaw garden, whose family descends from the Choctaw Nation of Oklahoma.<sup>1</sup> In recent years the ACG has collaborated with the Native American Center for Health Professionals (NACHP) to collect seeds, grow, and harvest plants used by Indigenous communities.  "
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/choctaw_garden.jpg",
+                        "alt": "A view of the Choctaw Garden plot at the Allen Centennial Garden in the Summer of 2024. In the foreground are wild lambsquarter (Tvnishi), bunches of small, greenish flowers. Behind them, leaves from Perique Tobacco (Hakchuma) can be seen, and behind the tobacco a few stalks of Choctaw Flour Corn (Tanchi Tohbi) are sticking out.",
+                        "caption": "Choctaw Garden at the Allen Centennial Garden, Summer 2024. Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "In addition to the Choctaw garden, the ACG is also home to an African-American/African diaspora garden, a Latine garden, and a Hmong garden. The ACG continuously works to build relationships on and off campus with community members to identify plants/seeds to grow in these gardens and to harvest the plants during and at the end of the season. These cultural gardens offer an innovative learning opportunity for students on campus to think about the role of plants in many cultures across the globe for both food and medicine."
+                    },
+                    {
+                        "content": "Continuing along the stone path through the ACG, you will reach the Prairie Garden. The prairie garden offers visitors the opportunity to think about what this landscape, this place – Teejop, would have looked like over 200 years ago, before waves of non-Native settlement forever changed the ecology of the region."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://allencentennialgarden.wisc.edu/2024/05/31/growing-hope-in-the-choctaw-garden/",
+                                "linkText": "Growing Hope in the Choctaw Garden",
+                                "title": "<sup>1</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.413323481097322,
+                    43.077047797709128
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 26,
+                "pointOnTour": 3,
+                "name": "Hogiwe Hirokirere Hii",
+                "audio": "hogiwe_hirokirere_hii",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/hogiwe_hirokirere_hii.jpg",
+                        "alt": "An outdoor view of Deluca Hall at UW-Madison, a modern building with red-brick strips between large, metal-framed windows. At the bottom left corner of the building there is an all-glass room containing a series a wooden strips which hang from the ceiling. In the foreground of the photo there is a courtyard with a bike rack on the right and some low bushes on the left.",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "In the 1870s, well before construction of the DeLuca Biochemical Sciences Complex, several elm trees were planted on the UW – Madison campus.<sup>1</sup> Outside this building, one of those elms stood for nearly 150 years, becoming a beloved feature of the campus landscape. Known colloquially as Elmer, the tree provided shade to generations of UW students and served as a landmark at which people met.<sup>2</sup> Unfortunately, Elmer contracted Dutch elm disease – a devastating fungal infection which has killed over 1 billion elm trees around the world.<sup>3</sup> After a multi-year attempt to save it, Elmer was harvested in 2018. "
+                    },
+                    {
+                        "position": "left",
+                        "content": "Thanks to the talents of Ho-Chunk artist Chloris Lowe, Elmer is still present on campus. Lowe’s art installation, installed October 20, 2023, is titled “Hogiwe Hirokirere Hii” which translates to “Connecting Paths.”<sup>4</sup> Based on the history of Elmer as a meeting place, Lowe was inspired by the Ho-Chunk tradition of ‘marker trees.’<sup>5</sup>"
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/elmer.jpg",
+                        "alt": "A black-and-white photo of the UW-Madison Biochemistry building—brick with many white-paneled windows. On the left of the photo there is a large, leafless elm tree, its branches stretching in front of the building and bathing it in shadow.",
+                        "caption": "The UW Biochemistry Building in the 1950s. Elmer the Elm Tree is visible on the left of the image, retrieved from <a href='https://search.library.wisc.edu/digital/AZ3YIUI2XTDZ558L'>UWDC</a>."
+                    },
+                    {
+                        "content": "According to Ho-Chunk PhD Candidate Molli Pauliot, young trees were modified to interrupt their natural growth, helping community members identify the locations of water, trails, and villages. Some of these trees still exist in the Madison area, and Ho-Chunk artist Tom Jones has documented examples of marker trees in a photo series.<sup>6</sup> There are no physical indicators that Elmer was intended to be a marker tree, but its location and size resulted in the campus community treating it as such."
+                    },
+                    {
+                        "position": "left",
+                        "image": "img/tour4/connecting_paths_installation.jpg",
+                        "alt": "A photo of artist Chloris Lowe standing in the bucket of a crane hanging wooden rods from an installation in the shape of a porphyrin ring.",
+                        "caption": "Chloris Lowe in the process of installing Hogiwe Hirokirere Hii, retrieved from <a href='https://news.wisc.edu/land-and-campus-community-connect-through-new-art-installation/'>UW-Madison News</a>."
+                    },
+                    {
+                        "position": "right",
+                        "content": "Lowe decided to create a piece that embodied the ideas of meeting and exchange. The frame connects people and the environment – drawing upon the common molecular structure shared by humans and plants as the site of energy exchange.<sup>7</sup> Wooden rods made from Elmer were marked with paint fingerprints by members of the campus community before being hung from the frame. These ‘branching’ paths represent the ways people leave their mark on the world through the exchange of ideas.  "
+                    },
+                    {
+                        "content": "“Hogiwe Hirokirere Hii” appropriately hangs in a new meeting place: a study room near where Elmer once stood. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://dnr.wisconsin.gov/sites/default/files/topic/ForestManagement/everyRootAnAnchor_001-rememberedElms.pdf",
+                                "linkText": "Remembered Elms",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://news.wisc.edu/land-and-campus-community-connect-through-new-art-installation/",
+                                "linkText": "Land and campus community connect through new art installation",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://fieldguide.mt.gov/speciesDetail.aspx?elcode=NFOPH01020",
+                                "linkText": "Dutch Elm Disease Fungus - Ophiostoma ulmi",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://biochem.wisc.edu/2023/12/18/new-art-installation-connects-land-and-biochemistry-students-across-generations/",
+                                "linkText": "New Art Installation Connects Land and Biochemistry Students Across Generations",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.youtube.com/watch?v=LwMZ95900fA",
+                                "linkText": "Hogiwe Hirokirere Hii (Connecting Paths) ",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://www.tomjonesho-chunk.com/portfolio-collections/my-portfolio/marker-trees",
+                                "linkText": "Marker Trees",
+                                "title": "<sup>6</sup>"
+                            },
+                            {
+                                "link": "https://news.wisc.edu/land-and-campus-community-connect-through-new-art-installation/",
+                                "linkText": "Land and campus community connect through new art installation",
+                                "title": "<sup>7</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.411350135051222,
+                    43.07406995362453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 27,
+                "pointOnTour": 4,
+                "name": "Diversity of Scientists",
+                "audio": "diversity_of_scientists",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/wid_mural_corner.jpg",
+                        "alt": "The colorful Diversity of Scientists mural can be seen down a narrow wood-paneled hallway.",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "Nestled inside the Wisconsin Institute for Discovery is a mural, <i>Diversity of Scientists</i>, that reminds all those who pass by not only of the long history of scientific discovery, but of the diverse thinkers who have contributed to today’s scientific knowledge.  "
+                    },
+                    {
+                        "content": "Just to the left of center on this mural is Dr. Susan LaFleche Picotte, the first American Indian woman to earn a medical degree. Born in 1865 and raised on the Omaha Reservation in northeastern Nebraska, Susan LaFlesche attended formal medical training at the Hampton Institute and the Woman’s Medical College of Pennsylvania, graduating a year early and at the top of her class in 1889.5 At the age of 24, she returned to her reservation community in Nebraska and provided care for over 1,200 people. “In 1913, two years before her death, she saw her life’s dream fulfilled when she opened a hospital [near the Omaha Reservation],” the first Indian hospital that was not funded by the federal government.<sup>1</sup> <sup>2</sup> "
+                    },
+                    {
+                        "position": "left",
+                        "content": "Beyond Dr. Susan LaFleche Picotte, this mural represents the diversity of scientific thinkers – from ninth century Muhammad ibn Musa al-Khwarizmi to Ynes Mexia of Mexico to Mae Jemison. These scientists, including women and people of color, took many paths to acquire the knowledge they held and shared for the good of all. "
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/susan_picotte_omaha.jpg",
+                        "alt": "A black and white photo of a crowd of Omaha Nation Citizens standing with Dr. Susan La Flesche Picotte in front of a large canvas tent. Many of the men are wearing suits, while many of the woman are wearing dresses.",
+                        "caption": "Dr. Susan La Flesche Picotte standing with members of the Omaha Nation in 1910, retrieved from <a href='https://cfmedicine.nlm.nih.gov/physicians/biography_253.html'>National Institute of Health</a>."
+                    },
+                    {
+                        "content": "Here at UW-Madison, American Indian and Indigenous thinkers continue to pursue scientific discovery across disciplines, from biochemistry to glaciology to genetics to mathematics. Below are a few examples of the innovative STEM research American Indian faculty on campus continue to pursue. "
+                    },
+                    {
+                        "content": "Assistant Professor Grace Bulltail (Crow), in the Nelson Institute for Environmental Studies, studies “the relationship of water, energy, and land use” specifically on “tribal lands, federally reserved lands where water resources are governed by sovereign tribal nations.”<sup>3</sup>"
+                    },
+                    {
+                        "content": "Assistant Professor Jeneile Luebke (Bad River Ojibwe), in the School of Nursing, “focuses [on] the relationship between land violence, planetary health, and gender-based violence among Indigenous peoples.”<sup>4</sup>"
+                    },
+                    {
+                        "content": "Clinical Associate Professor, Bret Benally Thompson, MD (White Earth Ojibwe) who is based at the UW-Medical schools, has clinical interests that include “symptom management, communication, and palliative care for patients facing serious illness.”<sup>5</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://cfmedicine.nlm.nih.gov/physicians/biography_253.html",
+                                "linkText": "Susan La Flesche Picotte-Biography",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.nps.gov/people/susan-la-flesche-picotte.htm",
+                                "linkText": "Susan La Flesche Picotte",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://sage.nelson.wisc.edu/staff/bulltail-grace/",
+                                "linkText": "Grace Bulltail, Assistant Professor - Center for Sustainability and the Global Environment",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://nursing.wisc.edu/staff/luebke-jeneile/",
+                                "linkText": "Jeneile M. Luebke - School of Nursing, RN, PhD",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.medicine.wisc.edu/directory/benally-thompson_bret",
+                                "linkText": "Bret Benally Thompson, MD",
+                                "title": "<sup>5</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.408736401039548,
+                    43.073145966360073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 28,
+                "pointOnTour": 5,
+                "name": "UW Botany Garden",
+                "audio": "botany_garden",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/botany_garden.jpg",
+                        "alt": "The botany garden at UW-Madison. A branching path goes to a gazebo on the left, beyond some low red and green shrubbery. In the center of the path there is a carved statue of a flower blossom by artist Susan A. Falkman. On the right of the path are trees and more shrubbery.",
+                        "caption": "Photo by Jeff Miller, UW-Madison. Retrieved from <a href='https://news.wisc.edu/land-and-campus-community-connect-through-new-art-installation/'>UW-Photo Library</a>."
+                    },
+                    {
+                        "content": "The Botany Garden at UW-Madison boasts a rich and diverse variety of plants, including those that are not native to Teejop. In fact, over 500 species representing flora from around the world can be found in the Botany Garden while the Botany Greenhouse holds over “1,500 unique species of plants” including “aquatics, succulents, bryophytes, ferns, orchids, herbs, and woody plants.”<sup>1</sup> The diversity of accessible plant life facilitates both scientific and cultural studies of flora on campus and beyond."
+                    },
+                    {
+                        "content": "Unlike the Allen Centennial Garden, which is organized by the sociality of plant life, the Botany collections are organized by scientific classification, with the Botany Garden being “one of the first gardens that was organized by molecular taxonomy.”<sup>2</sup> Botany, the branch of biology focused on plants, is considered one of the oldest natural sciences. Written records for plant use in Mesopotamia and China date back to 3000 BC with evidence extending the study of plants even further back in time. "
+                    },
+                    {
+                        "content": "Indigenous people have an extensive and well-recognized history of practicing “botany.” More, the Indigenous study of plants reveals an important relationship between humans and the non-human world. Indigenous Botanist Robin Wall Kimmerer (Citizen Potawatomi Nation) explains that Western cultures place humans as the “pinnacle of evolution” whereas Native groups “say that humans have the least experience with how to live and thus […] must look to our teachers among the other species for guidance.”<sup>3</sup> Kimmerer, who earned her PhD in Botany at UW, stresses that rather than view the environment as a commodity controlled by humans, Indigenous peoples maintain a relationship of reciprocity with the earth.<sup>4</sup>"
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/wunk_sheek_powwow_1983.jpg",
+                        "alt": "Four Native American men are sitting around a large drum, which they are playing with long padded drumsticks while singing. There is a crowd seated behind them.",
+                        "caption": "A drum circle at a Wunk Sheek PowWow held at UW-Madison in 1983. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/HURR47ZUM6K5O8Z'>UWDC</a>."
+                    },
+                    {
+                        "position": "left",
+                        "content": "Ethnobotany, a subfield of botany, examines the cultural use of plants and provides context to understand culturally rich and diverse perspectives on plants. For example, the commodifying concept of “natural resources” does not have a direct equivalent in Wisconsin’s Indigenous languages. The closest terms translate to “sources of life.”<sup>5</sup> To grasp the significance of plants to Native people, Cherokee ethnobotanist, Clint Carroll, links plant knowledge to tribal languages, cultural practices, and the strength of tribal sovereignty.<sup>6</sup>"
+                    },
+                    {
+                        "content": "Today, Indigenous ethnobotany offers us important opportunities to think about plant life. For example, tribal medicinal plant use and traditional ecological knowledge, the ways wąąkšik sįį or manoomin (wild rice) growth has been harmed by pollution and climate change, the impacts of invasive species on native plants, the ways tribal sovereignty and self-determination must inform responsible and respectful research and co-management strategies at the local, state, and national levels, and the opportunities to “decolonize” ethnobotany as a tool for cultural revitalization."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://livingcollection.botany.wisc.edu/",
+                                "linkText": "Botany Garden and Greenhouse",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://lsmagazine.wisc.edu/issues/spring-2024/putting-down-roots/?utm_medium=email&utm_source=wordpress_insideuw&utm_campaign=facstaff_comms&utm_content=2024_08_06",
+                                "linkText": "Putting Down Roots",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://milkweed.org/book/braiding-sweetgrass",
+                                "linkText": "Robin Wall Kimmerer, Braiding Sweetgrass p.9",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://milkweed.org/book/braiding-sweetgrass",
+                                "linkText": "Robin Wall Kimmerer, Braiding Sweetgrass p.26",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.greenbaypressgazette.com/story/news/native-american-issues/2022/10/31/wisconsin-environmentalists-seek-indigenous-knowledge-climate/69596446007/",
+                                "linkText": "Amid flooding and other climate change challenges, Wisconsin environmentalists are turning to Indigenous researchers for guidance on the natural world.",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://www.upress.umn.edu/9780816690909/roots-of-our-renewal/",
+                                "linkText": "Clint Carroll, Roots of Our Renewal: Ethnobotany and Cherokee Environmental Governance.",
+                                "title": "<sup>6</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.404349587552105,
+                    43.073571721984237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 29,
+                "pointOnTour": 6,
+                "name": "Lathrop Hall",
+                "audio": "lathrop_hall",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/lathrop.jpg",
+                        "alt": "A black sign with red text reads 'Lathrop Hall.' Next to the sign is a staircase leading to Lathrop Hall, a low, cream-brick building.",
+                        "caption": "Photo retrieved from <a href='https://www.youtube.com/watch?v=LR1HNDuYZk8 https://i.ytimg.com/vi/LR1HNDuYZk8/maxresdefault.jpg'>Youtube</a>."
+                    },
+                    {
+                        "content": "While construction began in 1908, it would be two years before Lathrop Hall opened its doors to the campus community in 1910. Named after the first chancellor of the University of Wisconsin, Hiram Lathrop, Lathrop Hall is perhaps most well-known as the longtime home of the university’s dance department, the first such department in the country.  "
+                    },
+                    {
+                        "content": "Prior to the establishment of a scholarly dance program in 1926, Lathrop Hall filled multiple needs on campus, and in 1914, Lathrop Hall welcomed the 4th Annual Conference of the Society of American Indians. "
+                    },
+                    {
+                        "content": "Founded in 1911, the Society of American Indians “was the first American Indian rights organization conceived, developed, and run by Native people themselves.”<sup>1</sup> As retired UW professor Larry Nesper has pointed out, the Society of American Indians “was composed of members of the first generation of well-educated, professional, middle-class American Indian men and women.”<sup>2</sup>"
+                    },
+                    {
+                        "position": "left",
+                        "image": "img/tour4/sai.jpg",
+                        "alt": "A large group of formally-dressed attendants of the Society of American Indians stand in front of the stone-brick facade of Lathrop Hall.",
+                        "caption": "A photo from the second day of the Society of American Indians Conference held in Lathrop Hall, taken October 7th, 1914. Retrieved from <a href='https://search.library.wisc.edu/digital/AVA6NGZTR4WX7C9B'>UWDC</a>."
+                    },
+                    {
+                        "position":"right",
+                        "content": "Prior to the 1914 meeting at UW-Madison, the Society of American Indians (SAI) had met at Ohio State University in 1911 and 1912 and then at the University of Denver in 1913. During each of these meetings, much like their meeting at UW-Madison, SAI members worked to advance the lives of American Indian people by lobbying Congress."
+                    },
+                    {
+                        "content": "When the SAI met on the UW-Madison campus for a week in early October 1914 at the invitation of UW president Charles R. Van Hise and director of the State Historical Museum (today’s WHS) Charles E. Brown, 57 American Indian people representing 13 tribal nations were in attendance.<sup>3</sup>  Unlike other SAI meetings between its founding in 1911 and 1923, this was the only meeting that was fully transcribed. As such, we know, with detailed accuracy, the agenda and discussion of the week-long meeting – such critical topics as US citizenship for American Indians, land loss, and legal claims against the United States. While in Madison, attendees were able to visit campus buildings including the Red Gym, tour Madison parks, and visit the mounds at Bascom Hill and Observatory Hill as well as a mound group at Vilas Park.<sup>4</sup>"
+                    },
+                    {
+                        "content": "This meeting of the SAI was an early impetus for the ongoing relationship work between the University of Wisconsin and the tribal nations of the state of Wisconsin. Today, we continue to urge critical reflection on what the Wisconsin Idea means for the American Indian people and tribal nations of Wisconsin. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.jstor.org/stable/10.5250/amerindiquar.37.3.0003",
+                                "linkText": "Chadwick Allen, “Introduction: Locating the Society of American Indians” P.3",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.jstor.org/stable/10.5250/amerindiquar.37.3.0003",
+                                "linkText": "Chadwick Allen, “Introduction: Locating the Society of American Indians” P.29",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://www.anthropology.wisc.edu/staff/nesper-larry/",
+                                "linkText": "Larry Nesper, “The Society of American Indians, the Wisconsin Idea, and Tribal Communities” p.15",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://www.anthropology.wisc.edu/staff/nesper-larry/",
+                                "linkText": "Larry Nesper, “The Society of American Indians, the Wisconsin Idea, and Tribal Communities” p.32",
+                                "title": "<sup>4</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.403012393867087,
+                    43.073419441232872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 30,
+                "pointOnTour": 7,
+                "name": "University Avenue",
+                "audio": "university_ave",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/university_ave_overhead.jpg",
+                        "alt": "The University of Wisconsin-Madison campus, looking from the eastern edge of campus to the west along University Avenue, is pictured in an early morning aerial taken from a helicopter on Oct. 23, 2018. ",
+                        "caption": "University Avenue facing west. Photo by Bryce Richter, UW-Madison. Retrieved from <a href='https://uwmadison-photos.photoshelter.com/search/result/I0000iEYYc2fNAAw?terms=university%20avenue&'>UW-Photo Library</a>."
+                    },
+                    {
+                        "content": "If you have spent any amount of time in Madison, you may know the significance of the Beltline, or Highway 12 to get from one side of town to the other. A less known detail about Highway 12 is that “it was a former Indian trail,”<sup>1</sup> whose use and utility expanded during non-Native settlement. Today, the trail is a six-lane highway through metropolitan Dane County and beyond. It is still traveled by Ho-Chunk citizens as they move between Teejop and tribal lands near Tomah, Black River Falls, Wisconsin Dells, and Baraboo.  "
+                    },
+                    {
+                        "content": "In addition to Highway 12, many of the roads we use today, from coast to coast, were based on former Indian trails, including Ho-Chunk trails. In fact, “Indian trails between Fort Dearborn (Chicago) and Fort Howard (Green Bay), and Fort Howard and Prairie du Chien, were straightened by the military and local settlers for use as wagon roads.”<sup></sup>"
+                    },
+                    {
+                        "content": "As you stand here, on University Avenue, a bustling thoroughfare through campus, think about how the Ho-Chunk, and other Indigenous peoples, used this land over 200 years ago. As Chloris Lowe has described it, Teejop has long been “a meeting place, a place of community” a place of “crisscrossing ideas.”<sup>3</sup> This idea is not limited to the land only, but also the waterways – including the Wisconsin River, the Mississippi River, and each of the Great Lakes."
+                    },
+                    {
+                        "image": "img/tour4/charles_brown_map.jpg",
+                        "alt": "A map of Madison, Wisconsin from the 1930s. Lake Mendota is shown in the top-half of the map. The bottom half of the map shows the area of the University of Wisconsin-Madison campus, bordered at the bottom by a black line representing University Avenue. There are dashed red lines, representing Ho-Chunk trails, that roughly follow the university avenue line.",
+                        "caption": "A historical map of Madison. The thick black line shows University Avenue, while the dashed red lines show Ho-Chunk trails. Map created by Charles E. Brown, 1930s.."
+                    },
+                    {
+                        "content": "Water travel routes have long supported the exchange of ideas, languages, and cultures while simultaneously facilitating trade, diplomacy, and travel. As non-Native settlers arrived to this region, the same water and land routes, long used by Indigenous peoples, became tools of colonization."
+                    },
+                    {
+                        "content": "Today, collaborative work between the Ho-Chunk Nation, the Wisconsin Historical Society, and UW-Madison researchers continues to uncover and document the extensive network of Ho-Chunk trails that traversed the Teejop region. Megan Binkley, a PhD student in Anthropology at UW-Madison, has been doing just this as she works to digitize historic Ho-Chunk trails in order to preserve that cultural knowledge for the tribe. In reflecting on the work of Binkley, Bill Quakenbush (Ho-Chunk Nation Tribal Historic Preservation Officer) shares that this ongoing research affirms the continued cultural significance of this land while also being valuable for roadwork at the state and local levels.<sup>4</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://univercity.wisc.edu/2022/05/12/uw-madison-phd-student-maps-multiple-lives-of-ho-chunk-travel-routes/",
+                                "linkText": "UW-Madison PhD student maps ‘multiple lives’ of Ho-Chunk travel routes",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.wisconsinhistory.org/Records/Article/CS1825",
+                                "linkText": "Roads in Wisconsin (early)",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://biochem.wisc.edu/2023/12/18/new-art-installation-connects-land-and-biochemistry-students-across-generations/",
+                                "linkText": "New Art Installation Connects Land and Biochemistry Students Across Generations",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://univercity.wisc.edu/2022/05/12/uw-madison-phd-student-maps-multiple-lives-of-ho-chunk-travel-routes/",
+                                "linkText": "UW-Madison PhD student maps ‘multiple lives’ of Ho-Chunk travel routes",
+                                "title": "<sup>4</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.40231896848745,
+                    43.073180163289024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 31,
+                "pointOnTour": 8,
+                "name": "Indigenous Student Center",
+                "audio": "isc",
+                "tours": "tour4",
+                "story": [
+                    {
+                        "image": "img/tour4/isc.jpg",
+                        "alt": "The Indigenous Student Center from the sidewalk. A red-brick three-story house with a patios on both floors and red trim around the windows. Other buildings of a similar size lie on either side, while larger university buildings can be seen in the background.",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "While UW-Madison was founded in 1848, it would take over 100 years before the first American Indian student would graduate. In 1950, Geraldine Harvey, who was Ojibwe and Oneida, earned her master’s degree in education. Six years later, Robert Powless (Oneida), became the first American Indian to earn a bachelor’s degree at UW and one year later, Ada Deer (Menominee) became the first female American Indian student to graduate from UW.<sup>1</sup>"
+                    },
+                    {
+                        "position": "left",
+                        "content": "As American Indian student attendance at UW continued to grow during the second half of the twentieth century, and on the wave of Native student activism across the country, Wunk Sheek, a Native student organization, proposed a Native student center on campus in 1972. Two years later, in 1974, their request was approved and space was provided to them (and Mecha) at 710 University Avenue."
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/wunk_sheek_powwow_1983.jpg",
+                        "alt": "Four Native American men are sitting around a large drum, which they are playing with long padded drumsticks while singing. There is a crowd seated behind them.",
+                        "caption": "A drum circle at a Wunk Sheek PowWow held at UW-Madison in 1983. Retrieved from <a href='https://search.library.wisc.edu/digital/A6A5LUUW4ZO6MP8R'>UWDC</a>."
+                    },
+                    {
+                        "content": "Today, the Indigenous Student Center (ISC) is located at 215 N. Brooks Street. The ISC is home to multiple Indigenous student organizations on campus including Wunk Sheek, Alpha Pi Omega, MadTown Singers (an Indigenous drum group), and the Indigenous Law Student Association."
+                    },
+                    {
+                        "content": "As a central gathering place for Native students on campus and their allies, the ISC regularly hosts community meals, cultural workshops, serves as a meeting space for Native student organizations, and strives to remain a safe place for all students."
+                    },
+                    {
+                        "content": "In recent years, the ISC has faced uncertainty as ongoing construction of the new Levy Hall building has put the longevity of the N. Brooks Street location into question. Over the last few years, the long-term home of the ISC has been at the center of discussion, and contention, between campus leadership, Native students on campus, the ISC coordinator, Native orgs on campus, UW facilities and planning, and the Multicultural Student Center (MSC).<sup>2</sup>"
+                    },
+                    {
+                        "content": "For many Native students on campus, including members of the Native student organizations who call the ISC home, the threat of the demolition of the ISC (and potential relocation to the MSC in the Red Gym) is disheartening and draws parallels to the disastrous policy of Indian removal. Native students and allies have long called for a clearly communicated plan for the long-term home of the ISC, a plan that involves consultation with Native students, and a space outside of the MSC, a space that is safe and accessible to all community members."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://reckoning.wisc.edu/the-early-years/#the-firsts",
+                                "linkText": "Sifting and Reckoning: The Firsts",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://students.wisc.edu/news/indigenous-student-center-updates/",
+                                "linkText": "Indigenous Student Center Updates",
+                                "title": "<sup>2</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.402367342961242,
+                    43.071618505972808
                 ]
             }
         }

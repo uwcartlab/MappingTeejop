@@ -155,7 +155,7 @@
         //map.compassBearing.enable();
         map.setBearing(90);
         //load custom basemap created using QTiles        
-        let baseLayer = L.tileLayer('data/basemap_light10/{z}/{x}/{y}.jpg', {
+        let baseLayer = L.tileLayer('data/basemap_light11/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,       
@@ -494,7 +494,7 @@
                 elem.innerHTML = "Read Story Aloud";               
                 elem.removeEventListener("click",stopAudio);
                 //set audio to false
-                playAudio = false;
+                audioActive = false;
             }
         }
         //activate next button listener for progressing story
