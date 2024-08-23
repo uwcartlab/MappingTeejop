@@ -1227,7 +1227,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Walk past the archway and into the <b>Ho-Chunk Nation Plaza</b> itself."
             },
             "geometry": {
                 "type": "Point",
@@ -1369,7 +1369,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue through the stone archway to view it from the other side."
             },
             "geometry": {
                 "type": "Point",
@@ -1457,7 +1457,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Walk though Camp Randall Park until you reach the <b>Civil War memoral plaque</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -1528,7 +1528,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue forward until you can take a right, up the short staircase, to the <b>UW Athletics Hall of Fame</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -1728,7 +1728,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Begin at the north end of the <b>Allen Centennial Garden Driveway</b>. There is a small dirt path heading into the garden."
             },
             "geometry": {
                 "type": "Point",
@@ -1785,7 +1785,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Follow the path forward and take a left to go under the arbor. The <b>Kitchen and Cultural Gardens</b> are just beyond."
             },
             "geometry": {
                 "type": "Point",
@@ -1879,7 +1879,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Head to <b>Deluca Biochemistry Hall</b>. The <b>Hogiwe Hirokirere Hii</b> sculpture can be seen through the glass on the first floor."
             },
             "geometry": {
                 "type": "Point",
@@ -1962,7 +1962,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Safely cross University Avenue to enter the <b>Wisconsin Institute for Discovery (WID) Building</b> at the corner of University and Randall Ave. The <b>Diversity of Scientists Mural</b> is inside on the right."
             },
             "geometry": {
                 "type": "Point",
@@ -1996,14 +1996,14 @@
                         "content": "Indigenous people have an extensive and well-recognized history of practicing “botany.” More, the Indigenous study of plants reveals an important relationship between humans and the non-human world. Indigenous Botanist Robin Wall Kimmerer (Citizen Potawatomi Nation) explains that Western cultures place humans as the “pinnacle of evolution” whereas Native groups “say that humans have the least experience with how to live and thus […] must look to our teachers among the other species for guidance.”<sup>3</sup> Kimmerer, who earned her PhD in Botany at UW, stresses that rather than view the environment as a commodity controlled by humans, Indigenous peoples maintain a relationship of reciprocity with the earth.<sup>4</sup>"
                     },
                     {
-                        "position": "right",
-                        "image": "img/tour4/wunk_sheek_powwow_1983.jpg",
-                        "alt": "Four Native American men are sitting around a large drum, which they are playing with long padded drumsticks while singing. There is a crowd seated behind them.",
-                        "caption": "A drum circle at a Wunk Sheek PowWow held at UW-Madison in 1983. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/HURR47ZUM6K5O8Z'>UWDC</a>."
-                    },
-                    {
                         "position": "left",
                         "content": "Ethnobotany, a subfield of botany, examines the cultural use of plants and provides context to understand culturally rich and diverse perspectives on plants. For example, the commodifying concept of “natural resources” does not have a direct equivalent in Wisconsin’s Indigenous languages. The closest terms translate to “sources of life.”<sup>5</sup> To grasp the significance of plants to Native people, Cherokee ethnobotanist, Clint Carroll, links plant knowledge to tribal languages, cultural practices, and the strength of tribal sovereignty.<sup>6</sup>"
+                    },
+                    {
+                        "position": "right",
+                        "image": "img/tour4/wild_rice_field.jpg",
+                        "alt": "A black and white photo of a large stand of wild rice growing on a lake in Wisconsin. Individual rice plants are ripe and curl like hooks up from the water and outwards.",
+                        "caption": "A wild rice stand cared for by American Indians, circa 1909. Photo by George Kemmerer, retrieved from <a href='https://digital.library.wisc.edu/1711.dl/HURR47ZUM6K5O8Z'>UWDC</a>."
                     },
                     {
                         "content": "Today, Indigenous ethnobotany offers us important opportunities to think about plant life. For example, tribal medicinal plant use and traditional ecological knowledge, the ways wąąkšik sįį or manoomin (wild rice) growth has been harmed by pollution and climate change, the impacts of invasive species on native plants, the ways tribal sovereignty and self-determination must inform responsible and respectful research and co-management strategies at the local, state, and national levels, and the opportunities to “decolonize” ethnobotany as a tool for cultural revitalization."
@@ -2119,7 +2119,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue down University to the front of <b>Lathrop Hall</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -2189,7 +2189,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Safely cross University Avenue at the Brooks Street intersection. Find a place along the sidewalk to look at <b>University Avenue</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -2254,7 +2254,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue down Brooks Street until you reach the <b>Indigenous Student Center</b> building."
             },
             "geometry": {
                 "type": "Point",
