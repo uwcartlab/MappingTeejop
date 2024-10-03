@@ -2084,7 +2084,7 @@
                         "caption": "A photo from the second day of the Society of American Indians Conference held in Lathrop Hall, taken October 7th, 1914. Retrieved from <a href='https://search.library.wisc.edu/digital/AVA6NGZTR4WX7C9B'>UWDC</a>."
                     },
                     {
-                        "position":"right",
+                        "position": "right",
                         "content": "Prior to the 1914 meeting at UW-Madison, the Society of American Indians (SAI) had met at Ohio State University in 1911 and 1912 and then at the University of Denver in 1913. During each of these meetings, much like their meeting at UW-Madison, SAI members worked to advance the lives of American Indian people by lobbying Congress."
                     },
                     {
@@ -2261,6 +2261,720 @@
                 "coordinates": [
                     -89.402367342961242,
                     43.071618505972808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 32,
+                "pointOnTour": 1,
+                "name": "Aboretum Murals",
+                "audio": null,
+                "tours": "tour6",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Welcome to the University of Wisconsin Arboretum! Founded in 1934 as a space for both recreation and research, the Arboretum has since become home of some of the first and longest-running ecological restoration projects in the country. But the history of the Arboretum’s land is much longer, and deeper, than the last hundred years. The Arboretum, as with the rest of Teejop, occupies the ancestral land of the Ho-Chunk people."
+                    },
+                    {
+                        "content":"The murals in this room, painted by Victor Bakhtin, illustrate the changing relationship between people and the land over millennia. Bakhtin was known for his extensive research into past landscapes, and his ability to visually reconstruct them with his distinctive visual style.<sup>1</sup> “Change Over Time” and “Traditions” depict the southern Wisconsin landscape prior to colonization. Bakhtin consulted extensively with Ho-Chunk sculptor Harry Whitehorse, and depicted Whitehorse, engaged in carving, in the “Traditions” mural.<sup>2</sup> Collectively, these murals show the vibrancy of Ho-Chunk life built upon traditional ecological knowledge (TEK). Practiced by Indigenous peoples globally, TEK is “the knowledge, practices, and belief concerning the relationship of living beings to one another and they physical environment...developed through generations of intimate contact by [N]ative peoples with their lands.”<sup>3</sup>"
+                    },
+                    {
+                        "content":"In contrast to TEK, the murals on the right, “Newcomers in Wisconsin” and “Disruption on the Land”, depict the arrival of Euro-American settlers in Wisconsin, and the effects of settler-colonialism. The colonial relationship to the land considers humans as separate—often superior—to nonhumans. Under this Western framework, the land, and nonhumans, are simply resources for extraction. While extractive industries, such as mining, or logging, are obvious examples, the conservation movement also exists in contrast to TEK. Conservation often advocates for the designation of land as unavailable to humans, reinforcing the separation between them and the natural world.<sup>4</sup>"
+                    },
+                    {
+                        "content":"Indigenous groups across the world, and in Wisconsin, have fought to preserve TEK. In 2016, the Ho-Chunk Nation became the first in North America to recognize the “rights of nature” in their constitution, creating a legal framework built upon TEK.<sup>5</sup>"
+                    },
+                    {
+                        "content":"This tour, and its partner tour at Wingra Woods, will explore the Indigenous histories of the Arboretum, the effects of colonization, and the way in which this place continues to be shaped by Indigenous people and thinking through the direct application of TEK."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://arboretum.wisc.edu/news/arboretum-news/remembering-victor-bakhtin/",
+                                "linkText": "Remembering Victor Bakhtin",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.harrywhitehorse.com/the-university-of-wisconsin-arboretum-murals/",
+                                "linkText": "The University of Wisconsin Arboretum Murals",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://academic.oup.com/bioscience/article/52/5/432/236145",
+                                "linkText": "Robin WallKimmerer, “Weaving Traditional Ecological Knowledge into Biological Education: A Call to Action“",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://www.jstor.org/stable/2641289",
+                                "linkText": "Pierotti and Wildcat, “Traditional Ecological Knowledge: the Third Alternative“",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.wpr.org/environment/ho-chunk-nation-amends-constitution-add-environmental-protections",
+                                "linkText": "Ho-Chunk Nation Amends Constitution To Add Environmental Protections",
+                                "title": "<sup>5</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.4303147943059,
+                    43.041244167113931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 33,
+                "pointOnTour": 2,
+                "name": "Friends Terrace Garden",
+                "audio": null,
+                "tours": "tour6",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"On June 17th, 1934, the UW Arboretum was formally dedicated. The Wisconsin State Journal reported a crowd of 150 people, who listened to a lineup of eight speakers: including representatives from the State of Wisconsin, UW, the UW Regents, and backers of the arboretum project, such as John Nolen, and Aldo Leopold. These speakers praised the Arboretum project and its perceived value for recreation and research. Leopold described his goal of Arboretum land re-creating “what Dane County looked like when our ancestors arrived here during the 1840s.”<sup>1</sup> Acknowledging the value of restoration, and later writing about mutual beneficence with the land, he did not make a connection between the landscape in the 1840s, at the time of initial Euro-American settlement, and the Ho-Chunk people who had stewarded the land since time immemorial."
+                    },
+                    {
+                        "content":"Towards the end of the dedication, there was a surprise speaker, whose name was not included on the official program, whose speech was not written, or transcribed. Ho-Chunk Chief Albert Yellow Thunder, who appeared “in a trailing headdress of bright feathers and a brilliant red tunic lavishly trimmed with wampum and colorful beads.”<sup>2</sup> Today, all that survives of Yellow Thunder’s speech are snippets recorded by journalists in attendance. “Like the trees, we are a dying race today. Some of you may see the day when an Indian is considered a relic. The only monument we leave is America, and its natural forests, and the streams which my people traveled. Take care of those natural beauties.”<sup>3</sup>"
+                    },
+                    {
+                        "content":"Evoking the idea of the “vanishing Indian” for a predominately white audience, Yellow Thunder highlighted the intended consequences of settler colonialism: the eradication of Native people. While Yellow Thunder’s quotations at the Arboretum were repeated in multiple publications, there is no way to verify their accuracy. Non-native journalists often falsified, or greatly exaggerated, speeches from Native leaders. Yellow Thunder’s “quotations” are reminiscent of the oration of other famous Indigenous leaders, such as Chief Seeathl, that purport to legitimize settler inheritance of Indigenous land and resources.<sup>4</sup>"
+                    },
+                    {
+                        "content":"Yellow Thunder’s dedication speech came one day before the passage of the Indian Reorganization Act, signaling an end to the federal government’s previous policy of allotment—which began in 1887 and ultimately reduced the tribal land holdings by 90 million acres, opening nearly every reservation across the country to white settlement.<sup>5</sup> The Indian Reorganization Act marked a brief period of tepid federal support for the independence of tribal nations."
+                    },
+                    {
+                        "content":"Chief Yellow Thunder continued to be involved in the Arboretum, speaking at the dedication of Big Springs in 1935, and sharing Ho-Chunk names for several of the other natural springs in the Wingra watershed <sup>6</sup>, though these names were never adopted."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://uwpress.wisc.edu/books/4923.htm",
+                                "linkText": "Frank McCourt, Pioneers of Ecological Restoration.",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://archive.org/details/thousandagesuniv0000nanc",
+                                "linkText": "Nancy D. Sachse, A Thousand Ages: The University of Wisconsin Arboretum.",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": null,
+                                "linkText": "The Capital Times, June 18th, 1934.",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://uwapress.uw.edu/book/9780295741345/native-seattle/",
+                                "linkText": "Coll Thrush, Native Seattle.",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://iltf.org/",
+                                "linkText": "Indian Tenure Land Foundation.",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": null,
+                                "linkText": "Charles E. Brown, “Place Names Furnished by Yellow Thunder.“",
+                                "title": "<sup>6</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.43020140011491,
+                    43.041547012575222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 34,
+                "pointOnTour": 3,
+                "name": "Bur Oak Savanna",
+                "audio": null,
+                "tours": "tour6",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"You are now facing a small patch of restored bur oak savanna. Prior to Euro-American colonization, much of the Arboretum’s land looked similar—oak trees interspersed with tallgrass prairie, supporting a variety of wildlife, including buffalo. Wisconsin once contained over 5.5 million acres of oak savanna, while today only around 13,000 acres remain.<sup>1</sup> The disappearance of savannas was partially driven by settlement, and land clearing for agriculture, but was also related to a particular policy adopted by Euro-American settlers: fire suppression."
+                    },
+                    {
+                        "content":"Oak trees depend on fire. Regular burning destroys the saplings of competing species, such as maple, which out shade oaks if allowed to grow. Prairie plants benefit from the nutrient cycling that occurs following a burn, and fire has been shown to effectively combat invasive species. While some fires were caused by lightning, many were set deliberately as part of traditional land stewardship practiced by a variety of Indigenous nations, including the Ho-Chunk. As Robin Wall Kimmerer and Frank Kanawha Lake write: “Indigenous people used fire to modify the environment for their own survival.”<sup>2</sup>. Healthy oak savannas attracted large grazers, such as deer and elk, which were hunted for food and other valuable materials. Regular burning at different intervals created a landscape mosaic capable of meeting the needs of its human and nonhuman inhabitants throughout the seasons."
+                    },
+                    {
+                        "content":"While the Ho-Chunk used fire to work with the land, white settlers viewed fire as purely destructive. “The policy of fire suppression in Western society arises from the myth that nature can be controlled.”<sup>3</sup> Not only does fire suppression destroy ecosystems like oak savannas, it also makes fires more destructive, as brush and other “fuel” in the understory has been allowed to accumulate. We are seeing already the consequences of widespread fire suppression, particularly in the Western U.S., as the climate warms."
+                    },
+                    {
+                        "content":"The UW Arboretum has used prescribed fire for prairie and oak management since 1948, when it was studied by university professor John Curtis to reduce the prevalence of invasive bluegrass.<sup>4</sup> Today, fires are typically set in Spring or late Fall, under very specific weather parameters to ensure safety. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.pheasantbranch.org/prairies/history.html#settlement",
+                                "linkText": "The Prairies of the Dane County Section of Pheasant Branch Conservancy",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://faculty.fortlewis.edu/KORB_J/global%20fire/indigenous%20fire_north_america.pdf",
+                                "linkText": "Kimmerer and Lake, “The Role of Indigenous Burning in Land Management“ p.38.",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://faculty.fortlewis.edu/KORB_J/global%20fire/indigenous%20fire_north_america.pdf",
+                                "linkText": "Kimmerer and Lake, “The Role of Indigenous Burning in Land Management“ p.38.",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://archive.org/details/thousandagesuniv0000nanc",
+                                "linkText": "Nancy D. Sachse, A Thousand Ages: The University of Wisconsin Arboretum.",
+                                "title": "<sup>4</sup>"
+                            }
+                        ]
+                    }
+                ],                
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.429180942141315,
+                    43.041666832934197
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 35,
+                "pointOnTour": 4,
+                "name": "Farmstead Site",
+                "audio": null,
+                "tours": "tour6",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Through the oak trees, a stone circle marks the site of an old farmstead owned by Charles Nelson, from whom the land for the Arboretum was purchased.<sup>1</sup> In the approximately 100 years between the Treaty of 1832, which dispossessed the Ho-Chunk of Teejop, and the foundation of the Arboretum, the land had been home to several farms. Into the 1840s, a group of Ho-Chunk managed a farm on what eventually became a fairway of the Nakoma Country Club.<sup>2</sup> However, these—and many other Ho-Chunk—lacked legal title to the land. "
+                    },
+                    {
+                        "content":"Between the signing of the treaty, and the start of formal white settlement (squatters had settled illegally on Ho-Chunk land for decades), Teejop was officially surveyed by the United States.<sup>3</sup> The process of surveying divided the land into a grid of individual parcels, which could be sold by the government. In other words, surveying transformed land into property: something that could be bought and sold. Not only was this Western conception of land often illegible, or contradictory, to Indigenous conceptions of land, but Indigenous people were largely excluded from participating in this system of land ownership as non-citizens of the relatively young United States. "
+                    },
+                    {
+                        "content":"While the of Western property system was largely used in service of Indigenous dispossession, the Ho-Chunk were occasionally—and through great effort—able to purchase property. Though this did not happen around the Arboretum, in parts of Sauk and Northern Dane counties, Ho-Chunk families worked to acquire formal title to land. For example, Chief Yellow Thunder—grandfather of Albert Yellow Thunder, the Ho-Chunk chief who spoke at the Arboretum’s dedication—and his wife Wiihąga, successfully resisted attempts at removal to reservations to the West, and later purchased property in Sauk County.<sup>4</sup>"
+                    },
+                    {
+                        "content":"However, through a series of treaties in 1829, 1832, and 1837 most Ho-Chunk peoples were removed from the state of Wisconsin as the federal government opened their homelands to non-Native settlement, this was followed by the attempted genocide of Ho-Chunk people into the 1850s and 1860s. Despite this violent history, many Ho-Chunk refused to leave and worked to acquire legal title to land, including through the Homestead Act. Eventually, through an act of Congress in 1881, the presence of Ho-Chunk in Wisconsin was legally codified. Yet, in 1934, the year the Arboretum was founded, the Wisconsin Ho-Chunk were fighting to achieve federal recognition, as well as for official compensation for the government’s land theft—both of which wouldn’t arrive for decades."
+                    },
+                    {
+                        "content":"Today, the Ho-Chunk Nation lacks a reservation created through treaty (as is true for most reservations). Instead, the Ho-Chunk land base across southern Wisconsin was re-established by individual and collective acts of resistance."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://archive.org/details/thousandagesuniv0000nanc",
+                                "linkText": "Nancy D. Sachse, A Thousand Ages: The University of Wisconsin Arboretum.",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": null,
+                                "linkText": "Charles E. Brown Collection, “Indian Corn Fields and Camp Sites.“",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
+                                "linkText": "Stephen Kantrowitz, Citizens of a Stolen Land: A Ho-Chunk History of the Nineteenth-Century United States.",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
+                                "linkText": "Stephen Kantrowitz, Citizens of a Stolen Land: A Ho-Chunk History of the Nineteenth-Century United States.",
+                                "title": "<sup>4</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.429004331348708,
+                    43.0417986615237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 36,
+                "pointOnTour": 5,
+                "name": "Maple-Basswood Forest",
+                "audio": null,
+                "tours": "tour6",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"The patch of trees in front of you represents a Maple-Basswood Forest, an ecosystem common to southern Wisconsin and Minnesota. As the name suggests, varieties of maple and basswood are prominent in these environments. These forests are also home to black ash trees, though none are present in this particular patch."
+                    },
+                    {
+                        "content":"Used by Indigenous peoples across the Great Lakes for generations, the bark of black ash trees is particularly suited for basketry. When processed correctly, a single mature black ash tree can provide material for over 1,000 baskets.<sup>1</sup> For the Ho-Chunk, the creation and sale of black ash baskets in the 19th and 20th centuries was a primary source of income for families. Generally created by women, Ho-Chunk baskets were sold along major roads and highways—such as Highway 12—to tourists and other passersby.<sup>2</sup> Baskets were made for a variety of purposes, from baby bassinets to egg and picnic baskets, and each reflected the experiences and personalities of their makers.<sup>3</sup> Over time, Ho-Chunk baskets became prized objects for collectors due to their quality and beauty."
+                    },
+                    {
+                        "content":"Today, black ash trees are at risk of disappearing entirely. The emerald ash borer (EAB), a beetle native to northeast Asia, is thought to have arrived in North America in the 1990s through shipping containers. EAB larvae make serpentine pathways through ash trees, disrupting the flow of water and nutrients, and eventually killing the tree.<sup>4</sup> According to models from the Wisconsin Department of Natural Resources, healthy forests are at risk of losing 98% of their ash trees within six years due to EAB infestation.<sup>5</sup> The loss of black ash trees threatens the culturally significant basket making traditions for the Ho-Chunk and other tribal nations."
+                    },
+                    {
+                        "content":"The EAB is only one example of the many non-native species that have spread across the US as a result of ongoing settler-colonialism. As settlers arrived to the North American continent, they either intentionally or inadvertently brought plants and animals from their homelands, some of which dramatically disrupted Indigenous lifeways.<sup>6</sup> Today, as the world becomes more interconnected through global supply chains, non-native species can easily be brought to new environments—such as EAB. As EAB spread across the upper Midwest, tribal nations work to combat their arrival, often blending cultural tradition and science—emphasizing reciprocity—with Western management practices.<sup>7</sup> For example, the Ho-Chunk Nation maintains a black ash seed bank, designed to preserve seeds to be replanted when the threat of EAB has passed while the Menominee Nation has experimented with natural insecticides, though the application process is labor-intensive."
+                    },
+                    {
+                        "content":"Ash trees are not common in the Arboretum and some have been removed to mitigate the effects of EAB. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.greenbaypressgazette.com/story/news/native-american-issues/2021/09/01/emerald-ash-borer-wisconsin-threatens-indigenous-basket-weaving/5665594001/",
+                                "linkText": "Emerald ash borer is threatening Indigenous basket weaving in Wisconsin as tribal and state officials race to stop it",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://wisconsinart.org/exhibitions/weaving-a-legacy-ho-chunk-black-ash-basketry/",
+                                "linkText": "Weaving a Legacy: Ho-Chunk Black Ash Basketry",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://www.hearherelacrosse.org/stories/tom-jones/",
+                                "linkText": "Hear, Here, “Tom Jones“",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://www.greenbaypressgazette.com/story/news/native-american-issues/2021/09/01/emerald-ash-borer-wisconsin-threatens-indigenous-basket-weaving/5665594001/",
+                                "linkText": "Emerald ash borer is threatening Indigenous basket weaving in Wisconsin as tribal and state officials race to stop it",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://dnr.wisconsin.gov/topic/foresthealth/emeraldashborer",
+                                "linkText": "Emerald Ash Borer",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://link.springer.com/article/10.1007/s11625-018-0571-4",
+                                "linkText": "Reo and Ogden, “Anishnaabe Aki: an indigenous perspective on the global threat of invasive species“",
+                                "title": "<sup>6</sup>"
+                            },
+                            {
+                                "link": "https://anthrosource.onlinelibrary.wiley.com/doi/10.1111/j.2153-9561.2011.01051.x",
+                                "linkText": "Willow, “Indigenizing Invasive Species Management: Native North Americans and the Emerald Ash Borer (EAB) Beetle“",
+                                "title": "<sup>7</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.429161389636633,
+                    43.041920243823029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 37,
+                "pointOnTour": 1,
+                "name": "Trail Entrance",
+                "audio": null,
+                "tours": "tour7",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Welcome to the UW Arboretum’s Wingra Woods. These woods, which hug the shores of Lake Wingra (Kichunkochheperrah), are a place of significance for Ho-Chunk people. This tour will showcase natural springs (mąą’i) and earthen effigy mounds, which provide a striking physical reminder of a millennia of human presence—while also revealing many of the ways Ho-Chunk peoples made their mark on the landscape."
+                    },
+                    {
+                        "content":"Prior to Euro-American settlement in the area, these woods were oak savanna and prairie, actively managed through prescribed burns by the Ho-Chunk. Even after the arrival of settlers, who began to alter the landscape through Western agriculture and land management, Ho-Chunk people remained in the area. They often arrived seasonally, in the Fall, where they caught muskrat and mink, spearfished, and gathered wild rice from Lake Wingra. From the woods, they gathered ruuǧi šucge (kinnickinnick), red willow bark, which was mixed with tobacco.<sup>1</sup> As late as 1925, wooden Ho-Chunk ciiporokes (similar to Ojibwe wigwams) were a common sight in the woods, housing whole families whose ancestors had lived in the area for generations.<sup>2</sup>"
+                    },
+                    {
+                        "content":"In less than a century, non-Native settlement significantly altered the landscape around Lake Wingra. While Indigenous traditional ecological knowledge (TEK) prioritizes reciprocity between land and people to maintain a healthy environment. Settlers, unaware or actively ignoring this deep knowledge, exploited the abundant resources of the area. Game, birds, and fish were hunted by the thousands, far faster than they could naturally reproduce.<sup>3</sup> It was through ongoing and destructive settlement that the need for an Arboretum was realized."
+                    },
+                    {
+                        "content":"When the Arboretum was established in 1934, state archaeologist Charles E. Brown suggested that the Ho-Chunk should be allowed to camp in the area, a place many had camped seasonally in the past.<sup>4</sup> In fact, Brown led a failed effort in the early 1920s to secure land along Lake Monona for a preserve that would have allowed for Ho-Chunk camping.<sup>5</sup> Unfortunately, the idea of a Ho-Chunk camp at the Arboretum was rejected by Aldo Leopold. "
+                    },
+                    {
+                        "content":"Today, the Arboretum, which recognizes the sovereignty of the Ho-Chunk Nation and works to collaborate with tribal representatives, maintains a no collection policy, designed to prevent human damage to the landscape. However, in recent years there has been increasing flexibility with this policy, including certain pre-approved exceptions for gathering by Indigenous peoples. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": null,
+                                "linkText": "Oliver Lemere, “Indian Tobacco“, Charles E. Brown Collection",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": null,
+                                "linkText": "Charles E. Brown Collection, “Indians in Vilas Woods“",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://archive.org/details/thousandagesuniv0000nanc",
+                                "linkText": "Nancy D. Sachse, A Thousand Ages: The University of Wisconsin Arboretum.",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://uwpress.wisc.edu/books/4923.htm",
+                                "linkText": "Frank McCourt, Pioneers of Ecological Restoration.",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://archive.org/details/thousandagesuniv0000nanc",
+                                "linkText": "Nancy D. Sachse, A Thousand Ages: The University of Wisconsin Arboretum. (page 20)",
+                                "title": "<sup>5</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.427202406448046,
+                    43.046020986004237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 38,
+                "pointOnTour": 2,
+                "name": "Effigy Mound Sign",
+                "audio": null,
+                "tours": "tour7",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"The UW Arboretum is home to about a dozen effigy mounds. Constructed by Ho-Chunk ancestors hundreds to thousands of years ago, mounds are sacred sites, with ceremonial significance, with some used for burials. Mounds are found in a variety of forms, including animals (such as geese or foxes), spirits from Ho-Chunk cosmology, and geometric shapes (such as cones or lines). Mounds can vary greatly in size – from only a few feet in diameter, to the largest bird effigy mound with a wingspan of nearly a quarter mile. Though this mound has been destroyed the largest extant bird mound, located in Madison, has a wingspan of over 600 feet.<sup>1</sup>"
+                    },
+                    {
+                        "content":"Teejop was once home to over a thousand effigy mounds—Wisconsin home to tens of thousands. Today, only a fraction survive. As Wisconsin was settled by Euro-Americans, the transformation of the landscape for Western development and agriculture spurred the widespread destruction of mounds. The area around Lake Wingra was no exception. A large dividing ridge once separated Lake Wingra (Kichunkochheperrah) from Lake Monona (Ho-Chunk name), and was home to dozens, if not hundreds of effigy mounds. These mounds were all destroyed as the ridge was reduced to gravel, levelled, and turned into Park Street.<sup>2</sup>"
+                    },
+                    {
+                        "content":"Prior to 1985, there were no legal protections of effigy mounds in the state of Wisconsin, with the exception of several mounds listed on the National Register of Historic Places. A 1985 Wisconsin state law prohibits the disturbance of burial grounds—and 5-foot buffers around them—on either public or private land.<sup>3<sup>  Importantly, not all effigy mounds contain human remains, and the presence of remains itself is often unknown, and would require disruption to the mound in order to determine. Today, mounds on private property across the state, particularly on tilled farmland, are in jeopardy of destruction and loss."
+                    },
+                    {
+                        "content":"As you walk through these woods, you will see the outlines of mounds through the brush. Do not stray from the paths, and treat the area like you would any other sacred site."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/native-americans-and-the-preserve/#:~:text=The%20largest%20known%20hemispherical%20mound,of%20nearly%20a%20quarter%20mile",
+                                "linkText": "Native Americans and the Preserve",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.historicmadison.org/dividingridge",
+                                "linkText": "Dividing Ridge",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://www.wisconsinhistory.org/Records/Article/CS3122",
+                                "linkText": "Human Burials, Mounds and Cemeteries and State Law",
+                                "title": "<sup>3</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.427247326214584,
+                    43.046159429543742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 39,
+                "pointOnTour": 3,
+                "name": "\"Stay off the mounds\" Sign",
+                "audio": null,
+                "tours": "tour7",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Effigy mounds require active care and stewardship, encouraging us to think about what relationality with the non-human world can and should look like. Today, the mounds at the Arboretum are managed by a series of written and non-written guidelines, a combination of UW mound policy and active consultation with the Ho-Chunk Nation. These guidelines outline parameters for the physical care of mounds, which includes methods to prevent erosion and avoid soil compaction when clearing brush on and near the mounds, to which seasons or times of year maintenance is appropriate, and by whom."
+                    },
+                    {
+                        "content":"The UW Arboretum has long collaborated with Earth Partnership, a UW program that combines community education and ecological stewardship.<sup>1</sup> Earth Partnership, with guidance from the Ho-Chunk Nation, has organized programs for Native students and youth to learn how to care for mounds using culturally appropriate methods."
+                    },
+                    {
+                        "content":"Mound stewardship is dynamic. In recent years, Buckthorn, an invasive species known to crowd out native woodland plants, has challenged mound stewardship efforts in the Arboretum. Buckthorn has long, thick roots. Therefore, attempting to pull the plant from mounds would greatly disturb soil and disrupt overall mound integrity. Instead, creative solutions are being explored—particularly planting native species around trimmed buckthorn in attempt to out-compete the invader. In this case, experimentation within Ho-Chunk cultural guidelines will hopefully result in effective processes for future care."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://earthpartnership.wisc.edu/",
+                                "linkText": "Earth Partnership",
+                                "title": "<sup>1</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.426988920028734,
+                    43.046475060961463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 40,
+                "pointOnTour": 4,
+                "name": "CCC Quarry",
+                "audio": null,
+                "tours": "tour7",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"The small quarry in front of you was created by the Civilian Conservation Corps (CCC) in the 1930s, cutting through the center of a large effigy mound."
+                    },
+                    {
+                        "content":"In the early days of the Arboretum, Charles E. Brown advocated for the preservation of the mounds in the Vilas Woods. While these efforts were mostly successful, Brown also oversaw the destruction of several mounds. In the late 1940s, Brown excavated a mound in Vilas Woods that contained human remains, which were extracted by Brown and his team.<sup>1</sup> At the time, Indigenous remains “discovered” by archaeologists were indefinitely held by museums, universities, and state historical societies as part of their collections.  "
+                    },
+                    {
+                        "content":"Finally, in 1990, with the passage of the Native American Grave Protection and Repatriation Act (NAGRPA), legal mechanisms were established to protect and return Native remains, along with other sacred objects, to their respective tribal nations. In the three decades since the passage of NAGPRA, repatriation of human remains has been uneven, and the work varies greatly from institution-to-institution. According to reporting from ProPublica, as of 2024, the Wisconsin Historical Society has returned 77% of its human remains, while the UW Anthropology Department has returned 96%.<sup>2</sup> It is unclear whether or not the remains uncovered by Charles Brown have been returned to the Ho-Chunk Nation."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link":null,
+                                "linkText": "Charles E. Brown Collection, “Excavating Indian Mounds“",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link":"https://projects.propublica.org/repatriation-nagpra-database/",
+                                "linkText": "Does Your Local Museum or University Still Have Native American Remains?",
+                                "title": "<sup>2</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.425315869527523,
+                    43.046624036153844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 41,
+                "pointOnTour": 5,
+                "name": "Lake Wingra Boulders",
+                "audio": null,
+                "tours": "tour7",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"The line of small boulders next to the walking trail marks Lake Wingra’s former shoreline. Not only was the lake historically larger, but it was once surrounded on all sides by wetlands. While portions of Lake Wingra’s wetlands have been preserved by the Arboretum, many were drained in the processes of Madison’s urban development. As the marshlands were drained, several of the natural springs that fed the lake were destroyed, ultimately shrinking the lake to its current size.<sup>1</sup>"
+                    },
+                    {
+                        "content":"The draining of wetlands around Lake Wingra reflects a larger consequence of settler-colonialism: the destruction of Indigenous lifeways. As Kyle Whyte (Citizen Potawatomi) writes, “One of the significant forms of [Indigenous] erasure is destruction of the ecosystems required for Indigenous peoples to engage in the spiritual and cultural practices that express collective self-determination.”<sup>2</sup> For the Ho-Chunk, past and present, wetlands are significant sources of “wild rice, reeds, ducks, muskrats, and other resources,”<sup>3</sup> with many historic villages occupying marshy areas—including those across Teejop."
+                    },
+                    {
+                        "content":"After Madison was founded by settlers, many Ho-Chunk continued to live in villages within a few miles of the city center. Because wetlands were undesirable for settler farming, they were ignored. It was only when Madison city leaders worked to transform the Yahara lakes, with the construction of a dam on Lake Mendota (Wąąkšikhomįkra), that Ho-Chunk lifeways were dramatically disrupted. As the dam raised the lake level, it flooded Ho-Chunk villages that were located in marshes.<sup>4</sup>"
+                    },
+                    {
+                        "content":"Today, the Ho-Chunk Nation—along with other tribal nations throughout Wisconsin—are engaged in active wetland restoration,<sup>5</sup> as well as legal battles to protect remaining wetlands. Most recently, the Ho-Chunk Nation, in partnership with Midwest Environmental Advocates, and Clean Wisconsin, blocked a timber company’s effort to drain and fill a 16-acre wetland in Monroe County.<sup>6</sup>"
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": null,
+                                "linkText": "Charles E. Brown Collection, “Lake Wingra Springs“",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://msupress.org/9781611862805/manoomin/",
+                                "linkText": "Barbara J. Barton, Manoomin: the Story of Wild Rice in Michigan, P.71",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
+                                "linkText": "Stephen Kantrowitz, Citizens of a Stolen Land: A Ho-Chunk History of the Nineteenth-Century United States. P.51",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
+                                "linkText": "Stephen Kantrowitz, Citizens of a Stolen Land: A Ho-Chunk History of the Nineteenth-Century United States.",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": "https://www.wisconsinwetlands.org/updates/wisconsin-tribes-leading-the-way-in-protecting-and-restoring-wetlands-and-watersheds/",
+                                "linkText": "Wisconsin Tribes: Leading the way in protecting and restoring wetlands and watersheds",
+                                "title": "<sup>5</sup>"
+                            },
+                            {
+                                "link": "https://urbanmilwaukee.com/pressrelease/appeals-court-sides-with-clean-wisconsin-and-ho-chunk-nation-to-protect-rare-wetland/",
+                                "linkText": "Appeals Court Sides with Clean Wisconsin and Ho-Chunk Nation to Protect Rare Wetland",
+                                "title": "<sup>6</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.424306427856791,
+                    43.047795110854004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 42,
+                "pointOnTour": 6,
+                "name": "Big Springs",
+                "audio": null,
+                "tours": "tour7",
+                "story": [
+                    {
+                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content":"Big Spring is one of approximately eight springs that currently feed Lake Wingra. Springs are places where water emerges directly from the ground, typically feeding streams, or lakes. The Lake Wingra Watershed was once home to approximately 30 springs, but many have been lost due to urban development.<sup>1</sup> Today, development continues to reduce area for surface water to enter the soil, while increased levels of chlorides from winter road salts have rendered the spring water unsafe for human consumption.<sup>2</sup>"
+                    },
+                    {
+                        "content":"The historic prevalence of springs attracted Ho-Chunk people to this region. At one time, there were at least six villages around the shores of Lake Wingra. Springs are sites of spiritual and cultural significance, and each held different purposes for the Ho-Chunk. Some springs were used for healing, others used for cooking and drinking, while some springs were not used."
+                    },
+                    {
+                        "content":"On May 19th, 1935, a group of UW-Madison students, led by Charles E. Brown, the director of the Wisconsin Historical Museum, held a dedication for the springs in Wingra Woods. During the ceremony, they used traditional Ho-Chunk names, provided by Chief Albert Yellow Thunder, to refer to each Spring.<sup>3</sup> Unfortunately, records do not list the Ho-Chunk names given to both Big Spring and Medicine Spring. Similarly, Yellow thunder provided names for springs and other natural features throughout the Arboretum in a letter. The names included: A-kay-pin-ee-gah (bad spring), Ma-ee-pingah (good spring), and Ma-ee-she-she-ga (undesirable water spring).<sup>4</sup> While it is unclear which springs within the Arboretum these names correspond to, the names were never officially adopted by the Arboretum. Despite this, Indigenous cartographer Margaret Pearce (Citizen Potawatomi), reminds us that Indigenous place names are often descriptive, and offer a way of “being with time”—creating a direct relationship between the language and the land.<sup>5</sup>"
+                    },
+                    {
+                        "content":"In the late 1930s, the area around Big Spring was dredged by the CCC, with large rocks placed to bolster the spring against erosion. While these efforts have at least partially ensured the spring’s survival, the rocks were quarried in the nearby woods, a process which damaged at least one effigy mound."
+                    },
+                    {
+                        "content":"In recent years, Big Spring has been damaged and disrupted by recreational watersports, specifically kayakers and canoers who paddle in from Lake Wingra. The Arboretum has experimented with native planting in attempt to deter passersby from tampering with the fragile area. The destruction of springs around the lake is a consequence of an extractive, settler-colonial relationship to the land. When land is considered a resource with no intrinsic value, relationships between people, land, and all of the land’s other inhabitants are actively ignored. While the Arboretum springs have been protected, they are still vulnerable to processes outside of the Arboretum’s bounds."
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.lakewingra.org/the-springs-of-the-lake-wingra-watershed",
+                                "linkText": "The Springs of the Lake Wingra Watershed",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://arboretum.wisc.edu/news/arboretum-news/arboretum-and-community-partners-discuss-salt-contamination-in-lake-wingra/",
+                                "linkText": "Arboretum and Community Partners Discuss Ways to Reduce Salt Contamination in Lake Wingra",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": null,
+                                "linkText": "Charles E. Brown Collection, “Christening the Arboretum Springs“",
+                                "title": "<sup>3</sup>"
+                            },
+                            {
+                                "link": "https://www.tandfonline.com/doi/full/10.1179/1743277414Y.0000000078",
+                                "linkText": "Margaret Pearce, The Last Piece is You",
+                                "title": "<sup>4</sup>"
+                            },
+                            {
+                                "link": null,
+                                "linkText": "Charles E. Brown Collection, “Place Names at the Arboretum, furnished at my request by Chief Yellow Thunder.“",
+                                "title": "<sup>5</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.427755624659994,
+                    43.047671486356997
                 ]
             }
         }

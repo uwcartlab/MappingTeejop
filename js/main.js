@@ -443,8 +443,10 @@
                 var sources = "";
                 block.sources.forEach(function(source){
                     sources += "<p>" + source.title; 
-                    if (source.linkText)
+                    if (source.linkText && source.link)
                         sources += " <a target='_blank' href='" + source.link + "'>" + source.linkText + "</a></p>";
+                    if (source.linkText && !source.link)
+                        sources += " " + source.linkText + "</p>";
                     if (source.note)
                         sources += "<i>" + source.note + "</i></p>";
                 })
@@ -527,7 +529,6 @@
         map.locate({setView:true, watch:true, enableHighAccuracy: true} );
     
         function onLocationFound(e){
-            console.log("sup")
             let radius = e.accuracy / 2;
             //removes marker and circle before adding a new one
             if (locationMarker){

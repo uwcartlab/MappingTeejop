@@ -341,27 +341,6 @@ body{
     text-decoration: none;
 }
 
-.stops{
-    display:none;
-    position:absolute;
-    z-index: 10000;
-    padding: 20px;  
-    font-size:20px;
-    max-height:80vh;
-    overflow: scroll;
-    font-family:karma !important;
-    border-right:2px dotted gray;
-    border-bottom:2px dotted gray;
-
-}
-.list-stop{
-    margin-bottom:0 !important;
-    padding: 10px 5px;
-}
-.list-stop:hover{
-    cursor:pointer;
-    background:lightgray;
-}
 /***************FOOTER********************/
 #footer{
     padding-top:25px;
