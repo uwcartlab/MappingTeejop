@@ -2274,7 +2274,7 @@
                 "tours": "tour6",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum1/murals.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2347,7 +2347,7 @@
                 "tours": "tour6",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum1/friends_terrace_garden.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2422,7 +2422,7 @@
                 "tours": "tour6",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum1/bur_oak_savanna.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2430,7 +2430,7 @@
                         "content":"You are now facing the bur oak savanna garden. Prior to Euro-American colonization, much of the UW Arboretum’s land looked similar—oak trees interspersed with tallgrass prairie, supporting a variety of wildlife, including bison. Wisconsin once contained over 5.5 million acres of oak savanna, while today only around 13,000 acres remain.<sup>1</sup> The disappearance of savannas was partially driven by settlement, and land clearing for agriculture, but was also related to a particular policy adopted by Euro-American settlers: fire suppression."
                     },
                     {
-                        "content":"Oak trees depend on fire. Regular burning destroys the saplings of competing species, such as maple, which out shade oaks if allowed to grow. Prairie plants benefit from the nutrient cycling that occurs following a burn, and fire has been shown to effectively combat invasive species. While some fires were caused by lightning, many were set deliberately as part of traditional land stewardship practiced by a variety of Indigenous nations, including the Ho-Chunk. As Robin Wall Kimmerer and Frank Kanawha Lake write: “Indigenous people used fire to modify the environment for their own survival.”<sup>2</sup> Healthy oak savannas attracted large grazers, such as deer and elk, which were hunted for food and other valuable materials. Regular burning at different intervals created a landscape mosaic capable of meeting the needs of its human and nonhuman inhabitants throughout the seasons."
+                        "content":"Oak savannas depend on fire. Regular burning destroys the saplings of competing species, such as maple, which shade out small oaks if allowed to grow. Prairie plants benefit from the nutrient cycling that occurs following a burn, and fire has been shown to effectively combat invasive species. While some fires were caused by lightning, many were set deliberately as part of traditional land stewardship practiced by a variety of Indigenous nations, including the Ho-Chunk. As Robin Wall Kimmerer and Frank Kanawha Lake write: “Indigenous people used fire to modify the environment for their own survival.”<sup>2</sup> Healthy oak savannas attracted large grazers, such as deer and elk, which were hunted for food and other valuable materials. Regular burning at different intervals created a landscape mosaic capable of meeting the needs of its human and nonhuman inhabitants throughout the seasons."
                     },
                     {
                         "content":"While the Ho-Chunk used fire to work with the land, white settlers viewed fire as purely destructive. “The policy of fire suppression in Western society arises from the myth that nature can be controlled.”<sup>3</sup> Not only does fire suppression destroy ecosystems like oak savannas, it also makes fires more destructive, as brush and other “fuel” in the understory has been allowed to accumulate. We are seeing already the consequences of widespread fire suppression, particularly in the Western U.S., as the climate warms."
@@ -2469,8 +2469,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -89.429180942141315,
-                    43.041666832934197
+                    -89.43000049316241,
+                    43.04137428707593
                 ]
             }
         },
@@ -2479,17 +2479,17 @@
             "properties": {
                 "pk": 35,
                 "pointOnTour": 4,
-                "name": "Farmstead Site",
+                "name": "Farmstead Interpretive Site",
                 "audio": null,
                 "tours": "tour6",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum1/farmstead_interpretive_site.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"Through the oak trees, a stone circle marks the site of an old farmstead owned by Charles Nelson, from whom the land for the UW Arboretum was purchased.<sup>1</sup> In the approximately 100 years between the Treaty of 1832, which dispossessed the Ho-Chunk of Teejop, and the foundation of the UW Arboretum, the land had been home to several farms. Into the 1840s, a group of Ho-Chunk managed a farm on what eventually became a fairway of the Nakoma Country Club.<sup>2</sup> However, these—and many other Ho-Chunk—lacked legal title to the land. "
+                        "content":"Through the oak trees, a stone foundation marks the farmstead interpretive site, which describes the use of the land prior to 1934.<sup>1</sup> In the approximately 100 years between the Treaty of 1832, which dispossessed the Ho-Chunk of Teejop, and the foundation of the UW Arboretum, the land had been home to several farms. Into the 1840s, a group of Ho-Chunk managed a farm on what eventually became a fairway of the Nakoma Country Club.<sup>2</sup> However, these—and many other Ho-Chunk—lacked legal title to the land. "
                     },
                     {
                         "content":"Between the signing of the treaty, and the start of formal white settlement (squatters had settled illegally on Ho-Chunk land for decades), Teejop was officially surveyed by the United States.<sup>3</sup> The process of surveying divided the land into a grid of individual parcels, which could be sold by the government. In other words, surveying transformed land into property: something that could be bought and sold. Not only was this Western conception of land often illegible, or contradictory, to Indigenous conceptions of land, but Indigenous people were largely excluded from participating in this system of land ownership as non-citizens of the relatively young United States. "
@@ -2544,20 +2544,20 @@
             "properties": {
                 "pk": 36,
                 "pointOnTour": 5,
-                "name": "Maple-Basswood Forest",
+                "name": "Maple-Basswood Forest Garden",
                 "audio": null,
                 "tours": "tour6",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum1/maple_basswood_forest_garden.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"The patch of trees in front of you represents a Maple-Basswood Forest, an ecosystem common to southern Wisconsin and Minnesota. As the name suggests, varieties of maple and basswood are prominent in these environments. These forests are also home to black ash trees, though none are present in this particular patch."
+                        "content":"The patch of trees in front of you represents a Maple-Basswood Forest, an ecosystem common within southern Wisconsin and Minnesota. As the name suggests, maple and basswood are prominent in these environments. These forests are also home to black ash trees, though none are present in this particular patch."
                     },
                     {
-                        "content":"Used by Indigenous peoples across the Great Lakes for generations, the bark of black ash trees is particularly suited for basketry. When processed correctly, a single mature black ash tree can provide material for over 1,000 baskets.<sup>1</sup> For the Ho-Chunk, the creation and sale of black ash baskets in the 19th and 20th centuries was a primary source of income for families. Generally created by women, Ho-Chunk baskets were sold along major roads and highways—such as Highway 12—to tourists and other passersby.<sup>2</sup> Baskets were made for a variety of purposes, from baby bassinets to egg and picnic baskets, and each reflected the experiences and personalities of their makers.<sup>3</sup> Over time, Ho-Chunk baskets became prized objects for collectors due to their quality and beauty."
+                        "content":"Used by Indigenous peoples across the Great Lakes for generations, the wood from black ash trees is particularly suited for basketry. When processed correctly, a single mature black ash tree can provide material for over 1,000 baskets.<sup>1</sup> For the Ho-Chunk, the creation and sale of black ash baskets in the 19th and 20th centuries was a primary source of income for families. Generally created by women, Ho-Chunk baskets were sold along major roads and highways—such as Highway 12—to tourists and other passersby.<sup>2</sup> Baskets were made for a variety of purposes, from baby bassinets to egg and picnic baskets, and each reflected the experiences and personalities of their makers.<sup>3</sup> Over time, Ho-Chunk baskets became prized objects for collectors due to their quality and beauty."
                     },
                     {
                         "content":"Today, black ash trees are at risk of disappearing entirely. The emerald ash borer (EAB), a beetle native to northeast Asia, is thought to have arrived in North America in the 1990s through shipping containers. EAB larvae make serpentine pathways through ash trees, disrupting the flow of water and nutrients, and eventually killing the tree.<sup>4</sup> According to models from the Wisconsin Department of Natural Resources, healthy forests are at risk of losing 98% of their ash trees within six years due to EAB infestation.<sup>5</sup> The loss of black ash trees threatens the culturally significant basket making traditions for the Ho-Chunk and other tribal nations."
@@ -2566,7 +2566,7 @@
                         "content":"The EAB is only one example of the many non-native species that have spread across the US as a result of ongoing settler-colonialism. As settlers arrived to the North American continent, they either intentionally or inadvertently brought plants and animals from their homelands, some of which dramatically disrupted Indigenous lifeways.<sup>6</sup> Today, as the world becomes more interconnected through global supply chains, non-native species can easily be brought to new environments—such as EAB. As EAB spread across the upper Midwest, tribal nations work to combat their arrival, often blending cultural tradition and science—emphasizing reciprocity—with Western management practices.<sup>7</sup> For example, the Ho-Chunk Nation maintains a black ash seed bank, designed to preserve seeds to be replanted when the threat of EAB has passed while the Menominee Nation has experimented with natural insecticides, though the application process is labor-intensive."
                     },
                     {
-                        "content":"Ash trees are not common in the natural areas of the Arboretum and some have been removed from the gardens to mitigate the effects of EAB."
+                        "content":"Black Ash trees are not common in the UW Arboretum. Green and White ash, dead or dying from EAB, are removed for safety reasons."
                     },
                     {
                         "content": "<b>Sources</b>",
@@ -2629,7 +2629,7 @@
                 "tours": "tour7",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum2/trail_entrance.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2704,7 +2704,7 @@
                 "tours": "tour7",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum2/effigy_mound_sign.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2715,7 +2715,7 @@
                         "content":"Teejop was once home to over a thousand effigy mounds—Wisconsin home to tens of thousands. Today, only a fraction survive. As Wisconsin was settled by Euro-Americans, the transformation of the landscape for Western development and agriculture spurred the widespread destruction of mounds. The area around Lake Wingra was no exception. A large dividing ridge once separated Lake Wingra (Kichunkochheperrah) from Lake Monona (Ho-Chunk name), and was home to dozens, if not hundreds of effigy mounds. These mounds were all destroyed as the ridge was reduced to gravel, levelled, and turned into Park Street.<sup>2</sup>"
                     },
                     {
-                        "content":"Prior to 1985, there were no legal protections of effigy mounds in the state of Wisconsin, with the exception of several mounds listed on the National Register of Historic Places. A 1985 Wisconsin state law prohibits the disturbance of burial grounds—and 5-foot buffers around them—on either public or private land.<sup>3<sup>  Importantly, not all effigy mounds contain human remains, and the presence of remains itself is often unknown, and would require disruption to the mound in order to determine. Today, mounds on private property across the state, particularly on farmland, are in jeopardy of destruction and loss."
+                        "content":"Prior to 1985, there were no legal protections of effigy mounds in the state of Wisconsin, with the exception of several mounds listed on the National Register of Historic Places. A 1985 Wisconsin state law prohibits the disturbance of burial grounds—and 5-foot buffers around them—on either public or private land.<sup>3</sup>  Importantly, not all effigy mounds contain human remains, and the presence of remains itself is often unknown, and would require disruption to the mound in order to determine. Today, mounds on private property across the state, particularly on farmland, are in jeopardy of destruction and loss."
                     },
                     {
                         "content":"As you walk through these woods, you will see the outlines of mounds through the brush. Do not stray from the paths, and treat the area like you would any other sacred site."
@@ -2761,7 +2761,7 @@
                 "tours": "tour7",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum2/stay_off_mounds.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2805,7 +2805,7 @@
                 "tours": "tour7",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum2/ccc_quarry.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2854,7 +2854,7 @@
                 "tours": "tour7",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum2/lakeside_boulders.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
@@ -2921,12 +2921,12 @@
             "properties": {
                 "pk": 42,
                 "pointOnTour": 6,
-                "name": "Big Springs",
+                "name": "Big Spring",
                 "audio": null,
                 "tours": "tour7",
                 "story": [
                     {
-                        "image": "img/arboretum1/bison_at_sandhill.jpg",
+                        "image": "img/arboretum2/big_spring.jpg",
                         "alt": "",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
