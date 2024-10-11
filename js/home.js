@@ -63,14 +63,15 @@
                     let descDiv = document.createElement("div")
                         descDiv.classList = ["tour-desc col-lg-8 col-md-7 col-sm-6 col-12"]
                         //Ho-Chunk tour name
-                        let name = d.NameHoChunk ? d.NameHoChunk: d.NameEnglish;
+                        let name = d.NameHoChunk ? d.NameHoChunk: d.NameEnglish,
+                            displayName = d.Location == 'arboretum' ? name + " (UW Arboretum)":name;
                         //tour code
                         let tour = d.TourNumber == 'explore' ? 'explore': 'tour' + d.TourNumber;
                         //description text 
                         let descriptionText = d.Description.replaceAll("[pronounceStart]","<b class='pronounce'>").replaceAll("[pronounceEnd]","</b>");
 
                         //create title, description, starting text, accessibility text, and button
-                        let title = '<h3 class="tour-title"><b>' + name + '</b><i class="translation">' + d.NameEnglish + '</i></h3>',
+                        let title = '<h3 class="tour-title"><b>' + displayName + '</b><i class="translation">' + d.NameEnglish + '</i></h3>',
                             translation = d.NameHoChunk ? "": '<p><b><i>Ho-Chunk Translation Coming Soon</i></b></p>';
                             description = '<p>' + descriptionText + '</p>',
                             starting = d.Starting ? '<p><b class="begin">' + d.Starting + '</b></p>': "",

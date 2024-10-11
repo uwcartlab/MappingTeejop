@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////MAPPING TEEJOP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //This code was written beginning in the Summer of 2022, in a place known to the Ho-Chunk people as Teejop (four lakes).                                                                                  //
-//The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-Ameircan settlers founded a city called Madison, Wisconsin.                                                                 //
+//The Ho-Chunk were forced to cede Teejop by an 1832 treaty as Euro-American settlers founded a city called Madison, Wisconsin.                                                                 //
 //Over the following decades, the federal and state governments attemped an unsuccessful ethnic cleansing campaign against the Ho-Chunk, who struggled for decades to remain in their homelands.//
 //This code was written by Gareth Baldrica-Franklin, a settler living in Teejop, with input from our project team, including Kasey Keeler, Sasha Suarez, Molli Pauliot, Sarah Tate, Jen Rose Smith, and Kendra Greendeer.                                                                                                             //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -57,11 +57,11 @@
             else{
                 document.querySelector(".stops").style.display = "block";
                 document.querySelector(".stop").innerHTML = "Close";
-                //responsive positioning
-                /*let stopHeight = document.querySelector(".navbar-nav").clientHeight + document.querySelector(".stops").clientHeight;
+                //close menu on mobile
+                let w = window.innerWidth;
                 if (w <= 539){
-                    document.querySelector(".navbar-nav").style.top = (h - stopHeight) + "px";
-                }*/
+                    document.querySelector(".navbar-nav").style.visibility = 'hidden';
+                }
             }
         })
         //close stops menu when clicking elsewhere on the page
@@ -155,7 +155,7 @@
         //map.compassBearing.enable();
         map.setBearing(90);
         //load custom basemap created using QTiles        
-        let baseLayer = L.tileLayer('data/basemap_light11/{z}/{x}/{y}.jpg', {
+        let baseLayer = L.tileLayer('data/basemap_light15/{z}/{x}/{y}.jpg', {
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,       
@@ -171,7 +171,7 @@
                 // create the control container with a particular class name
                 var container = L.DomUtil.create('div', 'location-control-container');
     
-                container.innerHTML = '<p>Where am I?</p>';
+                container.innerHTML = '<p tabindex="0">Where am I?</p>';
     
                 return container;
             }
@@ -282,6 +282,7 @@
     //route style
     function routeStyle(feature){
         let end = feature.properties.end;
+        console.log(end)
 
         return{
             color:routeColor(end),
