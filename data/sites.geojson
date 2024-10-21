@@ -1482,6 +1482,9 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
+                        "content":"<b>Note: The former site of the UW athletics Hall of Fame is currently under construction.</b>"
+                    },
+                    {
                         "content": "Before the first collegiate football game was held at Camp Randall’s newly constructed athletic field in 1895, a much older athletic tradition was hosted for the entertainment of modern spectators. Camp Randall previously served intermittently as the former location of the Wisconsin State Fairgrounds throughout the nineteenth century. During the fair in 1885, one of the highlights of the event was an exhibition lacrosse game performed by Natives in colorful regalia with traditionally constructed equipment. On September 9th, two integrated teams consisting of thirty-eight Bad River Band Ojibwe and nine Red Cliff Band Ojibwe men competed in what the Wisconsin State Journal called a “wildly picturesque” game of lacrosse.<sup>1</sup> Despite unexpected storms deterring many spectators, the event still drew a crowd of around 2000 people."
                     },
                     {
@@ -2270,12 +2273,12 @@
                 "pk": 32,
                 "pointOnTour": 1,
                 "name": "Aboretum Murals (Visitor Center)",
-                "audio": null,
+                "audio": "arboretum_murals",
                 "tours": "tour6",
                 "story": [
                     {
                         "image": "img/arboretum1/murals.jpg",
-                        "alt": "",
+                        "alt": "The corner of an interior room. Six framed paintings are hung on the walls. Each painting shows the UW Arboretum's land at different points in history—beginning with the Ho-Chunk people, the arrival of Euro-American Settlers and subsequent disruption. The paintings are bright and full of high-contrast greens. Few details are visible in the photo.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2291,7 +2294,7 @@
                     {
                         "position": "right",
                         "image": "img/arboretum1/harry_whitehorse_mural_sketch.jpg",
-                        "alt": "",
+                        "alt": "Two side-by-side pen and ink sketches of a Ho-Chunk man carving a large sculpture. The sculpture depicts a bear sitting atop a turtle with an eagle perched on the bear's head. In the sketch on the left, the sculpture is facing forward, in the the sketch on the right, the sculpture is facing the side.",
                         "caption": "Victor Bakhtin's sketches of Harry Whitehorse for the 'Traditions' mural. Retrieved from <a href='https://www.harrywhitehorse.com/the-university-of-wisconsin-arboretum-murals/'>harrywhitehorse.com</a>."
                     },
                     {
@@ -2334,7 +2337,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Begin in the <b>UW Arboretum Visitor's Center</b> mural room. Enter the main doors and turn right. If you can't find it, please ask Arboretum staff at the welcome desk."
             },
             "geometry": {
                 "type": "Point",
@@ -2350,12 +2353,12 @@
                 "pk": 33,
                 "pointOnTour": 2,
                 "name": "Friends Terrace Garden",
-                "audio": null,
+                "audio": "friends_terrace_garden",
                 "tours": "tour6",
                 "story": [
                     {
                         "image": "img/arboretum1/friends_terrace_garden.jpg",
-                        "alt": "",
+                        "alt": "A circle of stone pavers is nestled between brown and light green grasses and a wall of birch and evergreen trees. Blue sky can be seen through the trees.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2371,8 +2374,8 @@
                     {
                         "position": "right",
                         "image": "img/arboretum1/yellow_thunder_charles_brown.jpg",
-                        "alt": "",
-                        "caption": "Chief Albert Yellow Thunder (right) next to Wisconsin State Archaeologist Charles E. Brown (left), circa 1933. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/NTZITGZ65KPI48Z'>UWDC</a>."
+                        "alt": "A black and white photo of two men standing side-by-side. The man on the left is former Wisconsin State Archaeologist Charles E. Brown. He is older, with light skin, and is dressed in a gray and white suit. On the right is Ho-Chunk Albert Yellow Thunder. He is middle-aged, with darker skin, and is wearing a feathered headdress and a series of shell necklackes.",
+                        "caption": "Chief Albert Yellow Thunder (right) next to former Wisconsin State Archaeologist Charles E. Brown (left), circa 1933. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/NTZITGZ65KPI48Z'>UWDC</a>."
                     },
                     {
                         "content": "Yellow Thunder’s dedication speech came one day before the passage of the Indian Reorganization Act, signaling an end to the federal government’s previous policy of allotment—which began in 1887 and ultimately reduced the tribal land holdings by 90 million acres, opening nearly every reservation across the country to white settlement.<sup>5</sup> The Indian Reorganization Act marked a brief period of tepid federal support for the independence of tribal nations."
@@ -2416,7 +2419,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Exit the Visitor's Center through the back door. One outside, head towards the <b>paved stone circle</b> to the left."
             },
             "geometry": {
                 "type": "Point",
@@ -2432,12 +2435,12 @@
                 "pk": 34,
                 "pointOnTour": 3,
                 "name": "Bur Oak Savanna Garden",
-                "audio": null,
+                "audio": "bur_oak_savanna_garden",
                 "tours": "tour6",
                 "story": [
                     {
                         "image": "img/arboretum1/bur_oak_savanna.jpg",
-                        "alt": "",
+                        "alt": "A paved path curves through tall prairie grasses of varying shades of green. There is an small oak tree to the right, and several in the distance. In the foreground, there is a black sign with text reading 'Bur Oak Savanna'.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2449,7 +2452,7 @@
                     {
                         "position": "left",
                         "image": "img/arboretum1/controlled_burn1971.jpg",
-                        "alt": "",
+                        "alt": "A field of charred earth. A small wall of smoke and flame can be seen in the distance. A path of unburned grass snakes through the charred earth.",
                         "caption": "A controlled burn exercise at the UW Arboretum, 1971. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/N5MYK5ZIAS3HY8W'>UWDC</a>."
                     },
                     {
@@ -2485,7 +2488,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Loop back towards the Visitor's Center until you reach a sign for the <b>Bur Oak Savanna Garden</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -2501,12 +2504,12 @@
                 "pk": 35,
                 "pointOnTour": 4,
                 "name": "Farmstead Interpretive Site",
-                "audio": null,
+                "audio": "farmstead_interpretive_site",
                 "tours": "tour6",
                 "story": [
                     {
                         "image": "img/arboretum1/farmstead_interpretive_site.jpg",
-                        "alt": "",
+                        "alt": "A view through two outstretched branches, where a square of stones sits beneath a copse of trees. The square of stones is overgrown with green weeds.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2522,7 +2525,7 @@
                     {
                         "position": "right",
                         "image": "img/arboretum1/sauk_survey.png",
-                        "alt": "",
+                        "alt": "A section of a historical map depicting a property in Sauk County. The map is a grid of solid black lines representing quarter-sections of the Public Land Survey System, which are labeled with property owners. In the center of the map, there is a label for 'Indian, Ar-hu-choker'. Just to the left, there is a label for a school. Several other property owners are shown on the map.",
                         "caption": "A section of a Sauk County property map from 1849, showing a parcel owned by 'Indian Ar-Hu-Choker'. Retrieved from <a href='https://content.wisconsinhistory.org/digital/collection/maps/id/1849/rec/1'>Wisconsin Historical Society</a>."
                     },
                     {
@@ -2557,7 +2560,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue through and past the Bur Oak Savanna Garden. The stone markers of <b>Farmstead Intepretive Site</b> are through a different patch of oak trees. It may be difficult to see through the brush."
             },
             "geometry": {
                 "type": "Point",
@@ -2573,12 +2576,12 @@
                 "pk": 36,
                 "pointOnTour": 5,
                 "name": "Maple-Basswood Forest Garden",
-                "audio": null,
+                "audio": "maple-basswood_forest_garden",
                 "tours": "tour6",
                 "story": [
                     {
                         "image": "img/arboretum1/maple_basswood_forest_garden.jpg",
-                        "alt": "",
+                        "alt": "A shaded path through sparse woods. A sign in the center of the image marks the area as 'Maple-Basswood Forest'. Small saplings are located in the foreground, while larger trees are present in the background. The ground is littered with fallen leaves.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2591,7 +2594,7 @@
                     {
                         "position": "right",
                         "image": "img/arboretum1/bertha_blackdeer_basket.jpg",
-                        "alt": "",
+                        "alt": "A black and white image of an elder Ho-Chunk woman, Bertha Blackdeer, who is on the right side of the image fastening a strip onto an in-progress Black Ash bakset. The strips fan out from her hands to the left of the photo.",
                         "caption": "Bertha Blackdeer (Ho-Chunk) tightens a strip on a black ash basket. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/R5AMJUBWGCENJ8L'>UWDC</a>."
                     },
                     {
@@ -2603,7 +2606,7 @@
                     {
                         "position": "left",
                         "image": "img/arboretum1/black_ash_tree.jpg",
-                        "alt": "",
+                        "alt": "A thin Black Ash branch over a Black Ash trunk. The branch has long, deep-green leaves which are twice as long as they are wide. The tree trunk is very light brown and the bark is thick and flaky.",
                         "caption": "Black ash tree and leaves. Retrieved from <a href='https://commons.wikimedia.org/wiki/File:Fraxinus_nigra_NRCS-1.jpg'>Wikimedia Commons</a>."
                     },
                     {
@@ -2654,7 +2657,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue forward until you reach a sign for the <b>Maple Basswood Forest Garden</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -2669,13 +2672,13 @@
             "properties": {
                 "pk": 37,
                 "pointOnTour": 1,
-                "name": "Trail Entrance",
-                "audio": null,
+                "name": "Wingra Woods Trail Entrance",
+                "audio": "trail_entrance",
                 "tours": "tour7",
                 "story": [
                     {
                         "image": "img/arboretum2/trail_entrance.jpg",
-                        "alt": "",
+                        "alt": "A small trail opening in the middle of dense, deciduous forest. A large sign sits just to the left of the opening. The leaves are generally light green, but a few are beginning to turn yellow.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2729,7 +2732,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Begin at the <b>Wingra Springs Parking Lot</b> trail entrance."
             },
             "geometry": {
                 "type": "Point",
@@ -2745,12 +2748,12 @@
                 "pk": 38,
                 "pointOnTour": 2,
                 "name": "Effigy Mound Sign",
-                "audio": null,
+                "audio": "effigy_mound_sign",
                 "tours": "tour7",
                 "story": [
                     {
                         "image": "img/arboretum2/effigy_mound_sign.jpg",
-                        "alt": "",
+                        "alt": "An interpretive sign sits next to a gravel trail, overlooking dense brush, inlcuding bushes, saplings, weeds, and large trees. The sign contains the visible words, 'Effigy Mounds'.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2763,7 +2766,7 @@
                     {
                         "position": "right",
                         "image": "img/arboretum2/Mounds_on_Dividing_Ridge.jpg",
-                        "alt": "",
+                        "alt": "A black and white photograph of a field. A couple is sitting beneath two large oak trees, just beside a large, raised section of earth—an effigy mound.",
                         "caption": "Effigy mounds on the former dividing ridge between Lakes Wingra and Monona, pre-1920. Retrieved from the Charles E. Brown Collection."
                     },
                     {
@@ -2793,7 +2796,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue you forward until you reach the <b>Effigy Mounds interpretive sign</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -2808,13 +2811,13 @@
             "properties": {
                 "pk": 39,
                 "pointOnTour": 3,
-                "name": "\"Stay off the mounds\" Sign",
-                "audio": null,
+                "name": "\"Stay off effigy mounds\" Sign",
+                "audio": "stay_off_the_mounds",
                 "tours": "tour7",
                 "story": [
                     {
                         "image": "img/arboretum2/stay_off_mounds.jpg",
-                        "alt": "",
+                        "alt": "A sunlit brown sign sits to the left of a dirt trail leading through thick woodland. The sign reads 'Please stay off effigy mounds'. The ground is strewn with fallen leaves.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2827,7 +2830,7 @@
                     {
                         "position": "right",
                         "image": "img/arboretum2/earth_partnership.jpg",
-                        "alt": "",
+                        "alt": "Five people are hauling small, felled trees through a forest. There are no leaves on the trees, and the ground is covered in snow.",
                         "caption": "Land and mound care at the UW Arboretum led by Earth Partnership and Madison American Indian Science and Engineering Society, likely 2015. Photo by Rachel Byington, retrieved from <a href='https://earthpartnership.wisc.edu/2020/03/26/ias-provides-opportunities-for-mounds-education-and-protection/'>Earth Partnership</a>."
                     },
                     {
@@ -2849,7 +2852,7 @@
                         ]
                     }
                 ],
-                "label": null
+                "label": "Continue until you reach a fork in the path, marked by a small sign that reads <b>'Please Stay off Effigy Mounds'</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -2865,12 +2868,12 @@
                 "pk": 40,
                 "pointOnTour": 4,
                 "name": "CCC Quarry",
-                "audio": null,
+                "audio": "ccc_quarry",
                 "tours": "tour7",
                 "story": [
                     {
                         "image": "img/arboretum2/ccc_quarry.jpg",
-                        "alt": "",
+                        "alt": "Beyond a few saplings, and beneath larger trees, a large shallow depression—about six feet deep—is lined with a rough stone wall. The stones are covered in moss. On the left, the stone wall rises above the surrounding terrain. The vegetation is still green, but the ground is strewn with fallen leaves.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2914,12 +2917,12 @@
                 "pk": 41,
                 "pointOnTour": 5,
                 "name": "Lake Wingra Boulders",
-                "audio": null,
+                "audio": "lake_wingra_boulders",
                 "tours": "tour7",
                 "story": [
                     {
                         "image": "img/arboretum2/lakeside_boulders.jpg",
-                        "alt": "",
+                        "alt": "Four small, moss-covered boulders sit next to the trunk of a tree. The ground around the boulders is covered in leaves, twigs, and logs. In the distance between the boulder is a large, fallen tree, surrounded by small, narrow trees bursting with leaves.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -2928,7 +2931,7 @@
                     {
                         "position": "left",
                         "image": "img/arboretum2/lake_wingra_1861.png",
-                        "alt": "",
+                        "alt": "A section of a historical survey of Madison, Wisconsin centered on Lake Wingra. The lake is horizontally oriented—smaller on the left, thick in the middle, and slighly narrower on the right. The lake is surrounded on three sides by textured lines representing wetland. North of the lake, a road is emerging from darkly shaded city blocks, which represent downtown Madison.",
                         "caption": "1861 Map depicted the former shape of Lake Wingra and its surrounding wetlands. Retrieved from <a href='https://content.wisconsinhistory.org/digital/collection/maps/id/1839/rec/13'>Wisconsin Historical Society</a>."
                     },
                     {
@@ -2993,12 +2996,12 @@
                 "pk": 42,
                 "pointOnTour": 6,
                 "name": "Big Spring",
-                "audio": null,
+                "audio": "big_spring",
                 "tours": "tour7",
                 "story": [
                     {
                         "image": "img/arboretum2/big_spring.jpg",
-                        "alt": "",
+                        "alt": "A small stream of clear water flows through low, dense vegetation, emptying into a larger body of water in the distance. The stream flows through small rocks. The dense vegetation is bright green, containing bushes and saplings. A wooded island can be seen beyond the larger body of water.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {

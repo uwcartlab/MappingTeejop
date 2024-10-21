@@ -77,7 +77,7 @@
                             starting = d.Starting ? '<p><b class="begin">' + d.Starting + '</b></p>': "",
                             accessibility = d.Accessibility ? '<p>Accessibility Note: <i class="accessibilty">' + d.Accessibility + '</i></p>': "";
                         
-                        let button = d.Active == 'TRUE' ? '<button class="tour-button" data-bs-dismiss="modal"><a href="map.html#' + tour + '">Start ' + name + '</a></button>' : '<p><b><i>Coming Summer 2024</i></b></p>';
+                        let button = d.Active == 'TRUE' ? '<button class="tour-button" data-bs-dismiss="modal"><a href="map.html#' + tour + '">Start ' + name + '</a></button>' : '<p><b><i>Coming 2025</i></b></p>';
                         //combine description elements
                         descDiv.insertAdjacentHTML("beforeend",title + translation + description + starting + accessibility + button);
                     //add description to row
