@@ -1731,7 +1731,7 @@
                         ]
                     }
                 ],
-                "label": "Begin at the north end of the <b>Allen Centennial Garden Driveway</b>. There is a small dirt path heading into the garden."
+                "label": "Begin at the north end of the <b>Allen Centennial Garden Driveway</b>. There is a small dirt path heading into the garden. <b><i>Tap the circle icon when you arrive.</i></b>"
             },
             "geometry": {
                 "type": "Point",
@@ -2337,7 +2337,7 @@
                         ]
                     }
                 ],
-                "label": "Begin in the <b>UW Arboretum Visitor's Center</b> mural room. Enter the main doors and turn right. If you can't find it, please ask Arboretum staff at the welcome desk."
+                "label": "Begin in the <b>UW Arboretum Visitor's Center</b> mural room. Enter the main doors and turn right. If you can't find it, please ask Arboretum staff at the welcome desk. <b><i>Tap the circle icon when you arrive.</i></b>"
             },
             "geometry": {
                 "type": "Point",
@@ -2362,7 +2362,7 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content": "On June 17th, 1934, the UW Arboretum was formally dedicated. The Wisconsin State Journal reported a crowd of 150 people, who listened to a lineup of eight speakers: including representatives from the State of Wisconsin, UW, the UW Regents, and backers of the arboretum project, such as John Nolen, and Aldo Leopold. These speakers praised the UW Arboretum project and its perceived value for recreation and research. Leopold described his goal of UW Arboretum land re-creating “what Dane County looked like when our ancestors arrived here during the 1840s.”<sup>1</sup> Acknowledging the value of restoration, and later writing about mutual beneficence with the land, he did not make a connection between the landscape in the 1840s, at the time of initial Euro-American settlement, and the Ho-Chunk people who had stewarded the land since time immemorial."
+                        "content": "On June 17th, 1934, the UW Arboretum was formally dedicated. The Wisconsin State Journal reported a crowd of 150 people, who listened to a lineup of eight speakers: including representatives from the State of Wisconsin, UW, the UW Regents, and backers of the arboretum project, such as John Nolen, and Aldo Leopold. These speakers praised the UW Arboretum project and its perceived value for research. Leopold described his goal of UW Arboretum land re-creating “what Dane County looked like when our ancestors arrived here during the 1840s.”<sup>1</sup> Acknowledging the value of restoration, and later writing about mutual beneficence with the land, he did not make a connection between the landscape in the 1840s, at the time of initial Euro-American settlement, and the Ho-Chunk people who had stewarded the land since time immemorial."
                     },
                     {
                         "content": "Towards the end of the dedication, there was a surprise speaker, whose name was not included on the official program, whose speech was not written, or transcribed. Ho-Chunk Chief Albert Yellow Thunder, who appeared “in a trailing headdress of bright feathers and a brilliant red tunic lavishly trimmed with wampum and colorful beads.”<sup>2</sup> Today, all that survives of Yellow Thunder’s speech are snippets recorded by journalists in attendance. “Like the trees, we are a dying race today. Some of you may see the day when an Indian is considered a relic. The only monument we leave is America, and its natural forests, and the streams which my people traveled. Take care of those natural beauties.”<sup>3</sup>"
@@ -2732,7 +2732,7 @@
                         ]
                     }
                 ],
-                "label": "Begin at the <b>Wingra Springs Parking Lot</b> trail entrance."
+                "label": "Begin at the <b>Wingra Springs Parking Lot</b> trail entrance. <b><i>Tap the circle icon when you arrive.</i></b>"
             },
             "geometry": {
                 "type": "Point",
