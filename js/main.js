@@ -15,7 +15,7 @@
     //colors
     let activeColor = "#000000", inactiveColor = "#999999";
     //typeface for background
-    var typeface = 'ptsans';
+    var typeface = 'karma';
     //close popup text
     let closePopup = "<p class='close-popup'>Tap map to close directions</p>";
     //function to create pronunciation listeners
@@ -366,7 +366,7 @@
                 dataLayer:"roads",
                 symbolizer: new protomapsL.LineLabelSymbolizer({
                         labelProps:["NAME_O"],
-                        font: "bold 14px ptsans",
+                        font: "bold 14px " + typeface,
                         fill:"#b2b1b1",
                         stroke:"#ffffff",
                         width:1.5,

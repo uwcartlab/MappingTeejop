@@ -7,32 +7,12 @@
 
 /**************FONTS*******************/
 @font-face {
-    font-family: ptsans;
-    src: url(fonts/PTSans-Regular.ttf);
-}
-@font-face {
-    font-family: ptsans;
-    src: url(fonts/PTSans-Bold.ttf);
-    font-weight:bold;
-}
-@font-face {
-    font-family: ptsans;
-    src: url(fonts/PTSans-Italic.ttf);
-    font-style: italic;
-}
-@font-face {
-    font-family: ptsans;
-    src: url(fonts/PTSans-BoldItalic.ttf);
-    font-weight:bold;
-    font-style: italic;
+    font-family: karma;
+    src: url(fonts/Karma-Regular.woff2);
 }
 @font-face {
     font-family: karma;
-    src: url(fonts/Karma-Regular.woff);
-}
-@font-face {
-    font-family: karma;
-    src: url(fonts/Karma-Bold.woff);
+    src: url(fonts/Karma-Bold.woff2);
     font-weight:bold;
 }
 html,body{
