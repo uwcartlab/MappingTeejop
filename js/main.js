@@ -6,10 +6,10 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 (function(){
-    //set map rotation
-    let rotation = 90;
     //get active tour based on current url
     let tour = window.location.href.split('#')[1] ? window.location.href.split('#')[1] : "explore";
+    //set map rotation
+    let rotation = tour == 'tour3' || tour == 'tour6' || tour == 'tour7' ? 0 : 90;
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
     let map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
     //colors
@@ -140,8 +140,9 @@
             onAdd: function () {
                 // create the control container with a particular class name
                 var container = L.DomUtil.create('div', 'north-arrow');
-    
-                container.innerHTML = '<p>North &#11157;</p>';
+                let arrow = rotation == 90 ? "&#8658;":"&#8657;";
+
+                container.innerHTML = '<p>North ' + arrow + '</p>';
     
                 return container;
             }
