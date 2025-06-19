@@ -184,6 +184,9 @@
     //function to create the map background
     function createBackgroundTiles(){
 
+        const p = new pmtiles.PMTiles('data/terrain.pmtiles');
+        pmtiles.leafletRasterLayer(p).addTo(map)
+
         class LakeSymbolizer{
             draw(context,geom,z,feature) {
 
@@ -380,7 +383,7 @@
             labelRules:LABEL_RULES
         });
         
-        background.addTo(map)
+       background.addTo(map)
 
     }
     //function to add sites to the map
