@@ -98,7 +98,6 @@
             });
         }
     }
-
     window.addEventListener('DOMContentLoaded',(event) => {
         //get color and text size settings
         getSettings();

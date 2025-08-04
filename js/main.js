@@ -79,7 +79,7 @@
         })
     }
     //image zoom
-    function imageZoom(){
+    /*function imageZoom(){
         document.querySelectorAll('img').forEach(function(img){
             img.addEventListener("click", function(){
                 
@@ -100,7 +100,7 @@
                 }
             })
         })
-    }
+    }*/
     //activate current tour
     function activateTour(){
         //add routes and sites
@@ -130,6 +130,9 @@
                 closeOnZeroBearing: true
             }
         }).setView([43.075, -89.40], 16);
+        //terrain tiles (not currently working)
+        const p = new pmtiles.PMTiles('data/terrain.pmtiles');
+        pmtiles.leafletRasterLayer(p).addTo(map)
         //add scale bar 
         L.control.scale({position:'bottomright'}).addTo(map);
         //add north indicator
@@ -184,9 +187,6 @@
     //function to create the map background
     function createBackgroundTiles(){
 
-        const p = new pmtiles.PMTiles('data/terrain.pmtiles');
-        pmtiles.leafletRasterLayer(p).addTo(map)
-
         class LakeSymbolizer{
             draw(context,geom,z,feature) {
 
@@ -231,8 +231,9 @@
 
             }
         }
-
+        //styling for basemap elements
         let PAINT_RULES = [
+            //styling for overall map background
             {
                 dataLayer:"background",
                 symbolizer:new protomapsL.PolygonSymbolizer({
@@ -241,6 +242,7 @@
                     width:0
                 })
             },
+            //styling for green park areas
             {
                 dataLayer:"green",
                 symbolizer:new protomapsL.PolygonSymbolizer({
@@ -249,6 +251,7 @@
                     width:0
                 })
             },
+            //styling for garden areas (such as longnecker horticultural garden or the allen centennial garden)
             {
                 dataLayer:"garden",
                 symbolizer:new protomapsL.PolygonSymbolizer({
@@ -257,6 +260,7 @@
                     width:0
                 })
             },
+            //styling for buildings
             {
                 dataLayer:"buildings",
                 symbolizer:new protomapsL.PolygonSymbolizer({
@@ -271,6 +275,7 @@
                     width:0.5
                 })
             },
+            //styling for walking paths
             {
                 dataLayer:"paths",
                 symbolizer:new protomapsL.LineSymbolizer({
@@ -291,6 +296,7 @@
                     }
                 })
             },
+            //styling for roads
             {
                 dataLayer:"roads",
                 symbolizer:new protomapsL.LineSymbolizer({
@@ -305,12 +311,13 @@
                     }
                 })
             },
+            //styling for lakes
             {
                 dataLayer:"lakes_dissolved",
                 symbolizer:new LakeSymbolizer()
             }  
         ];
-        
+        //styling function for adding rotatable point labels
         class PointLabelSymbolizer {
             place(layout,geom,feature) {
                 let pt = geom[0][0]
@@ -318,7 +325,7 @@
         
                 var font = "12px sans-serif", color = 'gray', lineHeight = 15
 
-                
+                //use different styles based on different basemaps
                 if (feature.props.type == 'building'){
                     font = "bold 14px " + typeface
                     color = "#949494"
@@ -354,12 +361,14 @@
                 return [{anchor:pt,bboxes:[bbox],draw:draw}]
             }
         }
-
+        //styling for label layers
         let LABEL_RULES = [
+            //labels for points of interest
             {
                 dataLayer:"labels",
                 symbolizer:new PointLabelSymbolizer()
             },
+            //labels for roads
             {
                 dataLayer:"roads",
                 symbolizer: new protomapsL.LineLabelSymbolizer({
@@ -383,7 +392,7 @@
             labelRules:LABEL_RULES
         });
         
-       background.addTo(map)
+        background.addTo(map)
 
     }
     //function to add sites to the map
@@ -581,7 +590,7 @@
             storyContent = document.querySelector('#story-content'),
             storyAudio = feature.properties.audio,
             story = feature.properties.story,
-            audioActive = false;    
+            audioActive = false;   
         //clear story element content block
         storyContent.innerHTML = "";
         //update header
@@ -604,17 +613,7 @@
             div.id = "block-" + i;
             div.classList.add("story-block");
             //position story block if on desktop
-            var position = block.position && block.position == "left" ? "block-left" : block.position && block.position == "right" ? "block-right": "block-center";
-            //position right block next to left block
-
-
-            if(block.position && block.position == "right"){
-                if (story[i-1].position && story[i-1].position == "left"){
-                    div = document.querySelector("#block-" + (i-1));
-                    div.classList.add("story-block-flex");
-                    position = "block-right-inline";
-                }
-            }
+            var position = "block-center";
             //add content blocks if they exist
             //title
             if (block.title){
@@ -673,8 +672,11 @@
             currentStop++;
             updateStop();
         }
+        audioPlayer();
         //activate next button listener for progressing story
         document.querySelector("#next-button").addEventListener("click",function(){
+            if (currentStop == tourTotal && tour != "explore")
+                window.location.href = "index.html"
             //progress story to next stop
             currentStop++;
             updateStop();
@@ -682,7 +684,7 @@
         //show modal
         storyModal.show();
         //activate image zoom
-        imageZoom();
+        //imageZoom();
         //clear element of listeners
         storyElem.replaceWith(storyElem.cloneNode(true));
         //activate close listener
@@ -740,6 +742,50 @@
                 enableHighAccuracy: true
                 });
         }, 2500);
+    }
+    //implement audio player functionality
+    function audioPlayer(){
+        //get audio player elements
+        let audio = document.querySelector('#story-audio'),
+            playPauseButton = document.querySelector('#play-pause'),
+            seekBar = document.querySelector('#seek-bar'),
+            currentTime = document.querySelector('#current-time'),
+            duration = document.querySelector('#duration');
+        //display duration of audio clip when metadata is loaded
+        audio.addEventListener('loadedmetadata', function() {
+            duration.textContent = formatTime(audio.duration);
+        });
+        //add functionality to the play/pause buttons
+        playPauseButton.addEventListener('click', function() {
+            if (audio.paused) {
+                audio.play();
+                playPauseButton.innerHTML = '&#9208';
+            } else {
+                audio.pause();
+                playPauseButton.innerHTML = '&#9205';
+            }
+        });
+        //update time stamp to current time
+        audio.addEventListener('timeupdate', function() {
+            var value = (audio.currentTime / audio.duration) * 100;
+            seekBar.value = value;
+            currentTime.textContent = formatTime(audio.currentTime);
+            duration.textContent = formatTime(audio.duration);
+        });
+        //update time slider to current time
+        seekBar.addEventListener('input', function() {
+            var time = (seekBar.value / 100) * audio.duration;
+            audio.currentTime = time;
+        });
+        //format time for easy reading
+        function formatTime(seconds) {
+            var minutes = Math.floor(seconds / 60);
+            var seconds = Math.floor(seconds % 60);
+            if (seconds < 10) 
+                seconds = '0' + seconds;
+
+            return minutes + ':' + seconds;
+        }
     }
     //function runs when page is finished loading
     window.addEventListener('DOMContentLoaded',(event) => {
