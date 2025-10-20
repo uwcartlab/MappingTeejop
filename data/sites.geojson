@@ -2999,7 +2999,7 @@
                 "story": [
                     {
                         "image": "img/tour8/parking_lot.jpg",
-                        "alt": "",
+                        "alt": "A branching walking path next to a parking lot. The path goes through a lightly wooded field. The trees and grass are green, and the sky is light blue.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3039,7 +3039,7 @@
                 "story": [
                     {
                         "image": "img/tour8/park_overlook.jpg",
-                        "alt": "",
+                        "alt": "A path on the left winds through a large, grassy field on a sunny day. On the right, there is a large, constructed wooden shoe painted bright colors. The shoe is at the edge of a playground.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3050,7 +3050,7 @@
                     },
                     {
                         "image": "img/tour8/vilas_park_plan.jpg",
-                        "alt": "",
+                        "alt": "A 1906 map outlining the original plan for Vilas Park. The plan is in black and white, and shows a ring road around a central field and lagoon. Lake Wingra is labeled at the bottom of the map.",
                         "caption": "Plan for Vilas Park, 1906, by O.C. Simonds. Photo from the Madison Park and Pleasure Drive Association Annual Report, 1906."
                     },
                     {
@@ -3096,7 +3096,7 @@
                 "story": [
                     {
                         "image": "img/tour8/bridge.jpg",
-                        "alt": "",
+                        "alt": "A concrete bridge stretching over a lagoon. The bridge has an iron railing, and leads to a small field on an island covered in trees.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3107,7 +3107,7 @@
                     },
                     {
                         "image": "img/tour8/vilas_plaque.jpg",
-                        "alt": "",
+                        "alt": "A plaque depicting William Vilas. The plaque text reads: 'This park was a gift to the Madison Park and Pleasure Drive Association to be held in trust for hte City of Madison by Colonel William Freeman Vilas and Anna M. Vilas in 1904. At their request, the park was named Henry Vilas Park in memory of their son who died of diabetes in his early twenties. The park includes 60 acres; twenty-five of high ground and 35 acres constructed out of the bog. The latter includes foud acres of water surface in the form of lagoons. The park was designed by landscape architext O.C. Simonds. The park houses the Henry Vilas Zoo which began in 1911 with the donation of five deer by Thomas C. Richmond. In the ensuing years numerous contributions from the City of Madison, the Zoological and Aquarium Society, the University, the Audobon Society, and the Community have provided for its expansion and recognition as one of the finest small zoos in country.'",
                         "caption": "William Vilas plaque. Photo by William J. Toman, acquired from HMDB.org."
                     },
                     {
@@ -3118,7 +3118,7 @@
                     },
                     {
                         "image": "img/tour8/erin_street_mounds.jpg",
-                        "alt": "",
+                        "alt": "A Menominee woman is standing behind a small plaque attatched to a rock embedded in the ground. There are two American flags on either side of her. A row of trees is in the distance. The photo is in sepia.",
                         "caption": "Picture of the Sara Mallon (Menominee) by the Vilas Park Mound Group memorial plaque, up by the Erin Street Entrance, in 1914. The photo was taken during the Fourth Annual Conference of the Society of American Indians."
                     },
                     {
@@ -3146,7 +3146,7 @@
                 "story": [
                     {
                         "image": "img/tour8/lake_wingra.jpg",
-                        "alt": "",
+                        "alt": "A view of Lake Wingra, with a grassy shoreline in the foreground, glassy water in the center of the photo, and trees in the distance.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3157,7 +3157,7 @@
                     },
                     {
                         "image": "img/tour8/lake_wingra_pre_vilas.jpg",
-                        "alt": "",
+                        "alt": "Old photo of marshy grasses interspersed with pools of water, with Lake Wingra in the distance, and trees beyond.",
                         "caption": "Photo of the Lake Wingra wetlands pre-1904, prior to the construction of the Vilas Park Lagoon and Islands."
                     },
                     {
@@ -3168,7 +3168,7 @@
                     },
                     {
                         "image": "img/tour8/vilas_park_1950s.jpg",
-                        "alt": "",
+                        "alt": "A large number of people lounging on the field and beach next to Lake Wingra on a sunny day.",
                         "caption": "Postcard depicting Vilas Park in 1954."
                     },
                     {
@@ -3216,7 +3216,7 @@
                 "story": [
                     {
                         "image": "img/tour8/lagoon.jpg",
-                        "alt": "",
+                        "alt": "View of the Vilas Lagoon from a stone bridge. The stone wall is in the foreground, trees and a field are visible in the distance.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3227,7 +3227,7 @@
                     },
                     {
                         "image": "img/tour8/dredging.jpg",
-                        "alt": "",
+                        "alt": "Old photo of a distant dredge boat performing cut-and-fill operations on Lake Wingra. The ground behind the boat is raised above the water while the lake sits in the distance. Trees are visible on the opposite shoreline.",
                         "caption": "Photo of the Lake Wingra's wetlands being dredged in 1904. Photo from the Madison Park and Pleasure Drive Annual Report, 1905."
                     },
                     {
@@ -3273,7 +3273,7 @@
                 "story": [
                     {
                         "image": "img/tour8/edgewood_drive_entrance.jpg",
-                        "alt": "",
+                        "alt": "A brown wooden sign is nestled within a group of trees. The sign reads: 'Edgewood Drive: Park and Pleasure Drive, Trucks Prohibited.'",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3281,7 +3281,7 @@
                     },
                     {
                         "image": "img/tour8/pleasure_drive.jpg",
-                        "alt": "",
+                        "alt": "An old photo of a dirt road curving through a copse of trees.",
                         "caption": "Pleasure Drive at Vilas Park, 1913."
                     },
                     {
@@ -3322,7 +3322,7 @@
                 "story": [
                     {
                         "image": "img/tour8/edgewood_drive.jpg",
-                        "alt": "",
+                        "alt": "A paved road with trees on either side.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3330,7 +3330,7 @@
                     },
                     {
                         "image": "img/tour8/edgewood_mounds.jpg",
-                        "alt": "",
+                        "alt": "A plaque attached to a concrete block sits atop an effigy mound. A man in a suit stands to the right of the mound. There are trees in the distance.",
                         "caption": "Photo of former Wisconsin State Archaeologist Charles E. Brown standing atop a mound on Edgewood Drive, 1939."
                     },
                     {
@@ -3381,7 +3381,7 @@
                 "story": [
                     {
                         "image": "img/tour8/vilas_neighborhood.jpg",
-                        "alt": "",
+                        "alt": "A view of a crosswalk stretching over a paved road and onto a sidewalk. There are trees and houses in the distance.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -3389,7 +3389,7 @@
                     },
                     {
                         "image": "img/tour8/jefferson_st_mounds.jpg",
-                        "alt": "",
+                        "alt": "A simple schematic map showing the intersection between Jefferson St. and Lincoln St, with four black circles in the upper left of the map. The circles are in a row, and represent conical effigy mounds.",
                         "caption": "Map of mounds on the intersection of Jefferson St. and Lincoln St."
                     },
                     {
@@ -3400,7 +3400,7 @@
                     },
                     {
                         "image": "img/tour8/dividing_ridge.jpg",
-                        "alt": "",
+                        "alt": "Old, black-and-white photo of the Lake Monona Dividing ridge, including two people sitting beneath a tree on the raised slope of an effigy mound. Most of the foreground is grassy, and there are trees in the distance.",
                         "caption": "Linear mound on the Monona dividing ridge in the late 1800s, prior to its destruction. Photo from the Charles E. Brown papers."
                     },
                     {
@@ -3451,8 +3451,11 @@
                 "story": [
                     {
                         "image": "img/tour8/bear_mound.jpg",
-                        "alt": "",
+                        "alt": "A view of the edge of Bear Mound Park. There is a gentle slope containing prairie and many oak trees, depicted on a sunny day.",
                         "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "<i>Note: if you choose to go into the park, please be careful to stay on mowed paths and off the mounds themselves.</i>"
                     },
                     {
                         "content": "As you approach Bear Mound, you’ll notice the distinct hill, covered in mature trees and lush green grasses, located within the quiet neighborhood of older, stately homes. In many ways, it feels out of place. In reality, Bear Mound is where it has always belonged.  "
@@ -3462,7 +3465,7 @@
                     },
                     {
                         "image": "img/tour8/mound_eclipse.jpg",
-                        "alt": "",
+                        "alt": "A view atop Bear Mound park in Winter at sunset, with the orange light peeking through the silhouettes of trees.",
                         "caption": "A sunset view of the Bear Mound Park, taken in Winter. Photo from Larry Johns."
                     },
                     {
@@ -3473,7 +3476,7 @@
                     },
                     {
                         "image": "img/tour8/save_the_mounds.jpg",
-                        "alt": "",
+                        "alt": "A Ho-Chunk woman is seen from behind facing a gathered crowd of people holding protest signs. A sunny day in Downtown Madison.",
                         "caption": "A rally against a proposed Wisconsin State Assembly bill in 2016 that would allow the destruction of effigy mounds. View is from behind Ho-Chunk Nation citizen Joanne Jones. Photo from the Wisconsin Historical Society."
                     },
                     {
