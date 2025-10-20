@@ -108,7 +108,7 @@
                             },
                             {
                                 "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
-                                "linkText": "Citizens of a Stolen Land",
+                                "linkText": "Stephen Kantrowitz, Citizens of a Stolen Land: A Ho-Chunk History of the Nineteenth-Century United States.",
                                 "title": "<sup>3</sup>"
                             },
                             {
@@ -1448,7 +1448,7 @@
                         "caption": "Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content":"<b>Note: The former site of the UW athletics Hall of Fame is currently under construction.</b>"
+                        "content": "<b>Note: The former site of the UW athletics Hall of Fame is currently under construction.</b>"
                     },
                     {
                         "content": "Before the first collegiate football game was held at Camp Randall’s newly constructed athletic field in 1895, a much older athletic tradition was hosted for the entertainment of modern spectators. Camp Randall previously served intermittently as the former location of the Wisconsin State Fairgrounds throughout the nineteenth century. During the fair in 1885, one of the highlights of the event was an exhibition lacrosse game performed by Natives in colorful regalia with traditionally constructed equipment. On September 9th, two integrated teams consisting of thirty-eight Bad River Band Ojibwe and nine Red Cliff Band Ojibwe men competed in what the Wisconsin State Journal called a “wildly picturesque” game of lacrosse.<sup>1</sup> Despite unexpected storms deterring many spectators, the event still drew a crowd of around 2000 people."
@@ -2534,7 +2534,7 @@
                         "caption": "Bertha Blackdeer (Ho-Chunk) tightens a strip on a black ash basket. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/R5AMJUBWGCENJ8L'>UWDC</a>."
                     },
                     {
-                        "content":"Generally created by women, Ho-Chunk baskets were sold along major roads and highways—such as Highway 12—to tourists and other passersby.<sup>2</sup> Baskets were made for a variety of purposes, from baby bassinets to egg and picnic baskets, and each reflected the experiences and personalities of their makers.<sup>3</sup> Over time, Ho-Chunk baskets became prized objects for collectors due to their quality and beauty."
+                        "content": "Generally created by women, Ho-Chunk baskets were sold along major roads and highways—such as Highway 12—to tourists and other passersby.<sup>2</sup> Baskets were made for a variety of purposes, from baby bassinets to egg and picnic baskets, and each reflected the experiences and personalities of their makers.<sup>3</sup> Over time, Ho-Chunk baskets became prized objects for collectors due to their quality and beauty."
                     },
                     {
                         "content": "Today, black ash trees are at risk of disappearing entirely. The emerald ash borer (EAB), a beetle native to northeast Asia, is thought to have arrived in North America in the 1990s through shipping containers. EAB larvae make serpentine pathways through ash trees, disrupting the flow of water and nutrients, and eventually killing the tree.<sup>4</sup> According to models from the Wisconsin Department of Natural Resources, healthy forests are at risk of losing 98% of their ash trees within six years due to EAB infestation.<sup>5</sup> The loss of black ash trees threatens the culturally significant basket making traditions for the Ho-Chunk and other tribal nations."
@@ -2985,6 +2985,514 @@
                 "coordinates": [
                     -89.427755624659994,
                     43.047671486356997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 43,
+                "pointOnTour": 1,
+                "name": "Zoo Parking Lot",
+                "audio": "vilas_park_parking_lot",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/parking_lot.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "Land holds stories. Stories we tell ourselves, stories we share with others, stories that connect ancestors with generations yet to come, stories that remind us, who we are. These stories, often rooted deeply in the past, are also a reflection of our value systems, including the ways we create and preserve knowledge.  "
+                    },
+                    {
+                        "content": "The land that encompasses and surrounds Henry Vilas Park is a microcosm of sorts – a place that offers opportunities to think about different ways of knowing and different ways of being on a smaller scale, reflective of the larger world around us. A place to think about knowledge production and power dynamics rooted in place. This walking tour, then, aims to create moments of reflection, moments to think about Vilas Park through a different lens. Moments to think about the entanglements of knowledge and power. "
+                    },
+                    {
+                        "content": "Here, in the heart of Madison, surrounded by lush greenery, we are in the midst of a carefully curated environment. This environment, the park and beyond, has been shaped over the last two centuries by a Western knowledge system that arrived with US colonialism, including the desire to control the landscape for perceived maximum benefit. Over time, this has looked like the creation of park space across the US – city parks like Vilas Park, state parks like Blue Mound, and national parks like Yellowstone and Yosemite.  "
+                    },
+                    {
+                        "content": "With the arrival of new, different knowledge systems, the stories that had long been told about, and embedded in this land, for thousands of years by Ho-Chunk people and their ancestors shifted. Over time, the deeply held Indigenous knowledge of and in this place, based in relationality, was eclipsed by a Western knowledge system brought by non-Native settlers arriving to Teejop. But the Indigenous knowledge never went away. It has been preserved, shared, and cared for. Today, we are finding ways to reconcile Indigenous knowledge systems and Western knowledge systems.  "
+                    },
+                    {
+                        "content": "As you meander through Vilas Park, we encourage you to reflect on what is written on the landscape through what is seen and not seen through park design, open space, plaques and signage, the way space is cared for, access to the park for different people, how the park space is used and by whom, and what surrounds the park. Think about your relationship to this land, the ways you value the shared land around us, and how you have come to know the land that surrounds you. What stories do you know about this land? What knowledge and power systems shape your relationship to this land? How are you accountable to this land? "
+                    }
+                ],
+                "label": "Begin the tour at the <b>main zoo parking lot</b>."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.410672299196932,
+                    43.0613425495116
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 44,
+                "pointOnTour": 2,
+                "name": "Park Overlook",
+                "audio": "park_overlook",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/park_overlook.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "As you look out over Henry Vilas Park, you might see people walking the paths and children on swings or using the Old Woman in a Shoe slide, built in 1962. Perhaps there are people playing sports or bicyclists riding on the far end of the park. The stretch of some 45 acres of public land that constitute Vilas Park are certain to be occupied, especially in the warmer months, as local neighbors and other Madison residents take advantage of the city park for its greenery, its proximity to Lake Wingra, and the Henry Vilas Zoo. As a space for community recreation and leisure activities, Vilas Park has represented the public good of park developments since its earliest days. "
+                    },
+                    {
+                        "content": "One of Madison’s oldest parks, Vilas Park was designed through the behest of the Madison Park and Pleasure Drive Association (MPPDA).<sup>1</sup> The park’s origins began in 1904, when Senator William Freeman Vilas and Anne Vilas purchased 25 acres of land for $18,000 for the development of a public park along Lake Wingra, named after their late son, Henry. The land was “beautifully located and admirably adapted for park purposes” and was deemed an excellent site for Madison’s second MPPDA park. Contingent upon the Vilas’s donation, however, was the drastic “improvement” to the natural landscape to make it suitable for recreation, including boating <sup>2</sup>. "
+                    },
+                    {
+                        "image": "img/tour8/vilas_park_plan.jpg",
+                        "alt": "",
+                        "caption": "Plan for Vilas Park, 1906, by O.C. Simonds. Photo from the Madison Park and Pleasure Drive Association Annual Report, 1906."
+                    },
+                    {
+                        "content": "Vilas Park aligned with broader urban planning ideals known as the City Beautiful movement. Driven by worry about rapid industrialization and increased population density in urban areas and largely championed by wealthy Americans, the City Beautiful movement articulated a need for conscientious urban planning that supported diverse projects to improve the quality of urban life. Among these projects were the establishment of public parks, parkways, and altered shorelines. These public lands projects purported to benefit society at large. After all, the idea of accessible, shared green space that belongs to everyone is, on the surface, a generally good idea.  "
+                    },
+                    {
+                        "content": "For Indigenous peoples, however, the creation of public lands disrupts their access to homelands and sacred sites. A city park may not seem like such a big deal, the benefits outweighing, perhaps, the costs. But restructuring human relations to a place, such as Vilas Park, alienates Indigenous belonging to that particular place. By working to “improve” lands for the creation of public space, Ho-Chunk practices on and of these lands (including land management of this area’s natural wetlands) were foreclosed. While City Beautiful urban planning sought to improve lands in accordance with settler colonial Progressive Era preferences, the question of accessibility remained for Indigenous and non-Indigenous peoples alike. Who was allowed to use public space like Vilas Park? And for what purpose? What was permissible? What was figuratively or literally criminal? These questions remain just as pertinent today as they did in the early 20th century.  "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/visit/places/madison-park-and-pleasure-drive-association/ ",
+                                "linkText": "Madison Park and Pleasure Drive Association",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://search.library.wisc.edu/digital/AKHED365UAMEQM8R",
+                                "linkText": "Reports of the Madison Park and Pleasure Drive Assocation, 1904.",
+                                "title": "<sup>2</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": "Travel down the walking path past the playground."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.411673994991261,
+                    43.06093772588499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 45,
+                "pointOnTour": 3,
+                "name": "Lagoon Bridge",
+                "audio": "lagoon_bridge",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/bridge.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "Walking through Henry Vilas Park today, we see layers of meaning and memory visible on the landscape. One layer is composed of wayfinding signs, plaques, markers, paths, and bridges built throughout the 20th century as public “improvement.” These tangible elements are meant to interpret our experience of the landscape for us, inform how we imagine reality, situate, honor, and commemorate history in particular ways. Other, less visible, but no less present layers are signals of the ancestors of Ho-Chunk people and the changed local ecologies they managed, honored, and shaped.  "
+                    },
+                    {
+                        "content": "You will notice the signage on the recently rebuilt footbridge takes a very particular Western form. The bridge is not only a piece of infrastructure, it is a carrier of recognition for those who financed its construction. During your walk you have seen or will see several plaques dedicated to William Vilas, commemorating his personal and professional legacies, including the bronze tablet near the main park shelter. You may read signs telling the story of the parks post-settler development, and the signs commemorating Madisonian Olympic speed skaters who practiced on the lagoon.  "
+                    },
+                    {
+                        "image": "img/tour8/vilas_plaque.jpg",
+                        "alt": "",
+                        "caption": "William Vilas plaque. Photo by William J. Toman, acquired from HMDB.org."
+                    },
+                    {
+                        "content": "This type of memorial practice is connected to the political, economic, and social priorities of a particular culture, but not the only culture present here. The practice marks those who gave money, including those with political power, and what types of causes were given permanence in public history. Often absent from the curated park signage is the shifting physical history of this land and the ways Ho-Chunk people, who long inhabited this area and whose descendants are connected with this place today, used and cared for this environment.  "
+                    },
+                    {
+                        "content": "Following Western forms of public history, there is a bronze plaque identifying one group of “Indian Mounds” elsewhere in the park, near the Erin Street entrance. This plaque, placed by the Wisconsin Historical Society in 1914, was part of a campaign to mark mound sites across the state; it also marks the thinking of its time. This plaque and others were originally located directly atop burial mounds, encouraging visitors to climb the mound to read it. In recognizing the inappropriate plaque placement, the City of Madison moved the concrete base and relocated the plaque off of the mound. Today, across the state, similar plaques are being removed and their intentions and impacts reconsidered. As new signage is installed, it is being led by Tribal nations and Tribal Historic Preservation Officers to ensure interpretation is respectful of the mounds as sacred places.  "
+                    },
+                    {
+                        "image": "img/tour8/erin_street_mounds.jpg",
+                        "alt": "",
+                        "caption": "Picture of the Sara Mallon (Menominee) by the Vilas Park Mound Group memorial plaque, up by the Erin Street Entrance, in 1914. The photo was taken during the Fourth Annual Conference of the Society of American Indians."
+                    },
+                    {
+                        "content": "As you walk, consider what is both said and not said on markers. Pay attention to absence of Indigenous voices and the lack of a full, complex, history of place and space. What are the worldviews and knowledge systems that define this space in radically different ways? What does signage tell us about political influence and power and how does that contrast with the presence of Indigenous mounds throughout this area? What does park design tell us about visibility and permanence, narrative and authorship, purpose and experience?  "
+                    }
+                ],
+                "label": "Continue down the path to the entrance of the <b>bridge to the lagoon island</b>."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.413001068665892,
+                    43.060122858534946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 46,
+                "pointOnTour": 4,
+                "name": "Lake Wingra",
+                "audio": "lake_wingra",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/lake_wingra.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "The Lake Wingra shoreline today bears little resemblance to the shoreline that existed 150 years ago. Back then, Lake Wingra was surrounded by wetland on all sides, watery transition zones between lake water and dry land. Lake Wingra and its wetlands were important for the Ho-Chunk, who made camps and villages nearby. Because it was smaller, and spring fed, Lake Wingra was always more nutrient rich than the other Yahara Lakes, supporting a wide variety of life. Ho-Chunk people gathered wild rice and celery, hunted duck, fished, and continued to do so into the late 19th century—despite the encroachment of Madison. However, it wasn’t until the landscape of the city was dramatically transformed that Ho-Chunk ability to sustain themselves here became impossible.<sup>1</sup>"
+                    },
+                    {
+                        "content": "The disruption of lifeways is a key component of how Kyle Whyte (Citizen Potawatomi) describes settler colonialism: “complex social processes in which at least one society seeks to move permanently onto the terrestrial, aquatic, and aerial places lived in by one or more other societies who derive economic vitality, cultural flourishing, and political self-determination from the relationships they have established with the plants, animals, physical entities, and ecosystems of those places.”<sup>2</sup> In the case of Lake Wingra, wetlands proved the settler city’s biggest target, and many were drained throughout the second half of the 19th century. "
+                    },
+                    {
+                        "image": "img/tour8/lake_wingra_pre_vilas.jpg",
+                        "alt": "",
+                        "caption": "Photo of the Lake Wingra wetlands pre-1904, prior to the construction of the Vilas Park Lagoon and Islands."
+                    },
+                    {
+                        "content": "The wetlands of Lake Wingra were not alone. Across the U.S., wetlands were considered “unproductive” land, a nuisance preventing Western farming. In contrast to Indigenous land management, which often involves consideration of the complex interrelationships between different forms of life, Western management is premised on domination and transformation of the landscape. The Swamp Land Act of 1850 authorized the transfer of federally-owned wetlands—taken from Tribal nations—to states who would agree to drain the land and convert it to “productive” farmland. There was no consideration of Tribal presence on defined swamp parcels, even if they existed on reservations, or unceded territory. The University of Wisconsin system acquired free parcels under the Swamp Land Act, and sold many of them to build their endowment, although the UW-system still owns over 90,000 acres.<sup>3</sup>"
+                    },
+                    {
+                        "content": "Legislation like the Swamp Land Act, and the draining of Lake Wingra’s wetlands, reflected a broader Western relation towards land. That is, an understanding of land based solely on its extracted value. Wetlands were considered unproductive because they could not support the kinds of agriculture practiced by settlers and were generally impediments to other forms of extraction—such as logging or mining—and also recreation. These Western land relations created particular kinds of space for particular purposes, and for the benefit of particular kinds of people. Namely, white settlers.  "
+                    },
+                    {
+                        "image": "img/tour8/vilas_park_1950s.jpg",
+                        "alt": "",
+                        "caption": "Postcard depicting Vilas Park in 1954."
+                    },
+                    {
+                        "content": "As you walk along the Lake Wingra shoreline, consider who has benefitted from the draining of the wetlands. How have Indigenous lifeways been altered by the draining of wetlands? How do systems of power shape decisions to drain wetlands and alter the natural environment? "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://uncpress.org/book/9781469673608/citizens-of-a-stolen-land/",
+                                "linkText": "Stephen Kantrowitz, Citizens of a Stolen Land: A Ho-Chunk History of the Nineteenth-Century United States.",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.researchgate.net/publication/312040136_The_Dakota_Access_Pipeline_Environmental_Injustice_and_US_Colonialism",
+                                "linkText": "Kyle Powys White, 'The Dakota Access Pipeline, Environmental Injustice, and U.S. Colonialism'.",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://wisconsinexaminer.com/2024/02/15/uw-schools-benefit-financially-from-thousands-of-acres-of-former-tribal-land/",
+                                "linkText": "Henry Redman, 'UW schools benefit financially from thousands of acres of former tribal land'.",
+                                "title": "<sup>3</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.413886967002526,
+                    43.057970263810148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 47,
+                "pointOnTour": 5,
+                "name": "Vilas Lagoon",
+                "audio": "vilas_lagoon",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/lagoon.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "While wetlands throughout Wisconsin were largely drained for agriculture, that is not the case for Lake Wingra and the Vilas Park area. The lake’s wetlands were not drained for farmland, but rather for recreation. When the land for Vilas Park was donated in 1904, it was done so on two conditions, one was that there would never be an admission fee for entrance to the park, and the second, that “within two years, cause a waterway to be constructed, between Lakes Monona and Wingra.”<sup>1</sup> In other words, Vilas Park was always premised on the transformation of the environment.  "
+                    },
+                    {
+                        "content": "Soon after the land’s purchase, architect O.C. Simonds developed a plan for the park, which involved the filling of wetlands on the edges of Lake Wingra to create a recreational meadow. To do so, in a process known as “cut and fill,” sand from the bottom of the lake was dredged and redirected over the wetland—transforming it into dry land. Ultimately, 40.3 acres of wetland were filled to create Vilas Park, meaning much of the peninsular area of Vilas Park today, and some of the meadow, are former wetlands. These processes also destroyed five natural springs, springs that were culturally significant to the Ho-Chunk.<sup>2</sup>" 
+                    },
+                    {
+                        "image": "img/tour8/dredging.jpg",
+                        "alt": "",
+                        "caption": "Photo of the Lake Wingra's wetlands being dredged in 1904. Photo from the Madison Park and Pleasure Drive Annual Report, 1905."
+                    },
+                    {
+                        "content":"Therefore, the creation of Vilas Park—and the broader transformation of Lake Wingra—was a direct trade-off with the destruction of Ho-Chunk lifeways, a manifestation of settler colonialism. The transformation of the land for recreation meant that only recreation was allowed."
+                    },
+                    {
+                        "content": "Today, Vilas Park exists due to these and other specific management decisions made by the City of Madison Parks Division as the land was transformed to fit its intended recreational purpose. As you walk over the drained and filled wetland, consider what this landscape may have looked like in 1800, prior to Euro-American settlement, with Ho-Chunk families camped around the shoreline. What might this landscape look like 150 years in the future?  "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://digital.library.wisc.edu/1711.dl/CXAZFSTZNOTFO83",
+                                "linkText": "Reports of the Madison Park and Pleasure Drive Assocation, 1905.",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://minds.wisconsin.edu/bitstream/handle/1793/68292/Bodden%20Elmer%20Mclester%20Perry.pdf?sequence=1",
+                                "linkText": "Matthew Bodden, Holly Elmer, Caitlin Mclester, Rebecca Perry, 'Lake Wingra: Changing Perceptions and Land-Use Decisions of Madison Wetlands.'",
+                                "title": "<sup>2</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": "Walk along the Lake Wingra shoreline until you reach the bridge over the entrance to the <b>lagoon</b>."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.41705831508294,
+                    43.059079524982927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 48,
+                "pointOnTour": 6,
+                "name": "Edgewood Drive Entrance",
+                "audio": "edgewood_drive_entrance",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/edgewood_drive_entrance.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "Like Henry Vilas Park – created through the Vilas’s 1904 donation – Edgewood University’s land, which borders Vilas Park, entered the civic landscape through elite philanthropy. Former Wisconsin governor, Cadwallader Washburn, gave his Edgewood Villa on Lake Wingra for educational use, establishing the campus from which today’s Edgewood institutions grew. The same park association that developed Vilas Park created Edgewood Drive, literally stitching these “donated” landscapes into Madison’s parkway system. Read together, the Vilas and Washburn gifts show how private wealth and political power took control of and shaped the physical commons of Madison’s white settlers. Philanthropy thus functioned as a decision-making mechanism for land-use that directed public access, circulation, and institutional growth for generations.  "
+                    },
+                    {
+                        "image": "img/tour8/pleasure_drive.jpg",
+                        "alt": "",
+                        "caption": "Pleasure Drive at Vilas Park, 1913."
+                    },
+                    {
+                        "content": "Edgewood Drive, which runs along the lake side of Edgewood University, limits the public to non-vehicular traffic, but was once part of Madison’s “pleasure drive” system—a project that curated and staged nature as scenic escape for those with the means to access vehicles. A common civic arrangement throughout the U.S. at the turn of the century, entities like the Madison Park and Pleasure Drive Association (MPPDA) raised funds to create routes such as Edgewood Drive, where urban residents could experience a vision of nature without physically engaging with it. Here, the mounds created by Ho-Chunk ancestors were appropriated as aesthetic features of the drive, contributing to the popular “vanishing Indian” narrative of the time.<sup>1</sup> Yet these mounds link human communities to their spiritual beliefs, marking this land as sacred, not scenic. Thus, these drives, celebrated as recreational amenities, legitimized the displacement of Native peoples by recasting the land as unpeopled or unproductive, thereby justifying dispossession for settler leisure.  "
+                    },
+                    {
+                        "content": "Indigenous dispossession for settler leisure is juxtaposed by the fact that these mounds, and the others across this region, were well-documented and recognized as culturally significant to Ho-Chunk people by the turn of the 20th century. It is likely that many of those who accessed Madison’s pleasure drive system, and Vilas Park, were similarly aware. This underscores a broader structural pattern in which white settlers recognize the cultural significance of Indigenous landmarks, yet such knowledge was and continues to be treated as secondary to settler-society pursuits. "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://edgeeffects.net/madison-park-and-pleasure-drive-history/ ",
+                                "linkText": "Kassia Krzus-Shaw, 'Unearthing the Complex Histories of Madison Parks'",
+                                "title": "<sup>1</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": "Travel up the sidewalk to the entrance of <b>Edgewood Drive</b>."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.417740112589328,
+                    43.059526000112392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 49,
+                "pointOnTour": 7,
+                "name": "Edgewood Drive",
+                "audio": "edgewood_drive",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/edgewood_drive.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "The paved path – pleasure drive - skirts the grounds of a particular type of university, a Catholic institution that has emphasized the sacred character of its campus since the Dominican Sisters founded it in the 1920s. Chapels, shrines, and the framing of the lakeshore as a site of retreat reinforce Edgewood’s role as a place of spiritual formation. This is countered by the effigy and conical mounds that have survived development along Edgewood Drive - earthworks with cultural and spiritual significance for Ho-Chunk people that long predates the Catholic presence.  "
+                    },
+                    {
+                        "image": "img/tour8/edgewood_mounds.jpg",
+                        "alt": "",
+                        "caption": "Photo of former Wisconsin State Archaeologist Charles E. Brown standing atop a mound on Edgewood Drive, 1939."
+                    },
+                    {
+                        "content": "Once again, we encounter a juxtaposition on the landscape – the layered, and conflicting, claim to place. Edgewood University was founded by the Dominican Sisters of Sinsinawa, who take their name from “Sinsinawa Mound,” a natural limestone hill in southwestern Wisconsin which holds significance to many Tribal nations of the region.<sup>1</sup> In Madison, the Sisters established what would become Edgewood University, a campus that includes and is surrounded by networks of effigy and conical mounds. The construction of the campus, including modern expansions made prior to the 1990s, led to the destruction of several mounds.<sup>2</sup> The Vilas Park mound group and Edgewood University represent distinct relationships between people and the land, relationships framed by different value and knowledge systems. In recognition of Edgewood’s occupation of Ho-Chunk lands, the University established a land recognition statement in 2018, shared on its website with additional resources on mound care and stewardship.<sup>3</sup>"
+                    },
+                    {
+                        "content": "Vilas Park and Edgewood Drive continue to function as scenic and recreational places that effectively veil their profound manufacture. Here, the cultural landscapes of Madison’s public parks and Edgewood University eclipse the sacred presence of the mounds in the public imagination. Standing here today, we ask you to see more than landscape design: to recognize assumptions about what is here and what preservation means within vastly different worldviews.  "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://edgeeffects.net/nuns-farmers-enchantment-at-sinsinawa-mound/",
+                                "linkText": "Margaux Crider, 'Nuns, Farmers, and Enchanted Earth at the Sinsinawa Mound'",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://www.cityofmadison.com/dpced/planning/documents/104_855WoodrowStreet.pdf",
+                                "linkText": "City of Madison Landmarks Commissionm, Landmark and Landmark Sites Nomination Form",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://www.edgewood.edu/about/mission-vision-values/diversity-and-inclusion/land-recognition-native-mounds/",
+                                "linkText": "Preserving the Legacy: Efforts to Protect and Celebrate the Historical Mounds",
+                                "title": "<sup>3</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": "Travel down <b>Edgewood Drive</b> to the edge of the treeline."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.418143728531007,
+                    43.059273234231306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 50,
+                "pointOnTour": 8,
+                "name": "Vilas Neighborhood",
+                "audio": "vilas_neighborhood",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/vilas_neighborhood.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "In 1889 when the Vilas Neighborhood (also the Wingra Park Historic District on the National Register of Historic Places) was originally platted, non-Native settlers entered an already thriving ecosystem that had been managed by Ho-Chunk people and their ancestors for thousands of years. The building of the city’s first suburb represented the expansion of Madison’s urban hub, a fact precipitated by increased population density and strain on the isthmus at turn of the century.<sup>1</sup> Yet such expansion did not occur on “virgin land.” "
+                    },
+                    {
+                        "image": "img/tour8/jefferson_st_mounds.jpg",
+                        "alt": "",
+                        "caption": "Map of mounds on the intersection of Jefferson St. and Lincoln St."
+                    },
+                    {
+                        "content": "The concept of “virgin land” – purportedly unused and unclaimed – has been used throughout the course of colonization to diminish Indigenous land claims. While there are political impetus behind the idea of unused lands, ripe for settlement and city expansion, there are also the conterminous consequences of erasure of both Indigenous history and ongoing presence. The erasure of Indigenous past and presence occurs across the country in every state, across rural, suburban, and urban spaces. But it is the development of cities and suburbs, so often built upon densely populated Indigenous places, where Indigenous erasure is often the most stark. The processes that facilitated the building of the Vilas Neighborhood also positioned Ho-Chunk history and existing relationship to the Lake Wingra area as both ancient and inconsequential in the face of Madison expansion. "
+                    },
+                    {
+                        "content": "Though early settlers called Lake Wingra the “dead lake,” it was far from dead, nor was it uncared for or unused. Sometimes considered the “fifth lake,” Lake Wingra has always been connected to Teejop through an intricate web of relationships maintained by complex constellations of village sites, sacred places, land trails, and waterways. Ho-Chunk ancestors cared for this space, as is evidenced by the village sites around the lake (including in what is today the UW Arboretum) and by the careful building of effigy and conical mounds. As former state archaeologist Robert A. Birmingham has noted, this area was once home to hundreds of mounds, marking Wingra as a deeply significant and spiritual place. This history was not unknown to non-Natives. Alongside contemporary Ho-Chunk peoples who continued to live in Teejop, surveying that began in the 1850s established much of the written documentation that reveals how widespread the destruction of this Ho-Chunk landscape was.<sup>2</sup>"
+                    },
+                    {
+                        "image": "img/tour8/dividing_ridge.jpg",
+                        "alt": "",
+                        "caption": "Linear mound on the Monona dividing ridge in the late 1800s, prior to its destruction. Photo from the Charles E. Brown papers."
+                    },
+                    {
+                        "content": "While ancestral histories of the Ho-Chunk Nation might be considered temporally ancient, Lake Wingra remained and remains a place of great importance. When the Wingra Park neighborhood was built, often by destroying mounds, it represented a significant physical shift for the area. The rapid urbanization of Madison was made possible by the dismantling of the seventy-foot-high, half mile long Dividing Ridge at the turn of the 20th century. The Dividing Ridge, a glacial deposit between Lake Wingra and Monona Bay, was also home to numerous mounds; the quarrying of the ridge for sand and gravel facilitated the further development of houses. Ho-Chunk design, which relied upon the landscape’s natural features, was steadily replaced with grids of privatized lots. While this was occurring the late 19th and early 20th centuries, Ho-Chunk people continued to live around Lake Wingra as late as 1910.<sup>3</sup> Ho-Chunk presence often caused conflict as they continued to live, fish, hunt, and harvest as best they could in accordance with long held practices. "
+                    },
+                    {
+                        "content": "As you look over the Vilas and Wingra neighborhoods, consider how Ho-Chunk history has often been depicted as ancient history, part of the “prehistory” of this place. Such suppositions erase Ho-Chunk relationships to this area and the ancestral knowledges that have been put into practice for generations. What does it mean to physically and metaphorically erase Indigenous histories on the lands upon which we live? How does the knowledge of long Indigenous histories change we might interact with and impact the land? What might it look like to recognize these histories all around us? "
+                    },
+                    {
+                        "content": "<b>Sources</b>",
+                        "sources": [
+                            {
+                                "link": "https://www.wisconsinhistory.org/Records/NationalRegister/NR1939",
+                                "linkText": "National Register of Historic Places, “Wingra Park Historic District.”",
+                                "title": "<sup>1</sup>"
+                            },
+                            {
+                                "link": "https://search.library.wisc.edu/catalog/9914617522802121",
+                                "linkText": "Robert A. Birmingham, Spirits of the Earth: The Effigy Mound Landscape of Madison and the Four Lakes. P.147-160",
+                                "title": "<sup>2</sup>"
+                            },
+                            {
+                                "link": "https://search.library.wisc.edu/catalog/9914617522802121",
+                                "linkText": "Robert A. Birmingham, Spirits of the Earth: The Effigy Mound Landscape of Madison and the Four Lakes. P.147",
+                                "title": "<sup>3</sup>"
+                            }
+                        ]
+                    }
+                ],
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.412198167077719,
+                    43.061958375949395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "pk": 51,
+                "pointOnTour": 9,
+                "name": "Bear Mound",
+                "audio": "bear_mound",
+                "tours": "tour8",
+                "story": [
+                    {
+                        "image": "img/tour8/bear_mound.jpg",
+                        "alt": "",
+                        "caption": "Photo by Gareth Baldrica-Franklin."
+                    },
+                    {
+                        "content": "As you approach Bear Mound, you’ll notice the distinct hill, covered in mature trees and lush green grasses, located within the quiet neighborhood of older, stately homes. In many ways, it feels out of place. In reality, Bear Mound is where it has always belonged.  "
+                    },
+                    {
+                        "content": "Placed on the National Registrar of Historic Places in late 1974 and designated a City of Madison Landmark in 1975, archeological evidence tells us the Bear Mound effigy dates back to ~700-1200 AD. Based on the location of Bear Mound, within Teejop, we know it was created by ancestors of today’s Ho-Chunk people. Bear Mound, which is largely intact, reminds us, as visitors to these Ho-Chunk homelands, of the significance of this place – a place marked by waterways that facilitated Tribal relations, trade, diplomacy, and rich lifeways that relied on care and relationality for and with the land around us.  "
+                    },
+                    {
+                        "image": "img/tour8/mound_eclipse.jpg",
+                        "alt": "",
+                        "caption": "A sunset view of the Bear Mound Park, taken in Winter. Photo from Larry Johns."
+                    },
+                    {
+                        "content": "Though many of the mounds that marked this land – across all of southern Wisconsin – for thousands of years have been destroyed by non-Native settlement and development over the last two hundred years, those that remain, like Bear Mound, offer opportunities to think more deeply about place, power, knowledge, and cultural resources.  "
+                    },
+                    {
+                        "content": "Today, Bear Mound, and other mounds within City of Madison parks are cared for and “maintained” in consultation with the Ho-Chunk Nation. As a sovereign nation, the Ho-Chunk Nation has the ability to create their own policies around cultural resources and cultural knowledge, including mounds. Like many other Tribal nations, the Ho-Chunk Nation has a Tribal Historic Preservation Officer (THPO) who works with municipalities as well as state and federal officials to determine proper care and stewardship of cultural resources, like mounds, including those in public spaces. Across the state of Wisconsin, all burial sites, including mounds, and those located on private property, are protected under Wisconsin State Statute 157.70. "
+                    },
+                    {
+                        "image": "img/tour8/save_the_mounds.jpg",
+                        "alt": "",
+                        "caption": "A rally against a proposed Wisconsin State Assembly bill in 2016 that would allow the destruction of effigy mounds. View is from behind Ho-Chunk Nation citizen Joanne Jones. Photo from the Wisconsin Historical Society."
+                    },
+                    {
+                        "content": "Bear Mound, then, is a demonstration of what Tribal sovereignty – the ability of Tribal nations to govern without outside interference – can look like today. The political relationship that exists between the Ho-Chunk Nation, the City of Madison, and the State of Wisconsin is a reminder of the strength and endurance of Tribal nations as they work to protect their cultural resources and cultural knowledge for generations yet to come.  "
+                    },
+                    {
+                        "content": "Standing at Bear Mound offers each of us a chance to reflect on both the history of this land and the future of this land. What can we learn from the mounds – an enduring symbol of relationality with the land, with ancestors, with our ways of being and knowing? What can we learn from how we interact with and care for this land? What can we learn from Tribal nations who continue to advocate for this land, even though they were forced away from it? What can Tribal sovereignty teach us about our own systems of governance? What can the creation of a city park, around an effigy mound, tell us about our culture(s) and our value system(s)?  "
+                    },
+                    {
+                        "content": "<i>Note: if you choose to walk through the park, please stay on the path of cut grass to avoid stepping on the mounds.</i>"
+                    }
+                ],
+                "label": "Travel up Garfield St. and turn right onto Vilas Ave., which will take you to the edge of <b>Bear Mound Park</b>."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.411481000866701,
+                    43.063233969304086
                 ]
             }
         }

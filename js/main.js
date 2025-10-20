@@ -495,8 +495,7 @@
     }
     //route style
     function routeStyle(feature){
-        let end = feature.properties.end;
-        console.log(end)
+        let end = parseInt(feature.properties.end);
 
         return{
             color:routeColor(end),
@@ -508,11 +507,12 @@
             if (end <= currentStop){
                 if (end == currentStop){
                     //zoom to current route
-                    let coord = feature.geometry.coordinates[0],
+                    let coord = feature.geometry.coordinates,
                     bounds = [
                         [coord[0][1], coord[0][0]],
                         [coord[coord.length-1][1], coord[coord.length-1][0]]
                     ];
+
                     map.flyToBounds(bounds);
                     //route popup
                     let center = [coord[Math.round(coord.length/2)][1], coord[Math.round(coord.length/2)][0]]
