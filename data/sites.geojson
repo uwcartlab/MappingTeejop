@@ -137,7 +137,7 @@
                         "caption": " Photo by Gareth Baldrica-Franklin."
                     },
                     {
-                        "content": "Note: The Ho-Chunk panels were on display through the 2023-2024 academic year, but are still occasionally raised for special events."
+                        "content": "Note: The Ho-Chunk Banners will only be on display intermittently throughout Spring Semester 2024."
                     },
                     {
                         "content": "The University of Wisconsin celebrated its 175th anniversary as an academic institution during the 2023-2024 academic year. At the same time, the University acknowledged that our campus occupies the ancestral lands of the Ho-Chunk Nation, Indigenous peoples who have lived in the region since time immemorial."
@@ -152,6 +152,9 @@
                     },
                     {
                         "content": "As described by Molli Pauliot (Ho-Chunk), the center panel highlights the Thunderbird, associated with the enforcement of peace in blue with two connected Water Spirits located below it. These forms, referencing the upper and lower worlds, are significant in Ho-Chunk culture and can be seen in mound form on Observatory Hill. The four squares on the two outer panels represent the four lakes of the Teejop region (Lakes Mendota, Monona, Kegonsa, and Waubesa). Along the bottom of each panel are a series of twelve figures representing the twelve Ho-Chunk clans (family groups) which organize Ho-Chunk society. The colors and symbols represented on the panels reflect Ho-Chunk cultural traditions, corresponding with specific clans, defining qualities that clan members strive to emulate."
+                    },
+                    {
+                        "content": "The Ho-Chunk panels were on display through the 2023-2024 academic year, but are occasionally raised for special events. "
                     }
                 ],
                 "name": "Bascom Hall Ho-Chunk Banner",
@@ -159,7 +162,7 @@
                 "pk": 3,
                 "tours": "tour1",
                 "audio": "ho-chunk_banners",
-                "label": "Walk to the front of <b>Bascom Hall</b>. You may see the <b>Ho-Chunk banner</b>."
+                "label": "Walk to the front of <b>Bascom Hall</b> to see the <b>Ho-Chunk banner</b>."
             },
             "geometry": {
                 "type": "Point",
@@ -585,7 +588,7 @@
                 "story": [
                     {
                         "image": "img/tour2/birch_canoe.jpg",
-                        "alt": "A birch-bark canoe is suspended horizontally in the middle of Dejope Dining Hall, about 10 feet off the ground.",
+                        "alt": " A birch-bark canoe is suspended horizontally in the middle of Dejope Dining Hall, about 10 feet off the ground.",
                         "caption": " Photo by Gareth Baldrica-Franklin."
                     },
                     {
@@ -1928,7 +1931,7 @@
                     },
                     {
                         "image": "img/tour4/charles_brown_map.jpg",
-                        "alt": "A map of Madison, Wisconsin from the 1930s. Lake Mendota is shown in the top-half of the map. The bottom half of the map shows the area of the University of Wisconsin-Madison campus, bordered at the bottom by a black line representing University Avenue. There are dashed red lines, representing Ho-Chunk trails, that roughly follow the university avenue line.",
+                        "alt": " A map of Madison, Wisconsin from the 1930s. Lake Mendota is shown in the top-half of the map. The bottom half of the map shows the area of the University of Wisconsin-Madison campus, bordered at the bottom by a black line representing University Avenue. There are dashed red lines, representing Ho-Chunk trails, that roughly follow the university avenue line.",
                         "caption": " A historical map of Madison. The thick black line shows University Avenue, while the dashed red lines show Ho-Chunk trails. Map created by Charles E. Brown, 1930s."
                     },
                     {
@@ -2139,7 +2142,7 @@
                     },
                     {
                         "image": "img/tour5/yellow_thunder_charles_brown.jpg",
-                        "alt": " Former Wisconsin State Archaeologist Charles E. Brown and Ho-Chunk Chief Albert Yellow Thunder.",
+                        "alt": " Former Wisconsin State Archaeologist Charles E. Brown. and Ho-Chunk Chief Albert Yellow Thunder.",
                         "caption": " Chief Albert Yellow Thunder (right) next to former Wisconsin State Archaeologist Charles E. Brown (left), circa 1933. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/NTZITGZ65KPI48Z'>UWDC</a>."
                     },
                     {
@@ -2347,7 +2350,7 @@
                     },
                     {
                         "image": "img/tour5/bertha_blackdeer_basket.jpg",
-                        "alt": "Bertha Blackdeer fastening a strip onto an in-progress Black Ash bakset.",
+                        "alt": " Bertha Blackdeer fastening a strip onto an in-progress Black Ash bakset.",
                         "caption": " Bertha Blackdeer (Ho-Chunk) tightens a strip on a black ash basket. Retrieved from <a href='https://digital.library.wisc.edu/1711.dl/R5AMJUBWGCENJ8L'>UWDC</a>."
                     },
                     {
@@ -2854,7 +2857,7 @@
                     },
                     {
                         "image": "img/tour7/vilas_park_plan.jpg",
-                        "alt": "A 1906 map outlining the original plan for Vilas Park. The plan is in black and white, and shows a ring road around a central field and lagoon. Lake Wingra is labeled at the bottom of the map.",
+                        "alt": " A 1906 map outlining the original plan for Vilas Park. The plan is in black and white, and shows a ring road around a central field and lagoon. Lake Wingra is labeled at the bottom of the map.",
                         "caption": " Plan for Vilas Park, 1906, by O.C. Simonds. Photo from the Madison Park and Pleasure Drive Association Annual Report, 1906."
                     },
                     {
@@ -3281,7 +3284,7 @@
                         "content": "Bear Mound, then, is a demonstration of what Tribal sovereignty \u2013 the ability of Tribal nations to govern without outside interference \u2013 can look like today. The political relationship that exists between the Ho-Chunk Nation, the City of Madison, and the State of Wisconsin is a reminder of the strength and endurance of Tribal nations as they work to protect their cultural resources and cultural knowledge for generations yet to come.  "
                     },
                     {
-                        "content": "Standing at Bear Mound offers each of us a chance to reflect on both the history of this land and the future of this land. What can we learn from the mounds \u2013 an enduring symbol of relationality with the land, with ancestors, with our ways of being and knowing? What can we learn from how we interact with and care for this land? What can we learn from Tribal nations who continue to advocate for this land, even though they were forced away from it? What can Tribal sovereignty teach us about our own systems of governance? What can the creation of a city park, around an effigy mound, tell us about our culture(s) and our value system(s)?"
+                        "content": "Standing at Bear Mound offers each of us a chance to reflect on both the history of this land and the future of this land. What can we learn from the mounds \u2013 an enduring symbol of relationality with the land, with ancestors, with our ways of being and knowing? What can we learn from how we interact with and care for this land? What can we learn from Tribal nations who continue to advocate for this land, even though they were forced away from it? What can Tribal sovereignty teach us about our own systems of governance? What can the creation of a city park, around an effigy mound, tell us about our culture(s) and our value system(s)?  "
                     }
                 ],
                 "name": "Bear Mound",
@@ -3296,6 +3299,587 @@
                 "coordinates": [
                     -89.4114810008667,
                     43.0632339693041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour8/view_from_picnic_point.png",
+                        "alt": " A view overlooking Lake Mendota with the Wisconsin capitol visible in the distance",
+                        "caption": " Photo by Ashley Breitzman and Jack Wiitanan."
+                    },
+                    {
+                        "content": "<i>Stop text written by Ashley Breitzman and Jack Wiitanan.</i>"
+                    },
+                    {
+                        "content": "This picture is taken at the tip of picnic point, overlooking one of Madison\u2019s largest and most studied lakes, Lake Mendota. Although now the lake appears a blue-green color due to algae blooms, it was once clear, sandy waters, that was home to many different food sources."
+                    },
+                    {
+                        "content": "For the Ho-Chunk nation and other Indigenous groups, Mendota was more than merely a body of water, but served as a living ecosystem that provided substance and food sources for their communities. Extensive species of fish such as walleye, northern pike, perch, and lake sturgeon were abundant and caught by the Ho-Chunk using nets, spears, and traps during seasonal migrations. Native freshwater mussels were once found at the bottom of Lake Mendota and would be used as a food source, however these native mussels have now been replaced with invasive mussels such a zebra and quagga mussels. The shallows of the lake had beds of wild rice and other aquatic plants that were harvested as part of a diverse, sustainable diet. "
+                    },
+                    {
+                        "content": "In addition to the food sources the Indigenous communities got from the water, Mendota also was known to have a large duck, and geese population that they would hunt. These traditional practices maintained a balance between human needs and the health of the lake, ensuring that its resources could be relied upon year after year. As European settlers arrived in the late 19th century, the relationship with the lake began to shift from utilizing its resources to commercial and recreational use. Although fishing continued to be an important food source, increased agricultural activity, deforestation and urban development began to negatively impact the lake's water quality. Runoff from nearby farms and urban areas introduces phosphorus and other nutrients which fuel algae blooms and deplete oxygen available for aquatic life. "
+                    },
+                    {
+                        "content": "By the early 20th century, overfishing and pollution turned the once clear-watered lake into a lake with decreased fish populations and a decreased overall water quality. While fish from Mendota can still be safely eaten in moderation, the Wisconsin Department of Natural Resources issues consumption advisories due to the presence of contaminants such as mercury and PCBs which accumulate in fish tissue and pose health risks when consumed in large amounts. Overall this image showing the beautiful lake Mendota carries a deep history of what was once used by the Ho-Chunk nations as a major food source, now containing decreased fish populations and contaminated waters due to increased urbanization, further emphasizing the delicate connection between people and the waters that sustain them."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://www.channel3000.com/madison-magazine/the-history-of-madisons-lakes-and-the-scientific-findings-that-have-emerged-from-them/article_6d6ec1b4-4dc9-11ef-8fb0-770ea0208aba.html",
+                                "linkText": " Behling, A., \u201cThe history of Madison\u2019s lakes - and the scientific findings that have emerged from them\u201d",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://dnr.wisconsin.gov/topic/PFAS/Advisories.html",
+                                "linkText": " <i>Consumption Advisories and PFAS</i>, Wisconsin DNR",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://www.uwalumni.com/news/bucky-list-five-things-you-might-not-know-about-lake-mendota/",
+                                "linkText": " Lamphere, H., \u201cBucky list: Five things you might not know about Lake Mendota.\u201d",
+                                "title": "3"
+                            },
+                            {
+                                "link": "https://www.uwalumni.com/news/bucky-list-five-things-you-might-not-know-about-lake-mendota/",
+                                "linkText": " \u201cNative Americans and the Preserve.\u201d",
+                                "title": "4"
+                            }
+                        ]
+                    }
+                ],
+                "name": "View From Picnic Point",
+                "pointOnTour": 1,
+                "pk": 52,
+                "tours": "tour8",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.41519375715515,
+                    43.08977814801049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour8/picnic_point_view.png",
+                        "alt": " A view down the stairs leading to the end of Picnic Point.",
+                        "caption": " Photo by Chloe Martin and Fiona Flint."
+                    },
+                    {
+                        "content": "<i>Stop text written by Chloe Martin and Fiona Flint.</i>"
+                    },
+                    {
+                        "content": "Picnic Point is a potential stopping spot of the Lakeshore Nature Preserve Tour. After our last class discussion of the tour, we determined that food and trade along Mendota and the current UW-Madison campus land would be a great theme for our informative walking tour. A trading post was created on the north shore of Lake Mendota in 1832. It is difficult to find resources and historical information about the Ho-Chunk\u2019s specific trading on Lake Mendota. However, one story from the Historical Society is of Michel St. Cyr. Cyr was the son of a Prairie du Chien trader father and a Ho-Chunk mother. In 1833, Cyr was a successful trader on the north shore of Mendota. His side of the trade consisted of alcohol and tobacco. In exchange for these plant-based resources, he received furs. European settlement and the displacement of the Ho-Chunk affected many aspects of life. Trade and food systems were both obstructed, meaning many individuals could not access healthy food or food similar to their traditional diets. This change has significant implications for the health of these individuals and potentially for generations to come."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://wisconsinhistory.org/Records/Article/CS307#:~:text=document:%20WHI%2010151-,Michel%20St.,Alexander%20Pratt%20stopped%20at%20St",
+                                "linkText": " \u201cMadison Fur Traders\u201d, Wisconsin Historical Society",
+                                "title": "1"
+                            },
+                            {
+                                "link": "http://infosyahara.org/beach_lakemendotacountypark#:~:text=DESCRIPTION:,accessible%20swimming%20ramp%20is%20provided.",
+                                "linkText": " Integrated Nowcast/Forecast Operation System for Yahara Lakes",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://americanindian.si.edu/nk360/informational/native-life-food#:~:text=Crops%20and%20other%20foods%20were,cultural%20practices%20with%20one%20another",
+                                "linkText": " \u201cNative Life and Food: Food Is More Than Just What We Eat\u201d, Smithsonian",
+                                "title": "3"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Picnic Point",
+                "pointOnTour": 2,
+                "pk": 53,
+                "tours": "tour8",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.41550033642793,
+                    43.08972173886216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour8/fire_circle.png",
+                        "alt": " Fire Circle #2, a circle of benches around a fire pit, located along the Lakeshore Nature Preserve Trail at Picnic Point.",
+                        "caption": " Photo by Jamie Resis and Isabella Jacobsen."
+                    },
+                    {
+                        "content": "<i>Stop text written by Jamie Resis and Isabella Jacobsen .</i>"
+                    },
+                    {
+                        "content": "The fire circles are located along the Lakeshore Path, with the sixth and final one marking the very tip of Picnic Point. The fire circles can be reserved within the Lakeshore Forest Preserve\u2019s hours of 4 AM to 10 PM. Four of the grills (1, 3, 4, and 5) have cooking grills on them. The ability to reserve a fire circle brings to mind the questions: How does the need to reserve a space like the fire circles reflect the way our society treats land, access, and ownership today? How can modern gatherings around food (like fire circles) both honor and erase Indigenous uses and ties to that land? "
+                    },
+                    {
+                        "content": "It is likely that before the fire circles were established, Indigenous groups used the land and its resources to cook meat, fish, and plants over fires. Their cooking methods with fire included roasting, baking, smoking, and boiling. With Picnic Point\u2019s access to land and aquatic wildlife, they could use fires along the path to prepare a variety of different and important cultural foods. In addition to cooking the food itself, they were able to use fire to bake pottery to make dishes they could cook and serve the food in."
+                    },
+                    {
+                        "content": "Today, the fire circles are primarily used for social gatherings\u2013 roasting marshmallows for s\u2019mores, or cooking hotdogs and hamburgers bought from grocery stores. A key distinction between past and present use of fire at Picnic Point is that fire once served as a means of survival and sustenance, while now it functions as recreation. Indigenous peoples used fire as a reciprocal relationship with the land, preparing food they gathered and prepared from nature. In contrast, today\u2019s use of fire at Picnic Point is centered around exchange, reservation, and ownership."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://union.wisc.edu/host-your-event/event-reservation-request/picnicpointrequests",
+                                "linkText": " \u201cPicnic Point Fire Circle Requests\u201d, Wisconsin Union",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://www.ebsco.com/research-starters/history/fire-and-firemaking-native-american-culture",
+                                "linkText": " \u201cFire and firemaking (Native American culture)\u201d, EBSCO Host",
+                                "title": "2"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Fire Circle #2",
+                "pointOnTour": 3,
+                "pk": 54,
+                "tours": "tour8",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.42188828110868,
+                    43.08592284868201
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour8/biocore_prairie.jpg",
+                        "alt": " A sign nestled within a prairie reading \u201cBiocore Prairie\u201d.",
+                        "caption": " Photo by Kenneth Casper, retrieved from <a href=\u201dhttps://wisconsin-explorer.blogspot.com/2019/02/uw-lakeshore-preserve-hiking-trails.html\u201d>Wisconsin Explorer</a>."
+                    },
+                    {
+                        "content": "<i>Stop text written by Nikolina Davidovic and Shreya Vattem.</i>"
+                    },
+                    {
+                        "content": "Our topic is food resources on land in the Lakeshore Nature Preserve. In history, berries have held a great cultural, nutritional, and medicinal importance in indigenous communities. Teejop has always provided for the Ho-Chunk Nation. Many years ago, juneberries, blueberries, raspberries, blackberries, and wild strawberries were essential parts of a traditional diet for the Ho-Chunk community. They would gather these berries from prairies, wetlands, and forest edgesduring the summer. A food they would make is called pemmican, where the berries are dried with cornmeal and combined with meat. Sometimes, berries were also used medicinally, they were primarily used to ease inflammation and strengthen the heart. "
+                    },
+                    {
+                        "content": "Berries also held a ceremonial importance across the community, for example, wild strawberries were often said to be the fruit of the season, and were used in offerings to honor kinship. Berries in the Ho-Chunk community were a constant reminder of how all living things are connected and they built into the Ho-Chunks principles. They understood that if people cared for the world by focusing on only taking what was needed in harvest, that the world would care for us right back. Wisconsin still holds a sacred place for berries as cultural symbols and economic staples, as the state is the nation\u2019s leading cranberry producer. While berries continue to grow across the region, these foods provide much use by sustaining food sovereignty and reconnection communities with traditional knowledge."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://indigenousclimatehub.ca/2025/02/small-berries-big-lessons-a-reflection-on-natures-wisdom-and-the-impacts-of-climate-change/#:~:text=Honouring%20the%20Lessons%20of%20the,cycles%20that%20sustain%20us%20all",
+                                "linkText": " Karonhiowanen Barberstock, R., \u201cSmall Berries, Big Lessons: A Reflection on Nature\u2019s Wisdom and the Impacts of Climate Change\u201d",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://www.willystreet.coop/reader/october-2017/wisconsins-indigenous-food-systems/#:~:text=The%20connection%20to%20and%20the,they%20needed%20and%20wasting%20nothing",
+                                "linkText": " \u201cWISCONSIN\u2019S INDIGENOUS FOOD SYSTEMS\u201d",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://events.madisonpubliclibrary.org/events/173027#:~:text=Teejop%20&%20Beyond:%20Ho%2DChunk,Tasting%20%7C%20KODIAK%20%2D%20Madison%20Public%20Library",
+                                "linkText": " \u201cTeejop & Beyond: Ho-Chunk Food Tasting\u201d",
+                                "title": "3"
+                            },
+                            {
+                                "link": "https://nativefoodnetwork.org/2020/11/18/hasarak-waruc-healing-meal-teejop-native-food-celebration/",
+                                "linkText": " \u201cHa\u0160arak Waruc (Healing Meal) Teejop Native Food\u00a0Celebration.\u201d",
+                                "title": "4"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Biocore Prairie",
+                "pointOnTour": 4,
+                "pk": 55,
+                "tours": "tour8",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.42912342202656,
+                    43.088013690375725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour8/eagle_heights.jpg",
+                        "alt": " A sign that reads \u201cEagle Heights Community Garden\u201d at the entrance to the garden.",
+                        "caption": " Photo from <a href=\u201dhttps://www.youtube.com/watch?v=KjvAsHAM7wY&themeRefresh=1\u201d>UW-Madison</a>."
+                    },
+                    {
+                        "content": "<i>Kelsey King and Kennedy Hanewall.</i>"
+                    },
+                    {
+                        "content": "Eagle Heights Community Garden sits within UW\u2013Madison\u2019s Lakeshore Nature Preserve and has been an organic, plot-based garden since 1962. This garden grows a wide range of foods, typical vegetables and herbs as well as culturally specific crops, illustrated by recent profiles showing beds of cilantro, cucumbers, celery, bush and climbing beans, peppers, and companion flowers like marigolds; plots are dedicated to vegetables, fruits, cover crops, herbs, and flowers only. This contemporary, multicultural foodscape occupies ancestral Ho-Chunk land, known as Teejop, which frames an important comparison with Indigenous foodways rooted in sovereignty, reciprocity, and polyculture traditions such as the \u201cThree Sisters\u201d (corn, beans, squash) planting system that interweaves nutrition and ecology. "
+                    },
+                    {
+                        "content": "While Eagle Heights Community Garden emphasizes organic practice, community building, and diverse global crops, current Native food leaders in Wisconsin center revitalization of traditional foods and self-determination (e.g., tribal\u2013UW collaborations on food sovereignty and the protection of culturally vital foods like wild rice). Taken together, the garden\u2019s global abundance and the Indigenous stewardship ethos both underscore that food production here is not only about harvests, it\u2019s about relationship to place and responsibility to the land."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/visit/places/eagle-heights-community-gardens/",
+                                "linkText": " \u201cEagle Heights Community Gardens\u201d",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://www.housing.wisc.edu/2025/01/garden-applications-now-open/",
+                                "linkText": " \u201cGarden Applications Now Open!\u201d",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://ho-chunknation.com/about/",
+                                "linkText": " \u201cAbout Ho-Chunk Nation\u201d",
+                                "title": "3"
+                            },
+                            {
+                                "link": "https://oursharedfuture.wisc.edu/",
+                                "linkText": " Our Shared Future",
+                                "title": "4"
+                            },
+                            {
+                                "link": "https://www.nativefoodalliance.org/",
+                                "linkText": " Native American Food Sovereignty Alliance",
+                                "title": "5"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Eagle Heights Community Garden",
+                "pointOnTour": 5,
+                "pk": 56,
+                "tours": "tour8",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.43334089508868,
+                    43.08653358540908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour9/tent_colony_woods.png",
+                        "alt": " A wooden staircase leading down to Lake Mendota through the Tent Colony Woods.",
+                        "caption": " Photo by Matthew Sesing."
+                    },
+                    {
+                        "content": "<i>Stop text written by Matthew Sesing.</i>"
+                    },
+                    {
+                        "content": "The University of Wisconsin-Madison sits within an area the Ho-Chunk call Teejop, meaning \u201cFour Lakes.\u201d Although not the earliest settlers after the glaciers receded some 12,000 years ago, the Ho-Chunk migrated north along the Ohio River between 800 and 1200 CE and have called Teejop their homeland ever since. Living off the land\u2013caring for it, giving back to it\u2013defined their way of life. The Ho-Chunk sustained themselves through large gardens of the three sisters\u2013corn, beans, and squash\u2013and through hunting and fishing, aided by dugout canoes that carried them across the lakes and rivers of southern Wisconsin."
+                    },
+                    {
+                        "content": "This reciprocal relationship with the land was disrupted by settler colonial expansion. As more colonizers flooded in from the East, claiming territory as their own, tensions grew. In 1825, a treaty briefly affirmed Ho-Chunk rights to Teejop, but this protection was short-lived. The Treaty of 1832 forced the Ho-Chunk to surrender their sanctuary to non-Indigenous settlers. Their resistance was faced with U.S. military force that drove them from their homeland, beginning a 30-year cycle of displacements across what is now Minnesota, South Dakota, and Nebraska. By 1848, the newly founded University of Wisconsin-Madison stood atop Ho-Chunk villages, gardens, and burial mounds that had endured for millennia."
+                    },
+                    {
+                        "content": "As the university expanded, new forms of living on the land emerged. In 1911, the university acquired Tent Colony Woods, a tract on the southern edge of the largest of the four lakes, Lake Mendota. By the summer of 1912, eight graduate students and their families settled there in canvas tents, forming what became known as Camp Gallistella. Life at camp\u2013gardening, fishing, and swimming\u2013reflected aspects of the Ho-Chuck lifestyle that was there mere decades, though in a very different social and cultural context. Electricity was limited to students, food storage and latrines were underground, and a single phone served the entire camp. The camp grew to more than 300 residents in the 1930s, but declined during World War II as enrollment dropped."
+                    },
+                    {
+                        "content": "Camp Gallistella eventually closed in 1962, three years after the longtime caretaker Eleanor Gallistel retired. Its closure coincided with the construction of the Eagle Heights Apartments, which provided modern housing as student enrollment only expanded during the 1960s. Today, Tent Colony Woods stands as one of the quietest corners of the Lakeshore Nature Preserve, a place where the layered history of land use, displacement, and renewal remains visible, but has vanished underneath the trees\u2019 undergrowth."
+                    },
+                    {
+                        "content": "As we reflect on its past, it is worth considering how Tent Colony Woods might serve as a site of connection and restoration. For the Ho-Chunk Nation, whose deep physical and spiritual ties to Teejop and its lakes persist, renewed access and use of ancestral land could foster the healing long needed between Indigenous peoples and the institution built upon their homeland."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://www.mpm.edu/content/wirp/ICW-52",
+                                "linkText": " \u201cHo-Chunk Culture\u201d, Milwaukee Public Museum",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://reckoning.wisc.edu/the-early-years/index.html#teejop",
+                                "linkText": " Sifting and Reckoning: The Early Years",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/visit/places/tent-colony/",
+                                "linkText": " Tent Colony and Tent Colony Woods",
+                                "title": "3"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Tent Colony Woods",
+                "pointOnTour": 1,
+                "pk": 57,
+                "tours": "tour9",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.43983336378103,
+                    43.08906534241298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour9/picnic_point_entrance.png",
+                        "alt": " A path leading through the woods of Picnic Point.",
+                        "caption": " Photo by Amelia Fernandes and Kira Weaver."
+                    },
+                    {
+                        "content": "<i>Stop text written by Amelia Fernandes and Kira Weaver.</i>"
+                    },
+                    {
+                        "content": "As you enter the trail leading to Picnic Point, take a moment to reflect on how this landscape has changed, not just in appearance but in its role as a transportation corridor through time. Centuries ago, the Ho-Chunk Nation and surrounding Indigenous communities relied on the vast network of lakes and rivers in the Madison area for movement, trade, and gathering. Waterways such as Lake Mendota and connected footpaths enabled the Ho-Chunk and other tribal nations including Potawatomi and Menominee to travel to settlements, foraging sites, and important spiritual places. Canoeing and walking were primary means of travel, deeply embedded in seasonal cycles and communal practices, and these routes reflected careful land stewardship and the enduring relationship Indigenous peoples maintained with the Madison landscape."
+                    },
+                    {
+                        "content": "Today, the entrance to Picnic Point serves a crossroads for modern modes of transportation. Roads, parking lots, and the city\u2019s public bus system bring students and visitors to this natural haven. Recreational boating continues on Lake Mendota, while bikes and cars dominate overland travel. Yet, the Lakeshore Path remains a living connection between people, nature, history, and the traditions of those who first called Teejop home."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://www.uwalumni.com/news/bucky-list-five-things-you-might-not-know-about-lake-mendota/",
+                                "linkText": " \u201cNative Americans and the Preserve.\u201d",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://www.wisconsinhistory.org/pdfs/cms/WI%20SHPO%20CRMP%20Volume%202%20Transportation.pdf",
+                                "linkText": " <i>Transportation</i>, from the Wisconsin Historical Society",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://www.olin-turville.org/history/native-american-history-of-this-area",
+                                "linkText": " \u201cNative American History of this Area\u201d, Friends of Olin-Turville",
+                                "title": "3"
+                            },
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/cultural-and-natural-history-of-the-lakeshore-nature-preserve/",
+                                "linkText": " \u201cCultural and Natural History of the Lakeshore Nature Preserve.\u201d",
+                                "title": "4"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Picnic Point Entrance",
+                "pointOnTour": 2,
+                "pk": 58,
+                "tours": "tour9",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.42879755139622,
+                    43.08494927917939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour9/mendota_overlook.jpg",
+                        "alt": " Picnic Point is seen through fall foliage along the University Bay Marsh area of Lake Mendota during an autumn evening at the University of Wisconsin\u2013Madison on Oct. 20, 2025.",
+                        "caption": " Photo by Taylor Wolfram, retrieved from UW-Madison Photo Library."
+                    },
+                    {
+                        "content": "<i>Stop text written by Chloe Martin and Fiona Flint.</i>"
+                    },
+                    {
+                        "content": "With 9,781 acres of surface area and 83 feet in depth, Tee W\u0105\u0105k\u0161ik Hom\u012fk (English name, Lake Mendota) has thousands of years of history, with the Ho-Chunk people at the center of it all. This lake, and the others in the area, were used for a variety of purposes, but one important one were the trading routes they provided. Over the years, researchers here in Madison have found over 10 dugout canoes, each dating over 1,000 years old, sunk in Tee W\u0105\u0105k\u0161ik Hom\u012fk, giving evidence to a tradition of water travel, vital for travel and resource gathering."
+                    },
+                    {
+                        "content": "In the 1700s and 1800s, when settlers involved in fur trading entered this area, they noted villages and camp sites around modern day Lake Wingra and the areas we now call Middleton, Monona, and McFarland. With evidence of trails connecting these areas on land, we can only imagine the work that Ho-Chunk people put into connecting these areas via water. Ho-Chunk people not only used water in the immediate surrounding area, they created intricate connecting systems, allowing for long travel to follow resources. Villages were often set up around the lakes in modern day Madison or smaller rivers like the Yahara and Rock rivers (often called \u201cthe heartbeat of Ho-Chunk ancestral territory). These areas of water were then linked to larger waterways, such as the Fox and Wisconsin river systems."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://onwisconsin.uwalumni.com/land-of-the-ho-chunk/",
+                                "linkText": " \u201cLand of the Ho-Chunk\u201d, On Wisconsin",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://www.historicmadison.org/originalnames",
+                                "linkText": " \u201cOriginal Names of the Four Lakes Region,\u201d Historic Madison, Inc.",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://www.olin-turville.org/history/native-american-history-of-this-area",
+                                "linkText": " \u201cNative American History of This Area\u201d, Friends of Olin-Turville",
+                                "title": "3"
+                            },
+                            {
+                                "link": "https://nelson.wisc.edu/living-history/#:~:text=The%20view%20from%20Conaway's%2017,Ho%2DChunk%20Nation's%20Facebook%20page\\",
+                                "linkText": " \u201cLiving History\u201d",
+                                "title": "4"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Mendota Overlook",
+                "pointOnTour": 3,
+                "pk": 59,
+                "tours": "tour9",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.42634844911053,
+                    43.081264002475855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour9/boat_launch.png",
+                        "alt": " The canoe dock located just North of the marching band field looking over Tee W\u0105\u0105k\u0161ik Hom\u012fk on a cloudy, gloomy day.",
+                        "caption": " Photo by William Glass."
+                    },
+                    {
+                        "content": "<i>Stop text written by William Glass.</i>"
+                    },
+                    {
+                        "content": "While walking along the Lakeshore Forest Preserve you will observe many places dedicated to recreation. This is a point just north of the marching band field where Teejop residents can rent out canoes for use on Tee W\u0105\u0105k\u0161ik Hom\u012fk (Lake Mendota). This is one of the many launch sites the City of Madison offers for canoes, paddle boards, and other motorless watercraft. Just like UW students and Madison residents, the indigenous people also used canoes on Tee W\u0105\u0105k\u0161ik Hom\u012fk."
+                    },
+                    {
+                        "content": "In 2021, a team of divers from the Dane County Sheriff\u2019s Department and Wisconsin Historical Society archaeologists recovered a 15-foot canoe made from white oak was recovered from the bottom of Tee W\u0105\u0105k\u0161ik Hom\u012fk This canoe was carbon dated to be 1200 years old. In 2022, a second, similar canoe made from ash wood was also recovered. This canoe was dated to be over 3000 years old! Marlon WhiteEagle, the Ho-Chunk Nation President, stated that, \u201cBy preserving this canoe, we are honoring those that came before us.\u201d One thing that both of these canoes have in common is that they are both dugouts."
+                    },
+                    {
+                        "image": "img/tour9/dugout_canoe.png",
+                        "alt": " An ancient canoe pulled from Lake Mendota by a team of divers.",
+                        "caption": " A team of divers pulls the 1200 year old canoe from the bottom of Tee W\u0105\u0105k\u0161ik Hom\u012fk. Photo from Wisconsin Historical Society."
+                    },
+                    {
+                        "content": "Dugout canoes were the most common type of canoe produced and used by the Ho-Chunk Nation and their ancestors. These were made by first selecting a tree that had large, straight trucks that could resist rot. The log was then burned to soften the wood. The log was then hallowed out using stones, chisels, and mussel shells. It was scraped at until the log reached its desired shape. To finish, the outer surface of the canoe was smoothed and treated with animal fat."
+                    },
+                    {
+                        "content": "These canoes were used by the Ho-Chunk in many ways: spear & net fishing; transportation between different camps; trade & communication along the Yahara chain; and agriculture like harvesting wild rice. These canoes were also used as cultural and spiritual items. The canoes gave them a connection between the land and the water. Some oral traditions of the Ho-Chunk describe the canoes as vessels that link humans, ancestors, and the natural world together."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://www.wisconsinhistory.org/canoe",
+                                "linkText": " \u201cThe Mendota Canoes: Connecting Past and Present.\u201d",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://wisconsinshipwrecks.org/wisconsinsmaritimeresources/TheLakeMendotaDugouts.html",
+                                "linkText": " \u201cThe Lake Mendota Dugouts\u201d",
+                                "title": "2"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Boat Launch",
+                "pointOnTour": 4,
+                "pk": 60,
+                "tours": "tour9",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.42522119976233,
+                    43.08021744263693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": [
+                    {
+                        "image": "img/tour9/bridge.jpg",
+                        "alt": " A view over Tee W\u0105\u0105k\u0161ik Hom\u012fk from the Willow Creek Bridge",
+                        "caption": " Photo by Peter Vajagich."
+                    },
+                    {
+                        "content": "<i>Stop text written by Peter Vajagich.</i>"
+                    },
+                    {
+                        "content": "This Bridge across Willow Creek was constructed in 1911 as the 2nd generation of a human bridge at this point to replace the original 1892 Madison Park and pleasure drive bridge. However, before a physical bridge built by Europeans existed, this area always served as a bridging point. Lake Mendota and the broader four lakes region has a long history of being a transportation hub. From its native histories of Ho-Chunk dugout canoes dated to be thousands of years old, to its presence at Wisconsin's State Capital and center of government. "
+                    },
+                    {
+                        "content": "This point is a bridge in many ways. Most obviously a bridging of the heart of campus east of Willow Creek, to the hospital, the vast majority of the Lakeshore preserve and the rest of campus west of the creek. But this is also the bridging point of Willow Creek and its much larger watershed than the man made straight channel today would implicate, with University Bay and eventually the main segment of Lake Mendota. This area also serves as a bridging point between the modern day University of Wisconsin and its recognition of the area's Ho-Chunk past. A goose effigy mound sits to your east although it was partially destroyed over 100 years ago in the creation of the Madison pleasure drive. To your south sits the Ho-Chunk Nation 12 Clans bench which was built in 2023 to honor the Ho-Chunk past and current presence in the area. This bridge is more than just a footbridge over Willow Creek, it is a bridge between multiple worlds."
+                    },
+                    {
+                        "sources": [
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/visit/places/willow-creek/",
+                                "linkText": " Willow Creek",
+                                "title": "1"
+                            },
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/cultural-and-natural-history-of-the-lakeshore-nature-preserve/",
+                                "linkText": " Cultural and Natural History of the Lakeshore Nature Preserve",
+                                "title": "2"
+                            },
+                            {
+                                "link": "https://lakeshorepreserve.wisc.edu/visit/places/madison-park-and-pleasure-drive-association/",
+                                "linkText": " Madison Park and Pleasure Drive Association",
+                                "title": "3"
+                            },
+                            {
+                                "link": "https://www.wisconsinhistory.org/Records/Property/HI160669",
+                                "linkText": " Property Record for Willow Drive",
+                                "title": "4"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Willow Creek Bridge",
+                "pointOnTour": 5,
+                "pk": 61,
+                "tours": "tour9",
+                "audio": "vilas_neighborhood",
+                "label": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.42144471315653,
+                    43.07792986882066
                 ]
             }
         }

@@ -9,7 +9,7 @@
     //get active tour based on current url
     let tour = window.location.href.split('#')[1] ? window.location.href.split('#')[1] : "explore";
     //set map rotation based on selected tour.
-    let rotation = tour == 'tour3' || tour == 'tour6' || tour == 'tour7' ? 0 : 90;
+    let rotation = tour == 'tour3' || tour == 'tour6' || tour == 'tour7' || tour == 'tour9' ? 0 : 90;
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
     let map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
     //colors
