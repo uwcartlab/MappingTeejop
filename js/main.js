@@ -8,7 +8,7 @@
 (function(){
     //get active tour based on current url
     let tour = window.location.href.split('#')[1] ? window.location.href.split('#')[1] : "explore";
-    //set map rotation
+    //set map rotation based on selected tour.
     let rotation = tour == 'tour3' || tour == 'tour6' || tour == 'tour7' ? 0 : 90;
     //set default tour (tour 1), create empty variables for the map, route, site, and location layers
     let map, routeLayer, siteLayer, moundLayer, locationMarker, circle, currentStop = 1, tourTotal = 0, location = false;
@@ -78,29 +78,6 @@
             }
         })
     }
-    //image zoom
-    /*function imageZoom(){
-        document.querySelectorAll('img').forEach(function(img){
-            img.addEventListener("click", function(){
-                
-                let classes = img.classList;
-                img.classList = "";
-                img.classList.add("img-zoom");
-
-                if (!document.querySelector(".return-zoom")){
-                    let x = "<button class='return-zoom'>Return</button>"
-                    document.querySelector("body").insertAdjacentHTML("beforeend", x);
-    
-                    let button = document.querySelector(".return-zoom");
-                    button.addEventListener("click", function(event){
-                        img.classList = "";
-                        img.classList = classes;
-                        button.remove();
-                    })
-                }
-            })
-        })
-    }*/
     //activate current tour
     function activateTour(){
         //add routes and sites
@@ -645,7 +622,7 @@
             }
             //source list
             if (block.sources){
-                var sources = "";
+                var sources = "<b>Sources</b>";
                 block.sources.forEach(function(source){
                     sources += "<p>" + source.title; 
                     if (source.linkText && source.link)

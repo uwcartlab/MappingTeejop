@@ -68,6 +68,7 @@
                         //tour code
                         let tour = d.TourNumber == 'explore' ? 'explore': 'tour' + d.TourNumber;
                         //description text 
+                        console.log(d.Description)
                         let descriptionText = d.Description.replaceAll("[pronounceStart]","<b class='pronounce'>").replaceAll("[pronounceEnd]","</b>");
 
                         //create title, description, starting text, accessibility text, and button
