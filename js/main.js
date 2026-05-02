@@ -100,7 +100,7 @@
             minZoom:minZoom,
             maxZoom:maxZoom,
             maxBounds:bounds,
-            attributionControl: false,
+            attribution: "test",
             rotate:true,
             touchRotate:false,
             rotateControl: {
