@@ -252,6 +252,11 @@
                     width:0.5
                 })
             },
+            //styling for lakes
+            {
+                dataLayer:"lakes_dissolved",
+                symbolizer:new LakeSymbolizer()
+            },
             //styling for walking paths
             {
                 dataLayer:"paths",
@@ -287,12 +292,7 @@
                             return 0
                     }
                 })
-            },
-            //styling for lakes
-            {
-                dataLayer:"lakes_dissolved",
-                symbolizer:new LakeSymbolizer()
-            }  
+            }
         ];
         //styling function for adding rotatable point labels
         class PointLabelSymbolizer {
