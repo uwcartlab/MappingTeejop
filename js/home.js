@@ -72,15 +72,15 @@
                         let descriptionText = d.Description.replaceAll("[pronounceStart]","<b class='pronounce'>").replaceAll("[pronounceEnd]","</b>");
 
                         //create title, description, starting text, accessibility text, and button
-                        let title = '<h3 class="tour-title"><b>' + displayName + '</b><i class="translation">' + d.NameEnglish + '</i></h3>',
-                            translation = d.NameHoChunk ? "": '<p><b><i>Ho-Chunk Translation Coming Soon</i></b></p>';
+                        let title = d.NameHoChunk ? '<h3 class="tour-title"><b>' + displayName + '</b><i class="translation">' + d.NameEnglish + '</i></h3>': '<h3 class="tour-title"><b>' + displayName + '</b></h3>',
+                            //translation = d.NameHoChunk ? "": '<p><b><i>Ho-Chunk Translation Coming Soon</i></b></p>';
                             description = '<p>' + descriptionText + '</p>',
                             starting = d.Starting ? '<p><b class="begin">' + d.Starting + '</b></p>': "",
                             accessibility = d.Accessibility ? '<p>Accessibility Note: <i class="accessibilty">' + d.Accessibility + '</i></p>': "";
                         
                         let button = d.Active == 'TRUE' ? '<button class="tour-button" data-bs-dismiss="modal"><a href="map.html#' + tour + '">Start ' + name + '</a></button>' : '<p><b><i>Coming 2025</i></b></p>';
                         //combine description elements
-                        descDiv.insertAdjacentHTML("beforeend",title + translation + description + starting + accessibility + button);
+                        descDiv.insertAdjacentHTML("beforeend",title + description + starting + accessibility + button);
                     //add description to row
                     row.insertAdjacentElement("beforeend",descDiv)
 
